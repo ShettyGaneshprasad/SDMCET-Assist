@@ -1,2 +1,2 @@
 # SDMCET-Assist-
-Mini-project fOR SDMCET,Dharwad.
+Mini-project for CSE-SDMCET,Dharwad.
