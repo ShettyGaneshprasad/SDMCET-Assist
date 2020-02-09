@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:sdmcetassist/screens/authenticate/authenticate.dart';
 import 'package:sdmcetassist/services/auth.dart';
 
-class SignIn extends StatefulWidget {
+class Register extends StatefulWidget {
   final Function toggleView;
-  SignIn({this.toggleView}); //constructor for widget
+  Register({this.toggleView}); //constructor for widget
   @override
-  _SignInState createState() => _SignInState();
+  _RegisterState createState() => _RegisterState();
 }
 
-class _SignInState extends State<SignIn> {
+class _RegisterState extends State<Register> {
   final AuthService _auth = AuthService();
   final _formKey = GlobalKey<FormState>();
   String email = ''; //value for user email and password
@@ -22,14 +21,14 @@ class _SignInState extends State<SignIn> {
       appBar: AppBar(
         backgroundColor: Colors.blue[700],
         elevation: 0.0,
-        title: Text('Sign in to SDMCET Assist'),
+        title: Text(' Sign up to SDMCET Assist'),
         actions: <Widget>[
           FlatButton.icon(
             onPressed: () {
               widget.toggleView();
             },
             icon: Icon(Icons.person),
-            label: Text('Register'),
+            label: Text('Sign In'),
           )
         ],
       ),
@@ -41,18 +40,17 @@ class _SignInState extends State<SignIn> {
             children: <Widget>[
               SizedBox(height: 20.0),
               TextFormField(
-                validator: (val) => val.isEmpty ? 'Enter an email' : null,
-                onChanged: (val) {
-                  setState(() => email = val);
-                },
-              ),
+                  validator: (val) => val.isEmpty ? 'Enter an email' : null,
+                  onChanged: (val) {
+                    setState(() => email = val);
+                  }),
               SizedBox(
-                height: 8.0,
+                height: 20.0,
               ),
               TextFormField(
-                obscureText: true,
                 validator: (val) =>
                     val.length < 6 ? 'Enter a password 6+ chars long' : null,
+                obscureText: true,
                 onChanged: (val) {
                   setState(() => password = val);
                 },
@@ -61,7 +59,7 @@ class _SignInState extends State<SignIn> {
               RaisedButton(
                 color: Colors.green,
                 child: Text(
-                  'Sign in',
+                  'Register',
                   style: TextStyle(
                     color: Colors.white,
                     fontStyle: FontStyle.italic,
@@ -69,11 +67,10 @@ class _SignInState extends State<SignIn> {
                 ),
                 onPressed: () async {
                   if (_formKey.currentState.validate()) {
-                    dynamic result =
-                        await _auth.signInWithEmailAndPassword(email, password);
+                    dynamic result = await _auth.registerWithEmailAndPassword(
+                        email, password);
                     if (result == null) {
-                      setState(() =>
-                          error = 'Could not sighn in with those credentials.');
+                      setState(() => error = 'Please supply a valid email.');
                     }
                   }
                 },

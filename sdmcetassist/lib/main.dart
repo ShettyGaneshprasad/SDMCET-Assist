@@ -1,5 +1,5 @@
 import 'package:provider/provider.dart';
-import 'package:sdmcetassist/screens/services/auth.dart';
+import 'package:sdmcetassist/services/auth.dart';
 import 'package:sdmcetassist/screens/wrapper.dart';
 import 'package:flutter/material.dart';
 import 'package:sdmcetassist/models/user.dart';
