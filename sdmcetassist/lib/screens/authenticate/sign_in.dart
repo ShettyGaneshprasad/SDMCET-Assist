@@ -11,28 +11,54 @@ class SignIn extends StatefulWidget {
 
 class _SignInState extends State<SignIn> {
   final AuthService _auth = AuthService();
+  String email = ''; //value for user email and password
+  String password = '';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[100],
+      backgroundColor: Colors.blue[300],
       appBar: AppBar(
-        backgroundColor: Colors.blue[400],
+        backgroundColor: Colors.blue[700],
         elevation: 0.0,
-        title: Text('sign In to SDMCET ASSIST'),
+        title: Text('SDMCET Assist'),
       ),
       body: Container(
-        padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 50.0),
-        child: RaisedButton(
-          child: Text('Sign in Anonymously'),
-          onPressed: () async {
-            dynamic result = _auth.signInAnon();
-            if (result == null) {
-              print('Error signing in');
-            } else {
-              print('Signed in');
-              print(result);
-            }
-          },
+        padding: EdgeInsets.symmetric(vertical: 70.0, horizontal: 150.0),
+        child: Form(
+          child: Column(
+            children: <Widget>[
+              SizedBox(height: 20.0),
+              TextFormField(
+                onChanged: (val) {
+                  setState(() => email = val);
+                },
+              ),
+              SizedBox(
+                height: 20.0,
+              ),
+              TextFormField(
+                obscureText: true,
+                onChanged: (val) {
+                  setState(() => password = val);
+                },
+              ),
+              SizedBox(height: 20.0),
+              RaisedButton(
+                color: Colors.green,
+                child: Text(
+                  'Sign in',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontStyle: FontStyle.italic,
+                  ),
+                ),
+                onPressed: () async {
+                  print(email);
+                  print(password);
+                },
+              )
+            ],
+          ),
         ),
       ),
     );
