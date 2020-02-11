@@ -26,14 +26,17 @@ class _RegisterState extends State<Register> {
             appBar: AppBar(
               backgroundColor: Colors.blue[700],
               elevation: 10.0,
-              title: Text(' Sign up to SDMCET Assist'),
+              title: Text('Register to SDMCET Assist'),
               actions: <Widget>[
                 FlatButton.icon(
                   onPressed: () {
                     widget.toggleView();
                   },
                   icon: Icon(Icons.person),
-                  label: Text('Sign In'),
+                  label: Text(
+                    'Sign In',
+                    style: TextStyle(color: Colors.greenAccent),
+                  ),
                 )
               ],
             ),
@@ -68,11 +71,11 @@ class _RegisterState extends State<Register> {
                     ),
                     SizedBox(height: 20.0),
                     RaisedButton(
-                        color: Colors.green,
+                        color: Colors.yellow,
                         child: Text(
                           'Register',
                           style: TextStyle(
-                            color: Colors.white,
+                            color: Colors.black,
                             fontStyle: FontStyle.italic,
                           ),
                         ),
