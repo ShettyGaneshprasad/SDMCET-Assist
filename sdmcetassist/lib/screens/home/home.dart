@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sdmcetassist/screens/home/department.dart';
 import 'package:sdmcetassist/services/auth.dart';
 
 class Home extends StatelessWidget {
@@ -6,11 +7,13 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var scaffold = Scaffold(
+    return Scaffold(
       backgroundColor: Colors.blue[50],
       appBar: AppBar(
-        title: Text('SDMCET Assist'),
-        backgroundColor: Colors.blue[400],
+        title: Text(
+          'SDMCET Assist', /*style:TextStyle(color:Colors.black)*/
+        ),
+        backgroundColor: Colors.blue[300],
         elevation: 10.0,
         actions: <Widget>[
           FlatButton.icon(
@@ -229,6 +232,5 @@ class Home extends StatelessWidget {
         ),
       ),
     );
-    return scaffold;
   }
 }
