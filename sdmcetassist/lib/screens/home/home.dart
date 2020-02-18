@@ -14,12 +14,12 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[50],
+      backgroundColor: Colors.purple[900],
       appBar: AppBar(
         title: Text(
           'SDMCET Assist', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.red[900],
         elevation: 10.0,
         actions: <Widget>[
           FlatButton.icon(
@@ -28,11 +28,11 @@ class Home extends StatelessWidget {
             },
             icon: Icon(
               Icons.person,
-              color: Colors.redAccent,
+              color: Colors.black,
             ),
             label: Text(
               'Logout',
-              style: TextStyle(color: Colors.redAccent),
+              style: TextStyle(color: Colors.black),
             ),
           )
         ],
