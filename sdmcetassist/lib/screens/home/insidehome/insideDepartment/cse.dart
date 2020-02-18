@@ -23,7 +23,7 @@ class Cse extends StatelessWidget {
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => CseAbout()));
+                      MaterialPageRoute(builder: (context) => CseAboutp1()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(

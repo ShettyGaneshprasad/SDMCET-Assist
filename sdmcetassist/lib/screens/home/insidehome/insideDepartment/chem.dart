@@ -77,3 +77,38 @@ class _ChemicalState extends State<Chemical> {
             : new LinearProgressIndicator());
   }
 }
+
+class ChemAboutp1 extends StatelessWidget {
+  const ChemAboutp1({Key key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.blue[50],
+      appBar: AppBar(
+        title: Text(
+          'Chemical Department', /*style:TextStyle(color:Colors.black)*/
+        ),
+        backgroundColor: Colors.blue[300],
+        elevation: 10.0,
+      ),
+      body: Column(
+        children: <Widget>[
+          Wrap(
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(20.0),
+                child: Text(
+                  "Chemical Engineering Department at the SDMCET, Dharwad was established in the year 1995. The department is recognized by AICTE and affiliated to Visvesvaraya Technological University, Belagavi. The program gained an Autonomous Status since 2007 and accredited thrice (Recent: 2018-2021 under Tier-I category). The sanctioned intake of the department is 30 for the Undergraduate program i.e. B.E. in Chemical Engineering. The department takes pride in it’s past achievements and has the dream supported by action plans to make it as one of the best Chemical Engineering Department to develop the proficient engineers to meet the industrial and societal needs with human values.",
+                  textAlign: TextAlign.justify,
+                  softWrap: true,
+                  style: TextStyle(color: Colors.black, fontSize: 20),
+                ),
+              )
+            ],
+          )
+        ],
+      ),
+    );
+  }
+}
