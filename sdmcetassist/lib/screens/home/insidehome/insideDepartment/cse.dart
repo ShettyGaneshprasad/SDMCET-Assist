@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Cse extends StatelessWidget {
   @override
@@ -149,22 +150,446 @@ class CseAboutp1 extends StatelessWidget {
         backgroundColor: Colors.blue[300],
         elevation: 10.0,
       ),
-      body: Column(
+      body: PageView(
         children: <Widget>[
-          Wrap(
+          Column(
             children: <Widget>[
-              Container(
-                padding: EdgeInsets.all(20.0),
-                child: Text(
-                  "The department of Computer Science and Engineering is established in the year 1985. Currently one UG Programme with the intake of 120 and one PG Program with intake of 18 are running in Autonomous mode recogniged by VTU and UGC.The department has a research center, recognized by Visvesvaraya Technological University, Belgaum.The department has adopted OBE based Educational Philosophy since 2010 & transforming itself to drive practice based learning as its new learning model / initiatives for students, so that they are globally acceptable as a competent professionals with human values. To achieve this it has established its mission as stated below.\n\n1.To have contextually relevant Curricula.\n\n2.To promote effective Teaching Learning Practices supported by Modern Educational Tools and Techniques.\n\n3.To enhance Research Culture\n\n4.To involve the Industrial Expertise for connecting Classroom contents to real-life situations.\n\n5.To inculcate Ethics and soft-skills leading to overall personality development.\n\nFor any other information contact Head, Department of CSE @9448915301 / 0836-2328351 or email to upkulkarni@yahoo.com",
-                  textAlign: TextAlign.justify,
-                  softWrap: true,
-                  style: TextStyle(color: Colors.black, fontSize: 20),
-                ),
+              Wrap(
+                children: <Widget>[
+                  Container(
+                    padding: EdgeInsets.all(20.0),
+                    child: Text(
+                      "The department of Computer Science and Engineering is established in the year 1985. Currently one UG Programme with the intake of 120 and one PG Program with intake of 18 are running in Autonomous mode recogniged by VTU and UGC.The department has a research center, recognized by Visvesvaraya Technological University, Belgaum.The department has adopted OBE based Educational Philosophy since 2010 & transforming itself to drive practice based learning as its new learning model / initiatives for students, so that they are globally acceptable as a competent professionals with human values. To achieve this it has established its mission as stated below.\n\n1.To have contextually relevant Curricula.\n\n2.To promote effective Teaching Learning Practices supported by Modern Educational Tools and Techniques.\n\n3.To enhance Research Culture\n\n4.To involve the Industrial Expertise for connecting Classroom contents to real-life situations.\n\n5.To inculcate Ethics and soft-skills leading to overall personality development.\n\nFor any other information contact Head, Department of CSE @9448915301 / 0836-2328351 or email to upkulkarni@yahoo.com",
+                      textAlign: TextAlign.justify,
+                      softWrap: true,
+                      style: TextStyle(color: Colors.black, fontSize: 20),
+                    ),
+                  ),
+                  Container(
+                    child: Text(
+                      "Page 1 of n \n",
+                      textAlign: TextAlign.justify,
+                      softWrap: true,
+                      style: TextStyle(color: Colors.red, fontSize: 20),
+                    ),
+                  )
+                ],
               )
             ],
-          )
+          ),
+          Container(
+            child: Container(
+              padding: EdgeInsets.all(20.0),
+              child: ListView(
+                children: <Widget>[
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {},
+                      //splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.max,
+                          children: <Widget>[
+                            Text(
+                              "Additional Links",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  // fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.black),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1UhzW7aOdRBy949oSkphQ7yJoc5xGPJep/view?ts=5dadcda7');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.max,
+                          children: <Widget>[
+                            Text(
+                              "Vision, Mission, PEOs and POs",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1suo5nbDwZR3ulGhC7zvS2fuT9aBCTVG1/view?ts=5daddc3b');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "BoS, DUGC,DPGC & IQAC",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1F-Y-kxDBA7RTr13kuf9O8AX_Iv4tWhwl/view');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "UG: 175 Credits Syllabus",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1mmSTQpU9K6rePg-U_hK8cXxDkkwdN7dG/view');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "UG: 200 Credits Syllabus",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/16fZ-iktb4QUDU5V-iF7RLqJP1Y6osyp1/view?ts=5dba3360');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Achievers",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/16trN4czi8rpgj3vyTZxo01mq1Tp1GAgL/view?ts=5d940b20');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "e-News Letter ",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1n1U3FLf1_2Iu70Wh-fJUf5-iDlfhM4De/view');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Photo gallery",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://docs.google.com/forms/d/e/1FAIpQLSfqlSZUYeq7Cfh_DcisUUyb9cbdRIJHGjdjOCMk1VLwgKCftw/viewform');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "CSE E-Suggestion Box",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/15xadR1tehM9jef7PgWBrTa-gaM5nll_G/view?ts=5db2bda9');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Academic Calendar-UG and PG/ Holiday List",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1UhCP0W09mbD8eMynLNU6_0KjYB858ntn/view?ts=5da72ecb');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "MoUs",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1Ec0iJNlmVZqlb62VE1ux3Zl9rU9w3q4L/view?ts=5dd890b8');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Space and Infrastructure",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1x7tvsPYpFvzRNttSTl22MDDyGFcLqpTf/view?ts=5dd88fa0');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Research Center Details",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1Ysy105j0pA5QUiCuUXPDJBoatNvC71W2/view?ts=5da72c1a');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Placement Summary",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1Y_xosOPszGvXB-RkshDhn6LALwo5blX8/view?ts=5df82e5a');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Internship and Certification Details",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
+        scrollDirection: Axis.vertical,
       ),
     );
   }
