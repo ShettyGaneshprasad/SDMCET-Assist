@@ -128,22 +128,38 @@ class EncAboutp1 extends StatelessWidget {
         backgroundColor: Colors.blue[300],
         elevation: 10.0,
       ),
-      body: Column(
+      body: PageView(
         children: <Widget>[
-          Wrap(
+          Column(
             children: <Widget>[
-              Container(
-                padding: EdgeInsets.all(20.0),
-                child: Text(
-                  "The department of Computer Science and Engineering is established in the year 1985. Currently one UG Programme with the intake of 120 and one PG Program with intake of 18 are running in Autonomous mode recogniged by VTU and UGC.The department has a research center, recognized by Visvesvaraya Technological University, Belgaum.The department has adopted OBE based Educational Philosophy since 2010 & transforming itself to drive practice based learning as its new learning model / initiatives for students, so that they are globally acceptable as a competent professionals with human values. To achieve this it has established its mission as stated below.\n\n1.To have contextually relevant Curricula.\n\n2.To promote effective Teaching Learning Practices supported by Modern Educational Tools and Techniques.\n\n3.To enhance Research Culture\n\n4.To involve the Industrial Expertise for connecting Classroom contents to real-life situations.\n\n5.To inculcate Ethics and soft-skills leading to overall personality development.\n\nFor any other information contact Head, Department of CSE @9448915301 / 0836-2328351 or email to upkulkarni@yahoo.com",
-                  textAlign: TextAlign.justify,
-                  softWrap: true,
-                  style: TextStyle(color: Colors.black, fontSize: 20),
-                ),
+              Wrap(
+                children: <Widget>[
+                  Container(
+                    padding: EdgeInsets.all(20.0),
+                    child: Text(
+                      "The department of Computer Science and Engineering is established in the year 1985. Currently one UG Programme with the intake of 120 and one PG Program with intake of 18 are running in Autonomous mode recogniged by VTU and UGC.The department has a research center, recognized by Visvesvaraya Technological University, Belgaum.The department has adopted OBE based Educational Philosophy since 2010 & transforming itself to drive practice based learning as its new learning model / initiatives for students, so that they are globally acceptable as a competent professionals with human values. To achieve this it has established its mission as stated below.\n\n1.To have contextually relevant Curricula.\n\n2.To promote effective Teaching Learning Practices supported by Modern Educational Tools and Techniques.\n\n3.To enhance Research Culture\n\n4.To involve the Industrial Expertise for connecting Classroom contents to real-life situations.\n\n5.To inculcate Ethics and soft-skills leading to overall personality development.\n\nFor any other information contact Head, Department of CSE @9448915301 / 0836-2328351 or email to upkulkarni@yahoo.com",
+                      textAlign: TextAlign.justify,
+                      softWrap: true,
+                      style: TextStyle(color: Colors.black, fontSize: 20),
+                    ),
+                  ),
+                  Container(
+                    child: Text(
+                      "Page 1 of n \n",
+                      textAlign: TextAlign.justify,
+                      softWrap: true,
+                      style: TextStyle(color: Colors.red, fontSize: 20),
+                    ),
+                  )
+                ],
               )
             ],
+          ),
+          Container(
+            child: Text("page2"),
           )
         ],
+        scrollDirection: Axis.vertical,
       ),
     );
   }
