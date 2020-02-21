@@ -70,7 +70,7 @@ class _ChemicalState extends State<Chemical> {
                         ),
                       ));
                 },
-                staggeredTileBuilder: (i) => new StaggeredTile.count(2, 2),
+                staggeredTileBuilder: (i) => new StaggeredTile.count(4, 4),
                 mainAxisSpacing: 2.0,
                 crossAxisSpacing: 2.0,
               )
