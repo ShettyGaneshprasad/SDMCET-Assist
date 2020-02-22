@@ -44,8 +44,14 @@ class Department extends StatelessWidget {
                       Icons.computer,
                       size: 50.0,
                     ),
-                    Text("Computer Science and Engineering",
-                        style: new TextStyle(fontSize: 25.0))
+                    Flexible(
+                      child: Text(
+                        "Computer Science Engineering",
+                        style: new TextStyle(fontSize: 25.0),
+                        textAlign: TextAlign.center,
+                      ),
+                      fit: FlexFit.tight,
+                    )
                   ],
                 ),
               ),
@@ -66,8 +72,14 @@ class Department extends StatelessWidget {
                       Icons.cast,
                       size: 50.0,
                     ),
-                    Text("Information Science and Engineering",
-                        style: new TextStyle(fontSize: 25.0))
+                    Flexible(
+                      child: Text(
+                        "Information Science Engineering",
+                        style: new TextStyle(fontSize: 25.0),
+                        textAlign: TextAlign.center,
+                      ),
+                      fit: FlexFit.tight,
+                    )
                   ],
                 ),
               ),
@@ -88,8 +100,14 @@ class Department extends StatelessWidget {
                       Icons.router,
                       size: 50.0,
                     ),
-                    Text("           E&C Engineering",
-                        style: new TextStyle(fontSize: 25.0))
+                    Flexible(
+                      child: Text(
+                        "E & C Engineering",
+                        style: new TextStyle(fontSize: 25.0),
+                        textAlign: TextAlign.center,
+                      ),
+                      fit: FlexFit.tight,
+                    )
                   ],
                 ),
               ),
@@ -110,8 +128,14 @@ class Department extends StatelessWidget {
                       Icons.wb_incandescent,
                       size: 50.0,
                     ),
-                    Text("           E&E Engneering",
-                        style: new TextStyle(fontSize: 25.0))
+                    Flexible(
+                      child: Text(
+                        "E & E Engineering",
+                        style: new TextStyle(fontSize: 25.0),
+                        textAlign: TextAlign.center,
+                      ),
+                      fit: FlexFit.tight,
+                    )
                   ],
                 ),
               ),
@@ -133,8 +157,14 @@ class Department extends StatelessWidget {
                       //color: Colors.amberAccent,
                       size: 50.0,
                     ),
-                    Text("           Mechanical Engineering",
-                        style: new TextStyle(fontSize: 25.0))
+                    Flexible(
+                      child: Text(
+                        "Mechanical Engineering",
+                        style: new TextStyle(fontSize: 25.0),
+                        textAlign: TextAlign.center,
+                      ),
+                      fit: FlexFit.tight,
+                    )
                   ],
                 ),
               ),
@@ -155,10 +185,13 @@ class Department extends StatelessWidget {
                       Icons.format_color_fill,
                       size: 50.0,
                     ),
-                    Text(
-                      "           Chemical Engineering",
-                      textAlign: TextAlign.center,
-                      style: new TextStyle(fontSize: 25.0),
+                    Flexible(
+                      child: Text(
+                        "Chemical Engineering",
+                        style: new TextStyle(fontSize: 25.0),
+                        textAlign: TextAlign.center,
+                      ),
+                      fit: FlexFit.tight,
                     )
                   ],
                 ),
@@ -180,8 +213,14 @@ class Department extends StatelessWidget {
                       Icons.business,
                       size: 50.0,
                     ),
-                    Text("           Civil Engineering",
-                        style: new TextStyle(fontSize: 25.0))
+                    Flexible(
+                      child: Text(
+                        "Civil Engineering",
+                        style: new TextStyle(fontSize: 25.0),
+                        textAlign: TextAlign.center,
+                      ),
+                      fit: FlexFit.tight,
+                    )
                   ],
                 ),
               ),
@@ -202,8 +241,14 @@ class Department extends StatelessWidget {
                       Icons.filter_9_plus,
                       size: 50.0,
                     ),
-                    Text("         Department of Mathematics",
-                        style: new TextStyle(fontSize: 25.0))
+                    Flexible(
+                      child: Text(
+                        "Department of Physics",
+                        style: new TextStyle(fontSize: 25.0),
+                        textAlign: TextAlign.center,
+                      ),
+                      fit: FlexFit.tight,
+                    )
                   ],
                 ),
               ),
@@ -224,8 +269,14 @@ class Department extends StatelessWidget {
                       Icons.blur_on,
                       size: 50.0,
                     ),
-                    Text("         Department of Chemistry",
-                        style: new TextStyle(fontSize: 25.0))
+                    Flexible(
+                      child: Text(
+                        "Department of Chemistry",
+                        style: new TextStyle(fontSize: 25.0),
+                        textAlign: TextAlign.center,
+                      ),
+                      fit: FlexFit.tight,
+                    )
                   ],
                 ),
               ),
@@ -246,8 +297,14 @@ class Department extends StatelessWidget {
                       Icons.explore,
                       size: 50.0,
                     ),
-                    Text("         Department of Physics",
-                        style: new TextStyle(fontSize: 25.0))
+                    Flexible(
+                      child: Text(
+                        "Department of Physics",
+                        style: new TextStyle(fontSize: 25.0),
+                        textAlign: TextAlign.center,
+                      ),
+                      fit: FlexFit.tight,
+                    )
                   ],
                 ),
               ),

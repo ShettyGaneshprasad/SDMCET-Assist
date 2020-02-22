@@ -54,7 +54,7 @@ class _ChemicalState extends State<Chemical> {
                   return new Material(
                       elevation: 10.0,
                       borderRadius:
-                          new BorderRadius.all(new Radius.circular(9.0)),
+                          new BorderRadius.all(new Radius.circular(50.0)),
                       child: new InkWell(
                         onTap: () => Navigator.push(
                             context,

@@ -99,8 +99,7 @@ class Home extends StatelessWidget {
                         Icons.collections_bookmark,
                         size: 50.0,
                       ),
-                      Text("Administration",
-                          style: new TextStyle(fontSize: 17.0))
+                      Text("Admin", style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -211,8 +210,7 @@ class Home extends StatelessWidget {
                         Icons.departure_board,
                         size: 50.0,
                       ),
-                      Text("Bus Transport",
-                          style: new TextStyle(fontSize: 17.0))
+                      Text("Bus", style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
