@@ -610,7 +610,9 @@ class CseAboutp1 extends StatelessWidget {
     );
   }
 }
+//end of about section
 
+//start of class timmetable
 class TimeTable extends StatefulWidget {
   _TimeTable createState() => new _TimeTable();
 }
@@ -682,7 +684,9 @@ class _TimeTable extends State<TimeTable> {
             : new Loading());
   }
 }
+//end of class time Table
 
+//start of faculty details
 class FacultyDetails extends StatefulWidget {
   _FacultyDetails createState() => new _FacultyDetails();
 }
@@ -754,3 +758,4 @@ class _FacultyDetails extends State<FacultyDetails> {
             : new Loading());
   }
 }
+//end of faculty details
