@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class Ise extends StatelessWidget {
   @override
@@ -123,32 +124,42 @@ class IseAboutp1 extends StatelessWidget {
       backgroundColor: Colors.blue[50],
       appBar: AppBar(
         title: Text(
-          'Computer Science Department', /*style:TextStyle(color:Colors.black)*/
+          'Information Science Department', /*style:TextStyle(color:Colors.black)*/
         ),
         backgroundColor: Colors.blue[300],
         elevation: 10.0,
       ),
       body: PageView(
         children: <Widget>[
-          Column(
+          ListView(
             children: <Widget>[
+              Center(
+                child: Text(
+                  "Swipe Left for Additional link",
+                  textAlign: TextAlign.justify,
+                  softWrap: true,
+                  style: TextStyle(color: Colors.red, fontSize: 20),
+                ),
+              ),
               Wrap(
                 children: <Widget>[
                   Container(
                     padding: EdgeInsets.all(20.0),
                     child: Text(
-                      "The department of Computer Science and Engineering is established in the year 1985. Currently one UG Programme with the intake of 120 and one PG Program with intake of 18 are running in Autonomous mode recogniged by VTU and UGC.The department has a research center, recognized by Visvesvaraya Technological University, Belgaum.The department has adopted OBE based Educational Philosophy since 2010 & transforming itself to drive practice based learning as its new learning model / initiatives for students, so that they are globally acceptable as a competent professionals with human values. To achieve this it has established its mission as stated below.\n\n1.To have contextually relevant Curricula.\n\n2.To promote effective Teaching Learning Practices supported by Modern Educational Tools and Techniques.\n\n3.To enhance Research Culture\n\n4.To involve the Industrial Expertise for connecting Classroom contents to real-life situations.\n\n5.To inculcate Ethics and soft-skills leading to overall personality development.\n\nFor any other information contact Head, Department of CSE @9448915301 / 0836-2328351 or email to upkulkarni@yahoo.com",
+                      "Vision:-\n To develop competent Information Technology Engineers having complete Knowledge and skills in contemporary Information Technology practices.\nMission M1. To develop contemporary curriculum in information technology delivered using Innovative teaching learning practices and ICT tools.\nM2.  To provide facilities for relevant research and expose students to the best industry Practices in Information Technology.\nM3. To inculcate the best moral values and professional ethics in students.",
                       textAlign: TextAlign.justify,
                       softWrap: true,
                       style: TextStyle(color: Colors.black, fontSize: 20),
                     ),
                   ),
                   Container(
-                    child: Text(
-                      "Page 1 of n \n",
-                      textAlign: TextAlign.justify,
-                      softWrap: true,
-                      style: TextStyle(color: Colors.red, fontSize: 20),
+                    child: Center(
+                      child: Text(
+                        "Swipe Left for Additional link\n",
+                        textAlign: TextAlign.justify,
+                        softWrap: true,
+                        style: TextStyle(color: Colors.red, fontSize: 20),
+                      ),
                     ),
                   )
                 ],
@@ -156,10 +167,390 @@ class IseAboutp1 extends StatelessWidget {
             ],
           ),
           Container(
-            child: Text("page2"),
-          )
+            child: Container(
+              child: ListView(
+                children: <Widget>[
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {},
+                      //splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.max,
+                          children: <Widget>[
+                            Text(
+                              "Additional Links",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  // fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.black),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1RgLmlc579lTn9oXA1Bl487fFDcqribMv/view');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.max,
+                          children: <Widget>[
+                            Text(
+                              "ISE News Letter",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1NdobuJpQMdVrUgXKCyTSut_cDXcxaONs/view');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Question Paper Sample",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1DGQL-bR2fsrnTAsxmyRJNQ9OYVUzJkoB/view');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Faculty Journal Publications",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/12eAUcE2bHfxBgigHeJNNHfnTBgroEF_m/view?usp=sharing');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "FDP Attended",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://sdmcet.ac.in/download/infrastructure-computing-facilities/?wpdmdl=4442');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Infrastructure and Facilities",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1lPnOQs8Jgph4g2VJ6zxdIhbUesRRFvXA/view');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Innovative Ideas",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1gVEtzim_SPJQtJZs6QWd_gQRgVncIqNw/view');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Laboratory Details",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1FZ02J2mjCf_Ipp-0vqJWvlbvSm6kPXCM/view');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Workshop FDP Conducted",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1FbRPKGuij6d_TJWS0k5p0ANXbCKFbJ7j/view');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Simulation Based Teaching",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/drive/folders/1mnp0w843GgzhetkTnnTmQlW1WsH2wT5I');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Summary on DBMS Project",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1k7PqthLOex1q_FJsahl5vvfeNz8LcjZa/view');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Best Practice",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1hMZ8aWrcQQcLB9BBJm-TKT4Zjf2LPKQT/view?usp=sharing');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Innovation Teaching-Simulation",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 5,
+                    margin: EdgeInsets.all(13.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch(
+                            'https://drive.google.com/file/d/1tRtH-cPvVpKNej5zAQEz6A-O-L2KCqyg/view');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Center(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              "Placement Summary",
+                              style: new TextStyle(
+                                  fontSize: 30.0,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.red),
+                              textAlign: TextAlign.center,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
-        scrollDirection: Axis.vertical,
+        scrollDirection: Axis.horizontal,
       ),
     );
   }
