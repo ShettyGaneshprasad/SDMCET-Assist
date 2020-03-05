@@ -74,8 +74,8 @@ class Ise extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                  //                Navigator.push(context,
-//                      MaterialPageRoute(builder: (context) => Department()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => TimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
