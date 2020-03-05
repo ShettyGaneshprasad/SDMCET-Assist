@@ -116,7 +116,7 @@ class Cse extends StatelessWidget {
                 ),
               ),
             ),
-            Center(
+            /* Center(
                 child: SizedBox.expand(
               child: ColorizeAnimatedTextKit(
                 onTap: () {
@@ -135,7 +135,7 @@ class Cse extends StatelessWidget {
                   Colors.red,
                 ],
               ),
-            ))
+            ))*/
           ],
         ),
       ),
