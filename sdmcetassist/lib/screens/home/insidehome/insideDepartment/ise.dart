@@ -119,7 +119,7 @@ class Ise extends StatelessWidget {
     );
   }
 }
-
+//Start of About Class
 class IseAboutp1 extends StatelessWidget {
   const IseAboutp1({Key key}) : super(key: key);
 
@@ -560,7 +560,7 @@ class IseAboutp1 extends StatelessWidget {
     );
   }
 }
-
+//End of About Class
 //class time table
 
 class TimeTable extends StatefulWidget {
