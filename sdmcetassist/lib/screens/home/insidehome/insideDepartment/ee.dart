@@ -52,8 +52,8 @@ class EnE extends StatelessWidget {
               child: InkWell(
                 onTap: () {
                   //Navigator.push(
-                      //  context,MaterialPageRoute(
-                       //  builder: (context) => TimeTable()));
+                  //  context,MaterialPageRoute(
+                  //  builder: (context) => TimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -74,7 +74,7 @@ class EnE extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                                  Navigator.push(context,
+                  Navigator.push(context,
                       MaterialPageRoute(builder: (context) => TimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
