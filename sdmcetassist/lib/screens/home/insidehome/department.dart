@@ -243,7 +243,7 @@ class Department extends StatelessWidget {
                     ),
                     Flexible(
                       child: Text(
-                        "Department of Physics",
+                        "Department of Mathematics",
                         style: new TextStyle(fontSize: 25.0),
                         textAlign: TextAlign.center,
                       ),
