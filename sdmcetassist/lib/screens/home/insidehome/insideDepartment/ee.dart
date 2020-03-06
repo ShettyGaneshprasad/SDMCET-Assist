@@ -665,8 +665,6 @@ class _TimeTable extends State<TimeTable> {
   }
 }
 //End of TimeTable Class
-<<<<<<< HEAD
-=======
 //start of faculty
 class FacultyDetails extends StatefulWidget {
   _FacultyDetails createState() => new _FacultyDetails();
@@ -740,4 +738,3 @@ class _FacultyDetails extends State<FacultyDetails> {
   }
 }
 //end of faculty details
->>>>>>> 57832d6aec5fa797902971214bbde20aa1e5b4ff
