@@ -52,8 +52,9 @@ class EnE extends StatelessWidget {
               child: InkWell(
                 onTap: () {
                   Navigator.push(
-                        context,MaterialPageRoute(
-                         builder: (context) => FacultyDetails()));
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => FacultyDetails()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -664,9 +665,8 @@ class _TimeTable extends State<TimeTable> {
             : new Loading());
   }
 }
+
 //End of TimeTable Class
-<<<<<<< HEAD
-=======
 //start of faculty
 class FacultyDetails extends StatefulWidget {
   _FacultyDetails createState() => new _FacultyDetails();
@@ -740,4 +740,3 @@ class _FacultyDetails extends State<FacultyDetails> {
   }
 }
 //end of faculty details
->>>>>>> 57832d6aec5fa797902971214bbde20aa1e5b4ff
