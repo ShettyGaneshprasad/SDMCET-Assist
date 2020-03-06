@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
@@ -50,10 +49,10 @@ class Ise extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                  //      Navigator.push(
-                  //        context,
-                  //      MaterialPageRoute(
-                  //        builder: (context) => Administration()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => FacultyDetails()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
