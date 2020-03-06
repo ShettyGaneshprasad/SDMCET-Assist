@@ -1,8 +1,8 @@
 import 'dart:async';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/fullscreen_image.dart';
 import 'package:sdmcetassist/shared/loading.dart';
 
 import 'fullscreen_image.dart';
@@ -50,10 +50,9 @@ class EnE extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                  //      Navigator.push(
-                  //        context,
-                  //      MaterialPageRoute(
-                  //        builder: (context) => Administration()));
+                  //Navigator.push(
+                      //  context,MaterialPageRoute(
+                       //  builder: (context) => TimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -74,8 +73,8 @@ class EnE extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                  //                Navigator.push(context,
-//                      MaterialPageRoute(builder: (context) => Department()));
+                                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => TimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -172,7 +171,8 @@ class EeAboutp1 extends StatelessWidget {
     );
   }
 }
-//class of about
+//End of class about
+
 //class time table
 
 class TimeTable extends StatefulWidget {
@@ -208,7 +208,7 @@ class _TimeTable extends State<TimeTable> {
         backgroundColor: Colors.blue[50],
         appBar: AppBar(
           title: Text(
-            'Information Science Department', /*style:TextStyle(color:Colors.black)*/
+            'E & E Department', /*style:TextStyle(color:Colors.black)*/
           ),
           backgroundColor: Colors.blue[300],
           elevation: 10.0,
@@ -246,3 +246,4 @@ class _TimeTable extends State<TimeTable> {
             : new Loading());
   }
 }
+//End of TimeTable Class
