@@ -50,15 +50,24 @@ class MyTabsState extends State<Administration>
     return TabBar(
       tabs: [
         Tab(
-          text: "Admission",
+          child: Text(
+            "Admission",
+            textAlign: TextAlign.center,
+          ),
           icon: Icon(Icons.account_balance),
         ),
         Tab(
-          text: "Online Fees Payment",
+          child: Text(
+            "Online Fees Payment",
+            textAlign: TextAlign.center,
+          ),
           icon: Icon(Icons.monetization_on),
         ),
         Tab(
-          text: "Certificate from Admin",
+          child: Text(
+            "Certificate from Admin",
+            textAlign: TextAlign.center,
+          ),
           icon: Icon(Icons.assignment),
         ),
       ],
