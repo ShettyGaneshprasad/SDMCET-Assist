@@ -43,12 +43,12 @@ class Sdmcet extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyle(
               // /color: Colors.blue,
-              fontSize: 20,
+              fontSize: 25,
               fontStyle: FontStyle.normal,
             ),
           ),
           Text(
-            "\nCore Values",
+            "Core Values",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -58,11 +58,100 @@ class Sdmcet extends StatelessWidget {
             ),
           ),
           Text(
-            "\n• Competency\n• Commitment\n• Equity\n• Team work\n• Trust\n",
+            "• Competency\n• Commitment\n• Equity\n• Team work\n• Trust\n",
             textAlign: TextAlign.center,
             style: TextStyle(
-              // /color: Colors.blue,
-              fontSize: 20,
+              fontSize: 25,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "66000+",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.red,
+              fontSize: 40,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "Printed journals, online publications in partnership with Pearson\n",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 25,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "15000+",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.red,
+              fontSize: 40,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "Graduated alumni since 1983\n",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 25,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "1500+",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.red,
+              fontSize: 40,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "Students residing on campus.\n",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 25,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "2",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.red,
+              fontSize: 40,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "Printed journals, online publications in partnership with Pearson\n",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 25,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "10+",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.red,
+              fontSize: 40,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "Memorandums signed with various organizations.\n",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 25,
               fontStyle: FontStyle.normal,
             ),
           ),
