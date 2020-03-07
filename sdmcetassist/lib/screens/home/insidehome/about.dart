@@ -60,7 +60,11 @@ class MyTabsState extends State<About> with SingleTickerProviderStateMixin {
           icon: Icon(Icons.people),
         ),
         Tab(
-          child: Flexible(child: Text("Vission Mission")),
+          child: Flexible(
+              child: Text(
+            "Vission Mission",
+            textAlign: TextAlign.center,
+          )),
           icon: Icon(Icons.device_hub),
         ),
       ],
