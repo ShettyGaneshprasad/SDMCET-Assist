@@ -150,8 +150,7 @@ class IseAboutp1 extends StatelessWidget {
                 children: <Widget>[
                   Container(
                     padding: EdgeInsets.all(20.0),
-                    child: Text(
-                      "Vision:-\n To develop competent Information Technology Engineers having complete Knowledge and skills in contemporary Information Technology practices.\nMission M1. To develop contemporary curriculum in information technology delivered using Innovative teaching learning practices and ICT tools.\nM2.  To provide facilities for relevant research and expose students to the best industry Practices in Information Technology.\nM3. To inculcate the best moral values and professional ethics in students.",
+                    child: Text("Vision:\n To develop competent Information Technology Engineers having complete Knowledge and skills in contemporary Information Technology practices.\n\nMission: \nM1. To develop contemporary curriculum in information technology delivered using Innovative teaching learning practices and ICT tools.\nM2.  To provide facilities for relevant research and expose students to the best industry Practices in Information Technology.\nM3. To inculcate the best moral values and professional ethics in students.",
                       textAlign: TextAlign.justify,
                       softWrap: true,
                       style: TextStyle(color: Colors.black, fontSize: 20),
@@ -182,6 +181,7 @@ class IseAboutp1 extends StatelessWidget {
                       onTap: () {},
                       //splashColor: Colors.lightBlueAccent,
                       child: Center(
+                      
                         child: Column(
                           mainAxisSize: MainAxisSize.max,
                           children: <Widget>[
