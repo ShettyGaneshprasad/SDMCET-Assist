@@ -146,7 +146,7 @@ class EeAboutp1 extends StatelessWidget {
                   "Swipe Left for Additional link",
                   textAlign: TextAlign.justify,
                   softWrap: true,
-                  style: TextStyle(color: Colors.red, fontSize: 20),
+                  style: TextStyle(color: Colors.blueAccent, fontSize: 20),
                 ),
               ),
               Wrap(
@@ -166,7 +166,7 @@ class EeAboutp1 extends StatelessWidget {
                         "Swipe Left for Additional link\n",
                         textAlign: TextAlign.justify,
                         softWrap: true,
-                        style: TextStyle(color: Colors.red, fontSize: 20),
+                        style: TextStyle(color: Colors.blueAccent, fontSize: 20),
                       ),
                     ),
                   )
@@ -208,7 +208,7 @@ class EeAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1UhzW7aOdRBy949oSkphQ7yJoc5xGPJep/view?ts=5dadcda7');
+                            'https://sdmcet.ac.in/download/bos_members_list_mom-2019/?wpdmdl=4017');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -216,12 +216,12 @@ class EeAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.max,
                           children: <Widget>[
                             Text(
-                              "Vision, Mission, PEOs and POs",
+                              "BoS Member List and MoM",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -235,7 +235,7 @@ class EeAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1suo5nbDwZR3ulGhC7zvS2fuT9aBCTVG1/view?ts=5daddc3b');
+                            'https://sdmcet.ac.in/download/dpgc/?wpdmdl=4019');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -243,12 +243,12 @@ class EeAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "BoS, DUGC,DPGC & IQAC",
+                              "DPGC",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -262,7 +262,7 @@ class EeAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1F-Y-kxDBA7RTr13kuf9O8AX_Iv4tWhwl/view');
+                            'https://sdmcet.ac.in/download/dugc-members-list-and-meetindg-details/?wpdmdl=4021');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -270,12 +270,12 @@ class EeAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "UG: 175 Credits Syllabus",
+                              "DUGC Member List And MoM",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -289,7 +289,7 @@ class EeAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1mmSTQpU9K6rePg-U_hK8cXxDkkwdN7dG/view');
+                            'https://sdmcet.ac.in/download/faculty-publications-2018-19/?wpdmdl=4023');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -297,12 +297,12 @@ class EeAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "UG: 200 Credits Syllabus",
+                              "Faculty Publications",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -316,7 +316,7 @@ class EeAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/16fZ-iktb4QUDU5V-iF7RLqJP1Y6osyp1/view?ts=5dba3360');
+                            'https://sdmcet.ac.in/download/guest-lecture-2018-19/?wpdmdl=4027');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -324,12 +324,12 @@ class EeAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Achievers",
+                              "Guest Lecture",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -343,7 +343,7 @@ class EeAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/16trN4czi8rpgj3vyTZxo01mq1Tp1GAgL/view?ts=5d940b20');
+                            'https://sdmcet.ac.in/download/fdp-conference-seminar-attended/?wpdmdl=4032');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -351,12 +351,12 @@ class EeAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "e-News Letter ",
+                              "FDP,Conference,Seminar Attended ",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -370,7 +370,7 @@ class EeAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1n1U3FLf1_2Iu70Wh-fJUf5-iDlfhM4De/view');
+                            'https://sdmcet.ac.in/download/best-project-2018-19/?wpdmdl=4036');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -378,12 +378,12 @@ class EeAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Photo gallery",
+                              "Best Project",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -397,7 +397,7 @@ class EeAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://docs.google.com/forms/d/e/1FAIpQLSfqlSZUYeq7Cfh_DcisUUyb9cbdRIJHGjdjOCMk1VLwgKCftw/viewform');
+                            'https://sdmcet.ac.in/download/research-center-information/?wpdmdl=4038');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -405,12 +405,12 @@ class EeAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "CSE E-Suggestion Box",
+                              "Research Center Information",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -424,7 +424,7 @@ class EeAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/15xadR1tehM9jef7PgWBrTa-gaM5nll_G/view?ts=5db2bda9');
+                            'https://sdmcet.ac.in/download/program-exit-survey-2019/?wpdmdl=4040');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -432,12 +432,12 @@ class EeAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Academic Calendar-UG and PG/ Holiday List",
+                              "Program Exit Survey",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -451,7 +451,7 @@ class EeAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1UhCP0W09mbD8eMynLNU6_0KjYB858ntn/view?ts=5da72ecb');
+                            'https://sdmcet.ac.in/download/ug-pg-question-paper-sample-format/?wpdmdl=4042');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -459,12 +459,12 @@ class EeAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "MoUs",
+                              "UG & PG Question Paper Sample ",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -478,7 +478,7 @@ class EeAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1Ec0iJNlmVZqlb62VE1ux3Zl9rU9w3q4L/view?ts=5dd890b8');
+                            'https://sdmcet.ac.in/download/result-analysis-3/?wpdmdl=4044');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -486,12 +486,12 @@ class EeAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Space and Infrastructure",
+                              "Result Analysis",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -505,7 +505,7 @@ class EeAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1x7tvsPYpFvzRNttSTl22MDDyGFcLqpTf/view?ts=5dd88fa0');
+                            'https://sdmcet.ac.in/download/best-practices-4/?wpdmdl=4046');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -513,12 +513,12 @@ class EeAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Research Center Details",
+                              "Best Practices",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -532,7 +532,7 @@ class EeAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1Ysy105j0pA5QUiCuUXPDJBoatNvC71W2/view?ts=5da72c1a');
+                            'https://sdmcet.ac.in/download/eee-department-activities-2018-20/?wpdmdl=3998');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -540,12 +540,12 @@ class EeAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Placement Summary",
+                              "Events /Activities/Training Programs Conducted",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -559,7 +559,7 @@ class EeAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1Y_xosOPszGvXB-RkshDhn6LALwo5blX8/view?ts=5df82e5a');
+                            'https://sdmcet.ac.in/download/eee-infrastructure-31-10-19/?wpdmdl=4182');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -567,12 +567,12 @@ class EeAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Internship and Certification Details",
+                              "Infrastructure And Facilities",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
