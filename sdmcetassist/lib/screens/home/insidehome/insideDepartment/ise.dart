@@ -143,7 +143,7 @@ class IseAboutp1 extends StatelessWidget {
                   "Swipe Left for Additional link",
                   textAlign: TextAlign.justify,
                   softWrap: true,
-                  style: TextStyle(color: Colors.red, fontSize: 20),
+                  style: TextStyle(color: Colors.blueAccent, fontSize: 20),
                 ),
               ),
               Wrap(
@@ -162,7 +162,7 @@ class IseAboutp1 extends StatelessWidget {
                         "Swipe Left for Additional link\n",
                         textAlign: TextAlign.justify,
                         softWrap: true,
-                        style: TextStyle(color: Colors.red, fontSize: 20),
+                        style: TextStyle(color: Colors.blueAccent, fontSize: 20),
                       ),
                     ),
                   )
@@ -218,7 +218,7 @@ class IseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -245,7 +245,7 @@ class IseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -272,7 +272,7 @@ class IseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -299,7 +299,7 @@ class IseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -326,7 +326,7 @@ class IseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -353,7 +353,7 @@ class IseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -380,7 +380,7 @@ class IseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -407,7 +407,7 @@ class IseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -434,7 +434,7 @@ class IseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -461,7 +461,7 @@ class IseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -488,7 +488,7 @@ class IseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -515,7 +515,7 @@ class IseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -542,7 +542,7 @@ class IseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
