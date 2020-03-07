@@ -155,6 +155,24 @@ class Sdmcet extends StatelessWidget {
               fontStyle: FontStyle.normal,
             ),
           ),
+          Text(
+            "Following UG Programs are Accredited by NBA Under Tier-1",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.red,
+              fontSize: 40,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "Mechanical Engineering \nElectrical & Electronics Engineering \nChemical Engineering \nComputer Science and Engineering\nElectronics and Communication Engineering \nCivil Engineering \nInformation Science and Engineering \n\n SDMCET has been accredited twice by NBA in Past \n",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontSize: 25,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
         ],
       ),
     );
