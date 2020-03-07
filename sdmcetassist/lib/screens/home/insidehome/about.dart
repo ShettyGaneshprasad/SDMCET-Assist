@@ -48,11 +48,11 @@ class MyTabsState extends State<About> with SingleTickerProviderStateMixin {
     return TabBar(
       tabs: [
         Tab(
-          text: "SDMCET",
+          child: Flexible(child: Text("SDMCET")),
           icon: Icon(Icons.account_balance),
         ),
         Tab(
-          text: "Management",
+          child: Flexible(child: Text("Management")),
           icon: Icon(Icons.assignment),
         ),
         Tab(
@@ -60,7 +60,7 @@ class MyTabsState extends State<About> with SingleTickerProviderStateMixin {
           icon: Icon(Icons.people),
         ),
         Tab(
-          text: "Vission Mission",
+          text: "Vission\nMission",
           icon: Icon(Icons.device_hub),
         ),
       ],
