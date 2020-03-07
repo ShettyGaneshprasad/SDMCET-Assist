@@ -602,7 +602,7 @@ class _TimeTable extends State<TimeTable> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISETimeTable");
+      Firestore.instance.collection("ChemTimeTable");
 
   @override
   void initState() {
