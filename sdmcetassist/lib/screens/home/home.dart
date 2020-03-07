@@ -14,12 +14,12 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.purple[900],
+      backgroundColor: Colors.blue[50],
       appBar: AppBar(
         title: Text(
           'SDMCET Assist', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.red[900],
+        backgroundColor: Colors.blue[300],
         elevation: 10.0,
         actions: <Widget>[
           FlatButton.icon(
