@@ -8,6 +8,7 @@ import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/deptchem.d
 import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/deptmaths.dart';
 import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/ee.dart';
 import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/enc.dart';
+import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/firstYearUg.dart';
 import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/ise.dart';
 import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/mech.dart';
 
@@ -28,6 +29,34 @@ class Department extends StatelessWidget {
         child: ListView(
           // crossAxisCount: 3,
           children: <Widget>[
+            Card(
+              elevation: 10,
+              margin: EdgeInsets.all(8.0),
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => firstYearUg()));
+                },
+                splashColor: Colors.lightBlueAccent,
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Icon(
+                      Icons.book,
+                      size: 50.0,
+                    ),
+                    Flexible(
+                      child: Text(
+                        "1st Year UG   ",
+                        style: new TextStyle(fontSize: 25.0),
+                        textAlign: TextAlign.center,
+                      ),
+                      fit: FlexFit.tight,
+                    )
+                  ],
+                ),
+              ),
+            ),
             Card(
               elevation: 10,
               margin: EdgeInsets.all(8.0),
