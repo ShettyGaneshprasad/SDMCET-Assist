@@ -56,11 +56,11 @@ class MyTabsState extends State<About> with SingleTickerProviderStateMixin {
           icon: Icon(Icons.assignment),
         ),
         Tab(
-          text: "Deans",
+          child: Flexible(child: Text("Deans")),
           icon: Icon(Icons.people),
         ),
         Tab(
-          text: "Vission\nMission",
+          child: Flexible(child: Text("Vission and Mission")),
           icon: Icon(Icons.device_hub),
         ),
       ],
