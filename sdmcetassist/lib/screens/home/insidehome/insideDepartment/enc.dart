@@ -220,7 +220,7 @@ class EncAboutp1 extends StatelessWidget {
                   "Swipe Left for Additional link",
                   textAlign: TextAlign.justify,
                   softWrap: true,
-                  style: TextStyle(color: Colors.red, fontSize: 20),
+                  style: TextStyle(color: Colors.blueAccent, fontSize: 20),
                 ),
               ),
               Wrap(
@@ -240,7 +240,7 @@ class EncAboutp1 extends StatelessWidget {
                         "Swipe Left for Additional link\n",
                         textAlign: TextAlign.justify,
                         softWrap: true,
-                        style: TextStyle(color: Colors.red, fontSize: 20),
+                        style: TextStyle(color: Colors.blueAccent, fontSize: 20),
                       ),
                     ),
                   )
@@ -282,7 +282,7 @@ class EncAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1UhzW7aOdRBy949oSkphQ7yJoc5xGPJep/view?ts=5dadcda7');
+                            'https://sdmcet.ac.in/download/bos-boe-ece/?wpdmdl=4614');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -290,12 +290,12 @@ class EncAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.max,
                           children: <Widget>[
                             Text(
-                              "Vision, Mission, PEOs and POs",
+                              "BoS and BoE",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -309,7 +309,7 @@ class EncAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1suo5nbDwZR3ulGhC7zvS2fuT9aBCTVG1/view?ts=5daddc3b');
+                            'https://sdmcet.ac.in/download/committees-ece/?wpdmdl=4616');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -317,12 +317,12 @@ class EncAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "BoS, DUGC,DPGC & IQAC",
+                              "Committees",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -336,7 +336,7 @@ class EncAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1F-Y-kxDBA7RTr13kuf9O8AX_Iv4tWhwl/view');
+                            'https://sdmcet.ac.in/download/departmental-activities/?wpdmdl=2677');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -344,12 +344,12 @@ class EncAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "UG: 175 Credits Syllabus",
+                              "Departmental Activities",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -363,7 +363,7 @@ class EncAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1mmSTQpU9K6rePg-U_hK8cXxDkkwdN7dG/view');
+                            'https://sdmcet.ac.in/download/faculty_achievements-ece/?wpdmdl=4618');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -371,12 +371,12 @@ class EncAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "UG: 200 Credits Syllabus",
+                              "Faculty Achievements",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -390,7 +390,7 @@ class EncAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/16fZ-iktb4QUDU5V-iF7RLqJP1Y6osyp1/view?ts=5dba3360');
+                            'https://sdmcet.ac.in/download/best-practices-3/?wpdmdl=2630');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -398,12 +398,12 @@ class EncAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Achievers",
+                              "Best Practices",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -417,7 +417,7 @@ class EncAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/16trN4czi8rpgj3vyTZxo01mq1Tp1GAgL/view?ts=5d940b20');
+                            'https://sdmcet.ac.in/download/result-analysis/?wpdmdl=2634');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -425,12 +425,12 @@ class EncAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "e-News Letter ",
+                              "Result Analysis ",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -444,7 +444,7 @@ class EncAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1n1U3FLf1_2Iu70Wh-fJUf5-iDlfhM4De/view');
+                            'https://sdmcet.ac.in/download/funded-projects-ece/?wpdmdl=4622');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -452,12 +452,12 @@ class EncAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Photo gallery",
+                              "Funded Projects",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -471,7 +471,7 @@ class EncAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://docs.google.com/forms/d/e/1FAIpQLSfqlSZUYeq7Cfh_DcisUUyb9cbdRIJHGjdjOCMk1VLwgKCftw/viewform');
+                            'https://sdmcet.ac.in/download/publications-ece/?wpdmdl=4626');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -479,12 +479,12 @@ class EncAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "CSE E-Suggestion Box",
+                              "Publications",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -498,7 +498,7 @@ class EncAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/15xadR1tehM9jef7PgWBrTa-gaM5nll_G/view?ts=5db2bda9');
+                            'https://sdmcet.ac.in/download/monthly-report-ece-2/?wpdmdl=4624');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -506,12 +506,12 @@ class EncAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Academic Calendar-UG and PG/ Holiday List",
+                              "Monthly Report",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -525,7 +525,7 @@ class EncAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1UhCP0W09mbD8eMynLNU6_0KjYB858ntn/view?ts=5da72ecb');
+                            'https://sdmcet.ac.in/download/industrial-visit/?wpdmdl=2642');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -533,12 +533,12 @@ class EncAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "MoUs",
+                              "Induatrial Visit",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -552,7 +552,7 @@ class EncAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1Ec0iJNlmVZqlb62VE1ux3Zl9rU9w3q4L/view?ts=5dd890b8');
+                            'https://sdmcet.ac.in/download/faculty-development-programmes-ece/?wpdmdl=4620');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -560,12 +560,12 @@ class EncAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Space and Infrastructure",
+                              "Faculty Development Programmes",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -579,7 +579,7 @@ class EncAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1x7tvsPYpFvzRNttSTl22MDDyGFcLqpTf/view?ts=5dd88fa0');
+                            'https://sdmcet.ac.in/download/qp-sample-formats-ece/?wpdmdl=4628');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -587,12 +587,12 @@ class EncAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Research Center Details",
+                              "Question Paper Sample",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -606,7 +606,7 @@ class EncAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1Ysy105j0pA5QUiCuUXPDJBoatNvC71W2/view?ts=5da72c1a');
+                            'https://sdmcet.ac.in/download/infrastructure-and-facilities-3/?wpdmdl=2628');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -614,12 +614,12 @@ class EncAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Placement Summary",
+                              "Infrastructure And Facilities",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -633,7 +633,7 @@ class EncAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1Y_xosOPszGvXB-RkshDhn6LALwo5blX8/view?ts=5df82e5a');
+                            'https://sdmcet.ac.in/download/research-centre-information-ece/?wpdmdl=4611');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -641,12 +641,12 @@ class EncAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Internship and Certification Details",
+                              "Research Center Information",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
