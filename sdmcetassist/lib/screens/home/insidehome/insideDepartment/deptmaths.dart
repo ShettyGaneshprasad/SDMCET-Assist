@@ -147,7 +147,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
                   "Swipe Left for Additional link",
                   textAlign: TextAlign.justify,
                   softWrap: true,
-                  style: TextStyle(color: Colors.red, fontSize: 20),
+                  style: TextStyle(color: Colors.blueAccent, fontSize: 20),
                 ),
               ),
               Wrap(
@@ -167,7 +167,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
                         "Swipe Left for Additional link\n",
                         textAlign: TextAlign.justify,
                         softWrap: true,
-                        style: TextStyle(color: Colors.red, fontSize: 20),
+                        style: TextStyle(color: Colors.blueAccent, fontSize: 20),
                       ),
                     ),
                   )
@@ -209,7 +209,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1UhzW7aOdRBy949oSkphQ7yJoc5xGPJep/view?ts=5dadcda7');
+                            'https://sdmcet.ac.in/download/maths_dugc/?wpdmdl=4781');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -217,12 +217,12 @@ class DeptMathsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.max,
                           children: <Widget>[
                             Text(
-                              "Vision, Mission, PEOs and POs",
+                              "DUGC",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -236,7 +236,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1suo5nbDwZR3ulGhC7zvS2fuT9aBCTVG1/view?ts=5daddc3b');
+                            'https://sdmcet.ac.in/download/maths_dpgc/?wpdmdl=4779');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -244,12 +244,12 @@ class DeptMathsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "BoS, DUGC,DPGC & IQAC",
+                              "DPGC",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -263,7 +263,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1F-Y-kxDBA7RTr13kuf9O8AX_Iv4tWhwl/view');
+                            'https://sdmcet.ac.in/download/maths_bos/?wpdmdl=4777');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -271,12 +271,12 @@ class DeptMathsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "UG: 175 Credits Syllabus",
+                              "BOS",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -290,7 +290,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1mmSTQpU9K6rePg-U_hK8cXxDkkwdN7dG/view');
+                            'https://sdmcet.ac.in/download/maths_iqac/?wpdmdl=4783');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -298,12 +298,12 @@ class DeptMathsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "UG: 200 Credits Syllabus",
+                              "IQAC",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -317,7 +317,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/16fZ-iktb4QUDU5V-iF7RLqJP1Y6osyp1/view?ts=5dba3360');
+                            'https://sdmcet.ac.in/download/maths_papers-presented-participated-in-national-international-conference/?wpdmdl=4773');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -325,12 +325,12 @@ class DeptMathsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Achievers",
+                              "Publications",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -344,7 +344,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/16trN4czi8rpgj3vyTZxo01mq1Tp1GAgL/view?ts=5d940b20');
+                            'https://sdmcet.ac.in/download/maths_fdp-seminar-conferences-attended/?wpdmdl=4771');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -352,12 +352,12 @@ class DeptMathsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "e-News Letter ",
+                              "FDP,Conference,Seminar Attended",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -371,7 +371,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1n1U3FLf1_2Iu70Wh-fJUf5-iDlfhM4De/view');
+                            'https://sdmcet.ac.in/download/maths_research-centre-information/?wpdmdl=4749');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -379,12 +379,12 @@ class DeptMathsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Photo gallery",
+                              "Research Center",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -398,7 +398,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://docs.google.com/forms/d/e/1FAIpQLSfqlSZUYeq7Cfh_DcisUUyb9cbdRIJHGjdjOCMk1VLwgKCftw/viewform');
+                            'https://sdmcet.ac.in/download/maths_result-analysis/?wpdmdl=4747');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -406,12 +406,12 @@ class DeptMathsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "CSE E-Suggestion Box",
+                              "Result Analysis",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -425,7 +425,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/15xadR1tehM9jef7PgWBrTa-gaM5nll_G/view?ts=5db2bda9');
+                            'https://sdmcet.ac.in/download/maths_best-practices/?wpdmdl=4757');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -433,12 +433,12 @@ class DeptMathsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Academic Calendar-UG and PG/ Holiday List",
+                              "Best Practices",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -452,7 +452,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1UhCP0W09mbD8eMynLNU6_0KjYB858ntn/view?ts=5da72ecb');
+                            'https://sdmcet.ac.in/download/maths_infrastructure-facilities/?wpdmdl=4755');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -460,12 +460,12 @@ class DeptMathsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "MoUs",
+                              "Infrastructure Facilities",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -473,7 +473,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Card(
+               /*   Card(
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -580,7 +580,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
                         ),
                       ),
                     ),
-                  ),
+                  ),*/
                 ],
               ),
             ),
