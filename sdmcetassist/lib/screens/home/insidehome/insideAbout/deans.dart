@@ -10,16 +10,6 @@ class Deans extends StatelessWidget {
           Image.network(
             'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FAdmin%20statue.jpg?alt=media&token=98ce0133-37b3-441b-9811-bb52165b539b',
           ),
-          /* Text(
-            "Dean's",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.blue,
-              fontSize: 50,
-              fontStyle: FontStyle.normal,
-            ),
-          ),*/
           Text(
             "\nDR. K. GOPINATH",
             textAlign: TextAlign.center,
