@@ -50,6 +50,100 @@ class Management extends StatelessWidget {
                 fontStyle: FontStyle.normal,
               ),
             ),
+            Text(
+              "\nLeadership",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.blue,
+                fontSize: 45,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Text(
+              "\nVeerendra Heggade",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.red,
+                fontSize: 30,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Text(
+              "President",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.red,
+                fontSize: 20,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Image.network(
+              'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2Fleader-veerendraheggade.jpg?alt=media&token=51f77c08-5683-4328-909f-57f57a91f080',
+              fit: BoxFit.contain,
+            ),
+            Text(
+              "\n\nS.Prabhakar",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.red,
+                fontSize: 30,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Text(
+              "Vice President",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.red,
+                fontSize: 20,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Image.network(
+              'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2Fleader-prabhakar.jpg?alt=media&token=b06375f5-f2cd-410d-b653-b7169cc7e277',
+              fit: BoxFit.contain,
+            ),
+            Text(
+              "\n\nD.surendrakumar",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.red,
+                fontSize: 30,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Text(
+              "Vice President",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.red,
+                fontSize: 20,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Image.network(
+              'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2Fabout-veerendra-heggade.png?alt=media&token=83596196-929c-4bcc-a519-bcbca57af05d',
+              fit: BoxFit.contain,
+            ),
+            Image.network(
+              'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2Fabout-veerendra-heggade.png?alt=media&token=83596196-929c-4bcc-a519-bcbca57af05d',
+            ),
+            Image.network(
+              'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2Fabout-veerendra-heggade.png?alt=media&token=83596196-929c-4bcc-a519-bcbca57af05d',
+            ),
+            Image.network(
+              'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2Fabout-veerendra-heggade.png?alt=media&token=83596196-929c-4bcc-a519-bcbca57af05d',
+            ),
+            Image.network(
+              'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2Fabout-veerendra-heggade.png?alt=media&token=83596196-929c-4bcc-a519-bcbca57af05d',
+            ),
           ],
         ),
       );
