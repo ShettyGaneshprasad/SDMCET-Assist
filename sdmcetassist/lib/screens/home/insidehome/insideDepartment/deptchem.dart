@@ -145,7 +145,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                   "Swipe Left for Additional link",
                   textAlign: TextAlign.justify,
                   softWrap: true,
-                  style: TextStyle(color: Colors.red, fontSize: 20),
+                  style: TextStyle(color: Colors.blueAccent, fontSize: 20),
                 ),
               ),
               Wrap(
@@ -165,7 +165,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                         "Swipe Left for Additional link\n",
                         textAlign: TextAlign.justify,
                         softWrap: true,
-                        style: TextStyle(color: Colors.red, fontSize: 20),
+                        style: TextStyle(color: Colors.blueAccent, fontSize: 20),
                       ),
                     ),
                   )
@@ -207,7 +207,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1UhzW7aOdRBy949oSkphQ7yJoc5xGPJep/view?ts=5dadcda7');
+                            'https://sdmcet.ac.in/download/chemistry-bos-college/?wpdmdl=4504');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -215,12 +215,12 @@ class DeptChemAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.max,
                           children: <Widget>[
                             Text(
-                              "Vision, Mission, PEOs and POs",
+                              "BOS Membeer List",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -234,7 +234,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1suo5nbDwZR3ulGhC7zvS2fuT9aBCTVG1/view?ts=5daddc3b');
+                            'https://sdmcet.ac.in/download/chemistry-boe-2018-19/?wpdmdl=4513');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -242,12 +242,12 @@ class DeptChemAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "BoS, DUGC,DPGC & IQAC",
+                              "BOE Member List",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -261,7 +261,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1F-Y-kxDBA7RTr13kuf9O8AX_Iv4tWhwl/view');
+                            'https://sdmcet.ac.in/download/chemistry-faculty-research-publication/?wpdmdl=4507');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -269,12 +269,12 @@ class DeptChemAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "UG: 175 Credits Syllabus",
+                              "Publications",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -288,7 +288,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1mmSTQpU9K6rePg-U_hK8cXxDkkwdN7dG/view');
+                            'https://sdmcet.ac.in/download/chemistry-conference-fdp-workshop-attended/?wpdmdl=4505');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -296,12 +296,12 @@ class DeptChemAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "UG: 200 Credits Syllabus",
+                              "FDP,Conference,Seminar",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -315,7 +315,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/16fZ-iktb4QUDU5V-iF7RLqJP1Y6osyp1/view?ts=5dba3360');
+                            'https://sdmcet.ac.in/download/chemistry-interaction-outside-the-world/?wpdmdl=4508');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -323,12 +323,12 @@ class DeptChemAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Achievers",
+                              "Faculty Interaction with External",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -342,7 +342,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/16trN4czi8rpgj3vyTZxo01mq1Tp1GAgL/view?ts=5d940b20');
+                            'https://sdmcet.ac.in/download/chemistry-research-project/?wpdmdl=4509');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -350,12 +350,12 @@ class DeptChemAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "e-News Letter ",
+                              "Research Projects ",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -369,7 +369,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1n1U3FLf1_2Iu70Wh-fJUf5-iDlfhM4De/view');
+                            'https://sdmcet.ac.in/download/chemistry-qp-formate-for-internal-and-ese/?wpdmdl=4514');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -377,12 +377,12 @@ class DeptChemAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Photo gallery",
+                              "Question Paper Sample Format",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -396,7 +396,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://docs.google.com/forms/d/e/1FAIpQLSfqlSZUYeq7Cfh_DcisUUyb9cbdRIJHGjdjOCMk1VLwgKCftw/viewform');
+                            'https://sdmcet.ac.in/download/chemistry-result-analysis/?wpdmdl=4510');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -404,12 +404,12 @@ class DeptChemAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "CSE E-Suggestion Box",
+                              "Result Analysis",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -423,7 +423,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/15xadR1tehM9jef7PgWBrTa-gaM5nll_G/view?ts=5db2bda9');
+                            'https://sdmcet.ac.in/download/chemistry-dept-events-organized-2017-18/?wpdmdl=4506');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -431,12 +431,12 @@ class DeptChemAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Academic Calendar-UG and PG/ Holiday List",
+                              "Event Conducted",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -450,7 +450,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1UhCP0W09mbD8eMynLNU6_0KjYB858ntn/view?ts=5da72ecb');
+                            'https://sdmcet.ac.in/download/chemistry-best-practices/?wpdmdl=4503');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -458,12 +458,12 @@ class DeptChemAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "MoUs",
+                              "Best Practices",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -471,7 +471,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Card(
+             /* Card(
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -578,7 +578,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                         ),
                       ),
                     ),
-                  ),
+                  ),*/
                 ],
               ),
             ),
