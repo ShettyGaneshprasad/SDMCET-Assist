@@ -7,9 +7,6 @@ class Deans extends StatelessWidget {
     return Container(
       child: ListView(
         children: <Widget>[
-          Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FAdmin%20statue.jpg?alt=media&token=98ce0133-37b3-441b-9811-bb52165b539b',
-          ),
           Text(
             "\nDR. K. GOPINATH",
             textAlign: TextAlign.center,
@@ -35,7 +32,7 @@ class Deans extends StatelessWidget {
             fit: BoxFit.contain,
           ),
           Text(
-            "\n\nS. Prabhakar",
+            "\n\nA. V. KULKARNI",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -45,7 +42,7 @@ class Deans extends StatelessWidget {
             ),
           ),
           Text(
-            "Vice President",
+            "Dean Administration",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -55,11 +52,11 @@ class Deans extends StatelessWidget {
             ),
           ),
           Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2Fleader-prabhakar.jpg?alt=media&token=b06375f5-f2cd-410d-b653-b7169cc7e277',
+            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FDeanPic%2Favkulkarni.jpg?alt=media&token=0969c4f1-49da-44b3-bc0f-5bc6f7df9533',
             fit: BoxFit.contain,
           ),
           Text(
-            "\n\nD.surendrakumar",
+            "\n\nDR RAMESH L CHAKRASALI",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -69,7 +66,7 @@ class Deans extends StatelessWidget {
             ),
           ),
           Text(
-            "Vice President",
+            "Dean Academic Program & Research and Development",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -79,11 +76,11 @@ class Deans extends StatelessWidget {
             ),
           ),
           Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2Fleader-surendrakumar.jpg?alt=media&token=3b116296-c3b9-4af4-a22c-e56748d7fe3b',
+            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FDeanPic%2Framesh.jpg?alt=media&token=76871f51-2dee-470c-9828-16483b48afa6',
             fit: BoxFit.contain,
           ),
           Text(
-            "\n\nD.Harshendra Kumar",
+            "\n\nC. M. CHELLI",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -93,7 +90,7 @@ class Deans extends StatelessWidget {
             ),
           ),
           Text(
-            "Secretary",
+            "Dean Infrastructure Planning & Development",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -103,11 +100,11 @@ class Deans extends StatelessWidget {
             ),
           ),
           Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2Fharsendrakumar.jpg?alt=media&token=7a1a6e37-eda5-4963-b196-a09f50a47c16',
+            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FDeanPic%2FProf.-Clement-Chelli.jpg?alt=media&token=a73739a4-9090-4235-a2d3-d676b8a3434b',
             fit: BoxFit.contain,
           ),
           Text(
-            "\n\nDr Yashoverma",
+            "\n\nSAVITRI RAJU",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -117,7 +114,7 @@ class Deans extends StatelessWidget {
             ),
           ),
           Text(
-            "Secretary",
+            "Controller of Examinations",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -125,6 +122,10 @@ class Deans extends StatelessWidget {
               fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
+          ),
+          Image.network(
+            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FDeanPic%2FSavitri-Raju.jpg?alt=media&token=1d86ae78-ab4d-4932-b00a-fffd8b4a1a64',
+            fit: BoxFit.contain,
           ),
         ],
       ),
