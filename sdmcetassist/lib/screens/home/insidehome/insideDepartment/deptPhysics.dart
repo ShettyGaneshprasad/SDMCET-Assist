@@ -147,7 +147,7 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                   "Swipe Left for Additional link",
                   textAlign: TextAlign.justify,
                   softWrap: true,
-                  style: TextStyle(color: Colors.red, fontSize: 20),
+                  style: TextStyle(color: Colors.blueAccent, fontSize: 20),
                 ),
               ),
               Wrap(
@@ -167,7 +167,7 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                         "Swipe Left for Additional link\n",
                         textAlign: TextAlign.justify,
                         softWrap: true,
-                        style: TextStyle(color: Colors.red, fontSize: 20),
+                        style: TextStyle(color: Colors.blueAccent, fontSize: 20),
                       ),
                     ),
                   )
@@ -209,7 +209,7 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1UhzW7aOdRBy949oSkphQ7yJoc5xGPJep/view?ts=5dadcda7');
+                            'https://sdmcet.ac.in/download/dugc-2019-20-physics/?wpdmdl=4883');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -217,12 +217,12 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.max,
                           children: <Widget>[
                             Text(
-                              "Vision, Mission, PEOs and POs",
+                              "DUGC",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -236,7 +236,7 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1suo5nbDwZR3ulGhC7zvS2fuT9aBCTVG1/view?ts=5daddc3b');
+                            'https://sdmcet.ac.in/download/best-practices-physics/?wpdmdl=4881');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -244,12 +244,12 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "BoS, DUGC,DPGC & IQAC",
+                              "BOS",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -263,7 +263,7 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1F-Y-kxDBA7RTr13kuf9O8AX_Iv4tWhwl/view');
+                            'https://sdmcet.ac.in/download/faculty-acheivements_-untill-2019-physics/?wpdmdl=4885');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -271,12 +271,12 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "UG: 175 Credits Syllabus",
+                              "Publications",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -290,7 +290,7 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1mmSTQpU9K6rePg-U_hK8cXxDkkwdN7dG/view');
+                            'https://sdmcet.ac.in/download/faculty-interaction-with-external-physics/?wpdmdl=4887');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -298,12 +298,12 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "UG: 200 Credits Syllabus",
+                              "Faculty Interaction With Externals",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -317,7 +317,7 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/16fZ-iktb4QUDU5V-iF7RLqJP1Y6osyp1/view?ts=5dba3360');
+                            'https://sdmcet.ac.in/download/reseach-center-details-physics/?wpdmdl=4895');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -325,12 +325,12 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Achievers",
+                              "Research Center",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -344,7 +344,7 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/16trN4czi8rpgj3vyTZxo01mq1Tp1GAgL/view?ts=5d940b20');
+                            'https://sdmcet.ac.in/download/sample-see-qp-physics/?wpdmdl=4899');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -352,12 +352,12 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "e-News Letter ",
+                              "Question Paper Sample Format ",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -371,7 +371,7 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/1n1U3FLf1_2Iu70Wh-fJUf5-iDlfhM4De/view');
+                            'https://sdmcet.ac.in/download/result-analysis-physics-2/?wpdmdl=4897');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -379,12 +379,12 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Photo gallery",
+                              "Result Analysis",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -398,7 +398,7 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://docs.google.com/forms/d/e/1FAIpQLSfqlSZUYeq7Cfh_DcisUUyb9cbdRIJHGjdjOCMk1VLwgKCftw/viewform');
+                            'https://sdmcet.ac.in/download/best-practices-physics-2/?wpdmdl=4908');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -406,12 +406,12 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "CSE E-Suggestion Box",
+                              "Best Practices",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -425,7 +425,7 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://drive.google.com/file/d/15xadR1tehM9jef7PgWBrTa-gaM5nll_G/view?ts=5db2bda9');
+                            'https://sdmcet.ac.in/download/infrastructure-details-physics/?wpdmdl=4889');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Center(
@@ -433,12 +433,12 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: <Widget>[
                             Text(
-                              "Academic Calendar-UG and PG/ Holiday List",
+                              "Infrastructure Details",
                               style: new TextStyle(
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.red),
+                                  color: Colors.blueAccent),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -446,7 +446,7 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Card(
+               /*   Card(
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -580,7 +580,7 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
                         ),
                       ),
                     ),
-                  ),
+                  ),*/
                 ],
               ),
             ),
