@@ -51,10 +51,10 @@ class Mech extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                        Navigator.push(
-                          context,
-                        MaterialPageRoute(
-                        builder: (context) => FacultyDetails()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => FacultyDetails()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -75,8 +75,8 @@ class Mech extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                             Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => TimeTable()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => TimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -121,6 +121,7 @@ class Mech extends StatelessWidget {
     );
   }
 }
+
 //Start of AboutClass
 class MechAboutp1 extends StatelessWidget {
   const MechAboutp1({Key key}) : super(key: key);
@@ -165,7 +166,8 @@ class MechAboutp1 extends StatelessWidget {
                         "Swipe Left for Additional link\n",
                         textAlign: TextAlign.justify,
                         softWrap: true,
-                        style: TextStyle(color: Colors.blueAccent, fontSize: 20),
+                        style:
+                            TextStyle(color: Colors.blueAccent, fontSize: 20),
                       ),
                     ),
                   )
@@ -552,7 +554,7 @@ class MechAboutp1 extends StatelessWidget {
                       ),
                     ),
                   ),
-                 /* Card(
+                  /* Card(
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -601,7 +603,7 @@ class _TimeTable extends State<TimeTable> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISETimeTable");
+      Firestore.instance.collection("MechTimeTable");
 
   @override
   void initState() {
@@ -663,6 +665,7 @@ class _TimeTable extends State<TimeTable> {
             : new Loading());
   }
 }
+
 //End of TimeTable Class
 //start of faculty
 class FacultyDetails extends StatefulWidget {
@@ -674,7 +677,7 @@ class _FacultyDetails extends State<FacultyDetails> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISEFacultyDetails");
+      Firestore.instance.collection("MechFacultyDetails");
 
   @override
   void initState() {
