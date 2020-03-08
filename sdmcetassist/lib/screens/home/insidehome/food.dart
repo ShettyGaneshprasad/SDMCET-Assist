@@ -23,8 +23,8 @@ class Food extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-               //   Navigator.push(context,
-                 //     MaterialPageRoute(builder: (context) => firstYearUg()));
+             //    Navigator.push(context,
+             //        MaterialPageRoute(builder: (context) => suruchi()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Row(
