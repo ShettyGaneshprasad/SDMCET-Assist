@@ -66,9 +66,7 @@ class Admission extends StatelessWidget {
           "\nTap Below for additional Information",
           textAlign: TextAlign.center,
           style: TextStyle(
-            fontSize: 20,
-            fontStyle: FontStyle.normal,
-          ),
+              fontSize: 20, fontStyle: FontStyle.normal, color: Colors.red),
         ),
         Card(
           elevation: 5,
