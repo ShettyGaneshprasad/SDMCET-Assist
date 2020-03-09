@@ -461,15 +461,21 @@ class Management extends StatelessWidget {
         padding: EdgeInsets.all(20.0),
         child: ListView(
           children: <Widget>[
-            Image.network(
-                'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2Fkcet.jpg?alt=media&token=3a77e751-9fa9-46d7-a5c8-c6a5e54ba5e2'),
             Text(
-              "ELIGIBILITY FOR GOVERNMENT SEATS",
+              "MANAGEMENT ELIGIBILITY CRITERIA",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
                 fontSize: 40,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Text(
+              "\nCandidates from all over the country /NRI/ Foreign National are eligible to apply under Management Quota",
+              textAlign: TextAlign.justify,
+              style: TextStyle(
+                fontSize: 20,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -482,7 +488,7 @@ class Management extends StatelessWidget {
               ),
             ),
             Text(
-              "\nThe General Merit candidates should have passed 2 nd PUC or 10+2 examination with a minimum aggregate of 45% marks (40% in respect of SC, ST and OBC candidates of Karnataka State) in Physics and Mathematics along with Chemistry or Bio Technology or Biology or Computer Science or Electronics as one of the optional subjects. English must be a subject of study. However, educational qualifications/eligibility criteria prescribed by the competent authority in regulations/guidelines issued from time to time will be applicable in deciding the eligibility.",
+              "\nThe General Merit candidates should have passed 2 nd PUC or 10+2 examination with a minimum aggregate of 45% marks (40% in respect of SC, ST and OBC candidates of Karnataka State) in Physics and Mathematics along with Chemistry or Bio Technology or Biology or Computer Science or Electronics as one of the optional subjects. English must be a subject of study. However, educational qualifications/eligibility criteria prescribed by the competent authority in regulations/guidelines issued from time to time will be applicable in deciding the eligibility. However, changes, if any, in the eligibility criteria by the VTU/DTE/ AICTE will be adopted.",
               textAlign: TextAlign.justify,
               style: TextStyle(
                 fontSize: 20,
@@ -490,83 +496,11 @@ class Management extends StatelessWidget {
               ),
             ),
             Text(
-              "\nQualification:-",
-              textAlign: TextAlign.left,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.blue,
-                fontSize: 30,
-                fontStyle: FontStyle.normal,
-              ),
-            ),
-            Text(
-              "Pass in 10+2 or equivalent with Physics, Mathematics as compulsory subjects along with Chemistry or Biotechnology or Biology or Computer science or Electronics with a minimum of 45% marks taken together in Physics, Mathematics and any one of the optional subjects.",
+              "\nAn attempt in the COMEDK or CET Entrance Test or any other Entrance test (recognized) for seeking admission to Engineering courses under the management quota is considered adequate for figuring in the rank list.",
               textAlign: TextAlign.justify,
               style: TextStyle(
                 fontSize: 20,
                 fontStyle: FontStyle.normal,
-              ),
-            ),
-            Text(
-              "\nELIGIBILITY CLAUSES:-",
-              textAlign: TextAlign.left,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.blue,
-                fontSize: 30,
-                fontStyle: FontStyle.normal,
-              ),
-            ),
-            Text(
-              "The candidate should have studied and passed in one or more Government or Government recognized educational institutions located in the State of Karnataka for a minimum period of SEVEN academic years commencing from 1st standard to 2nd PUC / 12th standard as on 1st July of the year in which the Entrance Test is held.Eligibility/Admissions/allotments made to & by the colleges shall be subject to approval by AICTE/Government/University.",
-              textAlign: TextAlign.justify,
-              style: TextStyle(
-                fontSize: 20,
-                fontStyle: FontStyle.normal,
-              ),
-            ),
-            Text(
-              "\nDocuments to be produced:-",
-              textAlign: TextAlign.left,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.blue,
-                fontSize: 30,
-                fontStyle: FontStyle.normal,
-              ),
-            ),
-            Text(
-              "\n1. SSLC or 10 th Marks Card\n2. 2nd PUC / 12th standard Marks Card of the candidate.\n3. Candidate’s Study Certificate.\n4. If claiming Rural quota: – Rural Study Certificate from 1st to 10th std for Ten Complete Years.\n5. If claiming Kannada Medium quota: Kannada Medium Study Certificate from 1st to 10th std for Ten Complete Years.\n6. If claiming reservation benefits: Caste / Caste Income Certificate issued by Concerned Tahsildar- For SC / ST in Form-D, Category-I in form E and 2A, 2B, 3A and 3B in Form F.\n7. Transfer Certificate from previous Educational Institute.\n",
-              textAlign: TextAlign.justify,
-              style: TextStyle(
-                fontSize: 20,
-                fontStyle: FontStyle.normal,
-              ),
-            ), //enter below
-            Card(
-              elevation: 5,
-              margin: EdgeInsets.all(13.0),
-              child: InkWell(
-                onTap: () {
-                  launch('http://kea.kar.nic.in/');
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Text(
-                        "\nTo Get More Info Click Here\n",
-                        style: new TextStyle(
-                            fontSize: 20.0,
-                            fontStyle: FontStyle.italic,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.red),
-                        textAlign: TextAlign.center,
-                      )
-                    ],
-                  ),
-                ),
               ),
             ),
           ],
@@ -592,11 +526,9 @@ class Nri extends StatelessWidget {
         padding: EdgeInsets.all(20.0),
         child: ListView(
           children: <Widget>[
-            Image.network(
-                'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2Fkcet.jpg?alt=media&token=3a77e751-9fa9-46d7-a5c8-c6a5e54ba5e2'),
             Text(
-              "ELIGIBILITY FOR GOVERNMENT SEATS",
-              textAlign: TextAlign.center,
+              "ELIGIBILITY:-",
+              textAlign: TextAlign.left,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
@@ -605,7 +537,7 @@ class Nri extends StatelessWidget {
               ),
             ),
             Text(
-              "\nThe qualifying examinations prescribed for admission for B.E. is second PUC or 10+2 exam or equivalent examination recognized by State / Central Government/ University with English as a compulsory subject.",
+              "\nAs per the definition defined in The Karnataka Professional Educational Institutions (Regulation of Admission and Determination of Fee) Act, 2006 read with the Karnataka Professional Educational Institutions (Regulation of Admission and Determination of Fee) Amendment) Act, 2017 and the Income Tax Act 1961 Section 115 C (e) & 6, i.e., “ Non Resident Indian” means an individual residing outside India who is a citizen of India or is a Person of Indian Origin and includes Persons of Indian Origin and Overseas Citizens of India.",
               textAlign: TextAlign.justify,
               style: TextStyle(
                 fontSize: 20,
@@ -613,7 +545,7 @@ class Nri extends StatelessWidget {
               ),
             ),
             Text(
-              "\nThe General Merit candidates should have passed 2 nd PUC or 10+2 examination with a minimum aggregate of 45% marks (40% in respect of SC, ST and OBC candidates of Karnataka State) in Physics and Mathematics along with Chemistry or Bio Technology or Biology or Computer Science or Electronics as one of the optional subjects. English must be a subject of study. However, educational qualifications/eligibility criteria prescribed by the competent authority in regulations/guidelines issued from time to time will be applicable in deciding the eligibility.",
+              "\nNon Resident Indian candidate means, a candidate born to a parent of Indian Origin and residing outside the country and who have passed the qualifying equivalent examination outside India.",
               textAlign: TextAlign.justify,
               style: TextStyle(
                 fontSize: 20,
@@ -621,8 +553,16 @@ class Nri extends StatelessWidget {
               ),
             ),
             Text(
-              "\nQualification:-",
-              textAlign: TextAlign.left,
+              "\nFor the purpose of verification e‐document may be considered with regard to NRI sponsored certificate subject to submitting the original at the time of taking the admission.",
+              textAlign: TextAlign.justify,
+              style: TextStyle(
+                fontSize: 20,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Text(
+              "\nMandatory Documents required for NRI candidate:-",
+              textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
@@ -631,75 +571,13 @@ class Nri extends StatelessWidget {
               ),
             ),
             Text(
-              "Pass in 10+2 or equivalent with Physics, Mathematics as compulsory subjects along with Chemistry or Biotechnology or Biology or Computer science or Electronics with a minimum of 45% marks taken together in Physics, Mathematics and any one of the optional subjects.",
-              textAlign: TextAlign.justify,
-              style: TextStyle(
-                fontSize: 20,
-                fontStyle: FontStyle.normal,
-              ),
-            ),
-            Text(
-              "\nELIGIBILITY CLAUSES:-",
-              textAlign: TextAlign.left,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.blue,
-                fontSize: 30,
-                fontStyle: FontStyle.normal,
-              ),
-            ),
-            Text(
-              "The candidate should have studied and passed in one or more Government or Government recognized educational institutions located in the State of Karnataka for a minimum period of SEVEN academic years commencing from 1st standard to 2nd PUC / 12th standard as on 1st July of the year in which the Entrance Test is held.Eligibility/Admissions/allotments made to & by the colleges shall be subject to approval by AICTE/Government/University.",
-              textAlign: TextAlign.justify,
-              style: TextStyle(
-                fontSize: 20,
-                fontStyle: FontStyle.normal,
-              ),
-            ),
-            Text(
-              "\nDocuments to be produced:-",
-              textAlign: TextAlign.left,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.blue,
-                fontSize: 30,
-                fontStyle: FontStyle.normal,
-              ),
-            ),
-            Text(
-              "\n1. SSLC or 10 th Marks Card\n2. 2nd PUC / 12th standard Marks Card of the candidate.\n3. Candidate’s Study Certificate.\n4. If claiming Rural quota: – Rural Study Certificate from 1st to 10th std for Ten Complete Years.\n5. If claiming Kannada Medium quota: Kannada Medium Study Certificate from 1st to 10th std for Ten Complete Years.\n6. If claiming reservation benefits: Caste / Caste Income Certificate issued by Concerned Tahsildar- For SC / ST in Form-D, Category-I in form E and 2A, 2B, 3A and 3B in Form F.\n7. Transfer Certificate from previous Educational Institute.\n",
+              "\n1. Candidate’s parents resident certificate issued by the Embassy of that country complying with the Income Tax Rules / any other certificates to establish evidence that they are resident of that country / affidavit on Rs.100/‐ e‐stamp paper to that effect.\n2.Candidate’s passport / VISA / Resident VISA.\n3. Citizenship of the candidate.\n4. Income Tax Documents required as per the Income Tax Act 1961.\n5. Candidate’s study certificate for having studied outside India where applicable for the qualifying examination.\n6. 10 th Standard, Date of birth proof & 12 th standard marks card.\n7. Entrance test rank card.\n",
               textAlign: TextAlign.justify,
               style: TextStyle(
                 fontSize: 20,
                 fontStyle: FontStyle.normal,
               ),
             ), //enter below
-            Card(
-              elevation: 5,
-              margin: EdgeInsets.all(13.0),
-              child: InkWell(
-                onTap: () {
-                  launch('http://kea.kar.nic.in/');
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Text(
-                        "\nTo Get More Info Click Here\n",
-                        style: new TextStyle(
-                            fontSize: 20.0,
-                            fontStyle: FontStyle.italic,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.red),
-                        textAlign: TextAlign.center,
-                      )
-                    ],
-                  ),
-                ),
-              ),
-            ),
           ],
         ),
       ),
