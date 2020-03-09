@@ -89,6 +89,141 @@ class Admission extends StatelessWidget {
             ),
           ),
         ),
+        Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => Comedk()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "COMEDK",
+                    style: new TextStyle(
+                        fontSize: 50.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.red),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        ),
+        Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => LateralEntry()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "Lateral Entry",
+                    style: new TextStyle(
+                        fontSize: 50.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.red),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        ),
+        Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => Management()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "Management",
+                    style: new TextStyle(
+                        fontSize: 50.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.red),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        ),
+        Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => Nri()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "NRI",
+                    style: new TextStyle(
+                        fontSize: 50.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.red),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        ),
+        Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => PgMtechMba()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "PG M.Tech and MBA",
+                    style: new TextStyle(
+                        fontSize: 50.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.red),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        ),
       ]),
     );
   }
@@ -105,6 +240,31 @@ class Cet extends StatelessWidget {
         ),
         backgroundColor: Colors.blue[300],
         elevation: 10.0,
+      ),
+      body: Container(
+        padding: EdgeInsets.all(20.0),
+        child: ListView(
+          children: <Widget>[
+            Text(
+              "Overview",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.blue,
+                fontSize: 40,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Text(
+              "\nSDMCET a premier institute in India accepts admissions through 3 selection processes for all branches of undergraduate courses: Viz. COMMON Entrance TEST(CET), COMEDK and MANAGEMENT quota\n",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 20,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -165,7 +325,7 @@ class LateralEntry extends StatelessWidget {
       backgroundColor: Colors.blue[50],
       appBar: AppBar(
         title: Text(
-          'Admission by Management', /*style:TextStyle(color:Colors.black)*/
+          'Lateral Entry', /*style:TextStyle(color:Colors.black)*/
         ),
         backgroundColor: Colors.blue[300],
         elevation: 10.0,
@@ -174,14 +334,30 @@ class LateralEntry extends StatelessWidget {
   }
 }
 
-/*class Management extends StatelessWidget {
+class FeesStructure extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blue[50],
       appBar: AppBar(
         title: Text(
-          'Admission by Management', 
+          'Fees Structure',
+        ),
+        backgroundColor: Colors.blue[300],
+        elevation: 10.0,
+      ),
+    );
+  }
+}
+
+/*class FeesStructure extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.blue[50],
+      appBar: AppBar(
+        title: Text(
+          'Fees Structure',
         ),
         backgroundColor: Colors.blue[300],
         elevation: 10.0,
@@ -189,3 +365,19 @@ class LateralEntry extends StatelessWidget {
     );
   }
 }*/
+
+class PgMtechMba extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.blue[50],
+      appBar: AppBar(
+        title: Text(
+          'PG M.Tech and MBA',
+        ),
+        backgroundColor: Colors.blue[300],
+        elevation: 10.0,
+      ),
+    );
+  }
+}
