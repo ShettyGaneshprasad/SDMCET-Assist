@@ -29,8 +29,10 @@ class DeptChem extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                    Navigator.push(context,
-                   MaterialPageRoute(builder: (context) => DeptChemAboutp1()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => DeptChemAboutp1()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -52,10 +54,10 @@ class DeptChem extends StatelessWidget {
               child: InkWell(
                 onTap: () {
                   Navigator.push(
-                   context,
-                     MaterialPageRoute(
-                        builder: (context) => FacultyDetails()));
-               },
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => FacultyDetails()));
+                },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
                   child: Column(
@@ -75,7 +77,7 @@ class DeptChem extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                                  Navigator.push(context,
+                  Navigator.push(context,
                       MaterialPageRoute(builder: (context) => TimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
@@ -121,6 +123,7 @@ class DeptChem extends StatelessWidget {
     );
   }
 }
+
 //Start Of About Class
 class DeptChemAboutp1 extends StatelessWidget {
   const DeptChemAboutp1({Key key}) : super(key: key);
@@ -165,7 +168,8 @@ class DeptChemAboutp1 extends StatelessWidget {
                         "Swipe Left for Additional link\n",
                         textAlign: TextAlign.justify,
                         softWrap: true,
-                        style: TextStyle(color: Colors.blueAccent, fontSize: 20),
+                        style:
+                            TextStyle(color: Colors.blueAccent, fontSize: 20),
                       ),
                     ),
                   )
@@ -471,7 +475,7 @@ class DeptChemAboutp1 extends StatelessWidget {
                       ),
                     ),
                   ),
-             /* Card(
+                  /* Card(
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -663,6 +667,7 @@ class _TimeTable extends State<TimeTable> {
             : new Loading());
   }
 }
+
 //end of class TimeTable
 //start of faculty
 class FacultyDetails extends StatefulWidget {
@@ -674,7 +679,7 @@ class _FacultyDetails extends State<FacultyDetails> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISEFacultyDetails");
+      Firestore.instance.collection("DeptCHEMFacultyDetails");
 
   @override
   void initState() {

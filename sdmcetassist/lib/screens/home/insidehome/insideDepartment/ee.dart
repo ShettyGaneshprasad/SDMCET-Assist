@@ -166,7 +166,8 @@ class EeAboutp1 extends StatelessWidget {
                         "Swipe Left for Additional link\n",
                         textAlign: TextAlign.justify,
                         softWrap: true,
-                        style: TextStyle(color: Colors.blueAccent, fontSize: 20),
+                        style:
+                            TextStyle(color: Colors.blueAccent, fontSize: 20),
                       ),
                     ),
                   )
@@ -603,7 +604,7 @@ class _TimeTable extends State<TimeTable> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("EnETimeTable");
+      Firestore.instance.collection("EETimeTable");
 
   @override
   void initState() {
@@ -677,7 +678,7 @@ class _FacultyDetails extends State<FacultyDetails> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISEFacultyDetails");
+      Firestore.instance.collection("EEFacultyDetails");
 
   @override
   void initState() {
