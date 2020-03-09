@@ -75,7 +75,7 @@ class OnlineFeesPayment extends StatelessWidget {
               ),
             ),
             Text(
-              "\n1. Please ensure to take admission, only if eligible for next semester.\n\n2. Please ensure that your USN, name of the student, Year/semester of study & amount are correct.\n\n3. The application to be filled by the student are available in your respective department and will be given after producing the fee payment receipt.\n\n4. Admission procedure is deemed to be ‘complete’ only after filled in application is submitted to the respective department, along with photocopy of fee paid receipt.\n\n   5. Students belonging to special fee category/bank loan are advised to contact admission section.\n\n",
+              "\n1. Please ensure to take admission, only if eligible for next semester.\n\n2. Please ensure that your USN, name of the student, Year/semester of study & amount are correct.\n\n3. The application to be filled by the student are available in your respective department and will be given after producing the fee payment receipt.\n\n4. Admission procedure is deemed to be ‘complete’ only after filled in application is submitted to the respective department, along with photocopy of fee paid receipt.\n\n5. Students belonging to special fee category/bank loan are advised to contact admission section.\n\n",
               textAlign: TextAlign.justify,
               style: TextStyle(
                 fontSize: 20,

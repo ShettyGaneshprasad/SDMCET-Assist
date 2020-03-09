@@ -47,24 +47,6 @@ class Visionmission extends StatelessWidget {
               fontStyle: FontStyle.normal,
             ),
           ),
-          Text(
-            "\nVision",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.blue,
-              fontSize: 40,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "\nTo develop competent professionals with human values.\n\n\n\n",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 20,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
         ],
       ),
     );
