@@ -527,7 +527,7 @@ class Nri extends StatelessWidget {
         child: ListView(
           children: <Widget>[
             Text(
-              "ELIGIBILITY:-",
+              "Eligibility Criteria for NRI",
               textAlign: TextAlign.left,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
