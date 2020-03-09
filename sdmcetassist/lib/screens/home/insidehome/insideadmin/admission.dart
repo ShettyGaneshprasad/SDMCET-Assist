@@ -66,7 +66,9 @@ class Admission extends StatelessWidget {
           "\nTap Below for additional Information",
           textAlign: TextAlign.center,
           style: TextStyle(
-              fontSize: 20, fontStyle: FontStyle.normal, color: Colors.red),
+            fontSize: 20,
+            fontStyle: FontStyle.normal,
+          ),
         ),
         Card(
           elevation: 5,
@@ -228,6 +230,60 @@ class Admission extends StatelessWidget {
                 ],
               ),
             ),
+          ),
+        ),
+        Text(
+          "\nFor any Admission help:",
+          textAlign: TextAlign.left,
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Colors.blue,
+            fontSize: 30,
+            fontStyle: FontStyle.normal,
+          ),
+        ),
+        Text(
+          "College Phone No.: 0836 – 2447 465 & 2448 327",
+          textAlign: TextAlign.justify,
+          style: TextStyle(
+            fontSize: 20,
+            fontStyle: FontStyle.normal,
+          ),
+        ),
+        Text(
+          "\nFaculty in-charge for I year admissions:",
+          textAlign: TextAlign.left,
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Colors.blue,
+            fontSize: 30,
+            fontStyle: FontStyle.normal,
+          ),
+        ),
+        Text(
+          "Prof. G. L. Rajabanshi – 9448275251",
+          textAlign: TextAlign.justify,
+          style: TextStyle(
+            fontSize: 20,
+            fontStyle: FontStyle.normal,
+          ),
+        ),
+        Text(
+          "\nOfficer in Charge for I year Admissions:",
+          textAlign: TextAlign.left,
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Colors.blue,
+            fontSize: 30,
+            fontStyle: FontStyle.normal,
+          ),
+        ),
+        Text(
+          "Mr. P.V.Gangadhar Rao – 9972457790",
+          textAlign: TextAlign.justify,
+          style: TextStyle(
+            fontSize: 20,
+            fontStyle: FontStyle.normal,
           ),
         ),
       ]),
