@@ -675,7 +675,7 @@ class _FacultyDetails extends State<FacultyDetails> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISEFacultyDetails");
+      Firestore.instance.collection("ENCFacultyDetails");
 
   @override
   void initState() {
