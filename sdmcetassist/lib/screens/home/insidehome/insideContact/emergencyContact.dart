@@ -8,7 +8,7 @@ class EmergencyContact extends StatelessWidget {
       child: ListView(
         children: <Widget>[
           Text(
-            "HOD's contact",
+            "Emergency contact",
             textAlign: TextAlign.center,
             style: TextStyle(
                 fontWeight: FontWeight.bold,
