@@ -46,7 +46,7 @@ class HodContact extends StatelessWidget {
             ),
           ),
           Text(
-            "Phone no: 7900129925",
+            "Phone no: 9480750607",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
