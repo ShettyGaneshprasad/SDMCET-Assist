@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[50],
+      backgroundColor: Colors.blue[100],
       appBar: AppBar(
         title: Text(
           'SDMCET Assist', /*style:TextStyle(color:Colors.black)*/
