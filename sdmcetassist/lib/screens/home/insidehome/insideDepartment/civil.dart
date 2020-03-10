@@ -29,8 +29,8 @@ class Civil extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                    Navigator.push(context,
-                   MaterialPageRoute(builder: (context) => CivilAboutp1()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => CivilAboutp1()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -51,9 +51,9 @@ class Civil extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                        Navigator.push(
-                          context,
-                        MaterialPageRoute(
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
                           builder: (context) => FacultyDetails()));
                 },
                 splashColor: Colors.lightBlueAccent,
@@ -75,7 +75,7 @@ class Civil extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                                 Navigator.push(context,
+                  Navigator.push(context,
                       MaterialPageRoute(builder: (context) => TimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
@@ -121,6 +121,7 @@ class Civil extends StatelessWidget {
     );
   }
 }
+
 //Start of About Class
 class CivilAboutp1 extends StatelessWidget {
   const CivilAboutp1({Key key}) : super(key: key);
@@ -165,7 +166,8 @@ class CivilAboutp1 extends StatelessWidget {
                         "Swipe Left for Additional link\n",
                         textAlign: TextAlign.justify,
                         softWrap: true,
-                        style: TextStyle(color: Colors.blueAccent, fontSize: 20),
+                        style:
+                            TextStyle(color: Colors.blueAccent, fontSize: 20),
                       ),
                     ),
                   )
@@ -717,6 +719,7 @@ class _TimeTable extends State<TimeTable> {
             : new Loading());
   }
 }
+
 //end of class TimeTable
 //start of faculty
 class FacultyDetails extends StatefulWidget {
@@ -728,7 +731,7 @@ class _FacultyDetails extends State<FacultyDetails> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISEFacultyDetails");
+      Firestore.instance.collection("CIVILFacultyDetails");
 
   @override
   void initState() {
