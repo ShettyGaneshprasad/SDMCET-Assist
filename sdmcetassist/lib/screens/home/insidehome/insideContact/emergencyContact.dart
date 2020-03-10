@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class EmergencyContact extends StatelessWidget {
   @override
@@ -17,7 +18,7 @@ class EmergencyContact extends StatelessWidget {
                 decoration: TextDecoration.underline),
           ),
           Text(
-            "\nComputer Science Dept.",
+            "\nSDMCET",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -27,7 +28,7 @@ class EmergencyContact extends StatelessWidget {
             ),
           ),
           Text(
-            "Phone no: 7900129925",
+            "Phone no: 0836-2447465",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -36,7 +37,7 @@ class EmergencyContact extends StatelessWidget {
             ),
           ),
           Text(
-            "\nInformation Science  Dept.",
+            "\nPolice",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -46,7 +47,7 @@ class EmergencyContact extends StatelessWidget {
             ),
           ),
           Text(
-            "Phone no: 7900129925",
+            "Phone no: 100",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -55,7 +56,7 @@ class EmergencyContact extends StatelessWidget {
             ),
           ),
           Text(
-            "\nMechanical Dept.",
+            "\nFire",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -64,8 +65,34 @@ class EmergencyContact extends StatelessWidget {
               fontStyle: FontStyle.italic,
             ),
           ),
+          Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {
+                launch("tel://21213123123");
+              },
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "Phone no: 101 / 0836-2442496",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
           Text(
-            "Phone no: 7900129925",
+            "Phone no: 101 / 0836-2442496",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -74,7 +101,7 @@ class EmergencyContact extends StatelessWidget {
             ),
           ),
           Text(
-            "\nE&C Dept.",
+            "\nAmbulance",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
