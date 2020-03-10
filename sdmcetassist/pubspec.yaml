@@ -31,9 +31,7 @@ dependencies:
   firebase_storage:
   firebase_core:
   firebase_analytics:
-  animated_text_kit:
   url_launcher:
-  simple_slider:
 
 dev_dependencies:
   flutter_test:
