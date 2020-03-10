@@ -6,6 +6,7 @@ class EmergencyContact extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      color: Colors.lightBlue[100],
       child: ListView(
         children: <Widget>[
           Text(
@@ -31,7 +32,7 @@ class EmergencyContact extends StatelessWidget {
             margin: EdgeInsets.all(13.0),
             child: InkWell(
               onTap: () {
-                launch("tel:9448915301");
+                launch("tel:08362447465");
               },
               splashColor: Colors.lightBlueAccent,
               child: Center(
@@ -39,7 +40,7 @@ class EmergencyContact extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[
                     Text(
-                      "\nSDMCET",
+                      "SDMCET",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
@@ -49,7 +50,7 @@ class EmergencyContact extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "Phone no:9448915301",
+                      "Phone no: 0836-2447465",
                       style: new TextStyle(
                           fontSize: 30.0,
                           fontStyle: FontStyle.italic,
@@ -62,31 +63,12 @@ class EmergencyContact extends StatelessWidget {
               ),
             ),
           ),
-          Text(
-            "Phone no: 0836-2447465",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 30,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "\nPolice",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.blue,
-              fontSize: 40,
-              fontStyle: FontStyle.italic,
-            ),
-          ),
           Card(
             elevation: 10,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
               onTap: () {
-                launch("tel:9448915301");
+                launch("tel:100");
               },
               splashColor: Colors.lightBlueAccent,
               child: Center(
@@ -94,7 +76,7 @@ class EmergencyContact extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[
                     Text(
-                      "Computer Science Dept.",
+                      "Police",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
@@ -104,62 +86,7 @@ class EmergencyContact extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "Phone no:9448915301",
-                      style: new TextStyle(
-                          fontSize: 30.0,
-                          fontStyle: FontStyle.italic,
-                          fontWeight: FontWeight.w600,
-                          color: Colors.black),
-                      textAlign: TextAlign.center,
-                    )
-                  ],
-                ),
-              ),
-            ),
-          ),
-          Text(
-            "Phone no: 100",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 30,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "\nFire",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.blue,
-              fontSize: 40,
-              fontStyle: FontStyle.italic,
-            ),
-          ),
-          Card(
-            elevation: 10,
-            margin: EdgeInsets.all(13.0),
-            child: InkWell(
-              onTap: () {
-                launch("tel:9448915301");
-              },
-              splashColor: Colors.lightBlueAccent,
-              child: Center(
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Text(
-                      "Computer Science Dept.",
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Colors.blue,
-                        fontSize: 40,
-                        fontStyle: FontStyle.italic,
-                      ),
-                    ),
-                    Text(
-                      "Phone no:9448915301",
+                      "Phone no: 100",
                       style: new TextStyle(
                           fontSize: 30.0,
                           fontStyle: FontStyle.italic,
@@ -177,44 +104,35 @@ class EmergencyContact extends StatelessWidget {
             margin: EdgeInsets.all(13.0),
             child: InkWell(
               onTap: () {
-                launch("tel://21213123123");
+                launch("tel:08362442496");
               },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[
+                    Text(
+                      "Fire",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.blue,
+                        fontSize: 40,
+                        fontStyle: FontStyle.italic,
+                      ),
+                    ),
                     Text(
                       "Phone no: 101 / 0836-2442496",
                       style: new TextStyle(
                           fontSize: 30.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
-                          color: Colors.blueAccent),
+                          color: Colors.black),
                       textAlign: TextAlign.center,
                     )
                   ],
                 ),
               ),
-            ),
-          ),
-          Text(
-            "Phone no: 101 / 0836-2442496",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 30,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "\nAmbulance",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.blue,
-              fontSize: 40,
-              fontStyle: FontStyle.italic,
             ),
           ),
           Card(
@@ -230,7 +148,7 @@ class EmergencyContact extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[
                     Text(
-                      "Computer Science Dept.",
+                      "Ambulance",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
@@ -253,31 +171,12 @@ class EmergencyContact extends StatelessWidget {
               ),
             ),
           ),
-          Text(
-            "Phone no: 7900129925",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 30,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "\nE&E Dept.",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.blue,
-              fontSize: 40,
-              fontStyle: FontStyle.italic,
-            ),
-          ),
           Card(
             elevation: 10,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
               onTap: () {
-                launch("tel:9448915301");
+                launch("tel:08362477777");
               },
               splashColor: Colors.lightBlueAccent,
               child: Center(
@@ -285,7 +184,7 @@ class EmergencyContact extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[
                     Text(
-                      "Computer Science Dept.",
+                      "Medical Emergency\n(SDM Hospital)",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
@@ -295,7 +194,7 @@ class EmergencyContact extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "Phone no:9448915301",
+                      "Phone no:0836-2477777",
                       style: new TextStyle(
                           fontSize: 30.0,
                           fontStyle: FontStyle.italic,
@@ -308,108 +207,76 @@ class EmergencyContact extends StatelessWidget {
               ),
             ),
           ),
-          Text(
-            "Phone no: 7900129925",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 30,
-              fontStyle: FontStyle.normal,
+          Card(
+            elevation: 10,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {
+                launch("tel:08362477088");
+              },
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "Ambulance\n(SDM Hospital)",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.blue,
+                        fontSize: 40,
+                        fontStyle: FontStyle.italic,
+                      ),
+                    ),
+                    Text(
+                      "Phone no:0836-2477088",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.black),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
             ),
           ),
-          Text(
-            "\nChemical Dept.",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.blue,
-              fontSize: 40,
-              fontStyle: FontStyle.italic,
-            ),
-          ),
-          Text(
-            "Phone no: 7900129925",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 30,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "\nCivil Dept.",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.blue,
-              fontSize: 40,
-              fontStyle: FontStyle.italic,
-            ),
-          ),
-          Text(
-            "Phone no: 7900129925",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 30,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "\nDept. of Mathematics",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.blue,
-              fontSize: 40,
-              fontStyle: FontStyle.italic,
-            ),
-          ),
-          Text(
-            "Phone no: 7900129925",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 30,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "\nDept. of Chemistry",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.blue,
-              fontSize: 40,
-              fontStyle: FontStyle.italic,
-            ),
-          ),
-          Text(
-            "Phone no: 7900129925",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 30,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "\nDept. Physics",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.blue,
-              fontSize: 40,
-              fontStyle: FontStyle.italic,
-            ),
-          ),
-          Text(
-            "Phone no: 7900129925\n\n",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 30,
-              fontStyle: FontStyle.normal,
+          Card(
+            elevation: 10,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {
+                launch("tel:9986660550");
+              },
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "Chief Hostel Warden",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.blue,
+                        fontSize: 40,
+                        fontStyle: FontStyle.italic,
+                      ),
+                    ),
+                    Text(
+                      "Phone no:9986660550",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.black),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
             ),
           ),
         ],
