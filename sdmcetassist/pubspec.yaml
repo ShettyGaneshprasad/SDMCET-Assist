@@ -33,7 +33,7 @@ dependencies:
   firebase_analytics:
   animated_text_kit:
   url_launcher:
-  simple_slider: "^0.0.1"
+  simple_slider:
 
 dev_dependencies:
   flutter_test:
@@ -58,6 +58,7 @@ flutter:
     - assets/collegefrontgarden.jpg
     - assets/about-veerendra-heggade.png
     - assets/Principal-Dr-K-Gopinath-2-1.jpg
+    - assets/madebycse.jpg
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
