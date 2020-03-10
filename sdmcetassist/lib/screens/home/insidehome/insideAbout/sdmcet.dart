@@ -7,9 +7,10 @@ class Sdmcet extends StatelessWidget {
     return Container(
       child: ListView(
         children: <Widget>[
-          Image.network(
+          Image.asset('assets/collegefrontgarden.jpg'),
+          /*Image.network(
             'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FAnnotation%202020-02-23%20202905.jpg?alt=media&token=714c636d-2d73-4f52-adb6-8711420456a3',
-          ),
+          ),*/
           Text(
             "\nSDMCET,Dharwad.",
             textAlign: TextAlign.center,
