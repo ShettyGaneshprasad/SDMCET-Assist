@@ -33,6 +33,7 @@ dependencies:
   firebase_analytics:
   animated_text_kit:
   url_launcher:
+  simple_slider: "^0.0.1"
 
 dev_dependencies:
   flutter_test:
