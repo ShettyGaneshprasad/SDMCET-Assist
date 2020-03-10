@@ -30,8 +30,10 @@ class firstYearUg extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => TimeTable()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => FirstYTimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -78,11 +80,11 @@ class firstYearUg extends StatelessWidget {
 }
 
 //start of class timmetable
-class TimeTable extends StatefulWidget {
-  _TimeTable createState() => new _TimeTable();
+class FirstYTimeTable extends StatefulWidget {
+  _FirstYTimeTable createState() => new _FirstYTimeTable();
 }
 
-class _TimeTable extends State<TimeTable> {
+class _FirstYTimeTable extends State<FirstYTimeTable> {
   StreamSubscription<QuerySnapshot> subscription;
   List<DocumentSnapshot> timeTable;
 
