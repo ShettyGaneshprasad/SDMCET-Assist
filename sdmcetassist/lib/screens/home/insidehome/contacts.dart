@@ -28,7 +28,7 @@ class MyTabsState extends State<Contacts> with SingleTickerProviderStateMixin {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: DefaultTabController(
-        length: 4,
+        length: 3,
         child: Scaffold(
           appBar: AppBar(
             backgroundColor: Colors.blue[300],
@@ -40,7 +40,6 @@ class MyTabsState extends State<Contacts> with SingleTickerProviderStateMixin {
               AdministrationContact(),
               HodContact(),
               EmergencyContact(),
-              HodContact()
             ],
           ),
         ),
@@ -74,14 +73,6 @@ class MyTabsState extends State<Contacts> with SingleTickerProviderStateMixin {
             textAlign: TextAlign.center,
           )),
           icon: Icon(Icons.local_hospital),
-        ),
-        Tab(
-          child: Flexible(
-              child: Text(
-            "Vission Mission",
-            textAlign: TextAlign.center,
-          )),
-          icon: Icon(Icons.device_hub),
         ),
       ],
     );
