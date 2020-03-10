@@ -18,13 +18,48 @@ class EmergencyContact extends StatelessWidget {
                 decoration: TextDecoration.underline),
           ),
           Text(
-            "\nSDMCET",
+            "( Tap on number to call directly )",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              color: Colors.blue,
-              fontSize: 40,
-              fontStyle: FontStyle.italic,
+              color: Colors.red,
+              fontSize: 20,
+            ),
+          ),
+          Card(
+            elevation: 10,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {
+                launch("tel:9448915301");
+              },
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "\nSDMCET",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.blue,
+                        fontSize: 40,
+                        fontStyle: FontStyle.italic,
+                      ),
+                    ),
+                    Text(
+                      "Phone no:9448915301",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.black),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
             ),
           ),
           Text(
@@ -46,6 +81,42 @@ class EmergencyContact extends StatelessWidget {
               fontStyle: FontStyle.italic,
             ),
           ),
+          Card(
+            elevation: 10,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {
+                launch("tel:9448915301");
+              },
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "Computer Science Dept.",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.blue,
+                        fontSize: 40,
+                        fontStyle: FontStyle.italic,
+                      ),
+                    ),
+                    Text(
+                      "Phone no:9448915301",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.black),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
           Text(
             "Phone no: 100",
             textAlign: TextAlign.center,
@@ -63,6 +134,42 @@ class EmergencyContact extends StatelessWidget {
               color: Colors.blue,
               fontSize: 40,
               fontStyle: FontStyle.italic,
+            ),
+          ),
+          Card(
+            elevation: 10,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {
+                launch("tel:9448915301");
+              },
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "Computer Science Dept.",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.blue,
+                        fontSize: 40,
+                        fontStyle: FontStyle.italic,
+                      ),
+                    ),
+                    Text(
+                      "Phone no:9448915301",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.black),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
             ),
           ),
           Card(
@@ -110,6 +217,42 @@ class EmergencyContact extends StatelessWidget {
               fontStyle: FontStyle.italic,
             ),
           ),
+          Card(
+            elevation: 10,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {
+                launch("tel:9448915301");
+              },
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "Computer Science Dept.",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.blue,
+                        fontSize: 40,
+                        fontStyle: FontStyle.italic,
+                      ),
+                    ),
+                    Text(
+                      "Phone no:9448915301",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.black),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          ),
           Text(
             "Phone no: 7900129925",
             textAlign: TextAlign.center,
@@ -127,6 +270,42 @@ class EmergencyContact extends StatelessWidget {
               color: Colors.blue,
               fontSize: 40,
               fontStyle: FontStyle.italic,
+            ),
+          ),
+          Card(
+            elevation: 10,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {
+                launch("tel:9448915301");
+              },
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "Computer Science Dept.",
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.blue,
+                        fontSize: 40,
+                        fontStyle: FontStyle.italic,
+                      ),
+                    ),
+                    Text(
+                      "Phone no:9448915301",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.black),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
             ),
           ),
           Text(
