@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sdmcetassist/screens/home/insidehome/insideContact/administrationContact.dart';
+import 'package:sdmcetassist/screens/home/insidehome/insideContact/emergencyContact.dart';
 import 'package:sdmcetassist/screens/home/insidehome/insideContact/hodContact.dart';
 
 class Contacts extends StatefulWidget {
@@ -38,7 +39,7 @@ class MyTabsState extends State<Contacts> with SingleTickerProviderStateMixin {
             children: [
               AdministrationContact(),
               HodContact(),
-              HodContact(),
+              EmergencyContact(),
               HodContact()
             ],
           ),
