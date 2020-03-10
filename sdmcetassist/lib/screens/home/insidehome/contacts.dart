@@ -31,7 +31,7 @@ class MyTabsState extends State<Contacts> with SingleTickerProviderStateMixin {
         child: Scaffold(
           appBar: AppBar(
             backgroundColor: Colors.blue[300],
-            title: Text("About"),
+            title: Text("Contacts"),
             bottom: menu(),
           ),
           body: TabBarView(
@@ -53,7 +53,7 @@ class MyTabsState extends State<Contacts> with SingleTickerProviderStateMixin {
         Tab(
           child: Flexible(
               child: Text(
-            "SDMCET",
+            "ADMIN",
             textAlign: TextAlign.center,
           )),
           icon: Icon(Icons.account_balance),
@@ -61,10 +61,10 @@ class MyTabsState extends State<Contacts> with SingleTickerProviderStateMixin {
         Tab(
           child: Flexible(
               child: Text(
-            "Management",
+            "HOD",
             textAlign: TextAlign.center,
           )),
-          icon: Icon(Icons.assignment),
+          icon: Icon(Icons.people),
         ),
         Tab(
           child: Flexible(
