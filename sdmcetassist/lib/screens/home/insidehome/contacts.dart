@@ -70,10 +70,10 @@ class MyTabsState extends State<Contacts> with SingleTickerProviderStateMixin {
         Tab(
           child: Flexible(
               child: Text(
-            "Deans",
+            "Emergency",
             textAlign: TextAlign.center,
           )),
-          icon: Icon(Icons.people),
+          icon: Icon(Icons.local_hospital),
         ),
         Tab(
           child: Flexible(
