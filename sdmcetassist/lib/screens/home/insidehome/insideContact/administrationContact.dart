@@ -7,29 +7,17 @@ class AdministrationContact extends StatelessWidget {
     return Container(
       child: ListView(
         children: <Widget>[
-          Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FAnnotation%202020-02-23%20202905.jpg?alt=media&token=714c636d-2d73-4f52-adb6-8711420456a3',
-          ),
           Text(
-            "\nSDMCET,Dharwad.",
+            "Administration's contact",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontWeight: FontWeight.bold,
-              color: Colors.blue,
-              fontSize: 40,
-              fontStyle: FontStyle.normal,
-            ),
+                fontWeight: FontWeight.bold,
+                color: Colors.black,
+                fontSize: 50,
+                decoration: TextDecoration.underline),
           ),
           Text(
-            "\nShri Dharmasthala Manjunatheshwara College of Engineering & Technology, Dharwad was established in the year 1979 under the flagship of SDME Society and has grown into one of the nationally acclaimed premier engineering institutions in the country. The President of SDME Society Padmabhushana Dr. Veerendra Heggade, Dharmadhikari of Sri Kshetra Dharmasthala is the guiding spirit and driving force for all the progress and achievements of all the institutions established under SDME Society. SDME Society runs more than 30 institutions imparting quality education in all over the state including Medical and Dental colleges.\n\n",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 20,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "Quality Policy",
+            "\nAdmin Section",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
@@ -39,137 +27,200 @@ class AdministrationContact extends StatelessWidget {
             ),
           ),
           Text(
-            "\n“In its quest to be a role model institution, committed to meet or exceed the utmost interest of all the stake holders.”\n",
+            "Phone no:- (0836) 2255619 / 2447465 / 2448327 / 2435307 / 24474664",
             textAlign: TextAlign.center,
             style: TextStyle(
-              // /color: Colors.blue,
-              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
           Text(
-            "Core Values",
+            "\nAdmission ",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
               fontSize: 40,
-              fontStyle: FontStyle.normal,
+              fontStyle: FontStyle.italic,
             ),
           ),
           Text(
-            "• Competency\n• Commitment\n• Equity\n• Team work\n• Trust\n",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 25,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "66000+",
+            "Phone no:(0836) 2255619/2464699",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              color: Colors.red,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
           Text(
-            "Printed journals, online publications in partnership with Pearson\n",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 25,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "15000+",
+            "Email:- admissions@sdmcet.ac.in",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              color: Colors.red,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
           Text(
-            "Graduated alumni since 1983\n",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 25,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "1500+",
+            "\nPrincipal",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              color: Colors.red,
+              color: Colors.blue,
               fontSize: 40,
-              fontStyle: FontStyle.normal,
+              fontStyle: FontStyle.italic,
             ),
           ),
           Text(
-            "Students residing on campus.\n",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 25,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "2",
+            "Email:- principal@sdmcet.ac.in",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              color: Colors.red,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
           Text(
-            "Printed journals, online publications in partnership with Pearson\n",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 25,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "10+",
+            "Phone no:-9448057823",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              color: Colors.red,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
           Text(
-            "Memorandums signed with various organizations.\n",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 25,
-              fontStyle: FontStyle.normal,
-            ),
-          ),
-          Text(
-            "Following UG Programs are Accredited by NBA Under Tier-1",
+            "\nDean Administration",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              color: Colors.red,
+              color: Colors.blue,
               fontSize: 40,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+          Text(
+            "Phone no: 7900129925",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
           Text(
-            "Mechanical Engineering \nElectrical & Electronics Engineering \nChemical Engineering \nComputer Science and Engineering\nElectronics and Communication Engineering \nCivil Engineering \nInformation Science and Engineering \n\n SDMCET has been accredited twice by NBA in Past \n",
+            "\nDean Academic Program & Research and Development",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 25,
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+              fontSize: 40,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+          Text(
+            "Phone no: 7900129925",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 30,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "\nDean Infrastructure Planning & Development",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+              fontSize: 40,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+          Text(
+            "Phone no: 7900129925",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 30,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "\nController of Examinations",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+              fontSize: 40,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+          Text(
+            "Phone no: 7900129925",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 30,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "\nAnti-Ragging Helpline",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+              fontSize: 40,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+          Text(
+            "Phone no: +919986660550",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 30,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "\nDept. of Chemistry",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+              fontSize: 40,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+          Text(
+            "Phone no: 7900129925",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 30,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "\nDept. Physics",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+              fontSize: 40,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+          Text(
+            "Phone no: 7900129925\n\n",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
