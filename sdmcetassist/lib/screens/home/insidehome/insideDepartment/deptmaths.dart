@@ -132,7 +132,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
       backgroundColor: Colors.blue[50],
       appBar: AppBar(
         title: Text(
-          'Department of Mathematics', /*style:TextStyle(color:Colors.black)*/
+          'Department of Maths', /*style:TextStyle(color:Colors.black)*/
         ),
         backgroundColor: Colors.blue[300],
         elevation: 10.0,
