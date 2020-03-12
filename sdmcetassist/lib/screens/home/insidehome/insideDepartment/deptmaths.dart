@@ -13,7 +13,7 @@ class DeptMaths extends StatelessWidget {
       backgroundColor: Colors.blue[50],
       appBar: AppBar(
         title: Text(
-          'Department of Mathematics & Humanities', /*style:TextStyle(color:Colors.black)*/
+          'Department of Maths & Humanities', /*style:TextStyle(color:Colors.black)*/
         ),
         backgroundColor: Colors.blue[300],
         elevation: 10.0,
