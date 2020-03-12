@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:url_launcher/url_launcher.dart';
-import 'package:firebase_storage/firebase_storage.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:async';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/fullscreen_image.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:sdmcetassist/shared/loading.dart';
 
 class firstYearUg extends StatelessWidget {
