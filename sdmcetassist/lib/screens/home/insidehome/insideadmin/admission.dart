@@ -86,7 +86,7 @@ class Admission extends StatelessWidget {
                   Text(
                     "CET (Govt.Quota)",
                     style: new TextStyle(
-                        fontSize: 50.0,
+                        fontSize: 20.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
                         color: Colors.blue),
@@ -113,7 +113,7 @@ class Admission extends StatelessWidget {
                   Text(
                     "COMEDK",
                     style: new TextStyle(
-                        fontSize: 50.0,
+                        fontSize: 20.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
                         color: Colors.blue),
@@ -140,7 +140,7 @@ class Admission extends StatelessWidget {
                   Text(
                     "Lateral Entry",
                     style: new TextStyle(
-                        fontSize: 50.0,
+                        fontSize: 20.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
                         color: Colors.blue),
@@ -167,7 +167,7 @@ class Admission extends StatelessWidget {
                   Text(
                     "Management",
                     style: new TextStyle(
-                        fontSize: 50.0,
+                        fontSize: 20.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
                         color: Colors.blue),
@@ -194,7 +194,7 @@ class Admission extends StatelessWidget {
                   Text(
                     "NRI",
                     style: new TextStyle(
-                        fontSize: 50.0,
+                        fontSize: 20.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
                         color: Colors.blue),
@@ -221,7 +221,7 @@ class Admission extends StatelessWidget {
                   Text(
                     "PG M.Tech and MBA",
                     style: new TextStyle(
-                        fontSize: 50.0,
+                        fontSize: 20.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
                         color: Colors.blue),
