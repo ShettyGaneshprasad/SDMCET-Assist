@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-
 import 'package:url_launcher/url_launcher.dart';
-import 'package:firebase_storage/firebase_storage.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:async';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/fullscreen_image.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:sdmcetassist/shared/loading.dart';
 
 class Cse extends StatelessWidget {
@@ -186,7 +183,8 @@ class CseAboutp1 extends StatelessWidget {
                         "Swipe Left for Additional link\n",
                         textAlign: TextAlign.justify,
                         softWrap: true,
-                        style: TextStyle(color: Colors.blueAccent, fontSize: 20),
+                        style:
+                            TextStyle(color: Colors.blueAccent, fontSize: 20),
                       ),
                     ),
                   )

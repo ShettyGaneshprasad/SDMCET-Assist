@@ -1,11 +1,9 @@
 import 'dart:async';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sdmcetassist/shared/loading.dart';
 import 'package:url_launcher/url_launcher.dart';
-
 import 'fullscreen_image.dart';
 
 class EnC extends StatelessWidget {
@@ -51,9 +49,9 @@ class EnC extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                        Navigator.push(
-                          context,
-                        MaterialPageRoute(
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
                           builder: (context) => FacultyDetails()));
                 },
                 splashColor: Colors.lightBlueAccent,
@@ -75,8 +73,8 @@ class EnC extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                                Navigator.push(context,
-                     MaterialPageRoute(builder: (context) => TimeTable()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => TimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -240,7 +238,8 @@ class EncAboutp1 extends StatelessWidget {
                         "Swipe Left for Additional link\n",
                         textAlign: TextAlign.justify,
                         softWrap: true,
-                        style: TextStyle(color: Colors.blueAccent, fontSize: 20),
+                        style:
+                            TextStyle(color: Colors.blueAccent, fontSize: 20),
                       ),
                     ),
                   )
@@ -664,6 +663,7 @@ class EncAboutp1 extends StatelessWidget {
     );
   }
 }
+
 //End of about class
 //start of faculty
 class FacultyDetails extends StatefulWidget {

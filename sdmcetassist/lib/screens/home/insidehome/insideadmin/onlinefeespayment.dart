@@ -23,7 +23,7 @@ class OnlineFeesPayment extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       Text(
-                        "Pay Fees Now",
+                        "Pay Fees",
                         style: new TextStyle(
                             fontSize: 50.0,
                             fontStyle: FontStyle.italic,

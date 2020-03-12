@@ -5,7 +5,6 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/fullscreen_image.dart';
 import 'package:sdmcetassist/shared/loading.dart';
 import 'package:url_launcher/url_launcher.dart';
-
 import 'fullscreen_image.dart';
 
 class EnE extends StatelessWidget {

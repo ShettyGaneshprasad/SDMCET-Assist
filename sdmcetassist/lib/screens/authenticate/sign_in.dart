@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sdmcetassist/screens/authenticate/authenticate.dart';
 import 'package:sdmcetassist/services/auth.dart';
 import 'package:sdmcetassist/shared/constant.dart';
 import 'package:sdmcetassist/shared/loading.dart';

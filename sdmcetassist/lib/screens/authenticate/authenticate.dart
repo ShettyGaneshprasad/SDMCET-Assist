@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:sdmcetassist/screens/authenticate/register.dart';
 import 'package:sdmcetassist/screens/authenticate/sign_in.dart';
 
