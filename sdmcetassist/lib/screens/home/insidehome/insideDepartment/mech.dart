@@ -1,11 +1,9 @@
 import 'dart:async';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sdmcetassist/shared/loading.dart';
 import 'package:url_launcher/url_launcher.dart';
-
 import 'fullscreen_image.dart';
 
 class Mech extends StatelessWidget {
