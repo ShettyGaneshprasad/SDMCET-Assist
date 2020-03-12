@@ -1,11 +1,9 @@
 import 'dart:async';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sdmcetassist/shared/loading.dart';
-
 import 'insideDepartment/fullscreen_image.dart';
 
 class Food extends StatelessWidget {
@@ -23,13 +21,13 @@ class Food extends StatelessWidget {
       body: Container(
         padding: EdgeInsets.all(10.0),
         child: GridView.count(
-           crossAxisCount: 2,
+          crossAxisCount: 2,
           children: <Widget>[
             Card(
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                 Navigator.push(context,
+                  Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Suruchi()));
                 },
                 splashColor: Colors.lightBlueAccent,
@@ -51,7 +49,7 @@ class Food extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                 Navigator.push(context,
+                  Navigator.push(context,
                       MaterialPageRoute(builder: (context) => SantruptiMess()));
                 },
                 splashColor: Colors.lightBlueAccent,
@@ -63,18 +61,21 @@ class Food extends StatelessWidget {
                         Icons.restaurant,
                         size: 50.0,
                       ),
-                      Text("Santrupti Mess", style: new TextStyle(fontSize: 17.0))
+                      Text("Santrupti Mess",
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
               ),
             ),
-           Card(
+            Card(
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => CollegeCafeteria()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => CollegeCafeteria()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -85,7 +86,8 @@ class Food extends StatelessWidget {
                         Icons.restaurant,
                         size: 50.0,
                       ),
-                      Text("College Cafeteria", style: new TextStyle(fontSize: 17.0))
+                      Text("College Cafeteria",
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -107,18 +109,20 @@ class Food extends StatelessWidget {
                         Icons.restaurant,
                         size: 50.0,
                       ),
-                      Text("College Bakery", style: new TextStyle(fontSize: 17.0))
+                      Text("College Bakery",
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
               ),
             ),
-            ],
+          ],
         ),
       ),
     );
   }
 }
+
 //Start of Santrupti Mess class
 class Suruchi extends StatefulWidget {
   _Suruchi createState() => new _Suruchi();
@@ -190,7 +194,8 @@ class _Suruchi extends State<Suruchi> {
               )
             : new Loading());
   }
-}//end of Santrupti Mess class
+} //end of Santrupti Mess class
+
 //Start of Santrupti Mess class
 class SantruptiMess extends StatefulWidget {
   _SantruptiMess createState() => new _SantruptiMess();
@@ -262,7 +267,8 @@ class _SantruptiMess extends State<SantruptiMess> {
               )
             : new Loading());
   }
-}//end of Santrupti Mess class
+} //end of Santrupti Mess class
+
 //Start of College Cafeteria class
 class CollegeCafeteria extends StatefulWidget {
   _CollegeCafeteria createState() => new _CollegeCafeteria();
@@ -334,7 +340,8 @@ class _CollegeCafeteria extends State<CollegeCafeteria> {
               )
             : new Loading());
   }
-}//end of college cafeteria class
+} //end of college cafeteria class
+
 //Start of College Bakery class
 class CollegeBakery extends StatefulWidget {
   _CollegeBakery createState() => new _CollegeBakery();
