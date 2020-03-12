@@ -15,7 +15,7 @@ class DeptMaths extends StatelessWidget {
       backgroundColor: Colors.blue[50],
       appBar: AppBar(
         title: Text(
-          'Department of Mathematics', /*style:TextStyle(color:Colors.black)*/
+          'Department of Mathematics & Humanities', /*style:TextStyle(color:Colors.black)*/
         ),
         backgroundColor: Colors.blue[300],
         elevation: 10.0,
@@ -676,7 +676,7 @@ class _FacultyDetails extends State<FacultyDetails> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISEFacultyDetails");
+      Firestore.instance.collection("DeptMaths&Humanities");
 
   @override
   void initState() {
