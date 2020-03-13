@@ -99,6 +99,19 @@ class DropDownState extends State<Navigation> {
     });
   }
 
+  String _setImage() {
+    String _mTitle = "${_selectedSource.name}";
+
+    if (_mTitle == "ganesh") {
+      return "assets/mobil_hello/goodmorrning.jpg";
+    } else if (_mTitle == "shetty") {
+      return "https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Dr%20S.G%20Ankaliki%20E%26E.jpg?alt=media&token=63cfed31-14c7-4ed9-a692-61edab8edaae";
+    }
+
+    print("_mTitle: $_mTitle"); // works
+    // works
+  }
+
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blue[50],
@@ -130,6 +143,7 @@ class DropDownState extends State<Navigation> {
             ),
             SizedBox(height: 20.0),
             Text('selected: ${_selectedDestination.name}'),
+            Image.network(_setImage())
           ],
         ),
       ),
