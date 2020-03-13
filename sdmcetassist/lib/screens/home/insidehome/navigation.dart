@@ -107,9 +107,6 @@ class DropDownState extends State<Navigation> {
     } else if (_mTitle == "shetty") {
       return "https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Dr%20S.G%20Ankaliki%20E%26E.jpg?alt=media&token=63cfed31-14c7-4ed9-a692-61edab8edaae";
     }
-
-    print("_mTitle: $_mTitle"); // works
-    // works
   }
 
   Widget build(BuildContext context) {
