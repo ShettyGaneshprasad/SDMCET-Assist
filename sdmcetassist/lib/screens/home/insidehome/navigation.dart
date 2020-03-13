@@ -9,49 +9,93 @@ class Navigation extends StatefulWidget {
   DropDownState createState() => DropDownState();
 }
 
-class Company {
+class Source {
   int id;
   String name;
-  Company(this.id, this.name);
+  Source(this.id, this.name);
 
-  static List<Company> getCompanies() {
-    return <Company>[
-      Company(1, 'ganesh'),
-      Company(2, 'gaensh'),
-      Company(3, 'khsdv'),
-      Company(4, 'sjdhv'),
-      Company(5, 'sdhv'),
-      Company(6, 'shetty'),
+  static List<Source> getSource() {
+    return <Source>[
+      Source(1, 'ganesh'),
+      Source(2, 'gaensh'),
+      Source(3, 'khsdv'),
+      Source(4, 'sjdhv'),
+      Source(5, 'sdhv'),
+      Source(6, 'shetty'),
+    ];
+  }
+}
+
+class Destination {
+  int id;
+  String name;
+  Destination(this.id, this.name);
+
+  static List<Destination> getDestination() {
+    return <Destination>[
+      Destination(1, 'ganesh'),
+      Destination(2, 'gaensh'),
+      Destination(3, 'khsdv'),
+      Destination(4, 'sjdhv'),
+      Destination(5, 'sdhv'),
+      Destination(6, 'shetty'),
     ];
   }
 }
 
 class DropDownState extends State<Navigation> {
-  List<Company> _companies = Company.getCompanies();
-  List<DropdownMenuItem<Company>> _dropDownMenuItems;
-  Company _selectedCompany;
+  List<Source> _source = Source.getSource();
+  List<Destination> _destination = Destination.getDestination();
+
+  List<DropdownMenuItem<Source>> _dropDownMenuItemsSource;
+  List<DropdownMenuItem<Destination>> _dropDownMenuItemsDestination;
+
+  Source _selectedSource;
+  Destination _selectedDestination;
 
   @override
   void initState() {
-    _dropDownMenuItems = buildDropdownmenuItems(_companies);
-    _selectedCompany = _dropDownMenuItems[0].value;
+    _dropDownMenuItemsSource = buildDropdownmenuItemsSource(_source);
+    _dropDownMenuItemsDestination =
+        buildDropdownmenuItemsDestination(_destination);
+
+    _selectedSource = _dropDownMenuItemsSource[0].value;
+    _selectedDestination = _dropDownMenuItemsDestination[0].value;
     super.initState();
   }
 
-  List<DropdownMenuItem<Company>> buildDropdownmenuItems(List companies) {
-    List<DropdownMenuItem<Company>> items = List();
-    for (Company company in companies) {
+  List<DropdownMenuItem<Source>> buildDropdownmenuItemsSource(List sources) {
+    List<DropdownMenuItem<Source>> itemsSource = List();
+    for (Source source in sources) {
+      itemsSource.add(DropdownMenuItem(
+        value: source,
+        child: Text(source.name),
+      ));
+    }
+    return itemsSource;
+  }
+
+  List<DropdownMenuItem<Destination>> buildDropdownmenuItemsDestination(
+      List destinations) {
+    List<DropdownMenuItem<Destination>> items = List();
+    for (Destination destination in destinations) {
       items.add(DropdownMenuItem(
-        value: company,
-        child: Text(company.name),
+        value: destination,
+        child: Text(destination.name),
       ));
     }
     return items;
   }
 
-  onChangeDropdownItem(Company selectedCompany) {
+  onChangeDropdownItemSource(Source selectedSource) {
     setState(() {
-      _selectedCompany = selectedCompany;
+      _selectedSource = selectedSource;
+    });
+  }
+
+  onChangeDropdownItemDestination(Destination selectedDestination) {
+    setState(() {
+      _selectedDestination = selectedDestination;
     });
   }
 
@@ -68,15 +112,24 @@ class DropDownState extends State<Navigation> {
       body: new Container(
         child: Column(
           children: <Widget>[
-            Text("select a comany"),
+            Text("select a Source"),
             SizedBox(height: 20.0),
             DropdownButton(
-              items: _dropDownMenuItems,
-              onChanged: onChangeDropdownItem,
-              value: _selectedCompany,
+              items: _dropDownMenuItemsSource,
+              onChanged: onChangeDropdownItemSource,
+              value: _selectedSource,
             ),
             SizedBox(height: 20.0),
-            Text('selected: ${_selectedCompany.name}'),
+            Text('selected: ${_selectedSource.name}'),
+            Text("select a Destination"),
+            SizedBox(height: 20.0),
+            DropdownButton(
+              items: _dropDownMenuItemsDestination,
+              onChanged: onChangeDropdownItemDestination,
+              value: _selectedDestination,
+            ),
+            SizedBox(height: 20.0),
+            Text('selected: ${_selectedDestination.name}'),
           ],
         ),
       ),
