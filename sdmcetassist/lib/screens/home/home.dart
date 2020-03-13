@@ -41,6 +41,7 @@ class Home extends StatelessWidget {
       drawer: new Drawer(
         elevation: 100,
         child: ListView(
+          padding: EdgeInsets.only(bottom: 200, top: 30),
           children: <Widget>[
             /* UserAccountsDrawerHeader(
               accountName: new Text(
@@ -50,7 +51,7 @@ class Home extends StatelessWidget {
               accountEmail: new Text("acc email"),
             ),*/
             Container(
-              padding: EdgeInsets.all(20.0),
+              //padding: EdgeInsets.all(20.0),
               height: 140,
               decoration: BoxDecoration(
                   image: DecorationImage(
