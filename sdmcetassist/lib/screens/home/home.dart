@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sdmcetassist/screens/home/insidehome/about.dart';
+import 'package:sdmcetassist/screens/home/insidehome/aboutDeveloper.dart';
 import 'package:sdmcetassist/screens/home/insidehome/administration.dart';
 import 'package:sdmcetassist/screens/home/insidehome/contacts.dart';
 import 'package:sdmcetassist/screens/home/insidehome/food.dart';
@@ -76,7 +77,11 @@ class Home extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.person),
-              title: Text("Profile"),
+              title: Text("About Developer"),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => AboutDeveloper()));
+              },
             ),
             ListTile(
               leading: Icon(Icons.person),
