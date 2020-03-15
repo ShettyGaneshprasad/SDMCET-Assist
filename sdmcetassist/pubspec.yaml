@@ -32,6 +32,7 @@ dependencies:
   firebase_core:
   firebase_analytics:
   url_launcher:
+  font_awesome_flutter:
 
 dev_dependencies:
   flutter_test:
