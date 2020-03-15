@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:sdmcetassist/screens/home/insidehome/about.dart';
 import 'package:sdmcetassist/screens/home/insidehome/aboutDeveloper.dart';
 import 'package:sdmcetassist/screens/home/insidehome/administration.dart';
@@ -40,68 +41,110 @@ class Home extends StatelessWidget {
         ],
       ),
       drawer: new Drawer(
-        elevation: 100,
-        child: ListView(
-          padding: EdgeInsets.only(bottom: 200, top: 30),
-          children: <Widget>[
-            /* UserAccountsDrawerHeader(
-              accountName: new Text(
-                "acc name",
-                style: new TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
-              ),
-              accountEmail: new Text("acc email"),
-            ),*/
-            Container(
-              //padding: EdgeInsets.all(20.0),
-              height: 140,
-              decoration: BoxDecoration(
-                  image: DecorationImage(
-                image: ExactAssetImage('assets/madebycse.jpg'),
-                fit: BoxFit.fitHeight,
-              )),
+          elevation: 100,
+          child: Container(
+            color: Colors.blue[100],
+            child: ListView(
+              padding: EdgeInsets.only(bottom: 200, top: 30),
+              children: <Widget>[
+                Container(
+                  //padding: EdgeInsets.all(20.0),
+                  height: 140,
+                  decoration: BoxDecoration(
+                      image: DecorationImage(
+                    image: ExactAssetImage('assets/madebycse.jpg'),
+                    fit: BoxFit.fitHeight,
+                  )),
+                ),
+                ListTile(
+                  leading: Icon(
+                    Icons.public,
+                    color: Colors.black,
+                  ),
+                  title: Text(" College's Official Website"),
+                  onTap: () {
+                    launch('https://sdmcet.ac.in');
+                  },
+                ),
+                ListTile(
+                  leading: FaIcon(
+                    FontAwesomeIcons.linkedin,
+                    color: Colors.blue,
+                  ),
+                  title: Text("Linkedin"),
+                  onTap: () {
+                    launch(
+                        'https://www.linkedin.com/school/sdm-college-of-engg-&-tech-dharwad/about/');
+                  },
+                ),
+                ListTile(
+                  leading: FaIcon(
+                    FontAwesomeIcons.youtube,
+                    color: Colors.red,
+                  ),
+                  title: Text("College's Youtube channel"),
+                  onTap: () {
+                    launch(
+                        'https://www.youtube.com/channel/UCYuupsA7tts1Edy0kotGTUg');
+                  },
+                ),
+                ListTile(
+                  leading: FaIcon(
+                    FontAwesomeIcons.instagram,
+                    color: Colors.purple,
+                  ),
+                  title: Text("officialinsignia"),
+                  onTap: () {
+                    launch('https://www.instagram.com/officialinsignia/');
+                  },
+                ),
+                ListTile(
+                  leading: FaIcon(
+                    FontAwesomeIcons.facebookSquare,
+                    color: Colors.blue,
+                  ),
+                  title: Text("SDMCET"),
+                  onTap: () {
+                    launch(
+                        'https://m.facebook.com/profile.php?id=108137289220258');
+                  },
+                ),
+                ListTile(
+                  leading: FaIcon(
+                    FontAwesomeIcons.facebookSquare,
+                    color: Colors.blue,
+                  ),
+                  title: Text("Sdmcet Alumni"),
+                  onTap: () {
+                    launch('https://www.facebook.com/sdmcetalumni/');
+                  },
+                ),
+                ListTile(
+                  leading: FaIcon(
+                    FontAwesomeIcons.facebookSquare,
+                    color: Colors.blue,
+                  ),
+                  title: Text("SDMCET Media Official"),
+                  onTap: () {
+                    launch('https://www.facebook.com/SDMCETMEDIAOFFICIAL/');
+                  },
+                ),
+                ListTile(
+                  leading: FaIcon(
+                    FontAwesomeIcons.code,
+                    color: Colors.black,
+                  ),
+                  title: Text("About Developer"),
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => AboutDeveloper()));
+                  },
+                ),
+              ],
             ),
-            ListTile(
-              leading: Icon(Icons.public),
-              title: Text(" College's Official Website"),
-              onTap: () {
-                launch('https://sdmcet.ac.in');
-              },
-            ),
-            ListTile(
-              leading: Icon(Icons.person),
-              title: Text("College's Youtube channel"),
-              onTap: () {
-                launch(
-                    'https://www.youtube.com/channel/UCYuupsA7tts1Edy0kotGTUg');
-              },
-            ),
-            ListTile(
-              leading: Icon(Icons.person),
-              title: Text("About Developer"),
-              onTap: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => AboutDeveloper()));
-              },
-            ),
-            ListTile(
-              leading: Icon(Icons.person),
-              title: Text("Profile"),
-            ),
-            ListTile(
-              leading: Icon(Icons.person),
-              title: Text("Profile"),
-            ),
-            ListTile(
-              leading: Icon(Icons.person),
-              title: Text("Profile"),
-            ),
-            ListTile(
-              leading: Icon(Icons.person),
-              title: Text("Profile"),
-            )
-          ],
-        ),
-      ),
+          )),
       body: Container(
         padding: EdgeInsets.all(20.0),
         child: GridView.count(
