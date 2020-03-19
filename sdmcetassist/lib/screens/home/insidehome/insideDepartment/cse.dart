@@ -126,7 +126,7 @@ class Cse extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       Icon(
-                        Icons.warning,
+                        Icons.av_timer,
                         size: 50.0,
                       ),
                       Text("Teacher's Time Table", style: new TextStyle(fontSize: 17.0))
