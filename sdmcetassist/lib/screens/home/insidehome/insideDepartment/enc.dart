@@ -104,7 +104,7 @@ class EnC extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       Icon(
-                        Icons.access_time,
+                        Icons.warning,
                         size: 50.0,
                       ),
                       Text("Notice", style: new TextStyle(fontSize: 17.0))
