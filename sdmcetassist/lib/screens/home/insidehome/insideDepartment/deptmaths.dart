@@ -87,7 +87,7 @@ class DeptMaths extends StatelessWidget {
                         Icons.access_time,
                         size: 50.0,
                       ),
-                      Text("Time Table", style: new TextStyle(fontSize: 17.0))
+                      Text("Student's Time Table", style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -97,8 +97,8 @@ class DeptMaths extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                  //        Navigator.push(context,
-                  //              MaterialPageRoute(builder: (context) => Contacts()));
+                          Navigator.push(context,
+                                MaterialPageRoute(builder: (context) => Notice()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -110,6 +110,28 @@ class DeptMaths extends StatelessWidget {
                         size: 50.0,
                       ),
                       Text("Notice", style: new TextStyle(fontSize: 17.0))
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Card(
+              margin: EdgeInsets.all(8.0),
+              child: InkWell(
+                onTap: () {
+                          Navigator.push(context,
+                                MaterialPageRoute(builder: (context) => TeacherTimeTable()));
+                },
+                splashColor: Colors.lightBlueAccent,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Icon(
+                        Icons.av_timer,
+                        size: 50.0,
+                      ),
+                      Text("Teacher's Time Table", style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -519,7 +541,7 @@ class _TimeTable extends State<TimeTable> {
         backgroundColor: Colors.blue[50],
         appBar: AppBar(
           title: Text(
-            'Department of Mathematics', /*style:TextStyle(color:Colors.black)*/
+            'Dept. of Maths & Humanities', /*style:TextStyle(color:Colors.black)*/
           ),
           backgroundColor: Colors.blue[300],
           elevation: 10.0,
@@ -593,7 +615,7 @@ class _FacultyDetails extends State<FacultyDetails> {
         backgroundColor: Colors.blue[50],
         appBar: AppBar(
           title: Text(
-            'Department of Mathematics', /*style:TextStyle(color:Colors.black)*/
+            'Dept. of Maths & Humanities', /*style:TextStyle(color:Colors.black)*/
           ),
           backgroundColor: Colors.blue[300],
           elevation: 10.0,
@@ -632,3 +654,149 @@ class _FacultyDetails extends State<FacultyDetails> {
   }
 }
 //end of faculty details
+//start of Teacher's Time Table
+class TeacherTimeTable extends StatefulWidget {
+  _TeacherTimeTable createState() => new _TeacherTimeTable();
+}
+
+class _TeacherTimeTable extends State<TeacherTimeTable> {
+  StreamSubscription<QuerySnapshot> subscription;
+  List<DocumentSnapshot> timeTable;
+
+  final CollectionReference collectionReference =
+      Firestore.instance.collection("DeptMaths&Humanities");
+
+  @override
+  void initState() {
+    super.initState();
+    subscription = collectionReference.snapshots().listen((datasnapshot) {
+      setState(() {
+        timeTable = datasnapshot.documents;
+      });
+    });
+  }
+
+  @override
+  void dispose() {
+    subscription?.cancel();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        backgroundColor: Colors.blue[50],
+        appBar: AppBar(
+          title: Text(
+            'Dept. of Maths & Humanities', /*style:TextStyle(color:Colors.black)*/
+          ),
+          backgroundColor: Colors.blue[300],
+          elevation: 10.0,
+        ),
+        body: timeTable != null
+            ? new StaggeredGridView.countBuilder(
+                padding: const EdgeInsets.all(9.0),
+                crossAxisCount: 1,
+                itemCount: timeTable.length,
+                itemBuilder: (context, i) {
+                  String imgPath = timeTable[i].data['url'];
+                  return new Material(
+                      elevation: 10.0,
+                      borderRadius:
+                          new BorderRadius.all(new Radius.circular(20.0)),
+                      child: new InkWell(
+                        onTap: () => Navigator.push(
+                            context,
+                            new MaterialPageRoute(
+                                builder: (context) =>
+                                    new FullScreenImagePage(imgPath))),
+                        child: Hero(
+                          tag: imgPath,
+                          child: new FadeInImage(
+                            placeholder: new AssetImage("assets/sdmlogo.jpg"),
+                            image: new NetworkImage(imgPath),
+                          ),
+                        ),
+                      ));
+                },
+                staggeredTileBuilder: (i) => new StaggeredTile.count(1, 1),
+                mainAxisSpacing: 2.0,
+                crossAxisSpacing: 2.0,
+              )
+            : new Loading());
+  }
+}
+//end of Teacher's Time Table
+//start of Notice
+class Notice extends StatefulWidget {
+  _Notice createState() => new _Notice();
+}
+
+class _Notice extends State<Notice> {
+  StreamSubscription<QuerySnapshot> subscription;
+  List<DocumentSnapshot> timeTable;
+
+  final CollectionReference collectionReference =
+      Firestore.instance.collection("DeptMaths&Humanities");
+
+  @override
+  void initState() {
+    super.initState();
+    subscription = collectionReference.snapshots().listen((datasnapshot) {
+      setState(() {
+        timeTable = datasnapshot.documents;
+      });
+    });
+  }
+
+  @override
+  void dispose() {
+    subscription?.cancel();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        backgroundColor: Colors.blue[50],
+        appBar: AppBar(
+          title: Text(
+            'Dept. of Maths & Humanities', /*style:TextStyle(color:Colors.black)*/
+          ),
+          backgroundColor: Colors.blue[300],
+          elevation: 10.0,
+        ),
+        body: timeTable != null
+            ? new StaggeredGridView.countBuilder(
+                padding: const EdgeInsets.all(9.0),
+                crossAxisCount: 1,
+                itemCount: timeTable.length,
+                itemBuilder: (context, i) {
+                  String imgPath = timeTable[i].data['url'];
+                  return new Material(
+                      elevation: 10.0,
+                      borderRadius:
+                          new BorderRadius.all(new Radius.circular(20.0)),
+                      child: new InkWell(
+                        onTap: () => Navigator.push(
+                            context,
+                            new MaterialPageRoute(
+                                builder: (context) =>
+                                    new FullScreenImagePage(imgPath))),
+                        child: Hero(
+                          tag: imgPath,
+                          child: new FadeInImage(
+                            placeholder: new AssetImage("assets/sdmlogo.jpg"),
+                            image: new NetworkImage(imgPath),
+                          ),
+                        ),
+                      ));
+                },
+                staggeredTileBuilder: (i) => new StaggeredTile.count(1, 1),
+                mainAxisSpacing: 2.0,
+                crossAxisSpacing: 2.0,
+              )
+            : new Loading());
+  }
+}
+//end of Notice
