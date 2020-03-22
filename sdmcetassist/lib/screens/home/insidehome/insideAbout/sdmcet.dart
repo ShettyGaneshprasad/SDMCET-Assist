@@ -17,15 +17,15 @@ class Sdmcet extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
-              fontStyle: FontStyle.normal,
+              fontSize: 30,
+              fontStyle: FontStyle.italic,
             ),
           ),
           Text(
             "\nShri Dharmasthala Manjunatheshwara College of Engineering & Technology, Dharwad was established in the year 1979 under the flagship of SDME Society and has grown into one of the nationally acclaimed premier engineering institutions in the country. The President of SDME Society Padmabhushana Dr. Veerendra Heggade, Dharmadhikari of Sri Kshetra Dharmasthala is the guiding spirit and driving force for all the progress and achievements of all the institutions established under SDME Society. SDME Society runs more than 30 institutions imparting quality education in all over the state including Medical and Dental colleges.\n\n",
             textAlign: TextAlign.justify,
             style: TextStyle(
-              fontSize: 20,
+              fontSize: 15,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -35,7 +35,7 @@ class Sdmcet extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.italic,
             ),
           ),
@@ -44,7 +44,7 @@ class Sdmcet extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyle(
               // /color: Colors.blue,
-              fontSize: 25,
+              fontSize: 15,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -54,7 +54,7 @@ class Sdmcet extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -62,7 +62,7 @@ class Sdmcet extends StatelessWidget {
             "• Competency\n• Commitment\n• Equity\n• Team work\n• Trust\n",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 25,
+              fontSize: 20,
               fontStyle: FontStyle.normal,
             ),
           ),
