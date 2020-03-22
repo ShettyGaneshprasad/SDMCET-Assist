@@ -14,7 +14,7 @@ class Admission extends StatelessWidget {
           style: TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.blue,
-            fontSize: 40,
+            fontSize: 25,
             fontStyle: FontStyle.normal,
           ),
         ),
@@ -32,7 +32,7 @@ class Admission extends StatelessWidget {
           style: TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.blue,
-            fontSize: 30,
+            fontSize: 25,
             fontStyle: FontStyle.normal,
           ),
         ),
@@ -50,7 +50,7 @@ class Admission extends StatelessWidget {
           style: TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.blue,
-            fontSize: 30,
+            fontSize: 25,
             fontStyle: FontStyle.normal,
           ),
         ),
@@ -86,7 +86,7 @@ class Admission extends StatelessWidget {
                   Text(
                     "CET (Govt.Quota)",
                     style: new TextStyle(
-                        fontSize: 20.0,
+                        fontSize: 25.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
                         color: Colors.blue),
@@ -113,7 +113,7 @@ class Admission extends StatelessWidget {
                   Text(
                     "COMEDK",
                     style: new TextStyle(
-                        fontSize: 20.0,
+                        fontSize: 25.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
                         color: Colors.blue),
@@ -140,7 +140,7 @@ class Admission extends StatelessWidget {
                   Text(
                     "Lateral Entry",
                     style: new TextStyle(
-                        fontSize: 20.0,
+                        fontSize: 25.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
                         color: Colors.blue),
@@ -167,7 +167,7 @@ class Admission extends StatelessWidget {
                   Text(
                     "Management",
                     style: new TextStyle(
-                        fontSize: 20.0,
+                        fontSize: 25.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
                         color: Colors.blue),
@@ -194,7 +194,7 @@ class Admission extends StatelessWidget {
                   Text(
                     "NRI",
                     style: new TextStyle(
-                        fontSize: 20.0,
+                        fontSize: 25.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
                         color: Colors.blue),
@@ -238,7 +238,7 @@ class Admission extends StatelessWidget {
           style: TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.blue,
-            fontSize: 30,
+            fontSize: 25,
             fontStyle: FontStyle.normal,
           ),
         ),
