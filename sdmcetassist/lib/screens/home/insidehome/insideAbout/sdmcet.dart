@@ -80,7 +80,7 @@ class Sdmcet extends StatelessWidget {
             "Printed journals, online publications in partnership with Pearson\n",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 25,
+              fontSize: 20,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -98,7 +98,7 @@ class Sdmcet extends StatelessWidget {
             "Graduated alumni since 1983\n",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 25,
+              fontSize: 20,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -116,7 +116,7 @@ class Sdmcet extends StatelessWidget {
             "Students residing on campus.\n",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 25,
+              fontSize: 20,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -134,7 +134,7 @@ class Sdmcet extends StatelessWidget {
             "Printed journals, online publications in partnership with Pearson\n",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 25,
+              fontSize: 20,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -152,7 +152,7 @@ class Sdmcet extends StatelessWidget {
             "Memorandums signed with various organizations.\n",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 25,
+              fontSize: 20,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -170,7 +170,7 @@ class Sdmcet extends StatelessWidget {
             "Mechanical Engineering \nElectrical & Electronics Engineering \nChemical Engineering \nComputer Science and Engineering\nElectronics and Communication Engineering \nCivil Engineering \nInformation Science and Engineering \n\n SDMCET has been accredited twice by NBA in Past \n",
             textAlign: TextAlign.center,
             style: TextStyle(
-              fontSize: 25,
+              fontSize: 20,
               fontStyle: FontStyle.normal,
             ),
           ),
