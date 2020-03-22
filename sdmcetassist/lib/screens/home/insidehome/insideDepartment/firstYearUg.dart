@@ -40,7 +40,8 @@ class firstYearUg extends StatelessWidget {
                         Icons.access_time,
                         size: 50.0,
                       ),
-                      Text("Student's Time Table", style: new TextStyle(fontSize: 17.0))
+                      Text("Student's Time Table",
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -50,8 +51,8 @@ class firstYearUg extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                         Navigator.push(context,
-                                MaterialPageRoute(builder: (context) => Notice()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => FyNotice()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -72,8 +73,10 @@ class firstYearUg extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                          Navigator.push(context,
-                               MaterialPageRoute(builder: (context) => TeachersTimeTable()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => TeachersTimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -84,7 +87,8 @@ class firstYearUg extends StatelessWidget {
                         Icons.av_timer,
                         size: 50.0,
                       ),
-                      Text("Teacher's Time Table ", style: new TextStyle(fontSize: 17.0))
+                      Text("Teacher's Time Table ",
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -169,6 +173,7 @@ class _FirstYTimeTable extends State<FirstYTimeTable> {
             : new Loading());
   }
 }
+
 //end of class S tudents time Table
 //start of  Teachers timmetable
 class TeachersTimeTable extends StatefulWidget {
@@ -242,13 +247,14 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
             : new Loading());
   }
 }
+
 //end of Teacher's time Table
 //start of  Notice
-class Notice extends StatefulWidget {
-  _Notice createState() => new _Notice();
+class FyNotice extends StatefulWidget {
+  _FyNotice createState() => new _FyNotice();
 }
 
-class _Notice extends State<Notice> {
+class _FyNotice extends State<FyNotice> {
   StreamSubscription<QuerySnapshot> subscription;
   List<DocumentSnapshot> timeTable;
 
