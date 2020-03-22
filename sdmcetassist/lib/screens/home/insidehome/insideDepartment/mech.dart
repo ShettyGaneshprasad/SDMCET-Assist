@@ -85,7 +85,8 @@ class Mech extends StatelessWidget {
                         Icons.access_time,
                         size: 50.0,
                       ),
-                      Text("Student's Time Table", style: new TextStyle(fontSize: 17.0))
+                      Text("Student's Time Table",
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -95,8 +96,8 @@ class Mech extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                          Navigator.push(context,
-                                MaterialPageRoute(builder: (context) => Notice()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => MechNotice()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -117,8 +118,10 @@ class Mech extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                          Navigator.push(context,
-                                MaterialPageRoute(builder: (context) => TeachersTimeTable()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => TeachersTimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -129,7 +132,8 @@ class Mech extends StatelessWidget {
                         Icons.av_timer,
                         size: 50.0,
                       ),
-                      Text("Teacher's Time Table", style: new TextStyle(fontSize: 17.0))
+                      Text("Teacher's Time Table",
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -837,11 +841,11 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
 //End of  Teacher's TimeTable Class
 //class Notice
 
-class Notice extends StatefulWidget {
-  _Notice createState() => new _Notice();
+class MechNotice extends StatefulWidget {
+  _MechNotice createState() => new _MechNotice();
 }
 
-class _Notice extends State<Notice> {
+class _MechNotice extends State<MechNotice> {
   StreamSubscription<QuerySnapshot> subscription;
   List<DocumentSnapshot> timeTable;
 
