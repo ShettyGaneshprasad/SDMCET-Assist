@@ -52,7 +52,7 @@ class OnlineFeesPayment extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
-                fontSize: 30,
+                fontSize: 25,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -60,7 +60,7 @@ class OnlineFeesPayment extends StatelessWidget {
               "\n1. Enter your USN in the space for user ID\n2. Enter your date of birth as the password\n3. Then click on the Login button.\n4. The details will be displayed.\n5. Click on – I agree and Initiate payment.\n6. Select the mode of paymen.\n",
               textAlign: TextAlign.justify,
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 18,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -70,7 +70,7 @@ class OnlineFeesPayment extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.red,
-                fontSize: 30,
+                fontSize: 25,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -78,7 +78,7 @@ class OnlineFeesPayment extends StatelessWidget {
               "\n1. Please ensure to take admission, only if eligible for next semester.\n\n2. Please ensure that your USN, name of the student, Year/semester of study & amount are correct.\n\n3. The application to be filled by the student are available in your respective department and will be given after producing the fee payment receipt.\n\n4. Admission procedure is deemed to be ‘complete’ only after filled in application is submitted to the respective department, along with photocopy of fee paid receipt.\n\n5. Students belonging to special fee category/bank loan are advised to contact admission section.\n\n",
               textAlign: TextAlign.justify,
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 17,
                 fontStyle: FontStyle.normal,
               ),
             ),
