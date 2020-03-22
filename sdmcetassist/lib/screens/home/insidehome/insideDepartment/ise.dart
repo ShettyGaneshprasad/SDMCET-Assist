@@ -85,7 +85,8 @@ class Ise extends StatelessWidget {
                         Icons.access_time,
                         size: 50.0,
                       ),
-                      Text("Student's Time Table", style: new TextStyle(fontSize: 17.0))
+                      Text("Student's Time Table",
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -95,8 +96,8 @@ class Ise extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                          Navigator.push(context,
-                               MaterialPageRoute(builder: (context) => Notice()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => IseNotice()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -117,8 +118,10 @@ class Ise extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                         Navigator.push(context,
-                                MaterialPageRoute(builder: (context) => TeachersTimeTable()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => TeachersTimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -129,7 +132,8 @@ class Ise extends StatelessWidget {
                         Icons.warning,
                         size: 50.0,
                       ),
-                      Text("Teacher's Time Table", style: new TextStyle(fontSize: 17.0))
+                      Text("Teacher's Time Table",
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -732,6 +736,7 @@ class _FacultyDetails extends State<FacultyDetails> {
             : new Loading());
   }
 }
+
 //end of faculty details
 //Start of class time table
 class TeachersTimeTable extends StatefulWidget {
@@ -805,13 +810,14 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
             : new Loading());
   }
 }
+
 //end of Teacher's TimeTable
 //Start of Notice
-class Notice extends StatefulWidget {
-  _Notice createState() => new _Notice();
+class IseNotice extends StatefulWidget {
+  _IseNotice createState() => new _IseNotice();
 }
 
-class _Notice extends State<Notice> {
+class _IseNotice extends State<IseNotice> {
   StreamSubscription<QuerySnapshot> subscription;
   List<DocumentSnapshot> timeTable;
 
