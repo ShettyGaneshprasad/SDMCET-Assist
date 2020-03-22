@@ -14,7 +14,7 @@ class CertificateFromAdmin extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -34,7 +34,7 @@ class CertificateFromAdmin extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -54,7 +54,7 @@ class CertificateFromAdmin extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -74,7 +74,7 @@ class CertificateFromAdmin extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -94,7 +94,7 @@ class CertificateFromAdmin extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -114,7 +114,7 @@ class CertificateFromAdmin extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -134,7 +134,7 @@ class CertificateFromAdmin extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
