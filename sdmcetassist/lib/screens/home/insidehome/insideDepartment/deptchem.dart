@@ -87,7 +87,8 @@ class DeptChem extends StatelessWidget {
                         Icons.access_time,
                         size: 50.0,
                       ),
-                      Text("Student's Time Table", style: new TextStyle(fontSize: 17.0))
+                      Text("Student's Time Table",
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -97,8 +98,8 @@ class DeptChem extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                          Navigator.push(context,
-                                MaterialPageRoute(builder: (context) => Notice()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => DChemNotice()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -119,8 +120,10 @@ class DeptChem extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                          Navigator.push(context,
-                               MaterialPageRoute(builder: (context) => TeachersTimeTable()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => TeachersTimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -131,7 +134,8 @@ class DeptChem extends StatelessWidget {
                         Icons.av_timer,
                         size: 50.0,
                       ),
-                      Text("Teacher's Time Table", style: new TextStyle(fontSize: 17.0))
+                      Text("Teacher's Time Table",
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -653,6 +657,7 @@ class _FacultyDetails extends State<FacultyDetails> {
             : new Loading());
   }
 }
+
 //end of faculty details
 //Start of Teacher's time table
 class TeachersTimeTable extends StatefulWidget {
@@ -730,11 +735,11 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
 //end of class Teacher's TimeTable
 //Start class Notice
 
-class Notice extends StatefulWidget {
-  _Notice createState() => new _Notice();
+class DChemNotice extends StatefulWidget {
+  _DChemNotice createState() => new _DChemNotice();
 }
 
-class _Notice extends State<Notice> {
+class _DChemNotice extends State<DChemNotice> {
   StreamSubscription<QuerySnapshot> subscription;
   List<DocumentSnapshot> timeTable;
 
