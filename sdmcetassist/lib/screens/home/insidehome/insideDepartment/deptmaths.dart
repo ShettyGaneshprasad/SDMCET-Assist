@@ -87,7 +87,8 @@ class DeptMaths extends StatelessWidget {
                         Icons.access_time,
                         size: 50.0,
                       ),
-                      Text("Student's Time Table", style: new TextStyle(fontSize: 17.0))
+                      Text("Student's Time Table",
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -97,8 +98,8 @@ class DeptMaths extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                          Navigator.push(context,
-                                MaterialPageRoute(builder: (context) => Notice()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => DMathsNotice()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -119,8 +120,10 @@ class DeptMaths extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                          Navigator.push(context,
-                                MaterialPageRoute(builder: (context) => TeacherTimeTable()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => TeacherTimeTable()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -131,7 +134,8 @@ class DeptMaths extends StatelessWidget {
                         Icons.av_timer,
                         size: 50.0,
                       ),
-                      Text("Teacher's Time Table", style: new TextStyle(fontSize: 17.0))
+                      Text("Teacher's Time Table",
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -653,6 +657,7 @@ class _FacultyDetails extends State<FacultyDetails> {
             : new Loading());
   }
 }
+
 //end of faculty details
 //start of Teacher's Time Table
 class TeacherTimeTable extends StatefulWidget {
@@ -726,13 +731,14 @@ class _TeacherTimeTable extends State<TeacherTimeTable> {
             : new Loading());
   }
 }
+
 //end of Teacher's Time Table
 //start of Notice
-class Notice extends StatefulWidget {
-  _Notice createState() => new _Notice();
+class DMathsNotice extends StatefulWidget {
+  _DMathsNotice createState() => new _DMathsNotice();
 }
 
-class _Notice extends State<Notice> {
+class _DMathsNotice extends State<DMathsNotice> {
   StreamSubscription<QuerySnapshot> subscription;
   List<DocumentSnapshot> timeTable;
 
