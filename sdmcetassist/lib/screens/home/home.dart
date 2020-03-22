@@ -307,16 +307,28 @@ class Home extends StatelessWidget {
                 ),
               ),
             ),
-
-            /*Container(
-              child: PageView(
-                children: <Widget>[
-                  Text("sedvsfb"),
-                  Text("sedvsfb"),
-                  Text("sedvsfb"),
-                ],
+            Card(
+              margin: EdgeInsets.all(8.0),
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Transport()));
+                },
+                splashColor: Colors.lightBlueAccent,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Icon(
+                        Icons.notification_important,
+                        size: 50.0,
+                      ),
+                      Text("Notice", style: new TextStyle(fontSize: 17.0))
+                    ],
+                  ),
+                ),
               ),
-            )*/
+            ),
           ],
         ),
       ),
