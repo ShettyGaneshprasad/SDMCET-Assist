@@ -14,7 +14,7 @@ class _Notice extends State<Notice> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("FirstYearTimeTable");
+      Firestore.instance.collection("MainNotice");
 
   @override
   void initState() {
@@ -38,7 +38,7 @@ class _Notice extends State<Notice> {
         backgroundColor: Colors.blue[50],
         appBar: AppBar(
           title: Text(
-            'Computer Science Department', /*style:TextStyle(color:Colors.black)*/
+            'Main College Notice', /*style:TextStyle(color:Colors.black)*/
           ),
           backgroundColor: Colors.blue[300],
           elevation: 10.0,
