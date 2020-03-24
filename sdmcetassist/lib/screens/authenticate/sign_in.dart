@@ -44,7 +44,7 @@ class _SignInState extends State<SignIn> {
               padding: EdgeInsets.symmetric(vertical: 80.0, horizontal: 30.0),
               child: Form(
                 key: _formKey,
-                child: Column(
+                child: Wrap(
                   children: <Widget>[
                     SizedBox(height: 1.0),
                     TextFormField(
