@@ -12,7 +12,7 @@ class Chinfye extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           Image.network(
-              'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Developer%2Fganeshshetty.jpg?alt=media&token=16a60483-afef-4e2b-a693-89ebfc7e9b4f'),
+              'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Developer%2Fchinmayeaboutdev-min.jpg?alt=media&token=f948cf62-c0a2-4a82-a3f3-7c9c3ea74cc7'),
           Text(
             "Chinmayee Joshi",
             style: new TextStyle(
@@ -70,7 +70,7 @@ class Chinfye extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://www.linkedin.com/in/shetty-ganeshprasad-955599184/');
+                            'https://www.linkedin.com/in/chinmayee-chinnu-30b979189');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Row(
