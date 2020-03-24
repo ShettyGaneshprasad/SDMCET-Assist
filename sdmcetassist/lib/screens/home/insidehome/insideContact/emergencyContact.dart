@@ -15,7 +15,7 @@ class EmergencyContact extends StatelessWidget {
             style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.black,
-                fontSize: 50,
+                fontSize: 30,
                 decoration: TextDecoration.underline),
           ),
           Text(
@@ -45,14 +45,14 @@ class EmergencyContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no: 0836-2447465",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -81,14 +81,14 @@ class EmergencyContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no: 100",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -117,14 +117,14 @@ class EmergencyContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no: 101 / 0836-2442496",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -153,14 +153,14 @@ class EmergencyContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no:9448915301",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -189,14 +189,14 @@ class EmergencyContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no:0836-2477777",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -225,14 +225,14 @@ class EmergencyContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no:0836-2477088",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -261,14 +261,14 @@ class EmergencyContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no:9986660550",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
