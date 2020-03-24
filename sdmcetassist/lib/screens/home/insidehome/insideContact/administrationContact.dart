@@ -15,7 +15,7 @@ class AdministrationContact extends StatelessWidget {
             style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.black,
-                fontSize: 50,
+                fontSize: 30,
                 decoration: TextDecoration.underline),
           ),
           Text(
@@ -45,14 +45,14 @@ class AdministrationContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no:- (0836) 2255619 / 2447465 / 2448327 / 2435307 / 24474664",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -81,14 +81,14 @@ class AdministrationContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no:(0836) 2255619/\n2464699",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -114,7 +114,7 @@ class AdministrationContact extends StatelessWidget {
                     Text(
                       "admissions@sdmcet.ac.in",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -131,7 +131,7 @@ class AdministrationContact extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 20,
               fontStyle: FontStyle.italic,
             ),
           ),
@@ -153,14 +153,14 @@ class AdministrationContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no:9448057823",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -186,7 +186,7 @@ class AdministrationContact extends StatelessWidget {
                     Text(
                       "principal@sdmcet.ac.in",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -203,7 +203,7 @@ class AdministrationContact extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.italic,
             ),
           ),
@@ -225,14 +225,14 @@ class AdministrationContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no:7900129925",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -261,14 +261,14 @@ class AdministrationContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no:94dhbdgn23",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -297,14 +297,14 @@ class AdministrationContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no:stjnfdh823",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -333,14 +333,14 @@ class AdministrationContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no:94fsbdfgb",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
@@ -369,14 +369,14 @@ class AdministrationContact extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.blue,
-                        fontSize: 40,
+                        fontSize: 30,
                         fontStyle: FontStyle.italic,
                       ),
                     ),
                     Text(
                       "Phone no:9448057823",
                       style: new TextStyle(
-                          fontSize: 30.0,
+                          fontSize: 20.0,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w600,
                           color: Colors.black),
