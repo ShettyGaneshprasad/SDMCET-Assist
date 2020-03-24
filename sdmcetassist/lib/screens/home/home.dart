@@ -5,6 +5,7 @@ import 'package:sdmcetassist/screens/home/insidehome/aboutDeveloper.dart';
 import 'package:sdmcetassist/screens/home/insidehome/administration.dart';
 import 'package:sdmcetassist/screens/home/insidehome/contacts.dart';
 import 'package:sdmcetassist/screens/home/insidehome/food.dart';
+import 'package:sdmcetassist/screens/home/insidehome/notice.dart';
 import 'package:sdmcetassist/screens/home/insidehome/transport.dart';
 import 'package:sdmcetassist/screens/home/insidehome/navigation.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -313,8 +314,8 @@ class Home extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                  //    Navigator.push(context,
-                  //      MaterialPageRoute(builder: (context) => Transport()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Notice()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
