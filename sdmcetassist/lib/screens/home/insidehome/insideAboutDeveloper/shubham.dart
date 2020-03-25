@@ -33,7 +33,7 @@ class Shubham extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           Text(
-            "Ph :7099014444",
+            "Ph :7903278178",
             style: new TextStyle(
                 fontSize: 20.0,
                 fontStyle: FontStyle.normal,
@@ -130,7 +130,7 @@ class Shubham extends StatelessWidget {
                     margin: EdgeInsets.all(20.0),
                     child: InkWell(
                       onTap: () {
-                        launch('https://wa.me/+917099014444');
+                        launch('https://wa.me/+917033014444');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Row(
