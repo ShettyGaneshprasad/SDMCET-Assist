@@ -12,7 +12,7 @@ class Shubham extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Developer%2Fshubham.jpg?alt=media&token=1fee331f-3279-4385-ac4b-9f206efd9fff',
+            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Developer%2FShubhamKumar.jpg?alt=media&token=c2dd8811-cc82-46be-b113-b823a0c9bba0',
             fit: BoxFit.fill,
           ),
           Text(
@@ -33,7 +33,7 @@ class Shubham extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           Text(
-            "Ph :7099014444",
+            "Ph :7903278178",
             style: new TextStyle(
                 fontSize: 20.0,
                 fontStyle: FontStyle.normal,
@@ -72,7 +72,7 @@ class Shubham extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://www.linkedin.com/in/shetty-ganeshprasad-955599184/');
+                            'https://www.linkedin.com/in/shubham-kumar-8ba277193/');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Row(
@@ -91,7 +91,7 @@ class Shubham extends StatelessWidget {
                     margin: EdgeInsets.all(20.0),
                     child: InkWell(
                       onTap: () {
-                        launch('https://www.instagram.com/_g4nesh.shetty_/');
+                        launch('https://www.instagram.com/_shubham_kumar_00/');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Row(
@@ -111,7 +111,7 @@ class Shubham extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://www.facebook.com/ganeshshetty.santhosh');
+                            'https://www.facebook.com/profile.php?id=100010257605542');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Row(
@@ -130,7 +130,7 @@ class Shubham extends StatelessWidget {
                     margin: EdgeInsets.all(20.0),
                     child: InkWell(
                       onTap: () {
-                        launch('https://wa.me/+917099014444');
+                        launch('https://wa.me/+917033014444');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Row(
