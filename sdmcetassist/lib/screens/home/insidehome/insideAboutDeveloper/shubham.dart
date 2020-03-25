@@ -12,7 +12,7 @@ class Shubham extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Developer%2Fshubham.jpg?alt=media&token=1fee331f-3279-4385-ac4b-9f206efd9fff',
+            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Developer%2Fshubhamabtdev.jpeg?alt=media&token=5ab7371c-d7f3-4879-8677-f324c0948657',
             fit: BoxFit.fill,
           ),
           Text(
@@ -72,7 +72,7 @@ class Shubham extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://www.linkedin.com/in/shetty-ganeshprasad-955599184/');
+                            'https://www.linkedin.com/in/shubham-kumar-8ba277193/');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Row(
@@ -91,7 +91,7 @@ class Shubham extends StatelessWidget {
                     margin: EdgeInsets.all(20.0),
                     child: InkWell(
                       onTap: () {
-                        launch('https://www.instagram.com/_g4nesh.shetty_/');
+                        launch('https://www.instagram.com/_shubham_kumar_00/');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Row(
@@ -111,7 +111,7 @@ class Shubham extends StatelessWidget {
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://www.facebook.com/ganeshshetty.santhosh');
+                            'https://www.facebook.com/profile.php?id=100010257605542');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Row(
