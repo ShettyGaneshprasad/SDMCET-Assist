@@ -6,8 +6,10 @@ class MDSearch extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.blue[100],
       appBar: AppBar(
         title: Text("Search location"),
+        backgroundColor: Colors.blue[300],
         actions: <Widget>[
           IconButton(
               icon: Icon(Icons.search),
@@ -165,6 +167,7 @@ class DataSearch1 extends SearchDelegate<String> {
           onPressed: () {
             query = "";
           })
+          
     ];
   }
 
@@ -187,14 +190,16 @@ class DataSearch1 extends SearchDelegate<String> {
     // TODO: implement buildResults
     //show result based on selection
 
-    return Card(
+    return TeachersTimeTable()
+   
+    /*Card(
       elevation: 10,
       margin: EdgeInsets.all(8.0),
       child: InkWell(
         onTap: () {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => TeacherTimeTable()),
+            MaterialPageRoute(builder: (context) => TeachersTimeTable()),
           );
         },
         splashColor: Colors.lightBlueAccent,
@@ -203,7 +208,7 @@ class DataSearch1 extends SearchDelegate<String> {
           children: <Widget>[
             Flexible(
               child: Text(
-                query,
+                this.query,
                 style: new TextStyle(fontSize: 25.0),
                 textAlign: TextAlign.center,
               ),
@@ -214,7 +219,8 @@ class DataSearch1 extends SearchDelegate<String> {
 
         // child: Text(query),
       ),
-    );
+    )*/
+    ;
   }
 
   @override
