@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
-import 'PlaceScreen.dart';
+import 'PlaceScreen8.dart';
 import 'PlaceScreen9.dart';
 
 class MorningScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.blue[100],
       appBar: AppBar(
         title: Text('Morning session'),
         backgroundColor: Colors.blue[300],
         elevation: 10.0,
       ),
       body: Container(
-        padding: EdgeInsets.all(20.0),
+        padding: EdgeInsets.all(5.0),
         child: ListView(
           children: <Widget>[
             Card(
@@ -22,7 +23,7 @@ class MorningScreen extends StatelessWidget {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => PlaceScreen()),
+                    MaterialPageRoute(builder: (context) => PlaceScreen8()),
                   );
                 },
                 splashColor: Colors.lightBlueAccent,
