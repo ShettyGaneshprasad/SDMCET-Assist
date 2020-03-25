@@ -5,11 +5,11 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sdmcetassist/shared/loading.dart';
 import 'ImagePage.dart';
 
-class TeacherTimeTable extends StatefulWidget {
+class TeachersTimeTable extends StatefulWidget {
   _TeachersTimeTable createState() => new _TeachersTimeTable();
 }
 
-class _TeachersTimeTable extends State<TeacherTimeTable> {
+class _TeachersTimeTable extends State<TeachersTimeTable> {
   StreamSubscription<QuerySnapshot> subscription;
   List<DocumentSnapshot> timeTable;
 
