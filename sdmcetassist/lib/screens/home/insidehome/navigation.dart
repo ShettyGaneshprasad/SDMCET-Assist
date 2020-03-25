@@ -120,7 +120,8 @@ class DropDownState extends State<Navigation> {
     String _source = "${_selectedSource.name}";
     String _destination = "${_selectedDestination.name}";
 
-    if (_source == "CSE" && _destination == "ISE") {
+    if (_source == "CSE" && _destination == "ISE" ||
+        _source == "ISE" && _destination == "CSE") {
       return Card(
         elevation: 5,
         margin: EdgeInsets.all(13.0),
@@ -135,7 +136,7 @@ class DropDownState extends State<Navigation> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 Text(
-                  "CSE TO ISE",
+                  "CSE <-> ISE",
                   style: new TextStyle(
                       fontSize: 30.0,
                       fontStyle: FontStyle.italic,
@@ -148,7 +149,8 @@ class DropDownState extends State<Navigation> {
           ),
         ),
       );
-    } else if (_source == "CSE" && _destination == "E&C") {
+    } else if (_source == "CSE" && _destination == "E&C" ||
+        _source == "E&C" && _destination == "CSE") {
       return Card(
         elevation: 5,
         margin: EdgeInsets.all(13.0),
@@ -177,7 +179,8 @@ class DropDownState extends State<Navigation> {
         ),
       );
     } else {
-      if (_source == "CSE" && _destination == "CIVIL") {
+      if (_source == "CSE" && _destination == "CIVIL" ||
+          _source == "CIVIL" && _destination == "CSE") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
@@ -205,7 +208,8 @@ class DropDownState extends State<Navigation> {
             ),
           ),
         );
-      } else if (_source == "CSE" && _destination == "CHEMICAL") {
+      } else if (_source == "CSE" && _destination == "CHEMICAL" ||
+          _source == "CHEMICAL" && _destination == "CSE") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
@@ -233,7 +237,8 @@ class DropDownState extends State<Navigation> {
             ),
           ),
         );
-      } else if (_source == "CSE" && _destination == "MECHANICAL") {
+      } else if (_source == "CSE" && _destination == "MECHANICAL" ||
+          _source == "MECHANICAL" && _destination == "CSE") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
@@ -261,7 +266,8 @@ class DropDownState extends State<Navigation> {
             ),
           ),
         );
-      } else if (_source == "CSE" && _destination == "DEPT. OF PHYSIC") {
+      } else if (_source == "CSE" && _destination == "DEPT. OF PHYSIC" ||
+          _source == "DEPT. OF PHYSIC" && _destination == "CSE") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
@@ -289,7 +295,8 @@ class DropDownState extends State<Navigation> {
             ),
           ),
         );
-      } else if (_source == "CSE" && _destination == "DEPT. OF MATHS") {
+      } else if (_source == "CSE" && _destination == "DEPT. OF MATHS" ||
+          _source == "DEPT. OF MATHS" && _destination == "CSE") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
@@ -317,7 +324,8 @@ class DropDownState extends State<Navigation> {
             ),
           ),
         );
-      } else if (_source == "CSE" && _destination == "ENE") {
+      } else if (_source == "CSE" && _destination == "ENE" ||
+          _source == "ENE" && _destination == "CSE") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
@@ -344,36 +352,9 @@ class DropDownState extends State<Navigation> {
               ),
             ),
           ),
-        ); ////END OF CSE POSIBILITY
-      } else if (_source == "CSE" && _destination == "CHEM") {
-        return Card(
-          elevation: 5,
-          margin: EdgeInsets.all(13.0),
-          child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-            },
-            splashColor: Colors.lightBlueAccent,
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Text(
-                    "<->",
-                    style: new TextStyle(
-                        fontSize: 30.0,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
-                    textAlign: TextAlign.center,
-                  )
-                ],
-              ),
-            ),
-          ),
         );
-      } else if (_source == "CSE" && _destination == "DEPT. OF CHEM") {
+      } else if (_source == "CSE" && _destination == "DEPT. OF CHEM" ||
+          _source == "DEPT. OF CHEM" && _destination == "CSE") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
@@ -401,286 +382,7 @@ class DropDownState extends State<Navigation> {
             ),
           ),
         );
-      } else if (_source == "CSE" && _destination == "CHEM") {
-        return Card(
-          elevation: 5,
-          margin: EdgeInsets.all(13.0),
-          child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-            },
-            splashColor: Colors.lightBlueAccent,
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Text(
-                    "GO",
-                    style: new TextStyle(
-                        fontSize: 30.0,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
-                    textAlign: TextAlign.center,
-                  )
-                ],
-              ),
-            ),
-          ),
-        );
-      } else if (_source == "CSE" && _destination == "CHEM") {
-        return Card(
-          elevation: 5,
-          margin: EdgeInsets.all(13.0),
-          child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-            },
-            splashColor: Colors.lightBlueAccent,
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Text(
-                    "GO",
-                    style: new TextStyle(
-                        fontSize: 30.0,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
-                    textAlign: TextAlign.center,
-                  )
-                ],
-              ),
-            ),
-          ),
-        );
-      } else if (_source == "CSE" && _destination == "CHEM") {
-        return Card(
-          elevation: 5,
-          margin: EdgeInsets.all(13.0),
-          child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-            },
-            splashColor: Colors.lightBlueAccent,
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Text(
-                    "GO",
-                    style: new TextStyle(
-                        fontSize: 30.0,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
-                    textAlign: TextAlign.center,
-                  )
-                ],
-              ),
-            ),
-          ),
-        );
-      } else if (_source == "CSE" && _destination == "CHEM") {
-        return Card(
-          elevation: 5,
-          margin: EdgeInsets.all(13.0),
-          child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-            },
-            splashColor: Colors.lightBlueAccent,
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Text(
-                    "GO",
-                    style: new TextStyle(
-                        fontSize: 30.0,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
-                    textAlign: TextAlign.center,
-                  )
-                ],
-              ),
-            ),
-          ),
-        );
-      } else if (_source == "CSE" && _destination == "CHEM") {
-        return Card(
-          elevation: 5,
-          margin: EdgeInsets.all(13.0),
-          child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-            },
-            splashColor: Colors.lightBlueAccent,
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Text(
-                    "GO",
-                    style: new TextStyle(
-                        fontSize: 30.0,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
-                    textAlign: TextAlign.center,
-                  )
-                ],
-              ),
-            ),
-          ),
-        );
-      } else if (_source == "CSE" && _destination == "CHEM") {
-        return Card(
-          elevation: 5,
-          margin: EdgeInsets.all(13.0),
-          child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-            },
-            splashColor: Colors.lightBlueAccent,
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Text(
-                    "GO",
-                    style: new TextStyle(
-                        fontSize: 30.0,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
-                    textAlign: TextAlign.center,
-                  )
-                ],
-              ),
-            ),
-          ),
-        );
-      } else if (_source == "CSE" && _destination == "CHEM") {
-        return Card(
-          elevation: 5,
-          margin: EdgeInsets.all(13.0),
-          child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-            },
-            splashColor: Colors.lightBlueAccent,
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Text(
-                    "GO",
-                    style: new TextStyle(
-                        fontSize: 30.0,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
-                    textAlign: TextAlign.center,
-                  )
-                ],
-              ),
-            ),
-          ),
-        );
-      } else if (_source == "CSE" && _destination == "CHEM") {
-        return Card(
-          elevation: 5,
-          margin: EdgeInsets.all(13.0),
-          child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-            },
-            splashColor: Colors.lightBlueAccent,
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Text(
-                    "GO",
-                    style: new TextStyle(
-                        fontSize: 30.0,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
-                    textAlign: TextAlign.center,
-                  )
-                ],
-              ),
-            ),
-          ),
-        );
-      } else if (_source == "CSE" && _destination == "CHEM") {
-        return Card(
-          elevation: 5,
-          margin: EdgeInsets.all(13.0),
-          child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-            },
-            splashColor: Colors.lightBlueAccent,
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Text(
-                    "GO",
-                    style: new TextStyle(
-                        fontSize: 30.0,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
-                    textAlign: TextAlign.center,
-                  )
-                ],
-              ),
-            ),
-          ),
-        );
-      } else if (_source == "CSE" && _destination == "CHEM") {
-        return Card(
-          elevation: 5,
-          margin: EdgeInsets.all(13.0),
-          child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-            },
-            splashColor: Colors.lightBlueAccent,
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Text(
-                    "GO",
-                    style: new TextStyle(
-                        fontSize: 30.0,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
-                    textAlign: TextAlign.center,
-                  )
-                ],
-              ),
-            ),
-          ),
-        );
+        ////end of cse to  all
       } else
         return Card(
           elevation: 5,
