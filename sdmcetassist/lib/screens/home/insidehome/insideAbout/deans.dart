@@ -54,7 +54,7 @@ class Deans extends StatelessWidget {
             ),
           ),
           Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FDeanPic%2Favkulkarni.jpg?alt=media&token=0969c4f1-49da-44b3-bc0f-5bc6f7df9533',
+            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FDeanPic%2Favkulkarni-min.jpg?alt=media&token=08120e5f-7af1-42fb-810e-20b3ba21dc71',
             fit: BoxFit.contain,
           ),
           Text(
@@ -78,7 +78,7 @@ class Deans extends StatelessWidget {
             ),
           ),
           Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FDeanPic%2Framesh.jpg?alt=media&token=76871f51-2dee-470c-9828-16483b48afa6',
+            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FDeanPic%2Framesh-min.jpg?alt=media&token=e34f99d0-91b9-43ba-85b5-3a412637ef39',
             fit: BoxFit.contain,
           ),
           Text(
@@ -102,7 +102,7 @@ class Deans extends StatelessWidget {
             ),
           ),
           Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FDeanPic%2FProf.-Clement-Chelli.jpg?alt=media&token=a73739a4-9090-4235-a2d3-d676b8a3434b',
+            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FDeanPic%2FProf.-Clement-Chelli-min.jpg?alt=media&token=d89dbb2f-79f2-4d47-a14a-b3df378e589b',
             fit: BoxFit.contain,
           ),
           Text(
@@ -126,7 +126,7 @@ class Deans extends StatelessWidget {
             ),
           ),
           Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FDeanPic%2FSavitri-Raju.jpg?alt=media&token=1d86ae78-ab4d-4932-b00a-fffd8b4a1a64',
+            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FDeanPic%2FSavitri-Raju-min.jpg?alt=media&token=36899e96-1823-4249-8931-ccf78e338c26',
             fit: BoxFit.contain,
           ),
         ],
