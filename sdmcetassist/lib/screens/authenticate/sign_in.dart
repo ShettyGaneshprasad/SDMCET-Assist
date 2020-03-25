@@ -22,9 +22,9 @@ class _SignInState extends State<SignIn> {
     return loading
         ? Loading()
         : Scaffold(
-            backgroundColor: Colors.blue[300],
+            backgroundColor: Colors.blue[100],
             appBar: AppBar(
-              backgroundColor: Colors.blue[700],
+              backgroundColor: Colors.blue[300],
               elevation: 10.0,
               title: Text('Sign in to SDMCET Assist'),
               actions: <Widget>[
