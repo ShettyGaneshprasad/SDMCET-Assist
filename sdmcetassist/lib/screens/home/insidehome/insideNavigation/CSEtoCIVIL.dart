@@ -5,16 +5,16 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/fullscreen_image.dart';
 import 'package:sdmcetassist/shared/loading.dart';
 
-class CSEtoISE extends StatefulWidget {
-  _CSEtoISE createState() => new _CSEtoISE();
+class CSEtoCIVIL extends StatefulWidget {
+  _CSEtoCIVIL createState() => new _CSEtoCIVIL();
 }
 
-class _CSEtoISE extends State<CSEtoISE> {
+class _CSEtoCIVIL extends State<CSEtoCIVIL> {
   StreamSubscription<QuerySnapshot> subscription;
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("CSEtoISE");
+      Firestore.instance.collection("CSEtoCIVIL");
 
   @override
   void initState() {

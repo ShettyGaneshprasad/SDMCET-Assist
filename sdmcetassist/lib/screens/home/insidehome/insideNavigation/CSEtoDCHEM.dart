@@ -5,16 +5,16 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/fullscreen_image.dart';
 import 'package:sdmcetassist/shared/loading.dart';
 
-class CSEtoISE extends StatefulWidget {
-  _CSEtoISE createState() => new _CSEtoISE();
+class CSEtoDCHEM extends StatefulWidget {
+  _CSEtoDCHEM createState() => new _CSEtoDCHEM();
 }
 
-class _CSEtoISE extends State<CSEtoISE> {
+class _CSEtoDCHEM extends State<CSEtoDCHEM> {
   StreamSubscription<QuerySnapshot> subscription;
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("CSEtoISE");
+      Firestore.instance.collection("CSEtoDCHEM");
 
   @override
   void initState() {
@@ -38,7 +38,7 @@ class _CSEtoISE extends State<CSEtoISE> {
         backgroundColor: Colors.blue[50],
         appBar: AppBar(
           title: Text(
-            'Computer Science Department', /*style:TextStyle(color:Colors.black)*/
+            'Way to your destination', /*style:TextStyle(color:Colors.black)*/
           ),
           backgroundColor: Colors.blue[300],
           elevation: 10.0,

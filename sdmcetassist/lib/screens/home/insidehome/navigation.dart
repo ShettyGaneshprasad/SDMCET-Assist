@@ -1,6 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:sdmcetassist/screens/home/insidehome/insideNavigation/CSEtoISE.dart';
+import 'insideNavigation/CSETOENC.dart';
+import 'insideNavigation/CSEtoCIVIL.dart';
+import 'insideNavigation/CSEtoDCHEM.dart';
+import 'insideNavigation/CSEtoDMATHS.dart';
+import 'insideNavigation/CSEtoDPHYSICS.dart';
+import 'insideNavigation/CSEtoENE.dart';
+import 'insideNavigation/CSEtoISE.dart';
+import 'insideNavigation/CSEtoCHEM.dart';
+import 'insideTransport/CSEtoMECH.dart';
 
 class Navigation extends StatefulWidget {
   Navigation() : super();
@@ -20,14 +28,13 @@ class Source {
       Source(1, 'CSE'),
       Source(2, 'ISE'),
       Source(3, 'E&C'),
-      Source(4, 'CIVIL'),
-      Source(5, 'CHEM'),
-      Source(6, 'DPHYSICS'),
-      Source(7, 'DMATHS'),
-      Source(8, 'DCHEM'),
-      Source(9, 'CHEMICAL'),
-      Source(10, 'MECH'),
-      Source(11, 'E&E'),
+      Source(4, 'E&E'),
+      Source(5, 'CHEMICAL'),
+      Source(6, 'MECHANICAL'),
+      Source(7, 'CIVIL'),
+      Source(8, 'DEPT. OF CHEM'),
+      Source(9, 'DEPT. OF PHYSIC'),
+      Source(10, 'DEPT. OF MATHS'),
     ];
   }
 }
@@ -42,14 +49,13 @@ class Destination {
       Destination(1, 'CSE'),
       Destination(2, 'ISE'),
       Destination(3, 'E&C'),
-      Destination(4, 'CIVIL'),
-      Destination(5, 'CHEM'),
-      Destination(6, 'DPHYSIC'),
-      Destination(7, 'DMATHS'),
-      Destination(8, 'DCHEM'),
-      Destination(9, 'CHEMICAL'),
-      Destination(10, 'MECH'),
-      Destination(11, 'E&E'),
+      Destination(4, 'E&E'),
+      Destination(5, 'CHEMICAL'),
+      Destination(6, 'MECHANICAL'),
+      Destination(7, 'CIVIL'),
+      Destination(8, 'DEPT. OF CHEM'),
+      Destination(9, 'DEPT. OF PHYSIC'),
+      Destination(10, 'DEPT. OF MATHS'),
     ];
   }
 }
@@ -114,7 +120,8 @@ class DropDownState extends State<Navigation> {
     String _source = "${_selectedSource.name}";
     String _destination = "${_selectedDestination.name}";
 
-    if (_source == "CSE" && _destination == "ISE") {
+    if (_source == "CSE" && _destination == "ISE" ||
+        _source == "ISE" && _destination == "CSE") {
       return Card(
         elevation: 5,
         margin: EdgeInsets.all(13.0),
@@ -129,7 +136,7 @@ class DropDownState extends State<Navigation> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 Text(
-                  "CSE TO ISE",
+                  "CSE <-> ISE",
                   style: new TextStyle(
                       fontSize: 30.0,
                       fontStyle: FontStyle.italic,
@@ -142,14 +149,15 @@ class DropDownState extends State<Navigation> {
           ),
         ),
       );
-    } else if (_source == "CSE" && _destination == "CIVIL") {
+    } else if (_source == "CSE" && _destination == "E&C" ||
+        _source == "E&C" && _destination == "CSE") {
       return Card(
         elevation: 5,
         margin: EdgeInsets.all(13.0),
         child: InkWell(
           onTap: () {
             Navigator.push(
-                context, MaterialPageRoute(builder: (context) => CSEtoISE()));
+                context, MaterialPageRoute(builder: (context) => CSEtoENC()));
           },
           splashColor: Colors.lightBlueAccent,
           child: Center(
@@ -157,7 +165,7 @@ class DropDownState extends State<Navigation> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 Text(
-                  "GO",
+                  "CSE <-> ENC",
                   style: new TextStyle(
                       fontSize: 30.0,
                       fontStyle: FontStyle.italic,
@@ -171,7 +179,211 @@ class DropDownState extends State<Navigation> {
         ),
       );
     } else {
-      if (_source == "CSE" && _destination == "E&E") {
+      if (_source == "CSE" && _destination == "CIVIL" ||
+          _source == "CIVIL" && _destination == "CSE") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => CSEtoCIVIL()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CSE <-> CIVIL",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      } else if (_source == "CSE" && _destination == "CHEMICAL" ||
+          _source == "CHEMICAL" && _destination == "CSE") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => CSEtoCHEM()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CSE <-> CHEMICAL",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      } else if (_source == "CSE" && _destination == "MECHANICAL" ||
+          _source == "MECHANICAL" && _destination == "CSE") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => CSEtoMECH()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CSE <-> MECHANICAL",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      } else if (_source == "CSE" && _destination == "DEPT. OF PHYSIC" ||
+          _source == "DEPT. OF PHYSIC" && _destination == "CSE") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => CSEtoDPHYSICS()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CSE <-> DEPT. OF PHYSIC",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      } else if (_source == "CSE" && _destination == "DEPT. OF MATHS" ||
+          _source == "DEPT. OF MATHS" && _destination == "CSE") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => CSEtoDMATHS()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CSE <-> DEPT. OF MATHS",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      } else if (_source == "CSE" && _destination == "ENE" ||
+          _source == "ENE" && _destination == "CSE") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => CSEtoENE()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CSE <-> E&E",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      } else if (_source == "CSE" && _destination == "DEPT. OF CHEM" ||
+          _source == "DEPT. OF CHEM" && _destination == "CSE") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => CSEtoDCHEM()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CSE <-> DEPT. OF CHEM",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+        ////end of cse to  all
+      } else
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
@@ -186,12 +398,12 @@ class DropDownState extends State<Navigation> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "GO",
+                    "INVALID!!",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
+                        color: Colors.red),
                     textAlign: TextAlign.center,
                   )
                 ],
@@ -199,101 +411,7 @@ class DropDownState extends State<Navigation> {
             ),
           ),
         );
-      } else if (_source == "CSE" && _destination == "CHEM") {
-        return Card(
-          elevation: 5,
-          margin: EdgeInsets.all(13.0),
-          child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-            },
-            splashColor: Colors.lightBlueAccent,
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Text(
-                    "GO",
-                    style: new TextStyle(
-                        fontSize: 30.0,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
-                    textAlign: TextAlign.center,
-                  )
-                ],
-              ),
-            ),
-          ),
-        );
-      } else {
-        return Card(
-          elevation: 5,
-          margin: EdgeInsets.all(13.0),
-          child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-            },
-            splashColor: Colors.lightBlueAccent,
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Text(
-                    "GO",
-                    style: new TextStyle(
-                        fontSize: 30.0,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
-                    textAlign: TextAlign.center,
-                  )
-                ],
-              ),
-            ),
-          ),
-        );
-      }
     }
-    return Card(
-      elevation: 5,
-      margin: EdgeInsets.all(13.0),
-      child: InkWell(
-        onTap: () {
-          Navigator.push(
-              context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-        },
-        splashColor: Colors.lightBlueAccent,
-        child: Center(
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: <Widget>[
-              Text(
-                "LAST",
-                style: new TextStyle(
-                    fontSize: 30.0,
-                    fontStyle: FontStyle.italic,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.blueAccent),
-                textAlign: TextAlign.center,
-              )
-            ],
-          ),
-        ),
-      ),
-    );
-
-    /*String _setImage() {
-    String _mTitle = "${_selectedSource.name}";
-
-    if (_mTitle == "ganesh") {
-      return "assets/mobil_hello/goodmorrning.jpg";
-    } else if (_mTitle == "shetty") {
-      return "https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Dr%20S.G%20Ankaliki%20E%26E.jpg?alt=media&token=63cfed31-14c7-4ed9-a692-61edab8edaae";
-    }
-  }*/
   }
 
   Widget build(BuildContext context) {
@@ -330,13 +448,24 @@ class DropDownState extends State<Navigation> {
                   iconSize: 60,
                 ),
                 SizedBox(height: 20.0),
-                Text('selected: ${_selectedSource.name}'),
-                Text("select a Destination"),
+                // Text('selected: ${_selectedSource.name}'),
+                Text(
+                  "\nSelect Your Destination",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blue,
+                    fontSize: 20,
+                    fontStyle: FontStyle.normal,
+                  ),
+                ),
                 SizedBox(height: 20.0),
                 DropdownButton(
                   items: _dropDownMenuItemsDestination,
                   onChanged: onChangeDropdownItemDestination,
                   value: _selectedDestination,
+                  autofocus: true,
+                  iconSize: 60,
                 ),
                 SizedBox(height: 20.0),
                 Text('selected: ${_selectedDestination.name}'),
