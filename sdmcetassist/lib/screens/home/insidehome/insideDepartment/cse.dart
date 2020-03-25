@@ -636,7 +636,7 @@ class CseAboutp1 extends StatelessWidget {
 }
 //end of about section
 
-//start of class timmetable
+//start of class timetable
 class TimeTable extends StatefulWidget {
   _TimeTable createState() => new _TimeTable();
 }
