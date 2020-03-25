@@ -28,14 +28,13 @@ class Source {
       Source(1, 'CSE'),
       Source(2, 'ISE'),
       Source(3, 'E&C'),
-      Source(4, 'CIVIL'),
-      Source(5, 'CHEM'),
-      Source(6, 'DPHYSICS'),
-      Source(7, 'DMATHS'),
-      Source(8, 'DCHEM'),
-      Source(9, 'CHEMICAL'),
-      Source(10, 'MECH'),
-      Source(11, 'E&E'),
+      Source(4, 'E&E'),
+      Source(5, 'CHEMICAL'),
+      Source(6, 'MECHANICAL'),
+      Source(7, 'CIVIL'),
+      Source(8, 'DEPT. OF CHEM'),
+      Source(9, 'DEPT. OF PHYSIC'),
+      Source(10, 'DEPT. OF MATHS'),
     ];
   }
 }
@@ -50,14 +49,13 @@ class Destination {
       Destination(1, 'CSE'),
       Destination(2, 'ISE'),
       Destination(3, 'E&C'),
-      Destination(4, 'CIVIL'),
-      Destination(5, 'CHEM'),
-      Destination(6, 'DPHYSIC'),
-      Destination(7, 'DMATHS'),
-      Destination(8, 'DCHEM'),
-      Destination(9, 'CHEMICAL'),
-      Destination(10, 'MECH'),
-      Destination(11, 'E&E'),
+      Destination(4, 'E&E'),
+      Destination(5, 'CHEMICAL'),
+      Destination(6, 'MECHANICAL'),
+      Destination(7, 'CIVIL'),
+      Destination(8, 'DEPT. OF CHEM'),
+      Destination(9, 'DEPT. OF PHYSIC'),
+      Destination(10, 'DEPT. OF MATHS'),
     ];
   }
 }
@@ -165,7 +163,7 @@ class DropDownState extends State<Navigation> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 Text(
-                  "CSE to ENC",
+                  "CSE <-> ENC",
                   style: new TextStyle(
                       fontSize: 30.0,
                       fontStyle: FontStyle.italic,
@@ -194,7 +192,7 @@ class DropDownState extends State<Navigation> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "CSE to CIVIL",
+                    "CSE <-> CIVIL",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -222,7 +220,7 @@ class DropDownState extends State<Navigation> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "CSE to CHEMICAL",
+                    "CSE <-> CHEMICAL",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -235,7 +233,7 @@ class DropDownState extends State<Navigation> {
             ),
           ),
         );
-      } else if (_source == "CSE" && _destination == "MECH") {
+      } else if (_source == "CSE" && _destination == "MECHANICAL") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
@@ -250,7 +248,7 @@ class DropDownState extends State<Navigation> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "CSE to MECH",
+                    "CSE <-> MECHANICAL",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -263,7 +261,7 @@ class DropDownState extends State<Navigation> {
             ),
           ),
         );
-      } else if (_source == "CSE" && _destination == "DPHYSIC") {
+      } else if (_source == "CSE" && _destination == "DEPT. OF PHYSIC") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
@@ -278,7 +276,7 @@ class DropDownState extends State<Navigation> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "CSE to DPHYSICS",
+                    "CSE <-> DEPT. OF PHYSIC",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -291,7 +289,7 @@ class DropDownState extends State<Navigation> {
             ),
           ),
         );
-      } else if (_source == "CSE" && _destination == "DMATHS") {
+      } else if (_source == "CSE" && _destination == "DEPT. OF MATHS") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
@@ -306,7 +304,7 @@ class DropDownState extends State<Navigation> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "CSE to DMATHS",
+                    "CSE <-> DEPT. OF MATHS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -334,7 +332,7 @@ class DropDownState extends State<Navigation> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "CSE to E&E",
+                    "CSE <-> E&E",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -362,7 +360,7 @@ class DropDownState extends State<Navigation> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "GO",
+                    "<->",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -375,7 +373,7 @@ class DropDownState extends State<Navigation> {
             ),
           ),
         );
-      } else if (_source == "CSE" && _destination == "DCHEM") {
+      } else if (_source == "CSE" && _destination == "DEPT. OF CHEM") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
@@ -390,7 +388,7 @@ class DropDownState extends State<Navigation> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "CSE to DCHEM",
+                    "CSE <-> DEPT. OF CHEM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -698,12 +696,12 @@ class DropDownState extends State<Navigation> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "GO",
+                    "INVALID!!",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
+                        color: Colors.red),
                     textAlign: TextAlign.center,
                   )
                 ],
@@ -748,13 +746,24 @@ class DropDownState extends State<Navigation> {
                   iconSize: 60,
                 ),
                 SizedBox(height: 20.0),
-                Text('selected: ${_selectedSource.name}'),
-                Text("select a Destination"),
+                // Text('selected: ${_selectedSource.name}'),
+                Text(
+                  "\nSelect Your Destination",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blue,
+                    fontSize: 20,
+                    fontStyle: FontStyle.normal,
+                  ),
+                ),
                 SizedBox(height: 20.0),
                 DropdownButton(
                   items: _dropDownMenuItemsDestination,
                   onChanged: onChangeDropdownItemDestination,
                   value: _selectedDestination,
+                  autofocus: true,
+                  iconSize: 60,
                 ),
                 SizedBox(height: 20.0),
                 Text('selected: ${_selectedDestination.name}'),
