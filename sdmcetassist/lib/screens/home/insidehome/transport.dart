@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'insideTransport/EveningScreen.dart';
 import 'insideTransport/MorningScreen.dart';
 import 'insideTransport/AfternoonScreen.dart';
-import 'insideTransport/MorningScreen.dart';
 
 class MainScreenTransport extends StatelessWidget {
   @override
@@ -17,7 +16,7 @@ class MainScreenTransport extends StatelessWidget {
         elevation: 10.0,
       ),
       body: Container(
-        padding: EdgeInsets.all(20.0),
+        padding: EdgeInsets.all(5.0),
         child: ListView(
             // crossAxisCount: 3,
             children: <Widget>[
