@@ -12,7 +12,7 @@ class Shubham extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Developer%2Fshubhamabtdev.jpeg?alt=media&token=5ab7371c-d7f3-4879-8677-f324c0948657',
+            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Developer%2FShubhamKumar.jpg?alt=media&token=bffe551e-1157-4580-86f7-f415b1a450b3',
             fit: BoxFit.fill,
           ),
           Text(
