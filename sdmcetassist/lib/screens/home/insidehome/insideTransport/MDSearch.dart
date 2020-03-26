@@ -150,8 +150,8 @@ class DataSearch1 extends SearchDelegate<String> {
   ];
 
   final recentCities = [
-    "these are the most recetly searched places",
-    "SEARCH FORMAT CAN BE: Upper Case/ Lower Case/ Title Case",
+  //  "these are the most recetly searched places",
+   // "SEARCH FORMAT CAN BE: Upper Case/ Lower Case/ Title Case",
     "cbt",
     "head post",
     "dasankoppa"
@@ -227,7 +227,7 @@ class DataSearch1 extends SearchDelegate<String> {
   Widget buildSuggestions(BuildContext context) {
     // TODO: implement buildSuggestions
     // show suggestion
-    final suggestionList = query.isEmpty
+    final suggestionList = this.query.isEmpty
         ? recentCities
         : cities.where((p) => p.startsWith(query)).toList();
 
