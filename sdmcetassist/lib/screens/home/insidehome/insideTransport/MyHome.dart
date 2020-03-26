@@ -14,7 +14,7 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("DharwadRoute8");
+      Firestore.instance.collection("CHEMFacultyDetails");
 
   @override
   void initState() {
@@ -36,13 +36,13 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blue[50],
-      appBar: AppBar(
+      /*appBar: AppBar(
         title: Text(
           'Image Related to Search', /*style:TextStyle(color:Colors.black)*/
         ),
         backgroundColor: Colors.blue[300],
         elevation: 10.0,
-      ),
+      ),*/
       body: timeTable != null
           ? new StaggeredGridView.countBuilder(
               padding: const EdgeInsets.all(9.0),
