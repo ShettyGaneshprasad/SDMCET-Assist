@@ -819,37 +819,6 @@ class DropDownState extends State<Navigation> {
         );
       }
 
-      if (_source == "ISE" && _destination == "DEPT. OF MATHS" ||
-          _source == "DEPT. OF MATHS" && _destination == "ISE") {
-        return Card(
-          elevation: 5,
-          margin: EdgeInsets.all(13.0),
-          child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ISEtoDMATHS()));
-            },
-            splashColor: Colors.lightBlueAccent,
-            child: Center(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-                  Text(
-                    "ISE <-> DEPT. OF MATHS",
-                    style: new TextStyle(
-                        fontSize: 30.0,
-                        fontStyle: FontStyle.italic,
-                        fontWeight: FontWeight.w600,
-                        color: Colors.blueAccent),
-                    textAlign: TextAlign.center,
-                  )
-                ],
-              ),
-            ),
-          ),
-        );
-      }
-
       return Card(
         elevation: 5,
         margin: EdgeInsets.all(13.0),
