@@ -8,6 +8,13 @@ import 'insideNavigation/CSEtoDPHYSICS.dart';
 import 'insideNavigation/CSEtoENE.dart';
 import 'insideNavigation/CSEtoISE.dart';
 import 'insideNavigation/CSEtoCHEM.dart';
+import 'insideNavigation/ENCtoCHEMICAL.dart';
+import 'insideNavigation/ENCtoCIVIL.dart';
+import 'insideNavigation/ENCtoDCHEM.dart';
+import 'insideNavigation/ENCtoDMATH.dart';
+import 'insideNavigation/ENCtoDPHY.dart';
+import 'insideNavigation/ENCtoENE.dart';
+import 'insideNavigation/ENCtoMECHANICAL.dart';
 import 'insideNavigation/ISEtoCHEMICAL.dart';
 import 'insideNavigation/ISEtoCIVIL.dart';
 import 'insideNavigation/ISEtoDCHEM.dart';
@@ -600,7 +607,218 @@ class DropDownState extends State<Navigation> {
             ),
           ),
         );
+      } ////end of all ise combination if else ladder
+      if (_source == "E&C" && _destination == "E&E" ||
+          _source == "E&E" && _destination == "E&C") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => ENCtoENE()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "E&C <-> E&E",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
       }
+      if (_source == "E&C" && _destination == "CHEMICAL" ||
+          _source == "CHEMICAL" && _destination == "E&C") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ENCtoCHEMICAL()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "E&C <-> CHEMICAL",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "E&C" && _destination == "MECHANICAL" ||
+          _source == "MECHANICAL" && _destination == "E&C") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ENCtoMECHANICAL()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "E&C <-> MECHANICAL",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "E&C" && _destination == "CIVIL" ||
+          _source == "CIVIL" && _destination == "E&C") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ENCtoCIVIL()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "E&C <-> civil",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "E&C" && _destination == "DEPT. OF CHEM" ||
+          _source == "DEPT. OF CHEM" && _destination == "E&C") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ENCtoDCHEM()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "E&C <-> DEPT. OF CHEM",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "E&C" && _destination == "DEPT. OF PHYSIC" ||
+          _source == "DEPT. OF PHYSIC" && _destination == "E&C") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ENCtoDPHY()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "E&C <-> DEPT. OF PHYSIC",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "E&C" && _destination == "DEPT. OF MATHS" ||
+          _source == "DEPT. OF MATHS" && _destination == "E&C") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ENCtoDMATH()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "E&C <-> DEPT. OF MATHS",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+
       if (_source == "ISE" && _destination == "DEPT. OF MATHS" ||
           _source == "DEPT. OF MATHS" && _destination == "ISE") {
         return Card(
