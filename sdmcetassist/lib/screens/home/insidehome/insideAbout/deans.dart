@@ -106,6 +106,30 @@ class Deans extends StatelessWidget {
             fit: BoxFit.contain,
           ),
           Text(
+            "\n\nPROF.D.SHREENIVAS BHAT",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+              fontSize: 40,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "Dean Student Welfare",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+              fontSize: 30,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Image.network(
+            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FDeanPic%2Fdsbhat.jpg?alt=media&token=46dab66a-b042-459d-815b-6291990eda33',
+            fit: BoxFit.contain,
+          ),
+          Text(
             "\n\nSAVITRI RAJU",
             textAlign: TextAlign.center,
             style: TextStyle(
