@@ -41,6 +41,14 @@ class Home extends StatelessWidget {
           )
         ],
       ),
+      floatingActionButton: FloatingActionButton(
+        mini: true,
+        onPressed: () {
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => AboutDeveloper()));
+        },
+        child: FaIcon(FontAwesomeIcons.code),
+      ),
       drawer: new Drawer(
           elevation: 100,
           child: Container(
@@ -332,6 +340,30 @@ class Home extends StatelessWidget {
                 ),
               ),
             ),
+            Text(""),
+            Text(""),
+            Text(""),
+            Text(""),
+            Text(""),
+            Text(""),
+            GridView.count(
+              crossAxisCount: 2,
+              children: <Widget>[
+                Text(""),
+                Text(""),
+                Text(""),
+                FloatingActionButton(
+                  mini: true,
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => AboutDeveloper()));
+                  },
+                  child: FaIcon(FontAwesomeIcons.code),
+                ),
+              ],
+            )
           ],
         ),
       ),
