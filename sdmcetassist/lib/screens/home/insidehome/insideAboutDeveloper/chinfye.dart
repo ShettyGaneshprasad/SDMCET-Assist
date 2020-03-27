@@ -89,7 +89,7 @@ class Chinfye extends StatelessWidget {
                     margin: EdgeInsets.all(20.0),
                     child: InkWell(
                       onTap: () {
-                        launch('https://www.instagram.com/_g4nesh.shetty_/');
+                        launch('https://www.instagram.com/chinfye/');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Row(
@@ -103,7 +103,7 @@ class Chinfye extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Card(
+                  /*  Card(
                     elevation: 10,
                     margin: EdgeInsets.all(20.0),
                     child: InkWell(
@@ -122,7 +122,7 @@ class Chinfye extends StatelessWidget {
                         ],
                       ),
                     ),
-                  ),
+                  ),*/
                   Card(
                     elevation: 10,
                     margin: EdgeInsets.all(20.0),
