@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_speed_dial/flutter_speed_dial.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:sdmcetassist/screens/home/insidehome/about.dart';
 import 'package:sdmcetassist/screens/home/insidehome/aboutDeveloper.dart';
@@ -41,13 +42,37 @@ class Home extends StatelessWidget {
           )
         ],
       ),
-      floatingActionButton: FloatingActionButton(
-        mini: true,
+      /*  floatingActionButton: FloatingActionButton(
         onPressed: () {
           Navigator.push(context,
               MaterialPageRoute(builder: (context) => AboutDeveloper()));
         },
         child: FaIcon(FontAwesomeIcons.code),
+      ),*/
+      floatingActionButton: SpeedDial(
+        curve: Curves.easeIn,
+        animatedIcon: AnimatedIcons.menu_close,
+        children: [
+          SpeedDialChild(
+              child: Icon(Icons.code),
+              label: "About DEV",
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => AboutDeveloper()));
+              }),
+          SpeedDialChild(
+              child: Icon(Icons.system_update),
+              label: "Check for Update",
+              onTap: () {
+                print("first");
+              }),
+          SpeedDialChild(
+              child: Icon(Icons.share),
+              label: "Share this App",
+              onTap: () {
+                print("first");
+              })
+        ],
       ),
       drawer: new Drawer(
           elevation: 100,
