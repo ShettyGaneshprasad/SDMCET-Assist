@@ -9,6 +9,7 @@ import 'package:sdmcetassist/screens/home/insidehome/food.dart';
 import 'package:sdmcetassist/screens/home/insidehome/notice.dart';
 import 'package:sdmcetassist/screens/home/insidehome/transport.dart';
 import 'package:sdmcetassist/screens/home/insidehome/navigation.dart';
+import 'package:share/share.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'insidehome/department.dart';
 import 'package:sdmcetassist/services/auth.dart';
@@ -62,15 +63,16 @@ class Home extends StatelessWidget {
               }),
           SpeedDialChild(
               child: Icon(Icons.system_update),
-              label: "Check for Update",
+              label: "Check for Update\nCurrent version:1.0.0",
               onTap: () {
-                print("first");
+                launch(
+                    "https://drive.google.com/open?id=1HEV_Y3rv9amnEES67vkuSvhR-R8t2kRE");
               }),
           SpeedDialChild(
               child: Icon(Icons.share),
               label: "Share this App",
               onTap: () {
-                print("first");
+                Share.share("download this app");
               })
         ],
       ),
