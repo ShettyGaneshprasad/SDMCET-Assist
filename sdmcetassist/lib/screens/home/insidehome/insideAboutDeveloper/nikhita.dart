@@ -64,7 +64,7 @@ class Nikhita extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Card(
+                  /*  Card(
                     elevation: 10,
                     margin: EdgeInsets.all(20.0),
                     child: InkWell(
@@ -122,7 +122,7 @@ class Nikhita extends StatelessWidget {
                         ],
                       ),
                     ),
-                  ),
+                  ),*/
                   Card(
                     elevation: 10,
                     margin: EdgeInsets.all(20.0),
