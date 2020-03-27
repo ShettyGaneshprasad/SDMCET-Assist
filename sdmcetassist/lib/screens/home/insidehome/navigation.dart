@@ -1,5 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'insideNavigation/CHEMtoDCHEM.dart';
+import 'insideNavigation/CHEMtoDMATHS.dart';
+import 'insideNavigation/CHEMtoDPHY.dart';
+import 'insideNavigation/CIVILtoCHEM.dart';
+import 'insideNavigation/CIVILtoDCHEM.dart';
+import 'insideNavigation/CIVILtoDMATHS.dart';
+import 'insideNavigation/CIVILtoDPHY.dart';
 import 'insideNavigation/CSETOENC.dart';
 import 'insideNavigation/CSEtoCIVIL.dart';
 import 'insideNavigation/CSEtoDCHEM.dart';
@@ -8,6 +15,9 @@ import 'insideNavigation/CSEtoDPHYSICS.dart';
 import 'insideNavigation/CSEtoENE.dart';
 import 'insideNavigation/CSEtoISE.dart';
 import 'insideNavigation/CSEtoCHEM.dart';
+import 'insideNavigation/DCHEMtoDMATHS.dart';
+import 'insideNavigation/DCHEMtoDPHY.dart';
+import 'insideNavigation/DPHYtoDMATHS.dart';
 import 'insideNavigation/ENCtoCHEMICAL.dart';
 import 'insideNavigation/ENCtoCIVIL.dart';
 import 'insideNavigation/ENCtoDCHEM.dart';
@@ -15,6 +25,12 @@ import 'insideNavigation/ENCtoDMATH.dart';
 import 'insideNavigation/ENCtoDPHY.dart';
 import 'insideNavigation/ENCtoENE.dart';
 import 'insideNavigation/ENCtoMECHANICAL.dart';
+import 'insideNavigation/ENEtoCHEMICAL.dart';
+import 'insideNavigation/ENEtoCIVIL.dart';
+import 'insideNavigation/ENEtoDCHEM.dart';
+import 'insideNavigation/ENEtoDMATH.dart';
+import 'insideNavigation/ENEtoDPHYSIC.dart';
+import 'insideNavigation/ENEtoMECHANICAL.dart';
 import 'insideNavigation/ISEtoCHEMICAL.dart';
 import 'insideNavigation/ISEtoCIVIL.dart';
 import 'insideNavigation/ISEtoDCHEM.dart';
@@ -23,6 +39,10 @@ import 'insideNavigation/ISEtoDPHYSIC.dart';
 import 'insideNavigation/ISEtoENC.dart';
 import 'insideNavigation/ISEtoENE.dart';
 import 'insideNavigation/ISEtoMECHANICAL.dart';
+import 'insideNavigation/MECHtoCIVIL.dart';
+import 'insideNavigation/MECHtoDCHEM.dart';
+import 'insideNavigation/MECHtoDMATHS.dart';
+import 'insideNavigation/MECHtoDPHYSIC.dart';
 import 'insideTransport/CSEtoMECH.dart';
 
 class Navigation extends StatefulWidget {
@@ -180,7 +200,7 @@ class DropDownState extends State<Navigation> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 Text(
-                  "CSE <-> ENC",
+                  "CSE <-> E&C",
                   style: new TextStyle(
                       fontSize: 30.0,
                       fontStyle: FontStyle.italic,
@@ -339,8 +359,8 @@ class DropDownState extends State<Navigation> {
             ),
           ),
         );
-      } else if (_source == "CSE" && _destination == "ENE" ||
-          _source == "ENE" && _destination == "CSE") {
+      } else if (_source == "CSE" && _destination == "E&E" ||
+          _source == "E&E" && _destination == "CSE") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
@@ -444,7 +464,7 @@ class DropDownState extends State<Navigation> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "ISE <-> ENE",
+                    "ISE <-> E&E",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -587,6 +607,36 @@ class DropDownState extends State<Navigation> {
             onTap: () {
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => ISEtoDPHYSIC()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "ISE <-> DEPT. OF PHYSIC",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "ISE" && _destination == "DEPT. OF MATHS" ||
+          _source == "DEPT. OF MATHS" && _destination == "ISE") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ISEtoDMATHS()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -818,7 +868,637 @@ class DropDownState extends State<Navigation> {
           ),
         );
       }
-
+      if (_source == "E&E" && _destination == "CHEMICAL" ||
+          _source == "CHEMICAL" && _destination == "E&E") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ENEtoCHEMICAL()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "E&E <-> CHEMICAL",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "E&E" && _destination == "CIVIL" ||
+          _source == "CIVIL" && _destination == "E&E") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ENEtoCIVIL()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "E&E <-> CIVIL",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "E&E" && _destination == "DEPT. OF MATHS" ||
+          _source == "DEPT. OF MATHS" && _destination == "E&E") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ENEtoDMATH()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "E&E <-> DEPT. OF MATHS",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "E&E" && _destination == "MECHANICAL" ||
+          _source == "MECHANICAL" && _destination == "E&E") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ENEtoMECHANICAL()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "E&E <-> MECHANICAL",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "E&E" && _destination == "DEPT. OF PHYSIC" ||
+          _source == "DEPT. OF PHYSIC" && _destination == "E&E") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ENEtoDPHYSIC()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "E&E <-> DEPT. OF PHYSICS",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "E&E" && _destination == "DEPT. OF CHEM" ||
+          _source == "DEPT. OF CHEM" && _destination == "E&E") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => ENEtoDCHEM()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "E&E <-> DEPT. OF CHEM",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      } //END OF ENE///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      if (_source == "CHEMICAL" && _destination == "MECHANICAL" ||
+          _source == "MECHANICAL" && _destination == "CHEMICAL") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => MECHtoDCHEM()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CHEMICAL <-> MECHANICAL",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "CHEMICAL" && _destination == "CIVIL" ||
+          _source == "CIVIL" && _destination == "CHEMICAL") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => CIVILtoCHEM()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CHEMICAL <-> CIVIL",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "CHEMICAL" && _destination == "DEPT. OF CHEM" ||
+          _source == "DEPT. OF CHEM" && _destination == "CHEMICAL") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => CHEMtoDCHEM()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CHEMICAL <-> DEPT. OF CHEM",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "CHEMICAL" && _destination == "DEPT. OF PHYSIC" ||
+          _source == "DEPT. OF PHYSIC" && _destination == "CHEMICAL") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => CHEMtoDPHY()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CHEMICAL <-> DEPT. OF PHYSIC",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "CHEMICAL" && _destination == "DEPT. OF MATHS" ||
+          _source == "DEPT. OF MATHS" && _destination == "CHEMICAL") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => CHEMtoDMATHS()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CHEMICAL <-> DEPT. OF MATHS",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      } //END OF CHEMICAL
+      if (_source == "MECHANICAL" && _destination == "DEPT. OF CHEM" ||
+          _source == "DEPT. OF CHEM" && _destination == "MECHANICAL") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => MECHtoDCHEM()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "MECHANICAL <-> DEPT. OF CHEM",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "MECHANICAL" && _destination == "CIVIL" ||
+          _source == "CIVIL" && _destination == "MECHANICAL") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => MECHtoCIVIL()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "MECHANICAL <-> CIVIL",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "MECHANICAL" && _destination == "DEPT. OF PHYSIC" ||
+          _source == "DEPT. OF PHYSIC" && _destination == "MECHANICAL") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => MECHtoDPHYSIC()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "MECHANICAL <-> DEPT. OF PHYSIC",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "MECHANICAL" && _destination == "DEPT. OF MATHS" ||
+          _source == "DEPT. OF MATHS" && _destination == "MECHANICAL") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => MECHtoDMATHS()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "MECHANICAL <-> DEPT. OF MATHS",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      } ////END OF MECHANICAL////////////////////////////////////////////////////////////////////////////////
+      if (_source == "CIVIL" && _destination == "DEPT. OF CHEM" ||
+          _source == "DEPT. OF CHEM" && _destination == "CIVIL") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => CIVILtoDCHEM()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CIVIL <-> DEPT. OF CHEM",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "CIVIL" && _destination == "DEPT. OF PHYSIC" ||
+          _source == "DEPT. OF PHYSIC" && _destination == "CIVIL") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => CIVILtoDPHY()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CIVIL <-> DEPT. OF PHYSIC",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "CIVIL" && _destination == "DEPT. OF MATHS" ||
+          _source == "DEPT. OF MATHS" && _destination == "CIVIL") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => CIVILtoDMATHS()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "CIVIL <-> DEPT. OF MATHS",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      } //END OF  CIVIL/////////////////////////////////////////////////////
+      if (_source == "DEPT. OF CHEM" && _destination == "DEPT. OF PHYSIC" ||
+          _source == "DEPT. PHYSIC" && _destination == "DEPT. OF CHEM") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => DCHEMtoDPHY()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "DEPT. OF CHEM<-> DEPT. OF PHYSIC",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_source == "DEPT. OF CHEM" && _destination == "DEPT. OF MATHS" ||
+          _source == "DEPT. OF MATHS" && _destination == "DEPT. OF CHEM") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => DCHEMtoDMATHS()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "DEPT. OF CHEM<-> DEPT. OF MATHS",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      } //END OF DCHEM///////////////////////////
+      if (_source == "DEPT. OF PHYSIC" && _destination == "DEPT. OF MATHS" ||
+          _source == "DEPT. OF MATHS" && _destination == "DEPT. OF PHYSIC") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => DPHYtoDMATHS()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "DEPT. OF PHYSIC<-> DEPT. OF MATHS",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      //END OF DPHYSICS
       return Card(
         elevation: 5,
         margin: EdgeInsets.all(13.0),
@@ -864,6 +1544,16 @@ class DropDownState extends State<Navigation> {
             Column(
               children: <Widget>[
                 Text(
+                  "\n\n\n ",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blue,
+                    fontSize: 20,
+                    fontStyle: FontStyle.normal,
+                  ),
+                ),
+                Text(
                   "\nSelect your current location ",
                   textAlign: TextAlign.center,
                   style: TextStyle(
@@ -880,6 +1570,16 @@ class DropDownState extends State<Navigation> {
                   value: _selectedSource,
                   autofocus: true,
                   iconSize: 60,
+                ),
+                Text(
+                  "\n ",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blue,
+                    fontSize: 20,
+                    fontStyle: FontStyle.normal,
+                  ),
                 ),
                 SizedBox(height: 20.0),
                 // Text('selected: ${_selectedSource.name}'),
@@ -901,8 +1601,18 @@ class DropDownState extends State<Navigation> {
                   autofocus: true,
                   iconSize: 60,
                 ),
+                Text(
+                  "\n\ ",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blue,
+                    fontSize: 20,
+                    fontStyle: FontStyle.normal,
+                  ),
+                ),
                 SizedBox(height: 20.0),
-                Text('selected: ${_selectedDestination.name}'),
+                //Text('Press below : ${_selectedDestination.name}'),
               ],
             ),
             selectCollection(),
