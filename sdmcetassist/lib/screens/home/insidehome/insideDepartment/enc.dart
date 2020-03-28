@@ -775,7 +775,7 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISETimeTable");
+      Firestore.instance.collection("ENCTeachersTimeTable");
 
   @override
   void initState() {
@@ -837,8 +837,8 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
             : new Loading());
   }
 }
-
 //end of Teacher's TimeTable
+
 //class time table
 class EncNotice extends StatefulWidget {
   _EncNotice createState() => new _EncNotice();
@@ -849,7 +849,7 @@ class _EncNotice extends State<EncNotice> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISETimeTable");
+      Firestore.instance.collection("ENCNotice");
 
   @override
   void initState() {
