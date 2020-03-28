@@ -521,7 +521,7 @@ class _TimeTable extends State<TimeTable> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISETimeTable");
+      Firestore.instance.collection("DCHEMTimeTable");
 
   @override
   void initState() {
@@ -595,7 +595,7 @@ class _FacultyDetails extends State<FacultyDetails> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("DeptCHEMFacultyDetails");
+      Firestore.instance.collection("DCHEMFacultyDetails");
 
   @override
   void initState() {
@@ -669,7 +669,7 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISETimeTable");
+      Firestore.instance.collection("DCHEMFacultyTT");
 
   @override
   void initState() {
@@ -744,7 +744,7 @@ class _DChemNotice extends State<DChemNotice> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISETimeTable");
+      Firestore.instance.collection("DCHEMNotice");
 
   @override
   void initState() {
