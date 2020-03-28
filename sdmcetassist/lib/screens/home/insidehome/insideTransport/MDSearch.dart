@@ -189,7 +189,8 @@ class DataSearch1 extends SearchDelegate<String> {
   Widget buildResults(BuildContext context) {
     // TODO: implement buildResults
     //show result based on selection
-
+    //print(this.query);
+    print(context);
     return TeachersTimeTable()
    
     /*Card(
@@ -230,7 +231,8 @@ class DataSearch1 extends SearchDelegate<String> {
     final suggestionList = this.query.isEmpty
         ? recentCities
         : cities.where((p) => p.startsWith(query)).toList();
-
+   // print(suggestionList);
+   
     return ListView.builder(
       itemBuilder: (context, index) => ListTile(
         onTap: () {
@@ -247,10 +249,13 @@ class DataSearch1 extends SearchDelegate<String> {
                     text: suggestionList[index].substring(query.length),
                     style: TextStyle(color: Colors.grey)),
               ] //children
+               
               ),
         ),
       ),
+    
       itemCount: suggestionList.length,
     );
+    
   }
 }
