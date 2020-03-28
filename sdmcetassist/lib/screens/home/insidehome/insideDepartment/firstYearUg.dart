@@ -185,7 +185,7 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("FirstYearTimeTable");
+      Firestore.instance.collection("FirstYearTeachersTimeTable");
 
   @override
   void initState() {
@@ -259,7 +259,7 @@ class _FyNotice extends State<FyNotice> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("FirstYearTimeTable");
+      Firestore.instance.collection("FirstYearNotice");
 
   @override
   void initState() {
