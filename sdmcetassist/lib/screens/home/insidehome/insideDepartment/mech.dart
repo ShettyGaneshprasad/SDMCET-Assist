@@ -689,8 +689,8 @@ class _TimeTable extends State<TimeTable> {
             : new Loading());
   }
 }
-
 //End of TimeTable Class
+
 //start of faculty
 class FacultyDetails extends StatefulWidget {
   _FacultyDetails createState() => new _FacultyDetails();
@@ -764,8 +764,8 @@ class _FacultyDetails extends State<FacultyDetails> {
   }
 }
 //end of faculty details
-//class Teacher's time table
 
+//class Teacher's time table
 class TeachersTimeTable extends StatefulWidget {
   _TeachersTimeTable createState() => new _TeachersTimeTable();
 }
@@ -775,7 +775,7 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("MechTimeTable");
+      Firestore.instance.collection("MechFacultyTT");
 
   @override
   void initState() {
@@ -850,7 +850,7 @@ class _MechNotice extends State<MechNotice> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("MechTimeTable");
+      Firestore.instance.collection("MechNotice");
 
   @override
   void initState() {
