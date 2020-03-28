@@ -139,26 +139,6 @@ class Cse extends StatelessWidget {
                 ),
               ),
             ),
-            /* Center(
-                child: SizedBox.expand(
-              child: ColorizeAnimatedTextKit(
-                onTap: () {
-                  print("Tap Event");
-                },
-                text: [
-                  "\“Talk is cheap.Show me the code.\”\n― Linus Torvalds",
-                  "Bill Gates",
-                  "Steve Jobs",
-                ],
-                textStyle: TextStyle(fontSize: 40.0, fontFamily: "Horizon"),
-                colors: [
-                  Colors.purple,
-                  Colors.blue,
-                  Colors.yellow,
-                  Colors.red,
-                ],
-              ),
-            ))*/
           ],
         ),
       ),
@@ -794,7 +774,7 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("CSETimeTable");
+      Firestore.instance.collection("CSETeachersTimeTable");
 
   @override
   void initState() {
@@ -868,7 +848,7 @@ class _CseNotice extends State<CseNotice> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("FirstYearTimeTable");
+      Firestore.instance.collection("CSENotice");
 
   @override
   void initState() {
