@@ -777,7 +777,7 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISETimeTable");
+      Firestore.instance.collection("EETeachersTimeTable");
 
   @override
   void initState() {
@@ -851,7 +851,7 @@ class _EeNotice extends State<EeNotice> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("ISETimeTable");
+      Firestore.instance.collection("EENotice");
 
   @override
   void initState() {
