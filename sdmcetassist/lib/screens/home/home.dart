@@ -72,7 +72,8 @@ class Home extends StatelessWidget {
               child: Icon(Icons.share),
               label: "Share this App",
               onTap: () {
-                Share.share("download this app");
+                Share.share(
+                    "Download this app: https://drive.google.com/open?id=1HEV_Y3rv9amnEES67vkuSvhR-R8t2kRE");
               })
         ],
       ),
