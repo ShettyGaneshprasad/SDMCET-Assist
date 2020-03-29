@@ -49,36 +49,7 @@ class PlaceScreen12 extends StatelessWidget {
                 ),
               ),
             ),
-            Card(
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => MHSearch12()),
-                  );
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Icon(
-                      Icons.place,
-                      size: 50.0,
-                    ),
-                    Flexible(
-                      child: Text(
-                        "Hubli",
-                        style: new TextStyle(fontSize: 25.0),
-                        textAlign: TextAlign.center,
-                      ),
-                      fit: FlexFit.tight,
-                    )
-                  ],
-                ),
-              ),
-            ),
+            
             Card(
               elevation: 10,
               margin: EdgeInsets.all(8.0),
