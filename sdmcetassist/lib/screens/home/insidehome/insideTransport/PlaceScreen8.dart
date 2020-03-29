@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'MDSearch.dart';
-import 'MHSearch.dart';
+import 'MDSearch8.dart';
+import 'MHSearch8.dart';
 import 'View.dart';
 
 class PlaceScreen8 extends StatelessWidget {
@@ -24,7 +24,7 @@ class PlaceScreen8 extends StatelessWidget {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => MDSearch()),
+                    MaterialPageRoute(builder: (context) => MDSearch8()),
                   );
                 },
                 splashColor: Colors.lightBlueAccent,
@@ -54,7 +54,7 @@ class PlaceScreen8 extends StatelessWidget {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => MHSearch()),
+                    MaterialPageRoute(builder: (context) => MHSearch8()),
                   );
                 },
                 splashColor: Colors.lightBlueAccent,
