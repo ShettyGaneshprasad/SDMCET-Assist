@@ -1,50 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-/*import 'insideNavigation/CHEMtoDCHEM.dart';
-import 'insideNavigation/CHEMtoDMATHS.dart';
-import 'insideNavigation/CHEMtoDPHY.dart';
-import 'insideNavigation/CIVILtoCHEM.dart';
-import 'insideNavigation/CIVILtoDCHEM.dart';
-import 'insideNavigation/CIVILtoDMATHS.dart';
-import 'insideNavigation/CIVILtoDPHY.dart';
-import 'insideNavigation/CSETOENC.dart';
-import 'insideNavigation/CSEtoCIVIL.dart';
-import 'insideNavigation/CSEtoDCHEM.dart';
-import 'insideNavigation/CSEtoDMATHS.dart';
-import 'insideNavigation/CSEtoDPHYSICS.dart';
-import 'insideNavigation/CSEtoENE.dart';
-import 'insideNavigation/CSEtoISE.dart';
-import 'insideNavigation/CSEtoCHEM.dart';
-import 'insideNavigation/DCHEMtoDMATHS.dart';
-import 'insideNavigation/DCHEMtoDPHY.dart';
-import 'insideNavigation/DPHYtoDMATHS.dart';
-import 'insideNavigation/ENCtoCHEMICAL.dart';
-import 'insideNavigation/ENCtoCIVIL.dart';
-import 'insideNavigation/ENCtoDCHEM.dart';
-import 'insideNavigation/ENCtoDMATH.dart';
-import 'insideNavigation/ENCtoDPHY.dart';
-import 'insideNavigation/ENCtoENE.dart';
-import 'insideNavigation/ENCtoMECHANICAL.dart';
-import 'insideNavigation/ENEtoCHEMICAL.dart';
-import 'insideNavigation/ENEtoCIVIL.dart';
-import 'insideNavigation/ENEtoDCHEM.dart';
-import 'insideNavigation/ENEtoDMATH.dart';
-import 'insideNavigation/ENEtoDPHYSIC.dart';
-import 'insideNavigation/ENEtoMECHANICAL.dart';
-import 'insideNavigation/ISEtoCHEMICAL.dart';
-import 'insideNavigation/ISEtoCIVIL.dart';
-import 'insideNavigation/ISEtoDCHEM.dart';
-import 'insideNavigation/ISEtoDMATHS.dart';
-import 'insideNavigation/ISEtoDPHYSIC.dart';
-import 'insideNavigation/ISEtoENC.dart';
-import 'insideNavigation/ISEtoENE.dart';
-import 'insideNavigation/ISEtoMECHANICAL.dart';
-import 'insideNavigation/MECHtoCIVIL.dart';
-import 'insideNavigation/MECHtoDCHEM.dart';
-import 'insideNavigation/MECHtoDMATHS.dart';
-import 'insideNavigation/MECHtoDPHYSIC.dart';
-import 'insideTransport/CSEtoMECH.dart';
-*/
+
+import 'insideDharwad/BagalkotPetrolPump9.dart';
 class MDSearch9 extends StatefulWidget {
   MDSearch9() : super();
   final String title = "Dropdown Menu";
@@ -150,8 +107,8 @@ class DropDownState extends State<MDSearch9> {
         margin: EdgeInsets.all(13.0),
         child: InkWell(
           onTap: () {
-           // Navigator.push(
-             //   context, MaterialPageRoute(builder: (context) => CSEtoISE()));
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => BagalkotPetrolPump9()));
           },
           splashColor: Colors.lightBlueAccent,
           child: Center(
