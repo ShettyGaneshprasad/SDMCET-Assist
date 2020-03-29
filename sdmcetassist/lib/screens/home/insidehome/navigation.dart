@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'insideNavigation/CHEMtoDCHEM.dart';
 import 'insideNavigation/CHEMtoDMATHS.dart';
 import 'insideNavigation/CHEMtoDPHY.dart';
@@ -191,8 +192,10 @@ class DropDownState extends State<Navigation> {
         margin: EdgeInsets.all(13.0),
         child: InkWell(
           onTap: () {
-            Navigator.push(
-                context, MaterialPageRoute(builder: (context) => CSEtoENC()));
+            //   Navigator.push(
+            //   context, MaterialPageRoute(builder: (context) => CSEtoENC()));
+            launch(
+                "https://drive.google.com/file/d/1_9YGAP9fJMJPSdomH0NS2-mWheaoEVjr/view?usp=sharing");
           },
           splashColor: Colors.lightBlueAccent,
           child: Center(
