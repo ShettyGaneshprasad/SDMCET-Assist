@@ -43,7 +43,7 @@ import 'insideNavigation/MECHtoCIVIL.dart';
 import 'insideNavigation/MECHtoDCHEM.dart';
 import 'insideNavigation/MECHtoDMATHS.dart';
 import 'insideNavigation/MECHtoDPHYSIC.dart';
-import 'insideTransport/CSEtoMECH.dart';
+import 'insideNavigation/CSEtoMECH.dart';
 
 class Navigation extends StatefulWidget {
   Navigation() : super();
