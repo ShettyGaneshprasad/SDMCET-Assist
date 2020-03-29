@@ -71,7 +71,7 @@ class DeptChem extends StatelessWidget {
                 ),
               ),
             ),
-            Card(
+            /* Card(
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -93,7 +93,7 @@ class DeptChem extends StatelessWidget {
                   ),
                 ),
               ),
-            ),
+            ),*/
             Card(
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -511,7 +511,7 @@ class DeptChemAboutp1 extends StatelessWidget {
 }
 //End of About Class
 //class time table
-
+/*
 class TimeTable extends StatefulWidget {
   _TimeTable createState() => new _TimeTable();
 }
@@ -545,7 +545,7 @@ class _TimeTable extends State<TimeTable> {
         backgroundColor: Colors.blue[50],
         appBar: AppBar(
           title: Text(
-            'Department of Chemistry', /*style:TextStyle(color:Colors.black)*/
+            'Department of Chemistry', 
           ),
           backgroundColor: Colors.blue[300],
           elevation: 10.0,
@@ -582,7 +582,7 @@ class _TimeTable extends State<TimeTable> {
               )
             : new Loading());
   }
-}
+}*/
 
 //end of class TimeTable
 //start of faculty
