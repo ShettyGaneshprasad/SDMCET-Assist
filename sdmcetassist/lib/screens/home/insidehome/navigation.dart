@@ -1,50 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'insideNavigation/CHEMtoDCHEM.dart';
-import 'insideNavigation/CHEMtoDMATHS.dart';
-import 'insideNavigation/CHEMtoDPHY.dart';
-import 'insideNavigation/CIVILtoCHEM.dart';
-import 'insideNavigation/CIVILtoDCHEM.dart';
-import 'insideNavigation/CIVILtoDMATHS.dart';
-import 'insideNavigation/CIVILtoDPHY.dart';
-import 'insideNavigation/CSETOENC.dart';
-import 'insideNavigation/CSEtoCIVIL.dart';
-import 'insideNavigation/CSEtoDCHEM.dart';
-import 'insideNavigation/CSEtoDMATHS.dart';
-import 'insideNavigation/CSEtoDPHYSICS.dart';
-import 'insideNavigation/CSEtoENE.dart';
-import 'insideNavigation/CSEtoISE.dart';
-import 'insideNavigation/CSEtoCHEM.dart';
-import 'insideNavigation/DCHEMtoDMATHS.dart';
-import 'insideNavigation/DCHEMtoDPHY.dart';
-import 'insideNavigation/DPHYtoDMATHS.dart';
-import 'insideNavigation/ENCtoCHEMICAL.dart';
-import 'insideNavigation/ENCtoCIVIL.dart';
-import 'insideNavigation/ENCtoDCHEM.dart';
-import 'insideNavigation/ENCtoDMATH.dart';
-import 'insideNavigation/ENCtoDPHY.dart';
-import 'insideNavigation/ENCtoENE.dart';
-import 'insideNavigation/ENCtoMECHANICAL.dart';
-import 'insideNavigation/ENEtoCHEMICAL.dart';
-import 'insideNavigation/ENEtoCIVIL.dart';
-import 'insideNavigation/ENEtoDCHEM.dart';
-import 'insideNavigation/ENEtoDMATH.dart';
-import 'insideNavigation/ENEtoDPHYSIC.dart';
-import 'insideNavigation/ENEtoMECHANICAL.dart';
-import 'insideNavigation/ISEtoCHEMICAL.dart';
-import 'insideNavigation/ISEtoCIVIL.dart';
-import 'insideNavigation/ISEtoDCHEM.dart';
-import 'insideNavigation/ISEtoDMATHS.dart';
-import 'insideNavigation/ISEtoDPHYSIC.dart';
-import 'insideNavigation/ISEtoENC.dart';
-import 'insideNavigation/ISEtoENE.dart';
-import 'insideNavigation/ISEtoMECHANICAL.dart';
-import 'insideNavigation/MECHtoCIVIL.dart';
-import 'insideNavigation/MECHtoDCHEM.dart';
-import 'insideNavigation/MECHtoDMATHS.dart';
-import 'insideNavigation/MECHtoDPHYSIC.dart';
-import 'insideNavigation/CSEtoMECH.dart';
 
 class Navigation extends StatefulWidget {
   Navigation() : super();
@@ -162,10 +118,7 @@ class DropDownState extends State<Navigation> {
         elevation: 5,
         margin: EdgeInsets.all(13.0),
         child: InkWell(
-          onTap: () {
-            Navigator.push(
-                context, MaterialPageRoute(builder: (context) => CSEtoISE()));
-          },
+          onTap: () {},
           splashColor: Colors.lightBlueAccent,
           child: Center(
             child: Column(
@@ -223,10 +176,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CSEtoCIVIL()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -252,10 +202,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CSEtoCHEM()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -281,10 +228,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CSEtoMECH()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -310,10 +254,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CSEtoDPHYSICS()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -339,10 +280,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CSEtoDMATHS()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -368,10 +306,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => CSEtoENE()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -397,10 +332,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CSEtoDCHEM()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -427,10 +359,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => ISEtoENC()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -457,10 +386,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => ISEtoENE()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -487,10 +413,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ISEtoCHEMICAL()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -517,10 +440,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ISEtoMECHANICAL()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -547,10 +467,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ISEtoCIVIL()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -577,10 +494,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ISEtoDCHEM()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -607,10 +521,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ISEtoDPHYSIC()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -637,10 +548,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ISEtoDMATHS()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -667,10 +575,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => ENCtoENE()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -697,10 +602,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ENCtoCHEMICAL()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -727,10 +629,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ENCtoMECHANICAL()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -757,10 +656,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ENCtoCIVIL()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -787,10 +683,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ENCtoDCHEM()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -817,10 +710,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ENCtoDPHY()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -847,10 +737,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ENCtoDMATH()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -877,10 +764,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ENEtoCHEMICAL()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -907,10 +791,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ENEtoCIVIL()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -937,10 +818,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ENEtoDMATH()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -967,10 +845,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ENEtoMECHANICAL()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -997,10 +872,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ENEtoDPHYSIC()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1027,10 +899,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ENEtoDCHEM()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1057,10 +926,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MECHtoDCHEM()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1087,10 +953,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CIVILtoCHEM()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1117,10 +980,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CHEMtoDCHEM()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1147,10 +1007,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CHEMtoDPHY()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1177,10 +1034,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CHEMtoDMATHS()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1207,10 +1061,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MECHtoDCHEM()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1237,10 +1088,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MECHtoCIVIL()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1267,10 +1115,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MECHtoDPHYSIC()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1297,10 +1142,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => MECHtoDMATHS()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1327,10 +1169,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CIVILtoDCHEM()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1357,10 +1196,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CIVILtoDPHY()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1387,10 +1223,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CIVILtoDMATHS()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1417,10 +1250,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => DCHEMtoDPHY()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1447,10 +1277,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => DCHEMtoDMATHS()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -1477,10 +1304,7 @@ class DropDownState extends State<Navigation> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => DPHYtoDMATHS()));
-            },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
