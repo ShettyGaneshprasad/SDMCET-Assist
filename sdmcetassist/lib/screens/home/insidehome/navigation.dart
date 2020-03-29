@@ -1016,7 +1016,7 @@ class DropDownState extends State<Navigation> {
                   mainAxisSize: MainAxisSize.min,
                   children: <Widget>[
                     Text(
-                      "ISE <-> DEPT. OF PHYSIC",
+                      "ISE <-> DEPT. OF MATHS",
                       style: new TextStyle(
                           fontSize: 30.0,
                           fontStyle: FontStyle.italic,
@@ -2174,8 +2174,7 @@ class DropDownState extends State<Navigation> {
             ),
           );
         } ////END OF MECHANICAL////////////////////////////////////////////////////////////////////////////////
-        if (_source == "CIVIL" && _destination == "DEPT. OF CHEM" ||
-            _source == "DEPT. OF CHEM" && _destination == "CIVIL") {
+        if (_source == "DEPT. OF CHEM" && _destination == "CIVIL") {
           return Card(
             elevation: 5,
             margin: EdgeInsets.all(13.0),
@@ -2357,7 +2356,7 @@ class DropDownState extends State<Navigation> {
             ),
           );
         }
-        if (_source == "DEPT. PHYSIC" && _destination == "DEPT. OF CHEM") {
+        if (_source == "DEPT. OF PHYSIC" && _destination == "DEPT. OF CHEM") {
           return Card(
             elevation: 5,
             margin: EdgeInsets.all(13.0),
