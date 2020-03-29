@@ -1380,7 +1380,7 @@ class DropDownState extends State<MDSearch> {
                   ),
                 ),
                 SizedBox(height: 20.0),
-                //Text('Press below : ${_selectedDestination.name}'),
+                Text('Press below : ${_selectedPickup.name}'),
               ],
             ),
             selectCollection(),
