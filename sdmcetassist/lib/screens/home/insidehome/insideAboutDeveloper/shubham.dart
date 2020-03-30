@@ -11,8 +11,8 @@ class Shubham extends StatelessWidget {
       backgroundColor: Colors.blue[50],
       body: ListView(
         children: <Widget>[
-          Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Developer%2FShubhamKumar.jpg?alt=media&token=bffe551e-1157-4580-86f7-f415b1a450b3',
+          Image.asset(
+            'assets/ShubhamKumar.jpg',
             fit: BoxFit.fill,
           ),
           Text(
