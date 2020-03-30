@@ -141,6 +141,26 @@ class DeptMaths extends StatelessWidget {
                 ),
               ),
             ),
+            Card(
+              margin: EdgeInsets.all(8.0),
+              child: InkWell(
+                onTap: () {},
+                splashColor: Colors.lightBlueAccent,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Icon(
+                        Icons.description,
+                        size: 50.0,
+                      ),
+                      Text("Prev. Question Papers",
+                          style: new TextStyle(fontSize: 17.0))
+                    ],
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
