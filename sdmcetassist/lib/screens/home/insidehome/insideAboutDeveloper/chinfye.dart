@@ -11,8 +11,7 @@ class Chinfye extends StatelessWidget {
       backgroundColor: Colors.blue[50],
       body: ListView(
         children: <Widget>[
-          Image.network(
-              'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Developer%2Fchinmayeaboutdev-min.jpg?alt=media&token=f948cf62-c0a2-4a82-a3f3-7c9c3ea74cc7'),
+          Image.asset('assets/chinfye.jpg'),
           Text(
             "Chinmayee Joshi",
             style: new TextStyle(
