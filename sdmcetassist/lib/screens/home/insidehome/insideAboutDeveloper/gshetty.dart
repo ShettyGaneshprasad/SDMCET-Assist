@@ -10,7 +10,7 @@ class GShetty extends StatelessWidget {
       backgroundColor: Colors.blue[50],
       body: ListView(
         children: <Widget>[
-          Image.asset('assets/ganeshshetty.jpeg'),
+          Image.asset('assets/ganeshshetty.jpg'),
           Text(
             "Shetty Ganeshprasad",
             style: new TextStyle(

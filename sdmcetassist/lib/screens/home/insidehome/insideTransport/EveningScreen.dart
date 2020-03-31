@@ -6,9 +6,9 @@ class EveningScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blue[100],
-      appBar: AppBar(
+      appBar: AppBar(      
         title: Text('Evening session(Drop points)'),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.blue[300],
         elevation: 10.0,
       ),
       body: Container(

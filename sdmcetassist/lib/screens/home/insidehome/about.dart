@@ -32,6 +32,7 @@ class MyTabsState extends State<About> with SingleTickerProviderStateMixin {
         length: 4,
         child: Scaffold(
           appBar: AppBar(
+            backgroundColor: Colors.blue[300],
             title: Text("About"),
             bottom: menu(),
           ),

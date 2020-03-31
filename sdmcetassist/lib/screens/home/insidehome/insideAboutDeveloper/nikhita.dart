@@ -11,7 +11,8 @@ class Nikhita extends StatelessWidget {
       backgroundColor: Colors.blue[50],
       body: ListView(
         children: <Widget>[
-          Image.asset('assets/nikhita.jpg'),
+          Image.network(
+              'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Developer%2Fganeshshetty.jpg?alt=media&token=16a60483-afef-4e2b-a693-89ebfc7e9b4f'),
           Text(
             "Nikhita Muragod",
             style: new TextStyle(

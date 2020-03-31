@@ -12,6 +12,7 @@ class MainScreenTransport extends StatelessWidget {
         title: Text(
           'Transport', /*style:TextStyle(color:Colors.black)*/
         ),
+        backgroundColor: Colors.blue[300],
         elevation: 10.0,
       ),
       body: Container(

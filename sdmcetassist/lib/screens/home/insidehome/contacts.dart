@@ -31,6 +31,7 @@ class MyTabsState extends State<Contacts> with SingleTickerProviderStateMixin {
         length: 3,
         child: Scaffold(
           appBar: AppBar(
+            backgroundColor: Colors.blue[300],
             title: Text("Contacts"),
             bottom: menu(),
           ),

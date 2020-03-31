@@ -13,7 +13,7 @@ class View extends StatelessWidget {
         title: Text(
           'Information Science Department', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.blue[300],
         elevation: 10.0,
       ),
       body: Container(
