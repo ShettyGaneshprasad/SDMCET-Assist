@@ -14,7 +14,7 @@ class Pickup {
   static List<Pickup> getPickup() {
     return <Pickup>[
       Pickup(1, 'BAGALKOT PETROL PUMP'),
-      Pickup(2, 'BHARATI NAGAR'),
+      Pickup(2, 'BHARTI NAGAR'),
       Pickup(3, 'C.B.NAGAR'),
       Pickup(4, 'CBT'),
       Pickup(5, 'COLLEGE'),
@@ -130,7 +130,7 @@ class DropDownState extends State<MDSearch8> {
           ),
         ),
       );
-    } else if (_pickup == "BHARATI NAGAR" ) {
+    } else if (_pickup == "BHARTI NAGAR" ) {
       return Card(
         elevation: 5,
         margin: EdgeInsets.all(13.0),
@@ -145,7 +145,7 @@ class DropDownState extends State<MDSearch8> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 Text(
-                  "BHARATI NAGAR\nBus No:KA25 B6903\nTiming:7:29 AM - 7:33 AM",
+                  "BHARTI NAGAR\nBus No:KA25 B6903\nTiming:7:29 AM - 7:33 AM",
                   style: new TextStyle(
                       fontSize: 30.0,
                       fontStyle: FontStyle.italic,
