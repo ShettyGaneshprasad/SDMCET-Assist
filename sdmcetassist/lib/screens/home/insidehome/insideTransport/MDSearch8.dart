@@ -35,8 +35,8 @@ class Pickup {
       Pickup(18, 'KESHAV NAGAR'),
       Pickup(19, 'KUSUM NAGAR'),
       Pickup(20, 'M G BANK'),
-      Pickup(21, 'MALMADDI'),
-      Pickup(22, 'MAHISHI ROAD'),
+      Pickup(21, 'MAHISHI ROAD'),
+      Pickup(22, 'MALMADDI'),
       Pickup(23, 'MARATHA COLONY'),
       Pickup(24, 'MRUTUNJAY NAGAR'),
       Pickup(25, 'MURGAMATH'),
@@ -241,7 +241,7 @@ class DropDownState extends State<MDSearch8> {
             ),
           ),
         );
-      } else if (_pickup == "COURT CIRCLE\nBus No:KA25 B3342\nTiming:8:05 AM - 8:08 AM") {
+      } else if (_pickup == "COURT CIRCLE") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
