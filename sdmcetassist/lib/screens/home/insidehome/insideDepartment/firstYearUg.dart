@@ -14,7 +14,7 @@ class firstYearUg extends StatelessWidget {
         title: Text(
           'First Year UG', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
@@ -157,7 +157,7 @@ class _FirstYTimeTable extends State<FirstYTimeTable> {
           title: Text(
             'First Year UG', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -231,7 +231,7 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
           title: Text(
             'First Year UG', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -305,7 +305,7 @@ class _FyNotice extends State<FyNotice> {
           title: Text(
             'First Year UG', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null

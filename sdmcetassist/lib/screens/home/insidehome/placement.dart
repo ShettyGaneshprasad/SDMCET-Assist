@@ -10,7 +10,6 @@ class Placement extends StatelessWidget {
         title: Text(
           'Placement', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
         elevation: 10.0,
       ),
       body: Container(
@@ -37,6 +36,32 @@ class Placement extends StatelessWidget {
               textAlign: TextAlign.justify,
               style: TextStyle(
                 fontSize: 15,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Text(
+              "\nPreprations",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.blue,
+                fontSize: 30,
+                fontStyle: FontStyle.italic,
+              ),
+            ),
+            Text(
+              "We conduct around the year training modules. These module cover entire spectrum of student training needs:\n",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 15,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Text(
+              "• Industrial orientation training\n• Aptitude training\n• Soft Skills\n",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 20,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -159,7 +184,7 @@ class Placement extends StatelessWidget {
               ),
             ),
             Text(
-              "Contact Placement Officer",
+              "\nContact Placement Officer",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
@@ -182,7 +207,7 @@ class Placement extends StatelessWidget {
               margin: EdgeInsets.all(13.0),
               child: InkWell(
                 onTap: () {
-                  launch("tel: 08362447465");
+                  launch("tel: 8453212131");
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -200,7 +225,7 @@ class Placement extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Prof. Ravindra Dastikop",
+                        "Training and Placement Officer (IT Branch)",
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
@@ -210,9 +235,101 @@ class Placement extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Phone no:- (0836) 2255619 / 2447465 / 2448327 / 2435307 / 24474664",
+                        "Phone no:- 8453212131",
                         style: new TextStyle(
-                            fontSize: 20.0,
+                            fontSize: 30.0,
+                            fontStyle: FontStyle.italic,
+                            fontWeight: FontWeight.w600,
+                            color: Colors.black),
+                        textAlign: TextAlign.center,
+                      )
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Card(
+              elevation: 10,
+              margin: EdgeInsets.all(13.0),
+              child: InkWell(
+                onTap: () {
+                  launch("tel: 08362468561");
+                },
+                splashColor: Colors.lightBlueAccent,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Text(
+                        "Prof. Vinayak Miskin",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.blue,
+                          fontSize: 30,
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
+                      Text(
+                        "Training and Placement Officer (Non-IT Branch)",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.blue,
+                          fontSize: 15,
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
+                      Text(
+                        "Phone: 0836 2468561(Off)",
+                        style: new TextStyle(
+                            fontSize: 30.0,
+                            fontStyle: FontStyle.italic,
+                            fontWeight: FontWeight.w600,
+                            color: Colors.black),
+                        textAlign: TextAlign.center,
+                      )
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Card(
+              elevation: 10,
+              margin: EdgeInsets.all(13.0),
+              child: InkWell(
+                onTap: () {
+                  launch("mailto:sdmcet.taps@gmail.com?");
+                },
+                splashColor: Colors.lightBlueAccent,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Text(
+                        "Mail",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.blue,
+                          fontSize: 30,
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
+                      Text(
+                        "Training and Placement Office",
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.blue,
+                          fontSize: 15,
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
+                      Text(
+                        "sdmcet.taps@gmail.com",
+                        style: new TextStyle(
+                            fontSize: 30.0,
                             fontStyle: FontStyle.italic,
                             fontWeight: FontWeight.w600,
                             color: Colors.black),

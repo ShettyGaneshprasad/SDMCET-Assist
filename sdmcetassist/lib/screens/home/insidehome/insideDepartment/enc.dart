@@ -15,7 +15,7 @@ class EnC extends StatelessWidget {
         title: Text(
           'E & C Department', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
@@ -202,7 +202,7 @@ class _TimeTable extends State<TimeTable> {
           title: Text(
             'E & C Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -252,7 +252,7 @@ class EncAboutp1 extends StatelessWidget {
         title: Text(
           'E & C Department', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: PageView(
@@ -747,7 +747,7 @@ class _FacultyDetails extends State<FacultyDetails> {
           title: Text(
             'E & C Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -821,7 +821,7 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
           title: Text(
             'E & C Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -895,7 +895,7 @@ class _EncNotice extends State<EncNotice> {
           title: Text(
             'E & C Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null

@@ -15,7 +15,7 @@ class DeptPhysics extends StatelessWidget {
         title: Text(
           'Department of Physics', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
@@ -179,7 +179,7 @@ class DeptPhysicsAboutp1 extends StatelessWidget {
         title: Text(
           'Department of Physics', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: PageView(
@@ -540,7 +540,7 @@ class _TimeTable extends State<TimeTable> {
           title: Text(
             'Department of Physics', 
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -614,7 +614,7 @@ class _FacultyDetails extends State<FacultyDetails> {
           title: Text(
             'Department of Physicss', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -688,7 +688,7 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
           title: Text(
             'Department of Physicss', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -762,7 +762,7 @@ class _DPhysicNotice extends State<DPhysicNotice> {
           title: Text(
             'Department of Physicss', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null

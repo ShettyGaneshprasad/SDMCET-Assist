@@ -15,7 +15,6 @@ class Civil extends StatelessWidget {
         title: Text(
           'Civil Department', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
         elevation: 10.0,
       ),
       body: Container(
@@ -178,7 +177,7 @@ class CivilAboutp1 extends StatelessWidget {
         title: Text(
           'Civil Department', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: PageView(
@@ -727,7 +726,7 @@ class _TimeTable extends State<TimeTable> {
           title: Text(
             'Civil Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -801,7 +800,7 @@ class _FacultyDetails extends State<FacultyDetails> {
           title: Text(
             'Civil Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -875,7 +874,7 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
           title: Text(
             'Civil Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -949,7 +948,7 @@ class _CivilNotice extends State<CivilNotice> {
           title: Text(
             'Civil Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null

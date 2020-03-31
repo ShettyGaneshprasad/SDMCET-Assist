@@ -15,7 +15,6 @@ class Cse extends StatelessWidget {
         title: Text(
           'Computer Science Department', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
         elevation: 10.0,
       ),
       body: Container(
@@ -177,7 +176,7 @@ class CseAboutp1 extends StatelessWidget {
         title: Text(
           'Computer Science Department', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: PageView(
@@ -672,7 +671,7 @@ class _TimeTable extends State<TimeTable> {
           title: Text(
             'Computer Science Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -746,7 +745,7 @@ class _FacultyDetails extends State<FacultyDetails> {
           title: Text(
             'Computer Science Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -820,7 +819,7 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
           title: Text(
             'Computer Science Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -894,7 +893,7 @@ class _CseNotice extends State<CseNotice> {
           title: Text(
             'Computer Science Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null

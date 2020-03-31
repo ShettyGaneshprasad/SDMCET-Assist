@@ -16,7 +16,7 @@ class EnE extends StatelessWidget {
         title: Text(
           'E & E Department', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
@@ -159,7 +159,7 @@ class EeAboutp1 extends StatelessWidget {
         title: Text(
           'E & E Department', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: PageView(
@@ -675,7 +675,7 @@ class _TimeTable extends State<TimeTable> {
           title: Text(
             'E & E Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -749,7 +749,7 @@ class _FacultyDetails extends State<FacultyDetails> {
           title: Text(
             'E & E Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -823,7 +823,7 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
           title: Text(
             'E & E Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -897,7 +897,7 @@ class _EeNotice extends State<EeNotice> {
           title: Text(
             'E & E Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null

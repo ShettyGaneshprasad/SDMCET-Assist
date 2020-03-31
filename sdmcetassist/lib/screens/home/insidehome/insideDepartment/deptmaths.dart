@@ -15,7 +15,7 @@ class DeptMaths extends StatelessWidget {
         title: Text(
           'Department of Maths & Humanities', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
@@ -180,7 +180,7 @@ class DeptMathsAboutp1 extends StatelessWidget {
         title: Text(
           'Department of Maths', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: PageView(
@@ -567,7 +567,7 @@ class _TimeTable extends State<TimeTable> {
           title: Text(
             'Dept. of Maths & Humanities', 
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -641,7 +641,7 @@ class _FacultyDetails extends State<FacultyDetails> {
           title: Text(
             'Dept. of Maths & Humanities', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -715,7 +715,7 @@ class _TeacherTimeTable extends State<TeacherTimeTable> {
           title: Text(
             'Dept. of Maths & Humanities', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -789,7 +789,7 @@ class _DMathsNotice extends State<DMathsNotice> {
           title: Text(
             'Dept. of Maths & Humanities', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null

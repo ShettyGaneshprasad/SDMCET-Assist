@@ -32,7 +32,6 @@ class MyTabsState extends State<Administration>
         length: 3,
         child: Scaffold(
           appBar: AppBar(
-            backgroundColor: Colors.blue[300],
             title: Text("Administration"),
             bottom: menu(),
           ),
