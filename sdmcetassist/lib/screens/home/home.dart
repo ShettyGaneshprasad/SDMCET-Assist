@@ -168,16 +168,6 @@ class Home extends StatelessWidget {
                 ),
                 ListTile(
                   leading: FaIcon(
-                    FontAwesomeIcons.mapMarkerAlt,
-                    color: Colors.red,
-                  ),
-                  title: Text("Google Maps Location"),
-                  onTap: () {
-                    launch('https://goo.gl/maps/eEy8Y7Q11DnQTvvu7');
-                  },
-                ),
-                ListTile(
-                  leading: FaIcon(
                     FontAwesomeIcons.code,
                     color: Colors.black,
                   ),
