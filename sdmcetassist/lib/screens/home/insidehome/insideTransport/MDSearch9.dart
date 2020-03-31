@@ -16,45 +16,50 @@ class Pickup {
   static List<Pickup> getPickup() {
     return <Pickup>[
       Pickup(1, 'BAGALKOT PETROL PUMP'),
-      Pickup(2, 'BHARATI NAGAR'),
+      Pickup(2, 'BHARTI NAGAR'),
       Pickup(3, 'C.B.NAGAR'),
       Pickup(4, 'CBT'),
       Pickup(5, 'COLLEGE'),
       Pickup(6, 'COURT CIRCLE'),
       Pickup(7, 'DASANKOPP CIRCLE'),
-      Pickup(8, 'DURGA TEMPLE CROSS'),
-      Pickup(9, 'GANDHI CHOUK'),
-      Pickup(10, 'GERMAN HOSPITAL'),
-      Pickup(11, 'HEAD POST'),
-      Pickup(12, 'JAYANAGAR'),
-      Pickup(13, 'JUBLI CIRCLE'),
-      Pickup(14, 'KAREMMA TEMPLE'),
-      Pickup(15, 'KCD'),
-      Pickup(16, 'KESHAV NAGAR'),
-      Pickup(17, 'M G BANK'),
-      Pickup(18, 'MARATHA COLONY'),
-      Pickup(19, 'MRUTUNJAY NAGAR'),
-      Pickup(20, 'MURGAMATH'),
-      Pickup(21, 'NARYANPUR'),
-      Pickup(22, 'NIRMAL NAGAR CHURCH'),
-      Pickup(23, 'NTTF'),
-      Pickup(24, 'OLD DSP CIRCLE'),
-      Pickup(25, 'OLD SP CIRCLE'),
-      Pickup(26, 'PAVAN SCHOOL'),
-      Pickup(27, 'POLICE H Q'),
-      Pickup(28, 'R.K.NAGAR'),
-      Pickup(29, 'RAILWAY STATION'),
-      Pickup(30, 'SADHANKERI'),
-      Pickup(31, 'SAMPIGENAGAR'),
-      Pickup(32, 'SAPTAPUR'),
-      Pickup(33, 'SHIVAGIRI'),
-      Pickup(34, 'SHIVAJI CIRCLE'),
-      Pickup(35, 'SRINAGAR'),
-      Pickup(36, 'T.V.TOWER'),
-      Pickup(37, 'TOLL NAKA'),
-      Pickup(38, 'UDAY HOSTEL'),
-      Pickup(39, 'VINAYAK NAGAR'),
-      Pickup(40, 'YEMMIKERI'),
+      Pickup(8, 'DASANKOPPA CROSS'),
+      Pickup(9, 'DHARWAD HOTEL'),
+      Pickup(10, 'DURGA TEMPLE CROSS'),
+      Pickup(11, 'GANDHI CHOUK'),
+      Pickup(12, 'GERMAN HOSPITAL'),
+      Pickup(13, 'HEAD POST'),
+      Pickup(14, 'JAYANAGAR'),
+      Pickup(15, 'JUBLI CIRCLE'),
+      Pickup(16, 'KAREMMA TEMPLE'),
+      Pickup(17, 'KCD CIRCLE'),
+      Pickup(18, 'KESHAV NAGAR'),
+      Pickup(19, 'KUSUM NAGAR'),
+      Pickup(20, 'M G BANK'),
+      Pickup(21, 'MALMADDI'),
+      Pickup(22, 'MAHISHI ROAD'),
+      Pickup(23, 'MARATHA COLONY'),
+      Pickup(24, 'MRUTUNJAY NAGAR'),
+      Pickup(25, 'MURGAMATH'),
+      Pickup(26, 'NARYANPUR'),
+      Pickup(27, 'NIRMAL NAGAR CHURCH'),
+      Pickup(28, 'NTTF'),
+      Pickup(29, 'OLD DSP CIRCLE'),
+      Pickup(30, 'OLD SP CIRCLE'),
+      Pickup(31, 'PAVAN SCHOOL'),
+      Pickup(32, 'POLICE H Q'),
+      Pickup(33, 'R.K.NAGAR'),
+      Pickup(34, 'RAILWAY STATION'),
+      Pickup(35, 'SADHANKERI'),
+      Pickup(36, 'SAMPIGENAGAR'),
+      Pickup(37, 'SAPTAPUR'),
+      Pickup(38, 'SHIVAGIRI'),
+      Pickup(39, 'SHIVAJI CIRCLE'),
+      Pickup(40, 'SRINAGAR'),
+      Pickup(41, 'T.V.TOWER'),
+      Pickup(42, 'TOLL NAKA'),
+      Pickup(43, 'UDAY HOSTEL'),
+      Pickup(44, 'VINAYAK NAGAR'),
+      Pickup(45, 'YEMMIKERI'),
     ];
   }
 }
@@ -127,7 +132,7 @@ class DropDownState extends State<MDSearch9> {
           ),
         ),
       );
-    } else if (_pickup == "BHARATI NAGAR" ) {
+    } else if (_pickup == "BHARTI NAGAR" ) {
       return Card(
         elevation: 5,
         margin: EdgeInsets.all(13.0),
@@ -142,7 +147,7 @@ class DropDownState extends State<MDSearch9> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 Text(
-                  "BHARATI NAGAR",
+                  "BHARTI NAGAR\nBus No:KA25 B6903\nTiming:8:29 AM - 8:33 AM",
                   style: new TextStyle(
                       fontSize: 30.0,
                       fontStyle: FontStyle.italic,
@@ -227,7 +232,7 @@ class DropDownState extends State<MDSearch9> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "COLLEGE",
+                    "REACHED COLLEGE\nBus No:KA25 B6903\nTiming:8:57 AM - 9:00 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -255,7 +260,7 @@ class DropDownState extends State<MDSearch9> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "COURT CIRCLE",
+                    "COURT CIRCLE\nBus No:KA25 B6903\nTiming:8:10 AM - 8:12 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -283,7 +288,65 @@ class DropDownState extends State<MDSearch9> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "DASANKOPP CIRCLE",
+                    "DASANKOPP CIRCLE\nBus No:KA25 B6903\nTiming:8:16 AM - 8:18 AM",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      else if (_pickup == "DASANKOPPA CROSS") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+           //  Navigator.push(context,
+             //     MaterialPageRoute(builder: (context) => CSEtoDMATHS()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "DASANKOPPA CROSS\nBus No:KA25 B6903\nTiming:7:15 AM - 7: 18 AM",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+        }
+        else if (_pickup == "DHARWAD HOTEL") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+           //   Navigator.push(
+               //   context, MaterialPageRoute(builder: (context) => CSEtoENE()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "DHARWAD HOTEL\nBus No:KA25 B6903\nTiming:8:45 AM - 8:48 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -397,7 +460,7 @@ class DropDownState extends State<MDSearch9> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "HEAD POST",
+                    "HEAD POST\nBus No:KA25 B6903\nTiming:8:48 AM - 8:51 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -498,7 +561,7 @@ class DropDownState extends State<MDSearch9> {
           ),
         );
       }
-      if (_pickup == "KCD") {
+      if (_pickup == "KCD CIRCLE") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
@@ -513,7 +576,7 @@ class DropDownState extends State<MDSearch9> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "KCD",
+                    "KCD CIRCLE\nBus No:KA25 B6903\nTiming:8:13 AM - 8:15 AM\nBus No:KA25 B6903\nTiming:8:39 AM - 8:42 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -556,6 +619,35 @@ class DropDownState extends State<MDSearch9> {
           ),
         );
       }
+      if (_pickup == "KUSUM NAGAR") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+           //   Navigator.push(context,
+             //     MaterialPageRoute(builder: (context) => ISEtoDPHYSIC()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "KUSUM NAGAR\nBus No:KA25 B6903\nTiming:8:19AM - 8:22AM",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
       if (_pickup == "M G BANK") {
         return Card(
           elevation: 5,
@@ -584,7 +676,94 @@ class DropDownState extends State<MDSearch9> {
             ),
           ),
         );
-      } ////end of all ise combination if else ladder
+       } ////end of all ise combination if else ladder
+       if (_pickup =="MALMADDI") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+           //   Navigator.push(context,
+             //     MaterialPageRoute(builder: (context) => ISEtoDMATHS()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "MALMADDI\nBus No:KA25 B3342\nTiming:7:49 AM - 7:50 AM",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+      if (_pickup == "MAHISHI ROAD") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+           //   Navigator.push(context,
+             //     MaterialPageRoute(builder: (context) => ISEtoDMATHS()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "MAHISHI ROAD\nBus No:KA25 B3342\nTiming:7:52 AM - 7:54 AM",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }////end of all ise combination if else ladder
+      if (_pickup == "MARATHA COLONY") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+            //  Navigator.push(
+              //    context, MaterialPageRoute(builder: (context) => ENCtoENE()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "MARATHA COLONY\nBus No:KA25 B4922\nTiming:7:31 AM - 7:33 AM",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
       if (_pickup == "MARATHA COLONY") {
         return Card(
           elevation: 5,
@@ -1122,7 +1301,7 @@ class DropDownState extends State<MDSearch9> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "T.V.TOWER",
+                    "T.V.TOWER\nBus No:KA25 B6903\nTiming:8:34 AM - 8:36 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1151,7 +1330,7 @@ class DropDownState extends State<MDSearch9> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "TOLL NAKA",
+                    "TOLL NAKA\nBus No:KA25 B6903\nTiming:8:56 AM - 8:57 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1209,7 +1388,7 @@ class DropDownState extends State<MDSearch9> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "VINAYAK NAGAR",
+                    "VINAYAK NAGAR\nBus No:KA25 B6903\nTiming:8:24 AM - 8:27 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1238,7 +1417,7 @@ class DropDownState extends State<MDSearch9> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "YEMMIKERI",
+                    "YEMMIKERI\nBus No:KA25 B6903\nTiming:8:54 AM - 8:55 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
