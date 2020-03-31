@@ -241,7 +241,7 @@ class DropDownState extends State<MDSearch8> {
             ),
           ),
         );
-      } else if (_pickup == "COURT CIRCLE") {
+      } else if (_pickup == "COURT CIRCLE\nBus No:KA25 B3342\nTiming:8:05 AM - 8:08 AM") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
