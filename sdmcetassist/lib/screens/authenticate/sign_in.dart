@@ -24,7 +24,7 @@ class _SignInState extends State<SignIn> {
         : Scaffold(
             backgroundColor: Colors.blue[100],
             appBar: AppBar(
-              backgroundColor: Colors.blue[300],
+              backgroundColor: Colors.blue,
               elevation: 10.0,
               title: Text('Sign in to SDMCET Assist'),
               actions: <Widget>[
@@ -99,6 +99,7 @@ class _SignInState extends State<SignIn> {
                       error,
                       style: TextStyle(color: Colors.red, fontSize: 14.0),
                     ),
+                    Image.asset("assets/sdmlogoblank.jpg"),
                   ],
                 ),
               ),

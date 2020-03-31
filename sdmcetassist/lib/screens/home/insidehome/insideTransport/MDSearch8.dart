@@ -1,11 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 class MDSearch8 extends StatefulWidget {
   MDSearch8() : super();
   final String title = "Dropdown Menu";
   @override
   DropDownState createState() => DropDownState();
 }
+
 class Pickup {
   int id;
   String name;
@@ -64,21 +66,17 @@ class Pickup {
 
 class DropDownState extends State<MDSearch8> {
   List<Pickup> _pickup = Pickup.getPickup();
-  
 
   List<DropdownMenuItem<Pickup>> _dropDownMenuItemsPickup;
 
-
   Pickup _selectedPickup;
-
 
   @override
   void initState() {
     _dropDownMenuItemsPickup = buildDropdownmenuItemsPickup(_pickup);
-   
 
     _selectedPickup = _dropDownMenuItemsPickup[0].value;
-   
+
     super.initState();
   }
 
@@ -101,15 +99,15 @@ class DropDownState extends State<MDSearch8> {
 
   Widget selectCollection() {
     String _pickup = "${_selectedPickup.name}";
-  
+
     if (_pickup == "BAGALKOT PETROL PUMP") {
       return Card(
         elevation: 5,
         margin: EdgeInsets.all(13.0),
         child: InkWell(
           onTap: () {
-           // Navigator.push(
-             //   context, MaterialPageRoute(builder: (context) => CSEtoISE()));
+            // Navigator.push(
+            //   context, MaterialPageRoute(builder: (context) => CSEtoISE()));
           },
           splashColor: Colors.lightBlueAccent,
           child: Center(
@@ -130,13 +128,13 @@ class DropDownState extends State<MDSearch8> {
           ),
         ),
       );
-    } else if (_pickup == "BHARTI NAGAR" ) {
+    } else if (_pickup == "BHARTI NAGAR") {
       return Card(
         elevation: 5,
         margin: EdgeInsets.all(13.0),
         child: InkWell(
           onTap: () {
-          //  Navigator.push(
+            //  Navigator.push(
             //    context, MaterialPageRoute(builder: (context) => CSEtoENC()));
           },
           splashColor: Colors.lightBlueAccent,
@@ -165,8 +163,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => CSEtoCIVIL()));
+              //   Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => CSEtoCIVIL()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -187,13 +185,13 @@ class DropDownState extends State<MDSearch8> {
             ),
           ),
         );
-      } else if (_pickup == "CBT" ) {
+      } else if (_pickup == "CBT") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
+              //   Navigator.push(context,
               //    MaterialPageRoute(builder: (context) => CSEtoCHEM()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -221,7 +219,7 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-          //    Navigator.push(context,
+              //    Navigator.push(context,
               //    MaterialPageRoute(builder: (context) => CSEtoMECH()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -248,7 +246,7 @@ class DropDownState extends State<MDSearch8> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () { },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -274,8 +272,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //  Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => CSEtoDMATHS()));
+              //  Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => CSEtoDMATHS()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -295,16 +293,15 @@ class DropDownState extends State<MDSearch8> {
               ),
             ),
           ),
-        );  
-      }
-      else if (_pickup == "DASANKOPPA CROSS") {
+        );
+      } else if (_pickup == "DASANKOPPA CROSS") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //  Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => CSEtoDMATHS()));
+              //  Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => CSEtoDMATHS()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -325,15 +322,14 @@ class DropDownState extends State<MDSearch8> {
             ),
           ),
         );
-        }
-        else if (_pickup == "DHARWAD HOTEL") {
+      } else if (_pickup == "DHARWAD HOTEL") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(
-               //   context, MaterialPageRoute(builder: (context) => CSEtoENE()));
+              //   Navigator.push(
+              //   context, MaterialPageRoute(builder: (context) => CSEtoENE()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -354,15 +350,14 @@ class DropDownState extends State<MDSearch8> {
             ),
           ),
         );
-      }
-        else if (_pickup == "DURGA TEMPLE CROSS") {
+      } else if (_pickup == "DURGA TEMPLE CROSS") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(
-               //   context, MaterialPageRoute(builder: (context) => CSEtoENE()));
+              //   Navigator.push(
+              //   context, MaterialPageRoute(builder: (context) => CSEtoENE()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -383,14 +378,14 @@ class DropDownState extends State<MDSearch8> {
             ),
           ),
         );
-      } else if (_pickup == "GANDHI CHOUK" ) {
+      } else if (_pickup == "GANDHI CHOUK") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => CSEtoDCHEM()));
+              //   Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => CSEtoDCHEM()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -412,14 +407,14 @@ class DropDownState extends State<MDSearch8> {
           ),
         );
       } //////end of cse to  all////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-      if (_pickup == "GERMAN HOSPITAL" ) {
+      if (_pickup == "GERMAN HOSPITAL") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-            //  Navigator.push(
-               //   context, MaterialPageRoute(builder: (context) => ISEtoENC()));
+              //  Navigator.push(
+              //   context, MaterialPageRoute(builder: (context) => ISEtoENC()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -447,7 +442,7 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-            //  Navigator.push(
+              //  Navigator.push(
               //    context, MaterialPageRoute(builder: (context) => ISEtoENE()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -476,7 +471,7 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-            //  Navigator.push(context,
+              //  Navigator.push(context,
               //    MaterialPageRoute(builder: (context) => ISEtoCHEMICAL()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -505,7 +500,7 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
+              //   Navigator.push(context,
               //    MaterialPageRoute(builder: (context) => ISEtoMECHANICAL()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -534,7 +529,7 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-            //  Navigator.push(context,
+              //  Navigator.push(context,
               //    MaterialPageRoute(builder: (context) => ISEtoCIVIL()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -562,7 +557,7 @@ class DropDownState extends State<MDSearch8> {
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
-            onTap: () { },
+            onTap: () {},
             splashColor: Colors.lightBlueAccent,
             child: Center(
               child: Column(
@@ -589,8 +584,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => ISEtoDPHYSIC()));
+              //   Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => ISEtoDPHYSIC()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -618,8 +613,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => ISEtoDPHYSIC()));
+              //   Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => ISEtoDPHYSIC()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -647,8 +642,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => ISEtoDMATHS()));
+              //   Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => ISEtoDMATHS()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -669,15 +664,15 @@ class DropDownState extends State<MDSearch8> {
             ),
           ),
         );
-      } 
-      if (_pickup =="MALMADDI") {
+      }
+      if (_pickup == "MALMADDI") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => ISEtoDMATHS()));
+              //   Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => ISEtoDMATHS()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -705,8 +700,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => ISEtoDMATHS()));
+              //   Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => ISEtoDMATHS()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -727,14 +722,14 @@ class DropDownState extends State<MDSearch8> {
             ),
           ),
         );
-      }////end of all ise combination if else ladder
+      } ////end of all ise combination if else ladder
       if (_pickup == "MARATHA COLONY") {
         return Card(
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-            //  Navigator.push(
+              //  Navigator.push(
               //    context, MaterialPageRoute(builder: (context) => ENCtoENE()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -763,8 +758,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => ENCtoCHEMICAL()));
+              //   Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => ENCtoCHEMICAL()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -792,8 +787,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
-            //      MaterialPageRoute(builder: (context) => ENCtoMECHANICAL()));
+              //   Navigator.push(context,
+              //      MaterialPageRoute(builder: (context) => ENCtoMECHANICAL()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -821,7 +816,7 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-            //  Navigator.push(context,
+              //  Navigator.push(context,
               //    MaterialPageRoute(builder: (context) => ENCtoCIVIL()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -850,8 +845,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-            //  Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => ENCtoDCHEM()));
+              //  Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => ENCtoDCHEM()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -879,7 +874,7 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-            //  Navigator.push(context,
+              //  Navigator.push(context,
               //    MaterialPageRoute(builder: (context) => ENCtoDPHY()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -908,7 +903,7 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-            //  Navigator.push(context,
+              //  Navigator.push(context,
               //    MaterialPageRoute(builder: (context) => ENCtoDMATH()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -937,8 +932,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => ENEtoCHEMICAL()));
+              //   Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => ENEtoCHEMICAL()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -966,8 +961,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-            //  Navigator.push(context,
-             //    MaterialPageRoute(builder: (context) => ENEtoCIVIL()));
+              //  Navigator.push(context,
+              //    MaterialPageRoute(builder: (context) => ENEtoCIVIL()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -995,7 +990,7 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-            //  Navigator.push(context,
+              //  Navigator.push(context,
               //    MaterialPageRoute(builder: (context) => ENEtoDMATH()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -1024,7 +1019,7 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-            //  Navigator.push(context,
+              //  Navigator.push(context,
               //    MaterialPageRoute(builder: (context) => ENEtoMECHANICAL()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -1053,7 +1048,7 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
+              //   Navigator.push(context,
               //    MaterialPageRoute(builder: (context) => ENEtoDPHYSIC()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -1082,8 +1077,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => ENEtoDCHEM()));
+              //   Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => ENEtoDCHEM()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -1111,8 +1106,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-          //    Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => MECHtoDCHEM()));
+              //    Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => MECHtoDCHEM()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -1140,8 +1135,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => CIVILtoCHEM()));
+              //   Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => CIVILtoCHEM()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -1169,8 +1164,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => CHEMtoDCHEM()));
+              //   Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => CHEMtoDCHEM()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -1198,8 +1193,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-          //    Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => CHEMtoDPHY()));
+              //    Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => CHEMtoDPHY()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -1227,8 +1222,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-         //     Navigator.push(context,
-            //      MaterialPageRoute(builder: (context) => CHEMtoDMATHS()));
+              //     Navigator.push(context,
+              //      MaterialPageRoute(builder: (context) => CHEMtoDMATHS()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -1256,8 +1251,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
-             //     MaterialPageRoute(builder: (context) => MECHtoDCHEM()));
+              //   Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => MECHtoDCHEM()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -1285,7 +1280,7 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-            //  Navigator.push(context,
+              //  Navigator.push(context,
               //    MaterialPageRoute(builder: (context) => MECHtoCIVIL()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -1314,8 +1309,8 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-          //    Navigator.push(context,
-            //      MaterialPageRoute(builder: (context) => MECHtoDPHYSIC()));
+              //    Navigator.push(context,
+              //      MaterialPageRoute(builder: (context) => MECHtoDPHYSIC()));
             },
             splashColor: Colors.lightBlueAccent,
             child: Center(
@@ -1343,7 +1338,7 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-            //  Navigator.push(context,
+              //  Navigator.push(context,
               //    MaterialPageRoute(builder: (context) => MECHtoDMATHS()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -1372,7 +1367,7 @@ class DropDownState extends State<MDSearch8> {
           margin: EdgeInsets.all(13.0),
           child: InkWell(
             onTap: () {
-           //   Navigator.push(context,
+              //   Navigator.push(context,
               //    MaterialPageRoute(builder: (context) => CIVILtoDCHEM()));
             },
             splashColor: Colors.lightBlueAccent,
@@ -1431,7 +1426,7 @@ class DropDownState extends State<MDSearch8> {
         title: Text(
           'Dharwad 8:00', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
@@ -1466,7 +1461,7 @@ class DropDownState extends State<MDSearch8> {
                   value: _selectedPickup,
                   autofocus: true,
                   iconSize: 60,
-                ),               
+                ),
                 Text(
                   "\n\ ",
                   textAlign: TextAlign.center,

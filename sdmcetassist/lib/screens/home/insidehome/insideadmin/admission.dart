@@ -300,7 +300,7 @@ class Cet extends StatelessWidget {
         title: Text(
           'Admission by Cet', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
@@ -431,7 +431,7 @@ class Comedk extends StatelessWidget {
         title: Text(
           'Admission by COMEDK', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
@@ -516,7 +516,7 @@ class Management extends StatelessWidget {
         title: Text(
           'Admission by Management', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
@@ -581,7 +581,7 @@ class Nri extends StatelessWidget {
         title: Text(
           'Admission for Nri', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
@@ -656,7 +656,7 @@ class LateralEntry extends StatelessWidget {
         title: Text(
           'Lateral Entry', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
@@ -742,7 +742,7 @@ class FeesStructure extends StatelessWidget {
         title: Text(
           'Fees Structure',
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
@@ -873,7 +873,7 @@ class PgMtechMba extends StatelessWidget {
         title: Text(
           'PG M.Tech and MBA',
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
