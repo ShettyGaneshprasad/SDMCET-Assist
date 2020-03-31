@@ -36,7 +36,7 @@ class AfternoonScreen extends StatelessWidget {
                     ),
                     Flexible(
                       child: Text(
-                        "12'o clock Bus",
+                        "12:30 Bus",
                         style: new TextStyle(fontSize: 25.0),
                         textAlign: TextAlign.center,
                       ),
