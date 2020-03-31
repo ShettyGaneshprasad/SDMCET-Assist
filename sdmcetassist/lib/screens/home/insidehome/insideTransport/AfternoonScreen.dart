@@ -9,7 +9,7 @@ class AfternoonScreen extends StatelessWidget {
       backgroundColor: Colors.blue[100],
       appBar: AppBar(
         title: Text('Afternoon session (Drop Points)'),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(

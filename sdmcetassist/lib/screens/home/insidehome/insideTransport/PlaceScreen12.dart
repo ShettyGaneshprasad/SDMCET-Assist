@@ -1,18 +1,16 @@
 import 'package:flutter/material.dart';
 import 'MDSearch12.dart';
 
-
 import 'ViewAfternoon.dart';
 
 class PlaceScreen12 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       backgroundColor: Colors.blue[100],
       appBar: AppBar(
         title: Text('Select Place'),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
@@ -49,7 +47,6 @@ class PlaceScreen12 extends StatelessWidget {
                 ),
               ),
             ),
-            
             Card(
               elevation: 10,
               margin: EdgeInsets.all(8.0),

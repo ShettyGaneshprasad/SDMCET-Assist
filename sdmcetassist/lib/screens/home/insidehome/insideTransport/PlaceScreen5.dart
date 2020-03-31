@@ -10,7 +10,7 @@ class PlaceScreen5 extends StatelessWidget {
       backgroundColor: Colors.blue[100],
       appBar: AppBar(
         title: Text('Select Place'),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
