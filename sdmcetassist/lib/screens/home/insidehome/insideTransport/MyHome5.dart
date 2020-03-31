@@ -41,7 +41,7 @@ class _TeachersTimeTable extends State<MyHome5> {
         title: Text(
           'Image Related to Search', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: timeTable != null

@@ -15,7 +15,7 @@ class Ise extends StatelessWidget {
         title: Text(
           'Information Science Department', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(
@@ -139,6 +139,26 @@ class Ise extends StatelessWidget {
                 ),
               ),
             ),
+            Card(
+              margin: EdgeInsets.all(8.0),
+              child: InkWell(
+                onTap: () {},
+                splashColor: Colors.lightBlueAccent,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Icon(
+                        Icons.description,
+                        size: 50.0,
+                      ),
+                      Text("Prev. Question Papers",
+                          style: new TextStyle(fontSize: 17.0))
+                    ],
+                  ),
+                ),
+              ),
+            ),
           ],
         ),
       ),
@@ -158,7 +178,7 @@ class IseAboutp1 extends StatelessWidget {
         title: Text(
           'Information Science Department', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: PageView(
@@ -626,7 +646,7 @@ class _TimeTable extends State<TimeTable> {
           title: Text(
             'Information Science Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -700,7 +720,7 @@ class _FacultyDetails extends State<FacultyDetails> {
           title: Text(
             'Information Science Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -774,7 +794,7 @@ class _TeachersTimeTable extends State<TeachersTimeTable> {
           title: Text(
             'Information Science Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -848,7 +868,7 @@ class _IseNotice extends State<IseNotice> {
           title: Text(
             'Information Science Department', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null

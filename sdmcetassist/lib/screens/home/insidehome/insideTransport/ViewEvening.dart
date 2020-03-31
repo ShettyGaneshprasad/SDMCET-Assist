@@ -13,7 +13,7 @@ class ViewEvening extends StatelessWidget {
         title: Text(
           'All Afternoon Routes', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
+        backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
       body: Container(

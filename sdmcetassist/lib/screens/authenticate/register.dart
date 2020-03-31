@@ -22,9 +22,9 @@ class _RegisterState extends State<Register> {
     return loading
         ? Loading() //loading screen when we r loading in background
         : Scaffold(
-            backgroundColor: Colors.blue[300],
+            backgroundColor: Colors.blue[100],
             appBar: AppBar(
-              backgroundColor: Colors.blue[700],
+              backgroundColor: Colors.blue,
               elevation: 10.0,
               title: Text('Register to SDMCET Assist'),
               actions: <Widget>[
@@ -99,6 +99,7 @@ class _RegisterState extends State<Register> {
                       error,
                       style: TextStyle(color: Colors.red, fontSize: 14.0),
                     ),
+                    Image.asset("assets/sdmlogoblank.jpg"),
                   ],
                 ),
               ),

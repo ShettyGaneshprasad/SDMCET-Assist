@@ -7,6 +7,7 @@ import 'package:sdmcetassist/screens/home/insidehome/administration.dart';
 import 'package:sdmcetassist/screens/home/insidehome/contacts.dart';
 import 'package:sdmcetassist/screens/home/insidehome/food.dart';
 import 'package:sdmcetassist/screens/home/insidehome/notice.dart';
+import 'package:sdmcetassist/screens/home/insidehome/placement.dart';
 import 'package:sdmcetassist/screens/home/insidehome/transport.dart';
 import 'package:sdmcetassist/screens/home/insidehome/navigation.dart';
 import 'package:share/share.dart';
@@ -25,7 +26,6 @@ class Home extends StatelessWidget {
         title: Text(
           'SDMCET Assist', /*style:TextStyle(color:Colors.black)*/
         ),
-        backgroundColor: Colors.blue[300],
         elevation: 10.0,
         actions: <Widget>[
           FlatButton.icon(
@@ -363,6 +363,28 @@ class Home extends StatelessWidget {
                         size: 50.0,
                       ),
                       Text("Notice", style: new TextStyle(fontSize: 17.0))
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Card(
+              margin: EdgeInsets.all(8.0),
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Placement()));
+                },
+                splashColor: Colors.lightBlueAccent,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Icon(
+                        Icons.card_travel,
+                        size: 50.0,
+                      ),
+                      Text("Placement", style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
