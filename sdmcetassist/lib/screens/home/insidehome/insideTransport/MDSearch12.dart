@@ -605,7 +605,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "KCD CIRCLE",
+                    "KCD CIRCLE\nBus No:KA25 B6903\nTiming:1:38 PM - 1:42PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1601,7 +1601,7 @@ class DropDownState extends State<MDSearch12> {
                   ),
                 ),
                 SizedBox(height: 20.0),
-                Text('Press below : ${_selectedDrop.name}'),
+               // Text('Press below : ${_selectedDrop.name}'),
               ],
             ),
             selectCollection(),
