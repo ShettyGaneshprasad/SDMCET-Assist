@@ -22,8 +22,14 @@ class ExaminationSec extends StatelessWidget {
               fit: BoxFit.cover,
             ),
             Text(
-              "",
-              style: TextStyle(fontSize: 30),
+              "\n\"You can download all forms related to examination section by pressing yellow button\"",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.black,
+                fontSize: 15,
+                fontStyle: FontStyle.italic,
+              ),
             ),
             Card(
               color: Colors.red,
@@ -59,7 +65,7 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Card(
-              color: Colors.amber,
+              color: Colors.red,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
