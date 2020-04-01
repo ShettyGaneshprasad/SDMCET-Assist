@@ -15,6 +15,8 @@ import 'package:url_launcher/url_launcher.dart';
 import 'insidehome/department.dart';
 import 'package:sdmcetassist/services/auth.dart';
 
+import 'insidehome/insideExaminationSection/examinationSection.dart';
+
 class Home extends StatelessWidget {
   final AuthService _auth = AuthService();
 
@@ -291,29 +293,6 @@ class Home extends StatelessWidget {
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
-                  Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => Food()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Icon(
-                        Icons.restaurant,
-                        //color: Colors.amberAccent,
-                        size: 50.0,
-                      ),
-                      Text("Food", style: new TextStyle(fontSize: 17.0))
-                    ],
-                  ),
-                ),
-              ),
-            ),
-            Card(
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => Navigation()));
                 },
@@ -339,6 +318,32 @@ class Home extends StatelessWidget {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
+                          builder: (context) => ExaminationSec()));
+                },
+                splashColor: Colors.lightBlueAccent,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Icon(
+                        Icons.content_paste,
+                        size: 50.0,
+                      ),
+                      Text("Examination\nSection",
+                          textAlign: TextAlign.center,
+                          style: new TextStyle(fontSize: 17.0))
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Card(
+              margin: EdgeInsets.all(8.0),
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
                           builder: (context) => MainScreenTransport()));
                 },
                 splashColor: Colors.lightBlueAccent,
@@ -350,7 +355,11 @@ class Home extends StatelessWidget {
                         Icons.departure_board,
                         size: 50.0,
                       ),
-                      Text("Bus", style: new TextStyle(fontSize: 17.0))
+                      Text(
+                        "Bus",
+                        style: new TextStyle(fontSize: 17.0),
+                        textAlign: TextAlign.center,
+                      )
                     ],
                   ),
                 ),
@@ -395,6 +404,29 @@ class Home extends StatelessWidget {
                         size: 50.0,
                       ),
                       Text("Placement", style: new TextStyle(fontSize: 17.0))
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Card(
+              margin: EdgeInsets.all(8.0),
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) => Food()));
+                },
+                splashColor: Colors.lightBlueAccent,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Icon(
+                        Icons.restaurant,
+                        //color: Colors.amberAccent,
+                        size: 50.0,
+                      ),
+                      Text("Food", style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
