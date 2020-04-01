@@ -111,6 +111,104 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Text(
+              "\nMakeup Examination Form:",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.blue,
+                fontSize: 30,
+                fontStyle: FontStyle.italic,
+              ),
+            ),
+            Text(
+              "• Fees to be paid in college campus Karnataka Bank through Challan available at Office of the Controller of Examinations.\n• Fees paid once cannot be refunded.\n• After the submission of the application, modification in the application will not be entertained.\n• You should have your college Identity card (any other Identity proofs issued by the government in case you are an alumnus) whenever you interact with the Office of the Controller of Examinations.\n• You should submit your request approved by the Dean Academic at the office of the controller of examinations within the stipulated period as mentioned in the notification. Late submissions will not be accepted. Incomplete applications will not be processed.\n",
+              textAlign: TextAlign.justify,
+              style: TextStyle(
+                fontSize: 17,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Card(
+              color: Colors.amber,
+              margin: EdgeInsets.all(8.0),
+              child: InkWell(
+                onTap: () {
+                  launch(
+                      "https://sdmcet.ac.in/download/makeup-examination/?wpdmdl=3488");
+                },
+                splashColor: Colors.lightBlueAccent,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Text(
+                        "Get Application for the \nMakeup\nExamination",
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Text(
+              "\nRevaluation Form:",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.blue,
+                fontSize: 30,
+                fontStyle: FontStyle.italic,
+              ),
+            ),
+            Text(
+              "If the candidate is aggrieved of the grades declared, he/she may apply for the revaluation.\n",
+              textAlign: TextAlign.justify,
+              style: TextStyle(
+                fontSize: 17,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Text(
+              "• Fees to be paid in college campus Karnataka Bank through Challan available at Office of the Controller of Examinations.\n• Fees paid once cannot be refunded.\n• After the submission of the application, modification in the application will not be entertained.\n• You should have your college Identity card (any other Identity proofs issued by the government in case you are an alumnus) whenever you interact with the Office of the Controller of Examinations.\n• You should submit your request to the office of the controller of examinations within the stipulated period as mentioned in the notification. Late submissions will not be accepted. Incomplete applications will not be processed.\n",
+              textAlign: TextAlign.justify,
+              style: TextStyle(
+                fontSize: 17,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Card(
+              color: Colors.amber,
+              margin: EdgeInsets.all(8.0),
+              child: InkWell(
+                onTap: () {
+                  launch(
+                      "https://sdmcet.ac.in/download/revaluation-form/?wpdmdl=3490");
+                },
+                splashColor: Colors.lightBlueAccent,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Text(
+                        "Get Application for\n Revaluation",
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Text(
               "\nProvisional degree certificate (PDC):",
               textAlign: TextAlign.center,
               style: TextStyle(
@@ -557,104 +655,6 @@ class ExaminationSec extends StatelessWidget {
                     children: <Widget>[
                       Text(
                         "Get Application for the \nDuplicate Admission Ticket",
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold,
-                        ),
-                        textAlign: TextAlign.center,
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-            Text(
-              "\nMakeup Examination Form:",
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.blue,
-                fontSize: 30,
-                fontStyle: FontStyle.italic,
-              ),
-            ),
-            Text(
-              "• Fees to be paid in college campus Karnataka Bank through Challan available at Office of the Controller of Examinations.\n• Fees paid once cannot be refunded.\n• After the submission of the application, modification in the application will not be entertained.\n• You should have your college Identity card (any other Identity proofs issued by the government in case you are an alumnus) whenever you interact with the Office of the Controller of Examinations.\n• You should submit your request approved by the Dean Academic at the office of the controller of examinations within the stipulated period as mentioned in the notification. Late submissions will not be accepted. Incomplete applications will not be processed.\n",
-              textAlign: TextAlign.justify,
-              style: TextStyle(
-                fontSize: 17,
-                fontStyle: FontStyle.normal,
-              ),
-            ),
-            Card(
-              color: Colors.amber,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  launch(
-                      "https://sdmcet.ac.in/download/makeup-examination/?wpdmdl=3488");
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Text(
-                        "Get Application for the \nMakeup\nExamination",
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold,
-                        ),
-                        textAlign: TextAlign.center,
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-            Text(
-              "\nRevaluation Form:",
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.blue,
-                fontSize: 30,
-                fontStyle: FontStyle.italic,
-              ),
-            ),
-            Text(
-              "If the candidate is aggrieved of the grades declared, he/she may apply for the revaluation.\n",
-              textAlign: TextAlign.justify,
-              style: TextStyle(
-                fontSize: 17,
-                fontStyle: FontStyle.normal,
-              ),
-            ),
-            Text(
-              "• Fees to be paid in college campus Karnataka Bank through Challan available at Office of the Controller of Examinations.\n• Fees paid once cannot be refunded.\n• After the submission of the application, modification in the application will not be entertained.\n• You should have your college Identity card (any other Identity proofs issued by the government in case you are an alumnus) whenever you interact with the Office of the Controller of Examinations.\n• You should submit your request to the office of the controller of examinations within the stipulated period as mentioned in the notification. Late submissions will not be accepted. Incomplete applications will not be processed.\n",
-              textAlign: TextAlign.justify,
-              style: TextStyle(
-                fontSize: 17,
-                fontStyle: FontStyle.normal,
-              ),
-            ),
-            Card(
-              color: Colors.amber,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  launch(
-                      "https://sdmcet.ac.in/download/revaluation-form/?wpdmdl=3490");
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Text(
-                        "Get Application for\n Revaluation",
                         style: TextStyle(
                           color: Colors.black,
                           fontSize: 20,
