@@ -231,7 +231,7 @@ class DropDownState extends State<MDSearch1> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "WILL LEAVE COLLEGE\nBus No:KA25 B4922\nTiming:1:35 PM - 1:38PM\nBus No:KA25 B3342\nTiming:1:35 PM - 1:38PM",
+                    "WILL LEAVE AT\nBus No:KA25 B4922\nTiming:1:35 PM - 1:38PM\nBus No:KA25 B3342\nTiming:1:35 PM - 1:38PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
