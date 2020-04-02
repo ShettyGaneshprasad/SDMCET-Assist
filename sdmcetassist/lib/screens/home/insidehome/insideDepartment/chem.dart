@@ -13,7 +13,7 @@ class Chemical extends StatelessWidget {
       backgroundColor: Colors.blue[50],
       appBar: AppBar(
         title: Text(
-          'Chemical Department', /*style:TextStyle(color:Colors.black)*/
+          'Chemical Department',
         ),
         elevation: 10.0,
       ),
