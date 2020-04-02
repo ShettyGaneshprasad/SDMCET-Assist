@@ -63,65 +63,6 @@ class Nikhita extends StatelessWidget {
                       ),
                     ),
                   ),
-                  /*  Card(
-                    elevation: 10,
-                    margin: EdgeInsets.all(20.0),
-                    child: InkWell(
-                      onTap: () {
-                        launch(
-                            'https://www.linkedin.com/in/shetty-ganeshprasad-955599184/');
-                      },
-                      splashColor: Colors.lightBlueAccent,
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          FaIcon(
-                            FontAwesomeIcons.linkedin,
-                            color: Colors.blue,
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                  Card(
-                    elevation: 10,
-                    margin: EdgeInsets.all(20.0),
-                    child: InkWell(
-                      onTap: () {
-                        launch('https://www.instagram.com/_g4nesh.shetty_/');
-                      },
-                      splashColor: Colors.lightBlueAccent,
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          FaIcon(
-                            FontAwesomeIcons.instagram,
-                            color: Colors.purple,
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                  Card(
-                    elevation: 10,
-                    margin: EdgeInsets.all(20.0),
-                    child: InkWell(
-                      onTap: () {
-                        launch(
-                            'https://www.facebook.com/ganeshshetty.santhosh');
-                      },
-                      splashColor: Colors.lightBlueAccent,
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          FaIcon(
-                            FontAwesomeIcons.facebookSquare,
-                            color: Colors.blue,
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),*/
                   Card(
                     elevation: 10,
                     margin: EdgeInsets.all(20.0),
