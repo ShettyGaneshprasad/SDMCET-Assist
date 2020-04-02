@@ -8,10 +8,6 @@ class Visionmission extends StatelessWidget {
       child: ListView(
         children: <Widget>[
           Image.asset('assets/adminstatue.jpg'),
-          /*Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FAdmin%20statue.jpg?alt=media&token=98ce0133-37b3-441b-9811-bb52165b539b',
-            fit: BoxFit.contain,
-          ),*/
           Text(
             "\nVision",
             textAlign: TextAlign.center,
