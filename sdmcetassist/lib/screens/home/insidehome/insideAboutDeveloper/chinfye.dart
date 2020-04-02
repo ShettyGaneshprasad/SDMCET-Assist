@@ -102,26 +102,6 @@ class Chinfye extends StatelessWidget {
                       ),
                     ),
                   ),
-                  /*  Card(
-                    elevation: 10,
-                    margin: EdgeInsets.all(20.0),
-                    child: InkWell(
-                      onTap: () {
-                        launch(
-                            'https://www.facebook.com/ganeshshetty.santhosh');
-                      },
-                      splashColor: Colors.lightBlueAccent,
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: <Widget>[
-                          FaIcon(
-                            FontAwesomeIcons.facebookSquare,
-                            color: Colors.blue,
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),*/
                   Card(
                     elevation: 10,
                     margin: EdgeInsets.all(20.0),
