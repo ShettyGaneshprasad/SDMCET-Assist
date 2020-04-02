@@ -28,11 +28,6 @@ class Deans extends StatelessWidget {
             ),
           ),
           Image.asset('assets/Principal-Dr-K-Gopinath-2-1.jpg'),
-          /*
-          Image.network(
-            'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2FDeanPic%2FPrincipal-Dr-K-Gopinath-2-1.jpg?alt=media&token=cfd3b9fc-a78b-4342-baa5-0b4d194a9ddd',
-            fit: BoxFit.contain,
-          ),*/
           Text(
             "\n\nA. V. KULKARNI",
             textAlign: TextAlign.center,
