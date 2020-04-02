@@ -686,7 +686,7 @@ class ExamFees extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Examination Fees Structure', /*style:TextStyle(color:Colors.black)*/
+          'Examination Fees Structure',
         ),
         elevation: 10.0,
       ),
