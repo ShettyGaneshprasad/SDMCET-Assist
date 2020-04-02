@@ -184,9 +184,11 @@ class ChemAboutp1 extends StatelessWidget {
         children: <Widget>[
           ListView(
             children: <Widget>[
+              Image.network(
+                  "https://sdmcet.ac.in/wp-content/uploads/2017/07/chemical.jpg"),
               Center(
                 child: Text(
-                  "Swipe Left for Additional link",
+                  "\nSwipe Left for Additional link",
                   textAlign: TextAlign.justify,
                   softWrap: true,
                   style: TextStyle(color: Colors.blueAccent, fontSize: 20),
