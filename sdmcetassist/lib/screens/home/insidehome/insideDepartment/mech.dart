@@ -600,33 +600,6 @@ class MechAboutp1 extends StatelessWidget {
                       ),
                     ),
                   ),
-                  /* Card(
-                    elevation: 5,
-                    margin: EdgeInsets.all(13.0),
-                    child: InkWell(
-                      onTap: () {
-                        launch(
-                            'https://drive.google.com/file/d/1Y_xosOPszGvXB-RkshDhn6LALwo5blX8/view?ts=5df82e5a');
-                      },
-                      splashColor: Colors.lightBlueAccent,
-                      child: Center(
-                        child: Column(
-                          mainAxisSize: MainAxisSize.min,
-                          children: <Widget>[
-                            Text(
-                              "Internship and Certification Details",
-                              style: new TextStyle(
-                                  fontSize: 30.0,
-                                  fontStyle: FontStyle.italic,
-                                  fontWeight: FontWeight.w600,
-                                  color: Colors.red),
-                              textAlign: TextAlign.center,
-                            )
-                          ],
-                        ),
-                      ),
-                    ),
-                  ),*/
                 ],
               ),
             ),
