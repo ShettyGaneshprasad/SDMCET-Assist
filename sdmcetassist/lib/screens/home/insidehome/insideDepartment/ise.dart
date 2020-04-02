@@ -185,6 +185,8 @@ class IseAboutp1 extends StatelessWidget {
         children: <Widget>[
           ListView(
             children: <Widget>[
+              Image.network(
+                  "https://sdmcet.ac.in/wp-content/uploads/2017/07/information-science.jpg"),
               Center(
                 child: Text(
                   "Swipe Left for Additional link",
