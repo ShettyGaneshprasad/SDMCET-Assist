@@ -9,9 +9,6 @@ class Management extends StatelessWidget {
         child: ListView(
           children: <Widget>[
             Image.asset('assets/about-veerendra-heggade.png'),
-            /*Image.network(
-              'https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/CollegePic%2Fabout-veerendra-heggade.png?alt=media&token=83596196-929c-4bcc-a519-bcbca57af05d',
-            ),*/
             Text(
               "Dr D Veerendra Heggade",
               textAlign: TextAlign.center,
