@@ -183,9 +183,11 @@ class CseAboutp1 extends StatelessWidget {
         children: <Widget>[
           ListView(
             children: <Widget>[
+              Image.network(
+                  "https://i1.wp.com/schooledbyscience.com/wp-content/uploads/2018/11/computer-science.jpeg?fit=750%2C498&ssl=1&resize=1200%2C900"),
               Center(
                 child: Text(
-                  "Swipe Left for Additional link",
+                  "\nSwipe Left for Additional link",
                   textAlign: TextAlign.justify,
                   softWrap: true,
                   style: TextStyle(color: Colors.blueAccent, fontSize: 20),
