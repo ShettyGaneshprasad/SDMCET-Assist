@@ -119,7 +119,10 @@ class DropDownState extends State<Navigation> {
         elevation: 5,
         margin: EdgeInsets.all(13.0),
         child: InkWell(
-          onTap: () {},
+          onTap: () {
+            launch(
+                "https://drive.google.com/open?id=12KwEfThDNWH1LWfR8tSnS7ADyhZlnQnt");
+          },
           splashColor: Colors.lightBlueAccent,
           child: Center(
             child: Column(
@@ -178,7 +181,7 @@ class DropDownState extends State<Navigation> {
             //   Navigator.push(
             //   context, MaterialPageRoute(builder: (context) => CSEtoENC()));
             launch(
-                "https://drive.google.com/file/d/1_9YGAP9fJMJPSdomH0NS2-mWheaoEVjr/view?usp=sharing");
+                "https://drive.google.com/open?id=17fMt4jCqzQkSBHrVgbz0lVLvPnVuDTa4");
           },
           splashColor: Colors.lightBlueAccent,
           child: Center(
@@ -208,7 +211,7 @@ class DropDownState extends State<Navigation> {
             //   Navigator.push(
             //   context, MaterialPageRoute(builder: (context) => CSEtoENC()));
             launch(
-                "https://drive.google.com/file/d/1_9YGAP9fJMJPSdomH0NS2-mWheaoEVjr/view?usp=sharing");
+                "https://drive.google.com/open?id=14qcwCGB1MCnXLcPLM2wAn0eBn3vQ7VnN");
           },
           splashColor: Colors.lightBlueAccent,
           child: Center(
@@ -296,7 +299,7 @@ class DropDownState extends State<Navigation> {
             child: InkWell(
               onTap: () {
                 launch(
-                    "https://drive.google.com/open?id=1HmX2RhzY6pjpGogLEAIoDv3-hdlP5i3K");
+                    "https://drive.google.com/open?id=1V7ja4oaz3mGusffvd9WcoYzFGtaOdwkx");
               },
               splashColor: Colors.lightBlueAccent,
               child: Center(
@@ -422,7 +425,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1W6xvYjNcE9jcVAJDjPo4_mJ2rTzelaNA");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -472,32 +478,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
-              splashColor: Colors.lightBlueAccent,
-              child: Center(
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Text(
-                      "CSE <-> DEPT. OF MATHS",
-                      style: new TextStyle(
-                          fontSize: 30.0,
-                          fontStyle: FontStyle.italic,
-                          fontWeight: FontWeight.w600,
-                          color: Colors.blueAccent),
-                      textAlign: TextAlign.center,
-                    )
-                  ],
-                ),
-              ),
-            ),
-          );
-        } else if (_source == "CSE" && _destination == "DEPT. OF MATHS") {
-          return Card(
-            elevation: 5,
-            margin: EdgeInsets.all(13.0),
-            child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1NM9gwUqWRVHo-3ZFHJClZ-ELTWgHMoMt");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -547,7 +531,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1kD_UV6LUD__qnRO94dYEDXP64EexeZGY");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -597,7 +584,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1sxPB7s4I7SURkab_2m9VKkbrbBboeGii");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -623,7 +613,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1UMWjAejV1XEHYtd76X7Ji1pELxBKjMjy");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -1063,7 +1056,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1NBDJhQLY8MSyCXQq8HoKMgYTdTwcqHmA");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -1115,7 +1111,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1asCkDdAFMQgNaTxYL-ldJSA4U0_rebtx");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -1219,7 +1218,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1ohJfphsPz85VIbf1a3mssWmyQRylL9oz");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -1271,7 +1273,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=17cM3-IwBrNYwIUv5sjW0snCrpQoxkrRx");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -1323,7 +1328,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1cpXhLyWk3jGIpdn2e8alQM-woF5f3Ug7");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -1375,7 +1383,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1O3OBKPBQ5M7q9b9IbUvXO27IfVZRCKxA");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -2182,7 +2193,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1kVcAl6Fs6zSmEKv14b6SP7-drJo4qkQQ");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -2208,7 +2222,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1qgITXYr2b1eAE_CBYNHsgRTD5msid7WX");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -2234,7 +2251,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1IUHiZDYriPbhXP9MvMPCKI2D6MHNTRvE");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -2260,7 +2280,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1fHIKyQb27tW4Pol5YZqvR6mJtmojCdWL");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -2312,7 +2335,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1Y1XUXOY1TdFIHLww_GHFSewpyOvspmVt");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -2338,7 +2364,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1ksRnt38paj0sSzJ06RdqKJJZu969AHSY");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -2364,7 +2393,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1QXk7mxAlG6IueW8b3tFsBkOoNkdIJrVQ");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -2390,7 +2422,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1y3GEu7zrBU0ad_3mWNK0bMJ-Rb4IrH-X");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -2416,7 +2451,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1ZAx6pnlc4SaTiaFRtqhA5FYaoXwc2lVI");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -2444,7 +2482,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1k4E6RO8EQJFIEKxiM4EiB2M8SOBGuG83");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
@@ -2470,7 +2511,10 @@ class DropDownState extends State<Navigation> {
             elevation: 5,
             margin: EdgeInsets.all(13.0),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                launch(
+                    "https://drive.google.com/open?id=1iztOHhhXO-tpKqkSACuO4cL6iXnl3RdA");
+              },
               splashColor: Colors.lightBlueAccent,
               child: Center(
                 child: Column(
