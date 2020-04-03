@@ -36,6 +36,7 @@ dependencies:
   firebase_messaging:
   flutter_speed_dial: ^1.2.1
   share: ^0.6.2+3
+  photo_view: ^0.4.0
 
 dev_dependencies:
   flutter_test:
