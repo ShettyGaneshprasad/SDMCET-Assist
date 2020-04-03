@@ -46,10 +46,11 @@ class Pickup {
       Pickup(28, 'SHRI.MARUTI TEMPLE(NEAR SUB-JAIL)'),
       Pickup(29, 'SIDDARODHA MATT'),
       Pickup(30, 'SIRUR PARK SIGNAL'),
-      Pickup(31, 'TYENGAR BAKERY JUNCTION'),
-      Pickup(32, 'UNKAL CROSS'),
-      Pickup(33, 'WATER TANK(SILVER TOWN)'),
-      Pickup(34, 'YALAKKI SHETTER COLONY'),
+      Pickup(31, 'TOLNAKA'),
+      Pickup(32, 'TYENGAR BAKERY JUNCTION'),
+      Pickup(33, 'UNKAL CROSS'),
+      Pickup(34, 'WATER TANK(SILVER TOWN)'),
+      Pickup(35, 'YALAKKI SHETTER COLONY'),
     ];
   }
 }
@@ -953,6 +954,35 @@ class DropDownState extends State<MHSearch9> {
           ),
         );
       } //END OF ENE///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      if (_pickup == "TOLL NAKA") {
+        return Card(
+          elevation: 5,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              //    Navigator.push(context,
+              //     MaterialPageRoute(builder: (context) => MECHtoDCHEM()));
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "\nBus No:KA25A B0090\nTiming:7:47 AM - 7:48AM\n\nBus No:KA25A B0084\nTiming:7:47 AM - 7:48AM",
+                    style: new TextStyle(
+                        fontSize: 30.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.blueAccent),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        );
+      }
       if (_pickup == "TYENGAR BAKERY JUNCTION") {
         return Card(
           elevation: 5,
