@@ -2176,6 +2176,530 @@ class DropDownState extends State<Navigation> {
             ),
           );
         } ////END OF MECHANICAL////////////////////////////////////////////////////////////////////////////////
+        //adding admin possibility
+        if (_source == "ADMIN Block" && _destination == "CSE") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "ADMIN <-> CSE",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "ADMIN Block" && _destination == "E&C") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "ADMIN <-> E&C",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "ADMIN Block" && _destination == "E&E") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "ADMIN <-> E&E",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "ADMIN Block" && _destination == "CHEMICAL") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "ADMIN <-> CHEMICAL",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "ADMIN Block" && _destination == "MECHANICAL") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "ADMIN <-> MECHANICAL",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "ADMIN Block" && _destination == "CIVIL") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "ADMIN <-> CIVIL",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "ADMIN Block" && _destination == "DEPT. OF CHEM'") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "ADMIN <-> DEPT. OF CHEM'",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "ADMIN Block" && _destination == "DEPT. OF PHYSIC") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "ADMIN <-> DEPT. OF PHYSIC",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "ADMIN Block" && _destination == "DEPT. OF MATHS") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "ADMIN <-> DEPT. OF MATHS",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "ADMIN Block" && _destination == "ISE") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "ADMIN <-> ISE",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        //end of admin posibility
+        //START OF TO ADMIN
+        if (_source == "CSE" && _destination == "ADMIN Block") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "CSE <-> ADMIN",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "E&C" && _destination == "ADMIN Block") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "E&C <-> ADMIN",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "E&E" && _destination == "ADMIN Block") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "E&E <-> ADMIN",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "CHEMICAL" && _destination == "ADMIN Block") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "CHEMICAL <-> ADMIN",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "MECHANICAL" && _destination == "ADMIN Block") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "MECHANICAL <-> ADMIN",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "CIVIL" && _destination == "ADMIN Block") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "CIVIL <-> ADMIN",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "DEPT. OF CHEM" && _destination == "ADMIN Block") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "DEPT. OF CHEM <-> ADMIN",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "DEPT. OF PHYSIC" && _destination == "ADMIN Block") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "DEPT. OF PHYSIC <-> ADMIN",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "DEPT. OF MATHS" && _destination == "ADMIN Block") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "DEPT. OF MATHS <-> ADMIN",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        if (_source == "ISE" && _destination == "ADMIN Block") {
+          return Card(
+            elevation: 5,
+            margin: EdgeInsets.all(13.0),
+            child: InkWell(
+              onTap: () {},
+              splashColor: Colors.lightBlueAccent,
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Text(
+                      "ISE <-> ADMIN",
+                      style: new TextStyle(
+                          fontSize: 30.0,
+                          fontStyle: FontStyle.italic,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.blueAccent),
+                      textAlign: TextAlign.center,
+                    )
+                  ],
+                ),
+              ),
+            ),
+          );
+        }
+        //END OF TO ADMIN
         if (_source == "DEPT. OF CHEM" && _destination == "CIVIL") {
           return Card(
             elevation: 5,
