@@ -323,7 +323,7 @@ class Home extends StatelessWidget {
                         Icons.content_paste,
                         size: 50.0,
                       ),
-                      Text("Examination\nSection",
+                      Text("Exam Section",
                           textAlign: TextAlign.center,
                           style: new TextStyle(fontSize: 17.0))
                     ],
