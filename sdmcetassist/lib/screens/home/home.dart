@@ -288,7 +288,7 @@ class Home extends StatelessWidget {
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Navigation()));
+                      MaterialPageRoute(builder: (context) => Placement()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -296,10 +296,10 @@ class Home extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       Icon(
-                        Icons.add_location,
+                        Icons.card_travel,
                         size: 50.0,
                       ),
-                      Text("Navigation", style: new TextStyle(fontSize: 17.0))
+                      Text("Placement", style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
@@ -386,7 +386,7 @@ class Home extends StatelessWidget {
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Placement()));
+                      MaterialPageRoute(builder: (context) => Navigation()));
                 },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
@@ -394,10 +394,10 @@ class Home extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       Icon(
-                        Icons.card_travel,
+                        Icons.add_location,
                         size: 50.0,
                       ),
-                      Text("Placement", style: new TextStyle(fontSize: 17.0))
+                      Text("Navigation", style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
