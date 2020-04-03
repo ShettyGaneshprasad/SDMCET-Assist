@@ -38,7 +38,7 @@ class SdmImages extends StatelessWidget {
         actions: <Widget>[
           Center(
             child: Text(
-              'Swipe Left for more Images',
+              'Swipe Left for more Images\nTap to Zoom',
               style: TextStyle(color: Colors.black, fontSize: 15),
             ),
           )
