@@ -46,13 +46,6 @@ class Home extends StatelessWidget {
           )
         ],
       ),
-      /*  floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.push(context,
-              MaterialPageRoute(builder: (context) => AboutDeveloper()));
-        },
-        child: FaIcon(FontAwesomeIcons.code),
-      ),*/
       floatingActionButton: SpeedDial(
         curve: Curves.easeIn,
         animatedIcon: AnimatedIcons.menu_close,
