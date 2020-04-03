@@ -16,6 +16,7 @@ import 'insidehome/department.dart';
 import 'package:sdmcetassist/services/auth.dart';
 
 import 'insidehome/insideExaminationSection/examinationSection.dart';
+import 'insidehome/insideImage/sdmImage.dart';
 
 class Home extends StatelessWidget {
   final AuthService _auth = AuthService();
@@ -427,6 +428,29 @@ class Home extends StatelessWidget {
                         size: 50.0,
                       ),
                       Text("Food", style: new TextStyle(fontSize: 17.0))
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            Card(
+              margin: EdgeInsets.all(8.0),
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => SdmImages()));
+                },
+                splashColor: Colors.lightBlueAccent,
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Icon(
+                        Icons.camera_enhance,
+                        size: 50.0,
+                      ),
+                      Text("SDMCET\nImages",
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
