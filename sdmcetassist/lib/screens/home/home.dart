@@ -189,11 +189,12 @@ class Home extends StatelessWidget {
             ),
           )),
       body: Container(
-        padding: EdgeInsets.all(20.0),
+        padding: EdgeInsets.all(10.0),
         child: GridView.count(
           crossAxisCount: 3,
           children: <Widget>[
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -209,13 +210,16 @@ class Home extends StatelessWidget {
                         Icons.account_balance,
                         size: 50.0,
                       ),
-                      Text("About", style: new TextStyle(fontSize: 17.0))
+                      Text("About",
+                          textAlign: TextAlign.center,
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -233,13 +237,16 @@ class Home extends StatelessWidget {
                         Icons.collections_bookmark,
                         size: 50.0,
                       ),
-                      Text("Admin", style: new TextStyle(fontSize: 17.0))
+                      Text("Admin",
+                          textAlign: TextAlign.center,
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -255,13 +262,16 @@ class Home extends StatelessWidget {
                         Icons.school,
                         size: 50.0,
                       ),
-                      Text("Academics", style: new TextStyle(fontSize: 17.0))
+                      Text("Academics",
+                          textAlign: TextAlign.center,
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -277,13 +287,16 @@ class Home extends StatelessWidget {
                         Icons.contact_phone,
                         size: 50.0,
                       ),
-                      Text("Contacts", style: new TextStyle(fontSize: 17.0))
+                      Text("Contacts",
+                          textAlign: TextAlign.center,
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -299,13 +312,16 @@ class Home extends StatelessWidget {
                         Icons.card_travel,
                         size: 50.0,
                       ),
-                      Text("Placement", style: new TextStyle(fontSize: 17.0))
+                      Text("Placement",
+                          textAlign: TextAlign.center,
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -332,6 +348,7 @@ class Home extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -360,6 +377,7 @@ class Home extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -375,13 +393,16 @@ class Home extends StatelessWidget {
                         Icons.notification_important,
                         size: 50.0,
                       ),
-                      Text("Notice", style: new TextStyle(fontSize: 17.0))
+                      Text("Notice",
+                          textAlign: TextAlign.center,
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -397,13 +418,18 @@ class Home extends StatelessWidget {
                         Icons.add_location,
                         size: 50.0,
                       ),
-                      Text("Navigation", style: new TextStyle(fontSize: 17.0))
+                      Text("Navigation",
+                          textAlign: TextAlign.center,
+                          style: new TextStyle(
+                            fontSize: 17.0,
+                          ))
                     ],
                   ),
                 ),
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -427,6 +453,7 @@ class Home extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -442,7 +469,8 @@ class Home extends StatelessWidget {
                         Icons.camera_enhance,
                         size: 50.0,
                       ),
-                      Text("SDMCET\nImages",
+                      Text("SDMCET Images",
+                          textAlign: TextAlign.center,
                           style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
