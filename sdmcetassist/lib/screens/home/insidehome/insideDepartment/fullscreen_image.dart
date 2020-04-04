@@ -26,6 +26,8 @@ class FullScreenImagePage extends StatelessWidget {
                   enableRotation: true,
                   minScale: PhotoViewComputedScale.contained * 0.8,
                   maxScale: PhotoViewComputedScale.covered * 2,
+                  backgroundDecoration:
+                      BoxDecoration(color: Theme.of(context).accentColor),
                 ),
               ),
             ),
