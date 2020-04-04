@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:photo_view/photo_view.dart';
 
 class FullScreenImagePage extends StatelessWidget {
   String imgPath;
@@ -20,7 +21,12 @@ class FullScreenImagePage extends StatelessWidget {
               alignment: Alignment.center,
               child: new Hero(
                 tag: imgPath,
-                child: new Image.network(imgPath),
+                child: PhotoView(
+                  imageProvider: NetworkImage(imgPath),
+                  enableRotation: true,
+                  minScale: PhotoViewComputedScale.contained * 0.8,
+                  maxScale: PhotoViewComputedScale.covered * 2,
+                ),
               ),
             ),
             new Align(
