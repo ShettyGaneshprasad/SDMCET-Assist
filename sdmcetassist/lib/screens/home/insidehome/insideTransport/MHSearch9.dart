@@ -46,7 +46,7 @@ class Pickup {
       Pickup(28, 'SHRI.MARUTI TEMPLE(NEAR SUB-JAIL)'),
       Pickup(29, 'SIDDARODHA MATT'),
       Pickup(30, 'SIRUR PARK SIGNAL'),
-      Pickup(31, 'TOLNAKA'),
+      Pickup(31, 'TOLL NAKA'),
       Pickup(32, 'TYENGAR BAKERY JUNCTION'),
       Pickup(33, 'UNKAL CROSS'),
       Pickup(34, 'WATER TANK(SILVER TOWN)'),
