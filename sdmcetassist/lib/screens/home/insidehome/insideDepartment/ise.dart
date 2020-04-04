@@ -24,6 +24,7 @@ class Ise extends StatelessWidget {
           crossAxisCount: 2,
           children: <Widget>[
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -39,13 +40,16 @@ class Ise extends StatelessWidget {
                         Icons.account_balance,
                         size: 50.0,
                       ),
-                      Text("About", style: new TextStyle(fontSize: 17.0))
+                      Text("About",
+                          textAlign: TextAlign.center,
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -63,13 +67,16 @@ class Ise extends StatelessWidget {
                         Icons.people,
                         size: 50.0,
                       ),
-                      Text("Faculty", style: new TextStyle(fontSize: 17.0))
+                      Text("Faculty",
+                          textAlign: TextAlign.center,
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -86,6 +93,7 @@ class Ise extends StatelessWidget {
                         size: 50.0,
                       ),
                       Text("Student's Time Table",
+                          textAlign: TextAlign.center,
                           style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
@@ -93,6 +101,7 @@ class Ise extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -108,13 +117,16 @@ class Ise extends StatelessWidget {
                         Icons.warning,
                         size: 50.0,
                       ),
-                      Text("Notice", style: new TextStyle(fontSize: 17.0))
+                      Text("Notice",
+                          textAlign: TextAlign.center,
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -133,6 +145,7 @@ class Ise extends StatelessWidget {
                         size: 50.0,
                       ),
                       Text("Teacher's Time Table",
+                          textAlign: TextAlign.center,
                           style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
@@ -140,6 +153,7 @@ class Ise extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {},
@@ -153,6 +167,7 @@ class Ise extends StatelessWidget {
                         size: 50.0,
                       ),
                       Text("Prev. Question Papers",
+                          textAlign: TextAlign.center,
                           style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
@@ -173,7 +188,6 @@ class IseAboutp1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[50],
       appBar: AppBar(
         title: Text(
           'Information Science Department', /*style:TextStyle(color:Colors.black)*/
@@ -226,6 +240,7 @@ class IseAboutp1 extends StatelessWidget {
               child: ListView(
                 children: <Widget>[
                   Card(
+                    color: Colors.red,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -236,6 +251,15 @@ class IseAboutp1 extends StatelessWidget {
                           mainAxisSize: MainAxisSize.max,
                           children: <Widget>[
                             Text(
+                              "",
+                              style: new TextStyle(
+                                  fontSize: 10.0,
+                                  // fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.black),
+                              textAlign: TextAlign.center,
+                            ),
+                            Text(
                               "Additional Links",
                               style: new TextStyle(
                                   fontSize: 30.0,
@@ -243,13 +267,23 @@ class IseAboutp1 extends StatelessWidget {
                                   fontWeight: FontWeight.w600,
                                   color: Colors.black),
                               textAlign: TextAlign.center,
-                            )
+                            ),
+                            Text(
+                              "",
+                              style: new TextStyle(
+                                  fontSize: 10.0,
+                                  // fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.black),
+                              textAlign: TextAlign.center,
+                            ),
                           ],
                         ),
                       ),
                     ),
                   ),
                   Card(
+                    color: Colors.yellow,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
