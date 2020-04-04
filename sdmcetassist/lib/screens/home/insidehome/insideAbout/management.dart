@@ -6,6 +6,7 @@ class Management extends StatelessWidget {
   Widget build(BuildContext context) {
     {
       return Container(
+        padding: EdgeInsets.all(10.0),
         child: ListView(
           children: <Widget>[
             Image.asset('assets/about-veerendra-heggade.png'),
