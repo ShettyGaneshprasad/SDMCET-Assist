@@ -23,6 +23,7 @@ class firstYearUg extends StatelessWidget {
           crossAxisCount: 2,
           children: <Widget>[
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -41,6 +42,7 @@ class firstYearUg extends StatelessWidget {
                         size: 50.0,
                       ),
                       Text("Student's Time Table",
+                          textAlign: TextAlign.center,
                           style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
@@ -48,6 +50,7 @@ class firstYearUg extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -63,13 +66,16 @@ class firstYearUg extends StatelessWidget {
                         Icons.warning,
                         size: 50.0,
                       ),
-                      Text("Notice", style: new TextStyle(fontSize: 17.0))
+                      Text("Notice",
+                          textAlign: TextAlign.center,
+                          style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
                 ),
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -88,6 +94,7 @@ class firstYearUg extends StatelessWidget {
                         size: 50.0,
                       ),
                       Text("Teacher's Time Table ",
+                          textAlign: TextAlign.center,
                           style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
@@ -95,6 +102,7 @@ class firstYearUg extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {},
@@ -108,6 +116,7 @@ class firstYearUg extends StatelessWidget {
                         size: 50.0,
                       ),
                       Text("Prev. Question Papers",
+                          textAlign: TextAlign.center,
                           style: new TextStyle(fontSize: 17.0))
                     ],
                   ),
