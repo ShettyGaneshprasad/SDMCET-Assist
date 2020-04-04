@@ -5,6 +5,7 @@ class Sdmcet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: EdgeInsets.all(10.0),
       child: ListView(
         children: <Widget>[
           Image.asset('assets/collegefrontgarden.jpg'),
