@@ -27,7 +27,7 @@ class FullScreenImagePage extends StatelessWidget {
                   minScale: PhotoViewComputedScale.contained * 0.8,
                   maxScale: PhotoViewComputedScale.covered * 2,
                   backgroundDecoration:
-                      BoxDecoration(color: Theme.of(context).canvasColor),
+                      BoxDecoration(color: Theme.of(context).accentColor),
                 ),
               ),
             ),
