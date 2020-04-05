@@ -13,7 +13,7 @@ class ExaminationSec extends StatelessWidget {
         elevation: 10.0,
       ),
       body: Container(
-        padding: EdgeInsets.all(20.0),
+        padding: EdgeInsets.all(10.0),
         child: ListView(
           // crossAxisCount: 3,
           children: <Widget>[
