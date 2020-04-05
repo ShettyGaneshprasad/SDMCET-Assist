@@ -8,7 +8,7 @@ class AfternoonScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blue[100],
       appBar: AppBar(
-        title: Text('Afternoon session (Drop Points)'),
+        title: Text('Afternoon session'),
         backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
