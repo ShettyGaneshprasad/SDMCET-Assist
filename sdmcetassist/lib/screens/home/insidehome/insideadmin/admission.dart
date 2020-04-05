@@ -71,6 +71,7 @@ class Admission extends StatelessWidget {
           ),
         ),
         Card(
+          color: Colors.amber,
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
@@ -89,7 +90,7 @@ class Admission extends StatelessWidget {
                         fontSize: 25.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
-                        color: Colors.blue),
+                        color: Colors.black),
                     textAlign: TextAlign.center,
                   )
                 ],
@@ -98,6 +99,7 @@ class Admission extends StatelessWidget {
           ),
         ),
         Card(
+          color: Colors.amber,
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
@@ -116,7 +118,7 @@ class Admission extends StatelessWidget {
                         fontSize: 25.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
-                        color: Colors.blue),
+                        color: Colors.black),
                     textAlign: TextAlign.center,
                   )
                 ],
@@ -125,6 +127,7 @@ class Admission extends StatelessWidget {
           ),
         ),
         Card(
+          color: Colors.amber,
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
@@ -143,7 +146,7 @@ class Admission extends StatelessWidget {
                         fontSize: 25.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
-                        color: Colors.blue),
+                        color: Colors.black),
                     textAlign: TextAlign.center,
                   )
                 ],
@@ -152,6 +155,7 @@ class Admission extends StatelessWidget {
           ),
         ),
         Card(
+          color: Colors.amber,
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
@@ -170,7 +174,7 @@ class Admission extends StatelessWidget {
                         fontSize: 25.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
-                        color: Colors.blue),
+                        color: Colors.black),
                     textAlign: TextAlign.center,
                   )
                 ],
@@ -179,6 +183,7 @@ class Admission extends StatelessWidget {
           ),
         ),
         Card(
+          color: Colors.amber,
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
@@ -197,7 +202,7 @@ class Admission extends StatelessWidget {
                         fontSize: 25.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
-                        color: Colors.blue),
+                        color: Colors.black),
                     textAlign: TextAlign.center,
                   )
                 ],
@@ -206,6 +211,7 @@ class Admission extends StatelessWidget {
           ),
         ),
         Card(
+          color: Colors.amber,
           elevation: 5,
           margin: EdgeInsets.all(13.0),
           child: InkWell(
@@ -224,7 +230,7 @@ class Admission extends StatelessWidget {
                         fontSize: 20.0,
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.bold,
-                        color: Colors.blue),
+                        color: Colors.black),
                     textAlign: TextAlign.center,
                   )
                 ],
@@ -233,53 +239,128 @@ class Admission extends StatelessWidget {
           ),
         ),
         Text(
-          "\nFor any Admission help:",
-          textAlign: TextAlign.left,
+          "\n\nTap below Button to call",
+          textAlign: TextAlign.center,
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            color: Colors.blue,
-            fontSize: 25,
-            fontStyle: FontStyle.normal,
+            color: Colors.black,
+            fontSize: 15,
+            fontStyle: FontStyle.italic,
+          ),
+        ),
+        Card(
+          color: Colors.red,
+          elevation: 10,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              launch("tel:08362447465");
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "For any Admission help:",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                      fontSize: 25,
+                      fontStyle: FontStyle.italic,
+                    ),
+                  ),
+                  Text(
+                    "College Phone No.: 0836 – 2447 465",
+                    style: new TextStyle(
+                        fontSize: 20.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.black),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        ),
+        Card(
+          color: Colors.red,
+          elevation: 10,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              launch("tel: 9448275251");
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "Faculty in-charge for I year admissions",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                      fontSize: 25,
+                      fontStyle: FontStyle.italic,
+                    ),
+                  ),
+                  Text(
+                    "Prof. G. L. Rajabanshi – 9448275251",
+                    style: new TextStyle(
+                        fontSize: 20.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.black),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
+          ),
+        ),
+        Card(
+          color: Colors.red,
+          elevation: 10,
+          margin: EdgeInsets.all(13.0),
+          child: InkWell(
+            onTap: () {
+              launch("tel: 9972457790");
+            },
+            splashColor: Colors.lightBlueAccent,
+            child: Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  Text(
+                    "Officer in Charge for I year Admissions",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black,
+                      fontSize: 25,
+                      fontStyle: FontStyle.italic,
+                    ),
+                  ),
+                  Text(
+                    "Mr. P.V.Gangadhar Rao – 9972457790",
+                    style: new TextStyle(
+                        fontSize: 20.0,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w600,
+                        color: Colors.black),
+                    textAlign: TextAlign.center,
+                  )
+                ],
+              ),
+            ),
           ),
         ),
         Text(
-          "College Phone No.: 0836 – 2447 465 & 2448 327",
-          textAlign: TextAlign.justify,
-          style: TextStyle(
-            fontSize: 20,
-            fontStyle: FontStyle.normal,
-          ),
-        ),
-        Text(
-          "\nFaculty in-charge for I year admissions:",
-          textAlign: TextAlign.left,
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            color: Colors.blue,
-            fontSize: 30,
-            fontStyle: FontStyle.normal,
-          ),
-        ),
-        Text(
-          "Prof. G. L. Rajabanshi – 9448275251",
-          textAlign: TextAlign.justify,
-          style: TextStyle(
-            fontSize: 20,
-            fontStyle: FontStyle.normal,
-          ),
-        ),
-        Text(
-          "\nOfficer in Charge for I year Admissions:",
-          textAlign: TextAlign.left,
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            color: Colors.blue,
-            fontSize: 30,
-            fontStyle: FontStyle.normal,
-          ),
-        ),
-        Text(
-          "Mr. P.V.Gangadhar Rao – 9972457790",
+          "",
           textAlign: TextAlign.justify,
           style: TextStyle(
             fontSize: 20,
