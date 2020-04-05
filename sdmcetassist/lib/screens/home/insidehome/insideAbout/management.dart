@@ -22,9 +22,9 @@ class Management extends StatelessWidget {
             ),
             Text(
               "\nDharmaadhikari, Reformer, Educationist, Philosopher and Philanthropist, Dr. D.Veerendra Heggade is a multidimensional individual. Years of path-breaking contribution to social, economical and cultural development of the society, is what truly defines his unyielding service to the nation. From having converted small towns into modern educational hubs, redefined the very role of a temple from being a place of worship to a place of service, revived ancient sciences to further enhance modern lifestyles, and most importantly, having shown that one individual has the power to fuel and ignite the status quo condition of a nation. This is exactly why in 2015, Dr. D. Veerendra Heggade was awarded the second highest award a civilian can receive in India, the Padma Vibhushan. As the President of SDM Educational Society ,He has established over 50 institutions and has been quite instrumental in uplifting the educational standards throughout Karnataka.\n",
-              textAlign: TextAlign.center,
+              textAlign: TextAlign.justify,
               style: TextStyle(
-                fontSize: 15,
+                fontSize: 17,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -43,19 +43,39 @@ class Management extends StatelessWidget {
             ),
             Text(
               "\nSDM Educational Society (R) is a premier non-profit educational organization, functioning under the sacred aegis of Shree Kshetra Dharmasthala. SDME Society spearheads the activities of over 50 premier academic and professional institutions spread across Karnataka. Establishments that represent the best of traditional expertise and contemporary excellence form the base for studies in subjects ranging from Medicine, Engineering, Law, Social Sciences, Management, Naturopathy and Ayurveda.",
-              textAlign: TextAlign.center,
+              textAlign: TextAlign.justify,
               style: TextStyle(
-                fontSize: 15,
+                fontSize: 17,
                 fontStyle: FontStyle.normal,
               ),
             ),
             Text(
-              "\nAbout Dharmasthala",
+              "",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.blue,
+                fontSize: 20,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Text(
+              "About Dharmasthala",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
                 fontSize: 30,
+                fontStyle: FontStyle.normal,
+              ),
+            ),
+            Text(
+              "",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.blue,
+                fontSize: 8,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -65,14 +85,14 @@ class Management extends StatelessWidget {
             ),
             Text(
               "\nShri Kshetra Dharmasthala, the land of righteousness and piety, is one of south India’s most renowned religious landmarks with a history as old as 800 years. Manjunatheshwara, the chief deity of the spiritual abode, has taken the form of a shivalinga and made immaculate, the temple town of Dharmasthala since and forever. Lord Manjunatheshwara, is being worshipped in a very unusual yet exceptionally inordinate manner in Shree kshetra dharmasthala, as this Shaiva temple is beseeched by Vaishnava priests and administered by Jain descendants.",
-              textAlign: TextAlign.center,
+              textAlign: TextAlign.justify,
               style: TextStyle(
-                fontSize: 15,
+                fontSize: 17,
                 fontStyle: FontStyle.normal,
               ),
             ),
             Text(
-              "\n\nUnder Leadership of",
+              "\nUnder Leadership of",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
@@ -82,7 +102,7 @@ class Management extends StatelessWidget {
               ),
             ),
             Text(
-              "\nVeerendra Heggade",
+              "Veerendra Heggade",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
@@ -97,7 +117,7 @@ class Management extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
-                fontSize: 30,
+                fontSize: 20,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -106,12 +126,12 @@ class Management extends StatelessWidget {
               fit: BoxFit.contain,
             ),
             Text(
-              "\n\nS. Prabhakar",
+              "\nS. Prabhakar",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
-                fontSize: 40,
+                fontSize: 30,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -121,7 +141,7 @@ class Management extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
-                fontSize: 30,
+                fontSize: 20,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -130,12 +150,12 @@ class Management extends StatelessWidget {
               fit: BoxFit.contain,
             ),
             Text(
-              "\n\nD.surendrakumar",
+              "\nD.surendrakumar",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
-                fontSize: 40,
+                fontSize: 30,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -145,7 +165,7 @@ class Management extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
-                fontSize: 30,
+                fontSize: 20,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -154,12 +174,12 @@ class Management extends StatelessWidget {
               fit: BoxFit.contain,
             ),
             Text(
-              "\n\nD.Harshendra Kumar",
+              "\nD.Harshendra Kumar",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
-                fontSize: 40,
+                fontSize: 30,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -169,7 +189,7 @@ class Management extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
-                fontSize: 30,
+                fontSize: 20,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -178,12 +198,12 @@ class Management extends StatelessWidget {
               fit: BoxFit.contain,
             ),
             Text(
-              "\n\nDr Yashoverma",
+              "\nDr Yashoverma",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
-                fontSize: 40,
+                fontSize: 30,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -193,7 +213,7 @@ class Management extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
-                fontSize: 30,
+                fontSize: 20,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -202,12 +222,12 @@ class Management extends StatelessWidget {
               fit: BoxFit.contain,
             ),
             Text(
-              "\n\nShreyas D",
+              "\nShreyas D",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
-                fontSize: 40,
+                fontSize: 30,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -217,7 +237,7 @@ class Management extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
-                fontSize: 30,
+                fontSize: 20,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -226,12 +246,12 @@ class Management extends StatelessWidget {
               fit: BoxFit.contain,
             ),
             Text(
-              "\n\nSRI.Jeevandhar",
+              "\nSRI.Jeevandhar",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
-                fontSize: 40,
+                fontSize: 30,
                 fontStyle: FontStyle.normal,
               ),
             ),
@@ -241,7 +261,7 @@ class Management extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue,
-                fontSize: 30,
+                fontSize: 20,
                 fontStyle: FontStyle.normal,
               ),
             ),
