@@ -119,7 +119,7 @@ class DropDownState extends State<MDSearch12> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 Text(
-                  "BAGALKOT PETROL PUMP\nBus No:KA25 B3343\nTiming:12:42 PM - 12:45PM",
+                  "Bus No:KA25 B3343\nTiming:12:42 PM - 12:45PM",
                   style: new TextStyle(
                       fontSize: 30.0,
                       fontStyle: FontStyle.italic,
@@ -147,7 +147,7 @@ class DropDownState extends State<MDSearch12> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 Text(
-                  "BHARTI NAGAR\nBus No:KA25 B3343\nTiming:1:28 PM - 1:30PM",
+                  "Bus No:KA25 B3343\nTiming:1:28 PM - 1:30PM",
                   style: new TextStyle(
                       fontSize: 30.0,
                       fontStyle: FontStyle.italic,
@@ -176,7 +176,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "C.B.NAGAR\nBus No:KA25 B3343\nTiming:1:12 PM - 1:14PM",
+                    "Bus No:KA25 B3343\nTiming:1:12 PM - 1:14PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -204,7 +204,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "CBT\nBus No:KA25 B6903\nTiming:12:54 PM - 12:56PM",
+                    "Bus No:KA25 B6903\nTiming:12:54 PM - 12:56PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -260,7 +260,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "COURT CIRCLE\nBus No:KA25 B6903\nTiming:12:48 PM - 12:51PM",
+                    "Bus No:KA25 B6903\nTiming:12:48 PM - 12:51PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -288,7 +288,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "DASANKOPP CIRCLE\nBus No:KA25 B6903\nTiming:1:35 PM - 1:38PM",
+                    "Bus No:KA25 B6903\nTiming:1:35 PM - 1:38PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -317,7 +317,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "DASANKOPPA CROSS",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -346,7 +346,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "DHARWAD HOTEL",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -374,7 +374,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "DURGA TEMPLE CROSS",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -402,7 +402,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "GANDHI CHOUK",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -431,7 +431,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "GERMAN HOSPITAL\nBus No:KA25 B6903\nTiming:1:26 PM - 1:31PM",
+                    "Bus No:KA25 B6903\nTiming:1:26 PM - 1:31PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -460,7 +460,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "HEAD POST",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -489,7 +489,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "JAYANAGAR\nBus No:KA25 B3343\nTiming:1:21 PM - 1:24PM",
+                    "Bus No:KA25 B3343\nTiming:1:21 PM - 1:24PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -518,7 +518,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "JAYANAGAR II CROSS\nBus No:KA25 B3343\nTiming:1:09 PM - 1:10 PM",
+                    "Bus No:KA25 B3343\nTiming:1:09 PM - 1:10 PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -547,7 +547,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "JUBLI CIRCLE",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -576,7 +576,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "KAREMMA TEMPLE\nBus No:KA25 B3343\nTiming:12:57 PM - 12:58PM",
+                    "Bus No:KA25 B3343\nTiming:12:57 PM - 12:58PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -605,7 +605,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "KCD CIRCLE\nBus No:KA25 B6903\nTiming:1:38 PM - 1:42PM",
+                    "Bus No:KA25 B6903\nTiming:1:38 PM - 1:42PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -634,7 +634,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "KESHAV NAGAR\nBus No:KA25 B3343\nTiming:12:53 PM - 12:54PM",
+                    "Bus No:KA25 B3343\nTiming:12:53 PM - 12:54PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -663,7 +663,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "KUSUM NAGAR",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -692,7 +692,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "M G BANK\nBus No:KA25 B6903\nTiming:1:17 PM - 1:20PM",
+                    "Bus No:KA25 B6903\nTiming:1:17 PM - 1:20PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -722,7 +722,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "MAHISHI ROAD\nBus No:KA25 B3343\nTiming:12:45 PM - 12:47PM",
+                    "Bus No:KA25 B3343\nTiming:12:45 PM - 12:47PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -751,7 +751,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "MALMADDI",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -779,7 +779,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "MARATHA COLONY\nBus No:KA25 B6903\nTiming:1:06 PM - 1:09PM",
+                    "Bus No:KA25 B6903\nTiming:1:06 PM - 1:09PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -808,7 +808,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "MRUTUNJAY NAGAR",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -837,7 +837,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "MURGAMATH\nBus No:KA25 B6903\nTiming:1:03 PM - 1:06PM",
+                    "Bus No:KA25 B6903\nTiming:1:03 PM - 1:06PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -866,7 +866,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "NARYANPUR\nBus No:KA25 B6903\nTiming:1:31 PM - 1:35PM",
+                    "Bus No:KA25 B6903\nTiming:1:31 PM - 1:35PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -895,7 +895,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "NIRMAL NAGAR CHURCH\nBus No:KA25 B3343\nTiming:1:06 PM - 1:07PM",
+                    "Bus No:KA25 B3343\nTiming:1:06 PM - 1:07PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -924,7 +924,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "NTTF",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -953,7 +953,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "OLD DSP CIRCLE",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -982,7 +982,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "OLD SP CIRCLE\nBus No:KA25 B6903\nTiming:1:12 PM - 1:16PM",
+                    "Bus No:KA25 B6903\nTiming:1:12 PM - 1:16PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1011,7 +1011,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "PAVAN SCHOOL\nBus No:KA25 B3343\nTiming:1:00 PM - 1:01PM",
+                    "Bus No:KA25 B3343\nTiming:1:00 PM - 1:01PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1040,7 +1040,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "POLICE H Q",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1069,7 +1069,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "R.C.NAGAR\nBus No:KA25 B3343\nTiming:1:32 PM - 1:34PM",
+                    "Bus No:KA25 B3343\nTiming:1:32 PM - 1:34PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1098,7 +1098,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "R.K.NAGAR\nBus No:KA25 B3343\nTiming:1:18 PM - 1:21PM",
+                    "Bus No:KA25 B3343\nTiming:1:18 PM - 1:21PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1127,7 +1127,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "RAILWAY STATION\nBus No:KA25 B3343\nTiming:12:51 PM - 12:52PM",
+                    "Bus No:KA25 B3343\nTiming:12:51 PM - 12:52PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1156,7 +1156,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "SADHANKERI\nBus No:KA25 B6903\nTiming:1:21 PM - 1:24PM",
+                    "Bus No:KA25 B6903\nTiming:1:21 PM - 1:24PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1185,7 +1185,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "SAIBABA TEMPLE\nBus No:KA25 B6903\nTiming:1:35 PM - 1:37PM",
+                    "Bus No:KA25 B6903\nTiming:1:35 PM - 1:37PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1214,7 +1214,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "SAMPIGENAGAR",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1243,7 +1243,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "SAPTAPUR\nBus No:KA25 B3343\nTiming:1:25 PM - 1:27PM",
+                    "Bus No:KA25 B3343\nTiming:1:25 PM - 1:27PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1272,7 +1272,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "SHIVAGIRI\nBus No:KA25 B3343\nTiming:1:03 PM - 1:05PM",
+                    "Bus No:KA25 B3343\nTiming:1:03 PM - 1:05PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1301,7 +1301,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "SHIVAJI CIRCLE\nBus No:KA25 B6903\nTiming:12:57 PM - 12:59PM",
+                    "Bus No:KA25 B6903\nTiming:12:57 PM - 12:59PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1330,7 +1330,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "SRINAGAR\nBus No:KA25 B3343\nTiming:1:15 PM - 1:17PM",
+                    "Bus No:KA25 B3343\nTiming:1:15 PM - 1:17PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1359,7 +1359,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "T.V.TOWER",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1388,7 +1388,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "TOLL NAKA\nBus No:KA25 B6903\nTiming:12:43 PM - 12:45PM\nBus No:KA25 B3343\nTiming:12:38 PM - 12:42PM",
+                    "Bus No:KA25 B6903\nTiming:12:43 PM - 12:45PM\nBus No:KA25 B3343\nTiming:12:38 PM - 12:42PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1417,7 +1417,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "UDAY HOSTEL\nBus No:KA25 B3343\nTiming:12:55 PM - 12:56PM",
+                    "Bus No:KA25 B3343\nTiming:12:55 PM - 12:56PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1446,7 +1446,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "VAIDYAMATH COMPLEX\nBus No:KA25 B3343\nTiming:1:38 PM - 1:40 PM",
+                    "Bus No:KA25 B3343\nTiming:1:38 PM - 1:40 PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1475,7 +1475,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "VINAYAK NAGAR",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1504,7 +1504,7 @@ class DropDownState extends State<MDSearch12> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "YEMMIKERI\nBus No:KA25 B3343\nTiming:12:47 PM - 12:49 PM",
+                    "Bus No:KA25 B3343\nTiming:12:47 PM - 12:49 PM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
