@@ -7,7 +7,6 @@ import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/fullscreen
 import 'package:sdmcetassist/shared/loading.dart';
 import 'MDSearch9.dart';
 import 'MHSearch9.dart';
-import 'View.dart';
 
 class PlaceScreen9 extends StatelessWidget {
   @override
@@ -119,6 +118,7 @@ class PlaceScreen9 extends StatelessWidget {
     );
   }
 }
+
 //Start of AllRoute
 class AllRoute extends StatefulWidget {
   _AllRoute createState() => new _AllRoute();

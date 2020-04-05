@@ -7,8 +7,6 @@ import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/fullscreen
 import 'package:sdmcetassist/shared/loading.dart';
 import 'MDSearch12.dart';
 
-import 'ViewAfternoon.dart';
-
 class PlaceScreen12 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -89,6 +87,7 @@ class PlaceScreen12 extends StatelessWidget {
     );
   }
 }
+
 //Start of AllRoute
 class AllRoute extends StatefulWidget {
   _AllRoute createState() => new _AllRoute();
