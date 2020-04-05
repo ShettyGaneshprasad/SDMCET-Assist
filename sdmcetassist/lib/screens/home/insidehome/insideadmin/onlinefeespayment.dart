@@ -10,6 +10,7 @@ class OnlineFeesPayment extends StatelessWidget {
         child: ListView(
           children: <Widget>[
             Card(
+              color: Colors.red,
               elevation: 5,
               margin: EdgeInsets.all(13.0),
               child: InkWell(
@@ -28,7 +29,7 @@ class OnlineFeesPayment extends StatelessWidget {
                             fontSize: 50.0,
                             fontStyle: FontStyle.italic,
                             fontWeight: FontWeight.bold,
-                            color: Colors.red),
+                            color: Colors.black),
                         textAlign: TextAlign.center,
                       )
                     ],
@@ -37,7 +38,7 @@ class OnlineFeesPayment extends StatelessWidget {
               ),
             ),
             Text(
-              "Read below Instruction before paying fees\n\n",
+              "Read below Instruction before paying fees\n",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
@@ -60,12 +61,12 @@ class OnlineFeesPayment extends StatelessWidget {
               "\n1. Enter your USN in the space for user ID\n2. Enter your date of birth as the password\n3. Then click on the Login button.\n4. The details will be displayed.\n5. Click on – I agree and Initiate payment.\n6. Select the mode of paymen.\n",
               textAlign: TextAlign.justify,
               style: TextStyle(
-                fontSize: 18,
+                fontSize: 17,
                 fontStyle: FontStyle.normal,
               ),
             ),
             Text(
-              "\nNote:",
+              "Note:",
               textAlign: TextAlign.left,
               style: TextStyle(
                 fontWeight: FontWeight.bold,
