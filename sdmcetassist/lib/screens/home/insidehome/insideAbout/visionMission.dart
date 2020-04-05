@@ -20,7 +20,7 @@ class Visionmission extends StatelessWidget {
             ),
           ),
           Text(
-            "\nTo develop competent professionals with human values.",
+            "To develop competent professionals with human values.",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 20,
@@ -38,7 +38,7 @@ class Visionmission extends StatelessWidget {
             ),
           ),
           Text(
-            "\n1. To have contextually relevant Curricula.\n\n2. To promote effective Teaching Learning Practices supported by Modern Educational Tools and Techniques.\n\n3. To enhance Research Culture\n\n4. To involve the Industrial Expertise for connecting Classroom contents to real-life situations.\n\n5. To inculcate Ethics and soft-skills leading to overall personality development.",
+            "1. To have contextually relevant Curricula.\n2. To promote effective Teaching Learning Practices supported by Modern Educational Tools and Techniques.\n3. To enhance Research Culture\n4. To involve the Industrial Expertise for connecting Classroom contents to real-life situations.\n5. To inculcate Ethics and soft-skills leading to overall personality development.",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 20,
