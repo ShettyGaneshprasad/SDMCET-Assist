@@ -8,12 +8,22 @@ class Deans extends StatelessWidget {
       child: ListView(
         children: <Widget>[
           Text(
-            "\nDR. K. GOPINATH",
+            "",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 10,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
+          Text(
+            "DR. K. GOPINATH",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -23,18 +33,18 @@ class Deans extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 30,
+              fontSize: 20,
               fontStyle: FontStyle.normal,
             ),
           ),
           Image.asset('assets/Principal-Dr-K-Gopinath-2-1.jpg'),
           Text(
-            "\n\nA. V. KULKARNI",
+            "\nA. V. KULKARNI",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -44,7 +54,7 @@ class Deans extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 30,
+              fontSize: 20,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -53,12 +63,12 @@ class Deans extends StatelessWidget {
             fit: BoxFit.contain,
           ),
           Text(
-            "\n\nDR RAMESH L CHAKRASALI",
+            "\nDR RAMESH L CHAKRASALI",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -68,7 +78,7 @@ class Deans extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 30,
+              fontSize: 20,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -77,12 +87,12 @@ class Deans extends StatelessWidget {
             fit: BoxFit.contain,
           ),
           Text(
-            "\n\nC. M. CHELLI",
+            "\nC. M. CHELLI",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -92,7 +102,7 @@ class Deans extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 30,
+              fontSize: 20,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -101,12 +111,12 @@ class Deans extends StatelessWidget {
             fit: BoxFit.contain,
           ),
           Text(
-            "\n\nPROF.D.SHREENIVAS BHAT",
+            "\nPROF.D.SHREENIVAS BHAT",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -116,7 +126,7 @@ class Deans extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 30,
+              fontSize: 20,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -125,12 +135,12 @@ class Deans extends StatelessWidget {
             fit: BoxFit.contain,
           ),
           Text(
-            "\n\nSAVITRI RAJU",
+            "\nSAVITRI RAJU",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 40,
+              fontSize: 30,
               fontStyle: FontStyle.normal,
             ),
           ),
@@ -140,7 +150,7 @@ class Deans extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.blue,
-              fontSize: 30,
+              fontSize: 20,
               fontStyle: FontStyle.normal,
             ),
           ),
