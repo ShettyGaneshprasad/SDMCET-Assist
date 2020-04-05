@@ -373,7 +373,7 @@ class DropDownState extends State<MDSearch1> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "NO BUSvvvvvvvvvvvvvvvvvvvvv",
+                    "NO BUS",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
