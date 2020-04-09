@@ -24,10 +24,9 @@ class FullScreenImagePage extends StatelessWidget {
                 child: PhotoView(
                   imageProvider: NetworkImage(imgPath),
                   enableRotation: false,
-                  minScale: PhotoViewComputedScale.contained * 0.8,
+                  minScale: PhotoViewComputedScale.contained * 1,
                   maxScale: PhotoViewComputedScale.covered * 2,
-                  backgroundDecoration:
-                      BoxDecoration(color: Theme.of(context).accentColor),
+                  backgroundDecoration: BoxDecoration(color: Colors.white),
                 ),
               ),
             ),
