@@ -11,7 +11,7 @@ class Chinfye extends StatelessWidget {
       backgroundColor: Colors.blue[50],
       body: ListView(
         children: <Widget>[
-          Image.asset('assets/chinfye.jpg'),
+          Image.asset('assets/ChinmayeeJoshi.jpg'),
           Text(
             "Chinmayee Joshi",
             style: new TextStyle(
