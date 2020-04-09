@@ -115,7 +115,7 @@ class DropDownState extends State<MDSearch8> {
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 Text(
-                  "Bus No:KA25 B6903\nTiming:7:55 AM - 7:56 AM\nBus No:KA25 B3342\nTiming:7:55 AM - 7:56 AM",
+                  "Bus No:KA25 B6903\nTiming:7:55 AM - 7:56 AM\n\nBus No:KA25 B3342\nTiming:7:55 AM - 7:56 AM",
                   style: new TextStyle(
                       fontSize: 30.0,
                       fontStyle: FontStyle.italic,
@@ -253,7 +253,7 @@ class DropDownState extends State<MDSearch8> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "Bus No:KA25 B6903\nTiming:7:05 AM - 7:08 AM\nBus No:KA25 B3342\nTiming:7:00AM - 7:08AM\nBus No:KA25 B3343\nTiming:7:49 AM - 7:52 AM\nBus No:KA25 B4922\nTiming:7:50 AM - 7:53 AM",
+                    "Bus No:KA25 B6903\nTiming:7:05 AM - 7:08 AM\n\nBus No:KA25 B3342\nTiming:7:00AM - 7:08AM\n\nBus No:KA25 B3343\nTiming:7:49 AM - 7:52 AM\n\nBus No:KA25 B4922\nTiming:7:50 AM - 7:53 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -509,7 +509,7 @@ class DropDownState extends State<MDSearch8> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "Bus No:KA25 B3343\nTiming:7:10 AM - 7:12 AM\nBus No:KA25 B4922\nTiming:7:48 AM - 7:51 AM",
+                    "Bus No:KA25 B3343\nTiming:7:10 AM - 7:12 AM\n\nBus No:KA25 B4922\nTiming:7:48 AM - 7:51 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -564,7 +564,7 @@ class DropDownState extends State<MDSearch8> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "Bus No:KA25 B6903\nTiming:7:11 AM - 7:14 AM\nBus No:KA25 B3342\nTiming:7:08 AM - 7:12 AM\nBus No:KA25 B3343\nTiming:7:44 AM - 7:48 AM",
+                    "Bus No:KA25 B6903\nTiming:7:11 AM - 7:14 AM\n\nBus No:KA25 B3342\nTiming:7:08 AM - 7:12 AM\n\nBus No:KA25 B3343\nTiming:7:44 AM - 7:48 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -883,7 +883,7 @@ class DropDownState extends State<MDSearch8> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "Bus No:KA25 B3343\nTiming:7:52 AM - 7:55 AM\nBus No:KA25 B4922\nTiming:7:52 AM - 7:55 AM",
+                    "Bus No:KA25 B3343\nTiming:7:52 AM - 7:55 AM\n\nBus No:KA25 B4922\nTiming:7:52 AM - 7:55 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1289,7 +1289,7 @@ class DropDownState extends State<MDSearch8> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "Bus No:KA25 B6903\nTiming:7:53AM - 7:55AM\nBus No:KA25 B3342\nTiming:7:57 AM - 7:58AM\nBus No:KA25 B3343\nTiming:7:54 AM - 7:56 AM\nBus No:KA25 B4922\nTiming:7:54 AM - 7:57 AM",
+                    "Bus No:KA25 B6903\nTiming:7:53AM - 7:55AM\n\nBus No:KA25 B3342\nTiming:7:57 AM - 7:58AM\n\nBus No:KA25 B3343\nTiming:7:54 AM - 7:56 AM\n\nBus No:KA25 B4922\nTiming:7:54 AM - 7:57 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
@@ -1376,7 +1376,7 @@ class DropDownState extends State<MDSearch8> {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Text(
-                    "Bus No:KA25 B6903\nTiming:7:51 AM - 7:52 AM\nBus No:KA25 B3342\nTiming:7:50 AM - 7:52 AM",
+                    "Bus No:KA25 B6903\nTiming:7:51 AM - 7:52 AM\n\nBus No:KA25 B3342\nTiming:7:50 AM - 7:52 AM",
                     style: new TextStyle(
                         fontSize: 30.0,
                         fontStyle: FontStyle.italic,
