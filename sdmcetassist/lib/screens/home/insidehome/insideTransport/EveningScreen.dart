@@ -7,7 +7,7 @@ class EveningScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blue[100],
       appBar: AppBar(
-        title: Text('Evening session(Drop points)'),
+        title: Text('Evening session'),
         backgroundColor: Colors.blue,
         elevation: 10.0,
       ),
