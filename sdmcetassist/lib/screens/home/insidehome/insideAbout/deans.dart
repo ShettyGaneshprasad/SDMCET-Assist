@@ -5,6 +5,7 @@ class Deans extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: EdgeInsets.all(10),
       child: ListView(
         children: <Widget>[
           Text(
@@ -38,6 +39,24 @@ class Deans extends StatelessWidget {
             ),
           ),
           Image.asset('assets/Principal-Dr-K-Gopinath-2-1.jpg'),
+          Text(
+            "FROM THE PRINCIPLES DESK",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+              fontSize: 20,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+          Text(
+            "SDMCET, Dharwad has a multi-dimensional engagement with industry to industry participation in SDMCET’s mission. Our main objective remains to curtail the disconnect between educationalists and businesses by providing a cohesive learning environment for all the students.\n",
+            textAlign: TextAlign.justify,
+            style: TextStyle(
+              fontSize: 17,
+              fontStyle: FontStyle.normal,
+            ),
+          ),
           Text(
             "\nA. V. KULKARNI",
             textAlign: TextAlign.center,
