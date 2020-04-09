@@ -129,7 +129,7 @@ class _AllRoute extends State<AllRoute> {
   List<DocumentSnapshot> timeTable;
 
   final CollectionReference collectionReference =
-      Firestore.instance.collection("CSEFacultyDetails");
+      Firestore.instance.collection("AfterNoonSession1:30");
 
   @override
   void initState() {
