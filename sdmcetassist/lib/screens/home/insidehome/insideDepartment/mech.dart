@@ -156,7 +156,10 @@ class Mech extends StatelessWidget {
               elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
-                onTap: () {},
+                onTap: () {
+                  launch(
+                      "https://drive.google.com/open?id=1IO5ooxUs41rY-htjF09DHRYJxdY7SScO");
+                },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
                   child: Column(

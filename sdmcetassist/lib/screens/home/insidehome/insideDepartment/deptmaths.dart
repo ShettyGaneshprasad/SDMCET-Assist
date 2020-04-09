@@ -133,7 +133,10 @@ class DeptMaths extends StatelessWidget {
               elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
-                onTap: () {},
+                onTap: () {
+                  launch(
+                      "https://drive.google.com/open?id=1w46-qp9v7IZfCs81gFNubGOKRwpQKov-");
+                },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
                   child: Column(

@@ -132,7 +132,10 @@ class DeptChem extends StatelessWidget {
               elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
-                onTap: () {},
+                onTap: () {
+                  launch(
+                      "https://drive.google.com/open?id=1syZr7Ygn91G_lqcNj8OWO7Ca0LCaA6Xq");
+                },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
                   child: Column(

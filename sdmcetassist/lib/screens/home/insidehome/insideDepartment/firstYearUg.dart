@@ -4,6 +4,7 @@ import 'dart:async';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:sdmcetassist/screens/home/insidehome/insideDepartment/fullscreen_image.dart';
 import 'package:sdmcetassist/shared/loading.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class firstYearUg extends StatelessWidget {
   @override
@@ -105,7 +106,10 @@ class firstYearUg extends StatelessWidget {
               elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
-                onTap: () {},
+                onTap: () {
+                  launch(
+                      "https://drive.google.com/open?id=1c4sbLZZ8KIf4AhAt04iVWOhvJoNABAM0");
+                },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
                   child: Column(

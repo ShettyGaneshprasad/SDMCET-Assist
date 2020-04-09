@@ -133,7 +133,10 @@ class DeptPhysics extends StatelessWidget {
               elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
-                onTap: () {},
+                onTap: () {
+                  launch(
+                      "https://drive.google.com/open?id=12TCxNjM1qZ8mYQdUkCeglf2r_3-GrN1G");
+                },
                 splashColor: Colors.lightBlueAccent,
                 child: Center(
                   child: Column(
