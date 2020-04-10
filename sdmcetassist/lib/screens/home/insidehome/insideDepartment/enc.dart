@@ -318,6 +318,9 @@ class EncAboutp1 extends StatelessWidget {
               child: ListView(
                 children: <Widget>[
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -342,6 +345,9 @@ class EncAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -369,6 +375,9 @@ class EncAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -396,6 +405,9 @@ class EncAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -423,6 +435,9 @@ class EncAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -450,6 +465,9 @@ class EncAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -477,6 +495,9 @@ class EncAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -504,6 +525,9 @@ class EncAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -531,6 +555,9 @@ class EncAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -558,6 +585,9 @@ class EncAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -585,6 +615,9 @@ class EncAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -612,6 +645,9 @@ class EncAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -639,6 +675,9 @@ class EncAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -666,6 +705,9 @@ class EncAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -693,6 +735,9 @@ class EncAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15.0),
+                    ),
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
