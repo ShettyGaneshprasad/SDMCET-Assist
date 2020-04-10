@@ -259,11 +259,12 @@ class CseAboutp1 extends StatelessWidget {
               child: ListView(
                 children: <Widget>[
                   Card(
+                    color: Colors.red,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
                       onTap: () {},
-                      //splashColor: Colors.lightBlueAccent,
+                      splashColor: Colors.red,
                       child: Center(
                         child: Column(
                           mainAxisSize: MainAxisSize.max,
@@ -283,6 +284,7 @@ class CseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    color: Colors.yellowAccent,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -301,7 +303,7 @@ class CseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.blueAccent),
+                                  color: Colors.black),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -310,6 +312,7 @@ class CseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    color: Colors.yellowAccent,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -328,7 +331,7 @@ class CseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.blueAccent),
+                                  color: Colors.black),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -337,6 +340,7 @@ class CseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    color: Colors.yellowAccent,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -355,7 +359,7 @@ class CseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.blueAccent),
+                                  color: Colors.black),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -364,6 +368,7 @@ class CseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    color: Colors.yellowAccent,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -382,7 +387,7 @@ class CseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.blueAccent),
+                                  color: Colors.black),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -391,6 +396,7 @@ class CseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    color: Colors.yellowAccent,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -409,7 +415,7 @@ class CseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.blueAccent),
+                                  color: Colors.black),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -418,6 +424,7 @@ class CseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    color: Colors.yellowAccent,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -436,7 +443,7 @@ class CseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.blueAccent),
+                                  color: Colors.black),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -445,6 +452,7 @@ class CseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    color: Colors.yellowAccent,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -463,7 +471,7 @@ class CseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.blueAccent),
+                                  color: Colors.black),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -472,6 +480,7 @@ class CseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    color: Colors.yellowAccent,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -490,7 +499,7 @@ class CseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.blueAccent),
+                                  color: Colors.black),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -499,6 +508,7 @@ class CseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    color: Colors.yellowAccent,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -517,7 +527,7 @@ class CseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.blueAccent),
+                                  color: Colors.black),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -526,6 +536,7 @@ class CseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    color: Colors.yellowAccent,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -544,7 +555,7 @@ class CseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.blueAccent),
+                                  color: Colors.black),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -553,6 +564,7 @@ class CseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    color: Colors.yellowAccent,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -571,7 +583,7 @@ class CseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.blueAccent),
+                                  color: Colors.black),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -580,6 +592,7 @@ class CseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    color: Colors.yellowAccent,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -598,7 +611,7 @@ class CseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.blueAccent),
+                                  color: Colors.black),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -607,6 +620,7 @@ class CseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    color: Colors.yellowAccent,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -625,7 +639,7 @@ class CseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.blueAccent),
+                                  color: Colors.black),
                               textAlign: TextAlign.center,
                             )
                           ],
@@ -634,6 +648,7 @@ class CseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
+                    color: Colors.yellowAccent,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
@@ -652,7 +667,7 @@ class CseAboutp1 extends StatelessWidget {
                                   fontSize: 30.0,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w600,
-                                  color: Colors.blueAccent),
+                                  color: Colors.black),
                               textAlign: TextAlign.center,
                             )
                           ],
