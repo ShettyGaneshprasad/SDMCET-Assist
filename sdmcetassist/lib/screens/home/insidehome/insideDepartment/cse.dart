@@ -23,6 +23,9 @@ class Cse extends StatelessWidget {
           crossAxisCount: 2,
           children: <Widget>[
             Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15.0),
+              ),
               elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -48,6 +51,9 @@ class Cse extends StatelessWidget {
               ),
             ),
             Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15.0),
+              ),
               elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -75,6 +81,9 @@ class Cse extends StatelessWidget {
               ),
             ),
             Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15.0),
+              ),
               elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -100,6 +109,9 @@ class Cse extends StatelessWidget {
               ),
             ),
             Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15.0),
+              ),
               elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -125,6 +137,9 @@ class Cse extends StatelessWidget {
               ),
             ),
             Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15.0),
+              ),
               elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -152,6 +167,9 @@ class Cse extends StatelessWidget {
               ),
             ),
             Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15.0),
+              ),
               elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
