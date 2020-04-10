@@ -23,6 +23,9 @@ class Food extends StatelessWidget {
           crossAxisCount: 2,
           children: <Widget>[
             Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15.0),
+              ),
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -45,6 +48,9 @@ class Food extends StatelessWidget {
               ),
             ),
             Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15.0),
+              ),
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -68,6 +74,9 @@ class Food extends StatelessWidget {
               ),
             ),
             Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15.0),
+              ),
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -93,6 +102,9 @@ class Food extends StatelessWidget {
               ),
             ),
             Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15.0),
+              ),
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
