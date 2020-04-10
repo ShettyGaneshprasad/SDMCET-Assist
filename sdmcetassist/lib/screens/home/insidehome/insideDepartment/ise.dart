@@ -304,7 +304,6 @@ class IseAboutp1 extends StatelessWidget {
                     ),
                   ),
                   Card(
-                    color: Colors.yellow,
                     elevation: 5,
                     margin: EdgeInsets.all(13.0),
                     child: InkWell(
