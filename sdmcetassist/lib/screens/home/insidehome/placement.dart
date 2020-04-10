@@ -108,6 +108,8 @@ class Placement extends StatelessWidget {
               ),
             ),
             Card(
+              color: Colors.amber,
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -120,6 +122,7 @@ class Placement extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       Text("Placement Year 2018-19 PDF ",
+                          textAlign: TextAlign.center,
                           style: new TextStyle(fontSize: 25.0))
                     ],
                   ),
@@ -127,6 +130,8 @@ class Placement extends StatelessWidget {
               ),
             ),
             Card(
+              color: Colors.amber,
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -139,6 +144,7 @@ class Placement extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       Text("Placement Year 2017-18 PDF",
+                          textAlign: TextAlign.center,
                           style: new TextStyle(fontSize: 25.0))
                     ],
                   ),
@@ -146,6 +152,8 @@ class Placement extends StatelessWidget {
               ),
             ),
             Card(
+              color: Colors.amber,
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -158,6 +166,7 @@ class Placement extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       Text("Placement Year 2016-17 PDF",
+                          textAlign: TextAlign.center,
                           style: new TextStyle(fontSize: 25.0))
                     ],
                   ),
@@ -165,6 +174,8 @@ class Placement extends StatelessWidget {
               ),
             ),
             Card(
+              color: Colors.amber,
+              elevation: 10,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
                 onTap: () {
@@ -177,7 +188,10 @@ class Placement extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       Text("Placement Year 2015-16 PDF",
-                          style: new TextStyle(fontSize: 25.0))
+                          textAlign: TextAlign.center,
+                          style: new TextStyle(
+                            fontSize: 25.0,
+                          ))
                     ],
                   ),
                 ),
@@ -203,6 +217,7 @@ class Placement extends StatelessWidget {
               ),
             ),
             Card(
+              color: Colors.amber,
               elevation: 10,
               margin: EdgeInsets.all(13.0),
               child: InkWell(
@@ -219,7 +234,7 @@ class Placement extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          color: Colors.blue,
+                          color: Colors.black,
                           fontSize: 30,
                           fontStyle: FontStyle.italic,
                         ),
@@ -229,7 +244,7 @@ class Placement extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          color: Colors.blue,
+                          color: Colors.black,
                           fontSize: 15,
                           fontStyle: FontStyle.italic,
                         ),
@@ -249,6 +264,7 @@ class Placement extends StatelessWidget {
               ),
             ),
             Card(
+              color: Colors.amber,
               elevation: 10,
               margin: EdgeInsets.all(13.0),
               child: InkWell(
@@ -265,7 +281,7 @@ class Placement extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          color: Colors.blue,
+                          color: Colors.black,
                           fontSize: 30,
                           fontStyle: FontStyle.italic,
                         ),
@@ -275,7 +291,7 @@ class Placement extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          color: Colors.blue,
+                          color: Colors.black,
                           fontSize: 15,
                           fontStyle: FontStyle.italic,
                         ),
@@ -295,6 +311,7 @@ class Placement extends StatelessWidget {
               ),
             ),
             Card(
+              color: Colors.amber,
               elevation: 10,
               margin: EdgeInsets.all(13.0),
               child: InkWell(
@@ -311,7 +328,7 @@ class Placement extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          color: Colors.blue,
+                          color: Colors.black,
                           fontSize: 30,
                           fontStyle: FontStyle.italic,
                         ),
@@ -321,7 +338,7 @@ class Placement extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          color: Colors.blue,
+                          color: Colors.black,
                           fontSize: 15,
                           fontStyle: FontStyle.italic,
                         ),
