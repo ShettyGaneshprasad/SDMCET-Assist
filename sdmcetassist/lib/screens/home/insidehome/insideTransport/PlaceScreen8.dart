@@ -47,7 +47,7 @@ class PlaceScreen8 extends StatelessWidget {
                         textAlign: TextAlign.center,
                       ),
                       fit: FlexFit.tight,
-                    )
+                    ),
                   ],
                 ),
               ),
