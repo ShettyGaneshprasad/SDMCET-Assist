@@ -19,6 +19,10 @@ class MainScreenTransport extends StatelessWidget {
         child: ListView(
             // crossAxisCount: 3,
             children: <Widget>[
+              Text(
+                "",
+                style: TextStyle(fontSize: 180),
+              ),
               Card(
                 elevation: 10,
                 margin: EdgeInsets.all(8.0),
@@ -48,6 +52,10 @@ class MainScreenTransport extends StatelessWidget {
                     ],
                   ),
                 ),
+              ),
+              Text(
+                "",
+                style: TextStyle(fontSize: 30),
               ),
               Card(
                 elevation: 10,
@@ -79,6 +87,10 @@ class MainScreenTransport extends StatelessWidget {
                     ],
                   ),
                 ),
+              ),
+              Text(
+                "",
+                style: TextStyle(fontSize: 30),
               ),
               Card(
                 elevation: 10,
