@@ -23,6 +23,7 @@ class Food extends StatelessWidget {
           crossAxisCount: 2,
           children: <Widget>[
             Card(
+              elevation: 10,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15.0),
               ),
@@ -48,6 +49,7 @@ class Food extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15.0),
               ),
@@ -74,6 +76,7 @@ class Food extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15.0),
               ),
@@ -102,6 +105,7 @@ class Food extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15.0),
               ),
