@@ -16,6 +16,10 @@ class MorningScreen extends StatelessWidget {
         padding: EdgeInsets.all(5.0),
         child: ListView(
           children: <Widget>[
+            Text(
+              "",
+              style: TextStyle(fontSize: 200),
+            ),
             Card(
               elevation: 10,
               margin: EdgeInsets.all(8.0),
@@ -45,6 +49,10 @@ class MorningScreen extends StatelessWidget {
                   ],
                 ),
               ),
+            ),
+            Text(
+              "",
+              style: TextStyle(fontSize: 30),
             ),
             Card(
               elevation: 10,
