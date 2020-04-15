@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
-import 'insideTransport/EveningScreen.dart';
-import 'insideTransport/MorningScreen.dart';
-import 'insideTransport/AfternoonScreen.dart';
+import 'package:font_awesome_flutter/fa_icon.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:sdmcetassist/screens/home/insidehome/insideTransport/PlaceScreen1.dart';
+import 'package:sdmcetassist/screens/home/insidehome/insideTransport/PlaceScreen12.dart';
+import 'package:sdmcetassist/screens/home/insidehome/insideTransport/PlaceScreen5.dart';
+import 'package:sdmcetassist/screens/home/insidehome/insideTransport/PlaceScreen8.dart';
+import 'package:sdmcetassist/screens/home/insidehome/insideTransport/PlaceScreen9.dart';
 
 class MainScreenTransport extends StatelessWidget {
   @override
@@ -19,27 +23,19 @@ class MainScreenTransport extends StatelessWidget {
         child: ListView(
             // crossAxisCount: 3,
             children: <Widget>[
-              Text(
-                "",
-                style: TextStyle(fontSize: 180),
-              ),
               Card(
+                color: Colors.redAccent,
                 elevation: 10,
                 margin: EdgeInsets.all(8.0),
                 child: InkWell(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => MorningScreen()),
-                    );
-                  },
+                  onTap: () {},
                   splashColor: Colors.lightBlueAccent,
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
-                      Icon(
-                        Icons.directions_bus,
-                        size: 50.0,
+                      FaIcon(
+                        FontAwesomeIcons.cloudSun,
+                        color: Colors.black,
                       ),
                       Flexible(
                         child: Text(
@@ -53,10 +49,6 @@ class MainScreenTransport extends StatelessWidget {
                   ),
                 ),
               ),
-              Text(
-                "",
-                style: TextStyle(fontSize: 30),
-              ),
               Card(
                 elevation: 10,
                 margin: EdgeInsets.all(8.0),
@@ -64,8 +56,7 @@ class MainScreenTransport extends StatelessWidget {
                   onTap: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(
-                          builder: (context) => AfternoonScreen()),
+                      MaterialPageRoute(builder: (context) => PlaceScreen8()),
                     );
                   },
                   splashColor: Colors.lightBlueAccent,
@@ -75,6 +66,67 @@ class MainScreenTransport extends StatelessWidget {
                       Icon(
                         Icons.directions_bus,
                         size: 50.0,
+                      ),
+                      Flexible(
+                        child: Text(
+                          "8 o' clock Bus",
+                          style: new TextStyle(fontSize: 25.0),
+                          textAlign: TextAlign.center,
+                        ),
+                        fit: FlexFit.tight,
+                      )
+                    ],
+                  ),
+                ),
+              ),
+              Card(
+                elevation: 10,
+                margin: EdgeInsets.all(8.0),
+                child: InkWell(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => PlaceScreen9()),
+                    );
+                  },
+                  splashColor: Colors.lightBlueAccent,
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Icon(
+                        Icons.directions_bus,
+                        size: 50.0,
+                      ),
+                      Flexible(
+                        child: Text(
+                          "9 o' clock Bus",
+                          style: new TextStyle(fontSize: 25.0),
+                          textAlign: TextAlign.center,
+                        ),
+                        fit: FlexFit.tight,
+                      )
+                    ],
+                  ),
+                ),
+              ),
+              Text(
+                "",
+                style: new TextStyle(fontSize: 50.0),
+                textAlign: TextAlign.center,
+              ),
+              Card(
+                color: Colors.redAccent,
+                elevation: 10,
+                margin: EdgeInsets.all(8.0),
+                child: InkWell(
+                  onTap: () {},
+                  splashColor: Colors.lightBlueAccent,
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      FaIcon(
+                        FontAwesomeIcons.solidSun,
+                        color: Colors.black,
                       ),
                       Flexible(
                         child: Text(
@@ -88,10 +140,6 @@ class MainScreenTransport extends StatelessWidget {
                   ),
                 ),
               ),
-              Text(
-                "",
-                style: TextStyle(fontSize: 30),
-              ),
               Card(
                 elevation: 10,
                 margin: EdgeInsets.all(8.0),
@@ -99,7 +147,7 @@ class MainScreenTransport extends StatelessWidget {
                   onTap: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => EveningScreen()),
+                      MaterialPageRoute(builder: (context) => PlaceScreen12()),
                     );
                   },
                   splashColor: Colors.lightBlueAccent,
@@ -112,7 +160,98 @@ class MainScreenTransport extends StatelessWidget {
                       ),
                       Flexible(
                         child: Text(
+                          "12.30 Bus",
+                          style: new TextStyle(fontSize: 25.0),
+                          textAlign: TextAlign.center,
+                        ),
+                        fit: FlexFit.tight,
+                      )
+                    ],
+                  ),
+                ),
+              ),
+              Card(
+                elevation: 10,
+                margin: EdgeInsets.all(8.0),
+                child: InkWell(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => PlaceScreen1()),
+                    );
+                  },
+                  splashColor: Colors.lightBlueAccent,
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Icon(
+                        Icons.directions_bus,
+                        size: 50.0,
+                      ),
+                      Flexible(
+                        child: Text(
+                          "1.30 BUS",
+                          style: new TextStyle(fontSize: 25.0),
+                          textAlign: TextAlign.center,
+                        ),
+                        fit: FlexFit.tight,
+                      )
+                    ],
+                  ),
+                ),
+              ),
+              Text(
+                "",
+                style: new TextStyle(fontSize: 50.0),
+                textAlign: TextAlign.center,
+              ),
+              Card(
+                color: Colors.redAccent,
+                elevation: 10,
+                margin: EdgeInsets.all(8.0),
+                child: InkWell(
+                  onTap: () {},
+                  splashColor: Colors.lightBlueAccent,
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      FaIcon(
+                        FontAwesomeIcons.cloud,
+                        color: Colors.black,
+                      ),
+                      Flexible(
+                        child: Text(
                           "Evening",
+                          style: new TextStyle(fontSize: 25.0),
+                          textAlign: TextAlign.center,
+                        ),
+                        fit: FlexFit.tight,
+                      )
+                    ],
+                  ),
+                ),
+              ),
+              Card(
+                elevation: 10,
+                margin: EdgeInsets.all(8.0),
+                child: InkWell(
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => PlaceScreen5()),
+                    );
+                  },
+                  splashColor: Colors.lightBlueAccent,
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Icon(
+                        Icons.directions_bus,
+                        size: 50.0,
+                      ),
+                      Flexible(
+                        child: Text(
+                          "5 o' clock Bus",
                           style: new TextStyle(fontSize: 25.0),
                           textAlign: TextAlign.center,
                         ),
