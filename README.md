@@ -22,12 +22,8 @@ You can download latest version of this app from this link:-
 https://drive.google.com/drive/u/2/folders/1HEV_Y3rv9amnEES67vkuSvhR-R8t2kRE
 
 ### Prerequisites
+Android Mobile with Android Version 4.4 or higher.
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
 
 ### Installing
 
