@@ -21,19 +21,9 @@ All college details like:-
 You can download latest version of this app from this link:- 
 https://drive.google.com/drive/u/2/folders/1HEV_Y3rv9amnEES67vkuSvhR-R8t2kRE
 
-### Minimum requirement
+## Minimum requirement
 Android Mobile with Android Version 4.4 or higher.
 Device with 3 GB RAM or higher
-
-
-
-
-
-
-
-
-
-
 
 ## Built With
 
@@ -47,20 +37,18 @@ You can send us your Suggestion's and feedback at:- sdmcetassist@gmail.com
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+You can get and Download all previous version's apk file here :-
+https://drive.google.com/open?id=1HP0kve3qMRyvOFV2LON9PrHwtkPFXO-F
 
-## Authors
+## Project Team Members
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Shetty Ganeshprasad**  
+* **Shubham Kumar** 
+* **Chinmayee Joshi** 
+* **Nikhita Muragod** 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/your/SDMCET-Assist/contributors) who participated in this project.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
