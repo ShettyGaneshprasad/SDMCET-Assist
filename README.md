@@ -42,10 +42,10 @@ You can send us your Suggestion's and feedback at:- sdmcetassist@gmail.com
 
 ## Project Team Members
 
-* **Shetty Ganeshprasad**  
-* **Shubham Kumar** 
-* **Chinmayee Joshi** 
-* **Nikhita Muragod** 
+* [**Shetty Ganeshprasad**](https://github.com/ganeshShetty98/)
+* [**Shubham Kumar**](https://github.com/Shubhamkumar6458)
+* [**Chinmayee Joshi**](https://github.com/chinmayee143)
+* [**Nikhita Muragod**](https://github.com/nikhita-png)
 
 
 
