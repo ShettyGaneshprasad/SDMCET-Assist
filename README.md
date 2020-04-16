@@ -1,6 +1,6 @@
 # SDMCET Assist Android App.
 
-This is an Anroid App for SDM College of Engineering and Technology, Dharwad.
+This is an Android App for SDM College of Engineering and Technology, Dharwad.
 
 
 Which gives all information about the college to its Student, Faculty and even visitors of the college.
@@ -18,8 +18,8 @@ All college details like:-
 
 ## Installing
 
-You can download latest version of this app from this link:- 
-https://drive.google.com/drive/u/2/folders/1HEV_Y3rv9amnEES67vkuSvhR-R8t2kRE
+[Tap to download and install latest version of this android app](https://drive.google.com/drive/u/2/folders/1HEV_Y3rv9amnEES67vkuSvhR-R8t2kRE
+) 
 
 ## Minimum requirement
 Android Mobile with Android Version 4.4 or higher.
@@ -47,7 +47,6 @@ https://drive.google.com/open?id=1HP0kve3qMRyvOFV2LON9PrHwtkPFXO-F
 * **Chinmayee Joshi** 
 * **Nikhita Muragod** 
 
-See also the list of [contributors](https://github.com/your/SDMCET-Assist/contributors) who participated in this project.
 
 
 
