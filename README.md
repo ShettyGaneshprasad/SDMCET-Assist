@@ -42,7 +42,9 @@ Device with 3 GB RAM or higher
 
 ## Suggestions
 
-You can send us your Suggestion for this App by  *[clicking here](https://mailto: sdmcetassist@gmail.com)
+You can send us your Suggestion for this App by  
+* [clicking here](https://mailto: sdmcetassist@gmail.com)
+[Firebase](https://maven.apache.org/)
 
 ## Versioning
 
