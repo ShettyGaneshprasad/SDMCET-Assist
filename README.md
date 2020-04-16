@@ -16,7 +16,7 @@ All college details like:-
 10) College's Cafetaria, Bakery, Mess, Suruchi's Menu.
 
 
-### Installing
+## Installing
 
 You can download latest version of this app from this link:- 
 https://drive.google.com/drive/u/2/folders/1HEV_Y3rv9amnEES67vkuSvhR-R8t2kRE
@@ -40,11 +40,10 @@ Device with 3 GB RAM or higher
 * [Flutter](https://flutter.dev/docs) - Flutter is a mobile SDK that allows us to create cross-platform mobile applications (ie. Android and iOS)
 * [Firebase](https://maven.apache.org/) - Firebase used for Authentication, Cloud Storage, Database and sending Push Notification to App User.
 
-## Suggestions
+## Suggestions and Feedback
 
-You can send us your Suggestion for this App by  
-* []()
-* [clicking here](https://mailto: sdmcetassist@gmail.com/)
+You can send us your Suggestion's and feedback at:- sdmcetassist@gmail.com
+
 
 ## Versioning
 
