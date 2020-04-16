@@ -5,15 +5,16 @@ This is an Android App for SDM College of Engineering and Technology, Dharwad.
 
 Which gives all information about the college to its Student, Faculty and even visitors of the college.
 All college details like:-
-1) Administration
-2) UG Academics 
-3) Important Contacts
-4) Placement
-5) Examination Department
-6) Bus Facility
-7) College and Department wise Notice.
-9) Indoor College Navigation Map.
-10) College's Cafetaria, Bakery, Mess, Suruchi's Menu.
+* Administration
+* Students and Faculty Timetable
+* Important Contacts
+* Placement
+* Examination Department
+* Bus Facility
+* College and Department wise Notice.
+* Indoor College Navigation Map.
+* College's Cafetaria, Bakery, Mess, Suruchi's Menu.
+* And many more...
 
 
 ## Installing
