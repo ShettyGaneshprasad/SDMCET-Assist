@@ -14,7 +14,7 @@ Which gives all information about the college to its Student, Faculty and even v
 * Indoor College Navigation Map.
 * College's Cafetaria, Bakery, Mess, Suruchi's Menu.
 * Push Notifications for any Important News or Notice.
-* Online Fees payment from App.
+* Online Fees payment.
 * And many more...
 
 
