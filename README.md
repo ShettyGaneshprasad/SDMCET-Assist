@@ -33,7 +33,7 @@ Android Mobile with Android Version 4.4 or higher.
 Device with 3 GB RAM or higher
 
 ## App's Screenshot
-<img src="https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/GitHub%20Readme%20App%20Screenshot%2Flogin.jpg?alt=media&token=fe63b707-3722-4d0a-b695-87011b8f6e80" width="100">
+<img src="https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/GitHub%20Readme%20App%20Screenshot%2Flogin.jpg?alt=media&token=fe63b707-3722-4d0a-b695-87011b8f6e80" width="500">
 ![]()
 ## Built With
 
