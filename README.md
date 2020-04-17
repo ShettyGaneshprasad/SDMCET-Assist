@@ -26,9 +26,6 @@ Which gives all information about the college to its Student, Faculty and even v
 * [**Tap to download and install latest version of this android app.**](https://drive.google.com/drive/u/2/folders/1HEV_Y3rv9amnEES67vkuSvhR-R8t2kRE
 ) 
 
-
-
-
 ## App's Screenshot
 <p>
   <img src="https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/GitHub%20Readme%20App%20Screenshot%2Flogin.jpg?alt=media&token=fe63b707-3722-4d0a-b695-87011b8f6e80" width="300">
@@ -39,20 +36,15 @@ Which gives all information about the college to its Student, Faculty and even v
   <img src="https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/GitHub%20Readme%20App%20Screenshot%2Facademics.jpg?alt=media&token=b2b14ca5-d1cd-4046-ab69-b83f65690972" width="300">
 </p>
 
-
-
-
-
-
 ## Versioning
 
 * [Tap See and Download all previous version's apk file.](https://drive.google.com/open?id=1HP0kve3qMRyvOFV2LON9PrHwtkPFXO-F)
 
 ## Suggestions and Feedback
 
-You can send us your Suggestion's and feedback at:- sdmcetassist@gmail.com
+Send us your valuable suggestion and feedback at:- sdmcetassist@gmail.com
 
-### Built With
+## Built With
 * <img src="https://flutter.dev/assets/flutter-lockup-c13da9c9303e26b8d5fc208d2a1fa20c1ef47eb021ecadf27046dea04c0cebf6.png" width="150">   is a mobile SDK that allows us to create cross-platform mobile applications (ie. Android and iOS)
 
 * <image src="https://www.gstatic.com/devrel-devsite/prod/v2210deb8920cd4a55bd580441aa58e7853afc04b39a9d9ac4198e1cd7fbe04ef/firebase/images/lockup.png" width="150">    is used for Authentication, Cloud Storage, Database and sending Push Notification to App User.
