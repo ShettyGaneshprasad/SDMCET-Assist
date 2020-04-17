@@ -54,7 +54,8 @@ You can send us your Suggestion's and feedback at:- sdmcetassist@gmail.com
 
 ## Built With
 
-* <img src="https://flutter.dev/assets/flutter-lockup-c13da9c9303e26b8d5fc208d2a1fa20c1ef47eb021ecadf27046dea04c0cebf6.png" width="150" onClick="https://flutter.dev/docs">[Flutter](https://flutter.dev/docs) - Flutter is a mobile SDK that allows us to create cross-platform mobile applications (ie. Android and iOS)
+* <img src="https://flutter.dev/assets/flutter-lockup-c13da9c9303e26b8d5fc208d2a1fa20c1ef47eb021ecadf27046dea04c0cebf6.png" width="150" onClick="https://flutter.dev/docs">[Flutter is a mobile SDK that allows us to create cross-platform mobile applications (ie. Android and iOS)](https://flutter.dev/docs)
+
 * [Firebase](https://maven.apache.org/) - Firebase used for Authentication, Cloud Storage, Database and sending Push Notification to App User.
 
 ## Project Team Members
