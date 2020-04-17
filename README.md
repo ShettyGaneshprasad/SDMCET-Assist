@@ -3,8 +3,6 @@
 This is an Android App for SDM College of Engineering and Technology, Dharwad.
 Which gives all information about the college to its Student, Faculty and even visitors of the college.
 
-
-
 ### Features
 * Administration Details.
 * Students and Faculty Timetable.
@@ -18,7 +16,6 @@ Which gives all information about the college to its Student, Faculty and even v
 * Push Notifications for any Important News or Notice.
 * Online Fees payment.
 * And many more...
-
 
 ## Installing & Requirement
 * Android Mobile with Android Version 4.4 or higher.
@@ -55,8 +52,3 @@ Send us your valuable suggestion and feedback at:- sdmcetassist@gmail.com
 * [**Shubham Kumar**](https://github.com/Shubhamkumar6458)
 * [**Chinmayee Joshi**](https://github.com/chinmayee143)
 * [**Nikhita Muragod**](https://github.com/nikhita-png)
-
-
-
-
-
