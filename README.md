@@ -3,6 +3,11 @@
 This is an Android App for SDM College of Engineering and Technology, Dharwad.
 Which gives all information about the college to its Student, Faculty and even visitors of the college.
 
+
+![Alt text](https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/Dr%20S.G%20Ankaliki%20E%26E.jpg?alt=media&token=63cfed31-14c7-4ed9-a692-61edab8edaae "Optional title")
+
+
+
 ### Features
 * Administration Details.
 * Students and Faculty Timetable.
