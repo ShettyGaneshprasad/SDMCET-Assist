@@ -5,9 +5,6 @@ Which gives all information about the college to its Student, Faculty and even v
 
 
 
-
-
-
 ### Features
 * Administration Details.
 * Students and Faculty Timetable.
@@ -23,14 +20,14 @@ Which gives all information about the college to its Student, Faculty and even v
 * And many more...
 
 
-## Installing
-
+## Installing & Requirement
+* Android Mobile with Android Version 4.4 or higher.
+* Device with 3 GB RAM or higher
 * [**Tap to download and install latest version of this android app.**](https://drive.google.com/drive/u/2/folders/1HEV_Y3rv9amnEES67vkuSvhR-R8t2kRE
 ) 
 
-## Minimum requirement
-Android Mobile with Android Version 4.4 or higher.
-Device with 3 GB RAM or higher
+
+
 
 ## App's Screenshot
 <p>
@@ -42,20 +39,23 @@ Device with 3 GB RAM or higher
   <img src="https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/GitHub%20Readme%20App%20Screenshot%2Facademics.jpg?alt=media&token=b2b14ca5-d1cd-4046-ab69-b83f65690972" width="300">
 </p>
 
-## Built With
 
-* [Flutter](https://flutter.dev/docs) - Flutter is a mobile SDK that allows us to create cross-platform mobile applications (ie. Android and iOS)
-* [Firebase](https://maven.apache.org/) - Firebase used for Authentication, Cloud Storage, Database and sending Push Notification to App User.
 
-## Suggestions and Feedback
 
-You can send us your Suggestion's and feedback at:- sdmcetassist@gmail.com
 
 
 ## Versioning
 
 * [Tap See and Download all previous version's apk file.](https://drive.google.com/open?id=1HP0kve3qMRyvOFV2LON9PrHwtkPFXO-F)
 
+## Suggestions and Feedback
+
+You can send us your Suggestion's and feedback at:- sdmcetassist@gmail.com
+
+## Built With
+
+* [Flutter](https://flutter.dev/docs) - Flutter is a mobile SDK that allows us to create cross-platform mobile applications (ie. Android and iOS)
+* [Firebase](https://maven.apache.org/) - Firebase used for Authentication, Cloud Storage, Database and sending Push Notification to App User.
 
 ## Project Team Members
 
