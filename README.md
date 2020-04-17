@@ -39,6 +39,12 @@ Device with 3 GB RAM or higher
 </p>
 <img src="" width="300"><img src="" width="300">
 <img src="" width="300">
+<p>
+![](https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/GitHub%20Readme%20App%20Screenshot%2Fmainmenu.jpg?alt=media&token=0d11a8b4-ed0d-4bb9-9ede-b3343bbe4c5b "Title")
+![](https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/GitHub%20Readme%20App%20Screenshot%2Fmainmenu.jpg?alt=media&token=0d11a8b4-ed0d-4bb9-9ede-b3343bbe4c5b "Title")
+
+</p>
+
 ## Built With
 
 * [Flutter](https://flutter.dev/docs) - Flutter is a mobile SDK that allows us to create cross-platform mobile applications (ie. Android and iOS)
