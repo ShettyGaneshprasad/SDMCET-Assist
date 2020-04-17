@@ -43,13 +43,7 @@ Device with 3 GB RAM or higher
   <img src="https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/GitHub%20Readme%20App%20Screenshot%2Fcontacts.jpg?alt=media&token=78167b9b-3e41-4dee-97d9-124d6ae53950" width="300">
   <img src="https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/GitHub%20Readme%20App%20Screenshot%2Fexam.jpg?alt=media&token=7eee3618-73b3-4bb7-a091-257b4db4f8bf" width="300">
   <img src="https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/GitHub%20Readme%20App%20Screenshot%2Fexam%20formm%20download.jpg?alt=media&token=e088251c-2827-4db3-b825-73adf01834a1" width="300">
-  <img src="" width="300">
-  <img src="" width="300">
 </p>
-
-<img src="" width="300">
-
-
 
 ## Built With
 
