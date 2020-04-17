@@ -20,7 +20,7 @@ Which gives all information about the college to its Student, Faculty and even v
 
 ## Installing
 
-* [Tap to download and install latest version of this android app](https://drive.google.com/drive/u/2/folders/1HEV_Y3rv9amnEES67vkuSvhR-R8t2kRE
+* [**Tap to download and install latest version of this android app.**](https://drive.google.com/drive/u/2/folders/1HEV_Y3rv9amnEES67vkuSvhR-R8t2kRE
 ) 
 
 ## Minimum requirement
@@ -39,7 +39,7 @@ You can send us your Suggestion's and feedback at:- sdmcetassist@gmail.com
 
 ## Versioning
 
-* [To See and Download all previous version's apk file Tap here](https://drive.google.com/open?id=1HP0kve3qMRyvOFV2LON9PrHwtkPFXO-F)
+* [Tap See and Download all previous version's apk file.](https://drive.google.com/open?id=1HP0kve3qMRyvOFV2LON9PrHwtkPFXO-F)
 
 
 ## Project Team Members
