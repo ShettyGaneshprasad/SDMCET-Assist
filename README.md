@@ -15,12 +15,12 @@ Which gives all information about the college to its Student, Faculty and even v
 * College's Cafetaria, Bakery, Mess, Suruchi's Menu.
 * Push Notifications for any Important News or Notice.
 * Online Fees payment.
-* And many more...
+  And many more...
 
 ## Installing & Requirement
 * Android Mobile with Android Version 4.4 or higher.
 * Device with 3 GB RAM or higher
-* [**Tap to download and install latest version of this android app.**](https://drive.google.com/drive/u/2/folders/1HEV_Y3rv9amnEES67vkuSvhR-R8t2kRE
+  [**Tap to download and install latest version of this android app.**](https://drive.google.com/drive/u/2/folders/1HEV_Y3rv9amnEES67vkuSvhR-R8t2kRE
 ) 
 
 ## App's Screenshot
@@ -42,7 +42,7 @@ Which gives all information about the college to its Student, Faculty and even v
 
 ## Versioning
 
-* [Tap See and Download all previous version's apk file.](https://drive.google.com/open?id=1HP0kve3qMRyvOFV2LON9PrHwtkPFXO-F)
+ [Tap See and Download all previous version's apk file.](https://drive.google.com/open?id=1HP0kve3qMRyvOFV2LON9PrHwtkPFXO-F)
 
 ## Suggestions and Feedback
 
