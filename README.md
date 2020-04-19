@@ -15,8 +15,7 @@ Which gives all information about the college to its Student, Faculty and even v
 * College's Cafetaria, Bakery, Mess, Suruchi's Menu.
 * Push Notifications for any Important News or Notice.
 * Online Fees payment.
- 
-  And many more...
+* And many more...
 
 ## Installing & Requirement
 * Android Mobile with Android Version 4.4 or higher.
