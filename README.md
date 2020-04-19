@@ -38,6 +38,13 @@ Which gives all information about the college to its Student, Faculty and even v
 
 * <image src="https://www.gstatic.com/devrel-devsite/prod/v2210deb8920cd4a55bd580441aa58e7853afc04b39a9d9ac4198e1cd7fbe04ef/firebase/images/lockup.png" width="150">    is used for Authentication, Cloud Storage, Database and sending Push Notification to App User.
 
+## Project Team Members
+
+* [**Shetty Ganeshprasad**](https://github.com/ganeshShetty98/)
+* [**Shubham Kumar**](https://github.com/Shubhamkumar6458)
+* [**Chinmayee Joshi**](https://github.com/chinmayee143)
+* [**Nikhita Muragod**](https://github.com/nikhita-png)
+
 ## Versioning
 
 * [Tap See and Download all previous version's apk file.](https://drive.google.com/open?id=1HP0kve3qMRyvOFV2LON9PrHwtkPFXO-F)
@@ -48,9 +55,4 @@ Send us your valuable suggestion and feedback at:- sdmcetassist@gmail.com
 
 
 
-## Project Team Members
 
-* [**Shetty Ganeshprasad**](https://github.com/ganeshShetty98/)
-* [**Shubham Kumar**](https://github.com/Shubhamkumar6458)
-* [**Chinmayee Joshi**](https://github.com/chinmayee143)
-* [**Nikhita Muragod**](https://github.com/nikhita-png)
