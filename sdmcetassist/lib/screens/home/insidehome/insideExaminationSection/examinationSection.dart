@@ -32,6 +32,7 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 5,
               color: Colors.red,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -65,6 +66,7 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 5,
               color: Colors.red,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -135,6 +137,7 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               color: Colors.amber,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -188,6 +191,7 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               color: Colors.amber,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -241,6 +245,7 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               color: Colors.amber,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -301,6 +306,7 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               color: Colors.amber,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -354,6 +360,7 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               color: Colors.amber,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -406,6 +413,7 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               color: Colors.amber,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -433,6 +441,7 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               color: Colors.amber,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -486,6 +495,7 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               color: Colors.amber,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -557,6 +567,7 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               color: Colors.amber,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -602,6 +613,7 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               color: Colors.amber,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
@@ -647,6 +659,7 @@ class ExaminationSec extends StatelessWidget {
               ),
             ),
             Card(
+              elevation: 10,
               color: Colors.amber,
               margin: EdgeInsets.all(8.0),
               child: InkWell(
