@@ -48,7 +48,7 @@ class GShetty extends StatelessWidget {
                     margin: EdgeInsets.all(12.0),
                     child: InkWell(
                       onTap: () {
-                        launch('https://dev.to/ganeshshetty98');
+                        launch('https://shettyganeshprasad.netlify.app/');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Row(
