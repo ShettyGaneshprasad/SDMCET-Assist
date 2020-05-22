@@ -45,7 +45,45 @@ class GShetty extends StatelessWidget {
                 children: <Widget>[
                   Card(
                     elevation: 10,
-                    margin: EdgeInsets.all(15.0),
+                    margin: EdgeInsets.all(12.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch('https://dev.to/ganeshshetty98');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: <Widget>[
+                          Icon(
+                            Icons.public,
+                            color: Colors.red,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 10,
+                    margin: EdgeInsets.all(12.0),
+                    child: InkWell(
+                      onTap: () {
+                        launch('https://dev.to/ganeshshetty98');
+                      },
+                      splashColor: Colors.lightBlueAccent,
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: <Widget>[
+                          FaIcon(
+                            FontAwesomeIcons.dev,
+                            color: Colors.black,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 10,
+                    margin: EdgeInsets.all(12.0),
                     child: InkWell(
                       onTap: () {
                         launch('https://www.instagram.com/_g4nesh.shetty_/');
@@ -64,7 +102,7 @@ class GShetty extends StatelessWidget {
                   ),
                   Card(
                     elevation: 10,
-                    margin: EdgeInsets.all(15.0),
+                    margin: EdgeInsets.all(12.0),
                     child: InkWell(
                       onTap: () {
                         launch(
@@ -84,7 +122,7 @@ class GShetty extends StatelessWidget {
                   ),
                   Card(
                     elevation: 10,
-                    margin: EdgeInsets.all(15.0),
+                    margin: EdgeInsets.all(12.0),
                     child: InkWell(
                       onTap: () {
                         launch('https://github.com/ganeshShetty98');
@@ -103,11 +141,11 @@ class GShetty extends StatelessWidget {
                   ),
                   Card(
                     elevation: 10,
-                    margin: EdgeInsets.all(15.0),
+                    margin: EdgeInsets.all(12.0),
                     child: InkWell(
                       onTap: () {
                         launch(
-                            'https://www.linkedin.com/in/shetty-ganeshprasad-955599184/');
+                            'https://www.linkedin.com/in/shettyganeshprasad/');
                       },
                       splashColor: Colors.lightBlueAccent,
                       child: Row(
@@ -123,7 +161,7 @@ class GShetty extends StatelessWidget {
                   ),
                   Card(
                     elevation: 10,
-                    margin: EdgeInsets.all(15.0),
+                    margin: EdgeInsets.all(12.0),
                     child: InkWell(
                       onTap: () {
                         launch('https://twitter.com/_G4neshshetty_');
@@ -142,7 +180,7 @@ class GShetty extends StatelessWidget {
                   ),
                   Card(
                     elevation: 10,
-                    margin: EdgeInsets.all(15.0),
+                    margin: EdgeInsets.all(12.0),
                     child: InkWell(
                       onTap: () {
                         launch('https://wa.me/+917900129925');
