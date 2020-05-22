@@ -33,7 +33,7 @@ class MyTabsState extends State<AboutDeveloper>
         length: 4,
         child: Scaffold(
           appBar: AppBar(
-            backgroundColor: Colors.blue[300],
+            backgroundColor: Colors.blue,
             title: Text("About Developer"),
             bottom: menu(),
           ),
