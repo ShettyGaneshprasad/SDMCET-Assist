@@ -11,7 +11,10 @@ class Nikhita extends StatelessWidget {
       backgroundColor: Colors.blue[50],
       body: ListView(
         children: <Widget>[
-          Image.asset('assets/nikhita.jpg'),
+          Image.asset(
+            'assets/nikhita.jpg',
+            fit: BoxFit.contain,
+          ),
           Text(
             "Nikhita Muragod",
             style: new TextStyle(
