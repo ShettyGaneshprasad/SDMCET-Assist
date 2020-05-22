@@ -174,7 +174,7 @@ class _Suruchi extends State<Suruchi> {
           title: Text(
             'Suruchi', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -247,7 +247,7 @@ class _SantruptiMess extends State<SantruptiMess> {
           title: Text(
             'Santrupti Mess', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -320,7 +320,7 @@ class _CollegeCafeteria extends State<CollegeCafeteria> {
           title: Text(
             'College Cafeteria', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
@@ -393,7 +393,7 @@ class _CollegeBakery extends State<CollegeBakery> {
           title: Text(
             'College Bakery', /*style:TextStyle(color:Colors.black)*/
           ),
-          backgroundColor: Colors.blue[300],
+          backgroundColor: Colors.blue,
           elevation: 10.0,
         ),
         body: timeTable != null
