@@ -24,6 +24,7 @@ Which gives all information about the college to its Student, Faculty and even v
 ) 
 
 ## App's Screenshot 
+
 <p>
   <img src="https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/GitHub%20Readme%20App%20Screenshot%2Flogin.jpg?alt=media&token=fe63b707-3722-4d0a-b695-87011b8f6e80" width="300">
   <img src="https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/GitHub%20Readme%20App%20Screenshot%2Fmainmenu.jpg?alt=media&token=0d11a8b4-ed0d-4bb9-9ede-b3343bbe4c5b" width="300">
