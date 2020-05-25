@@ -20,8 +20,8 @@ Which gives all information about the college to its Student, Faculty and even v
 ## Installing & Requirement
 * Android Mobile with Android Version 4.4 or higher.
 * Device with 3 GB RAM or higher
-* [**Tap to download and install latest version of this android app.**](https://drive.google.com/drive/u/2/folders/1HEV_Y3rv9amnEES67vkuSvhR-R8t2kRE
-) 
+* [**Tap to download and install latest version of this android app.**](https://github.com/ganeshShetty98/SDMCET-Assist
+) Downl
 
 ## App's Screenshot
 <p>
