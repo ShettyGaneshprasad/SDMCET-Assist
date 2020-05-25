@@ -22,7 +22,7 @@ Which gives all information about the college to its Student, Faculty and even v
 * Device with 3 GB RAM or higher
 * [**Tap to download and install latest version of this android app.**](https://github.com/ganeshShetty98/SDMCET-Assist
 )
-Note:- Curently Downloading of this app is not enabled by admin. Star this Repo to get further info.
+<br>(Note:- Curently Downloading of this app is not enabled by admin. Star this Repo to get further info.)
 
 ## App's Screenshot
 <p>
