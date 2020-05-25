@@ -6,6 +6,7 @@ Which gives all information about the college to its Student, Faculty and even v
 ## Features
 * Administration Details.
 * Students and Faculty Timetable.
+* Previous years Question paper.
 * Important Contacts.
 * Placement Details.
 * Examination Department
