@@ -51,6 +51,9 @@ Send us your valuable suggestion and feedback at:- sdmcetassist@gmail.com
 * <img src="https://flutter.dev/assets/flutter-lockup-c13da9c9303e26b8d5fc208d2a1fa20c1ef47eb021ecadf27046dea04c0cebf6.png" width="150">   is a mobile SDK that allows us to create cross-platform mobile applications (ie. Android and iOS)
 
 * <image src="https://www.gstatic.com/devrel-devsite/prod/v2210deb8920cd4a55bd580441aa58e7853afc04b39a9d9ac4198e1cd7fbe04ef/firebase/images/lockup.png" width="150">    is used for Authentication, Cloud Storage, Database and sending Push Notification to App User.
+  
+* <image src="https://banner2.cleanpng.com/20180409/zte/kisspng-dart-google-developers-flutter-android-darts-5acbd976aea304.6247890515233089187153.jpg" width="150">    is used for Authentication, Cloud Storage, Database and sending Push Notification to App User.
+
 
 
 ## Project Team Members
