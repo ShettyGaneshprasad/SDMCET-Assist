@@ -1,4 +1,4 @@
-# SDMCET Assist Android App.
+# SDMCET Assist Android App.  <img src="https://firebasestorage.googleapis.com/v0/b/sdmcet-assist.appspot.com/o/GitHub%20Readme%20App%20Screenshot%2Flogin.jpg?alt=media&token=fe63b707-3722-4d0a-b695-87011b8f6e80" width="50">
 
 This is an Android App for SDM College of Engineering and Technology, Dharwad.
 Which gives all information about the college to its Student, Faculty and even visitors of the college.
