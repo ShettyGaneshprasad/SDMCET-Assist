@@ -104,7 +104,7 @@ class HodContact extends StatelessWidget {
             margin: EdgeInsets.all(10.0),
             child: InkWell(
               onTap: () {
-                launch("tel:7900129925");
+                launch("tel:9035924809");
               },
               splashColor: Colors.lightBlueAccent,
               child: Center(
@@ -122,7 +122,7 @@ class HodContact extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "Phone no:7900129925",
+                      "Phone no:9035924809",
                       style: new TextStyle(
                           fontSize: 20.0,
                           fontStyle: FontStyle.italic,
@@ -176,7 +176,7 @@ class HodContact extends StatelessWidget {
             margin: EdgeInsets.all(10.0),
             child: InkWell(
               onTap: () {
-                launch("tel:7900129925");
+                launch("tel:9481108294");
               },
               splashColor: Colors.lightBlueAccent,
               child: Center(
@@ -194,7 +194,7 @@ class HodContact extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "Phone no:7900129925",
+                      "Phone no:9481108294",
                       style: new TextStyle(
                           fontSize: 20.0,
                           fontStyle: FontStyle.italic,
@@ -212,7 +212,7 @@ class HodContact extends StatelessWidget {
             margin: EdgeInsets.all(10.0),
             child: InkWell(
               onTap: () {
-                launch("tel:7900129925");
+                launch("tel:9663398152");
               },
               splashColor: Colors.lightBlueAccent,
               child: Center(
@@ -230,7 +230,7 @@ class HodContact extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "Phone no:7900129925",
+                      "Phone no:9663398152",
                       style: new TextStyle(
                           fontSize: 20.0,
                           fontStyle: FontStyle.italic,
@@ -248,7 +248,7 @@ class HodContact extends StatelessWidget {
             margin: EdgeInsets.all(10.0),
             child: InkWell(
               onTap: () {
-                launch("tel:7900129925");
+                launch("tel:9481930359");
               },
               splashColor: Colors.lightBlueAccent,
               child: Center(
@@ -266,7 +266,7 @@ class HodContact extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      "Phone no:7900129925",
+                      "Phone no:9481930359",
                       style: new TextStyle(
                           fontSize: 20.0,
                           fontStyle: FontStyle.italic,
