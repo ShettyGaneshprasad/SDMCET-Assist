@@ -28,348 +28,137 @@ class Department extends StatelessWidget {
         child: ListView(
           // crossAxisCount: 3,
           children: <Widget>[
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => firstYearUg()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Icon(
-                      Icons.book,
-                      size: 50.0,
-                    ),
-                    Flexible(
-                      child: Text(
-                        "1st Year UG   ",
-                        style: new TextStyle(fontSize: 25.0),
-                        textAlign: TextAlign.center,
-                      ),
-                      fit: FlexFit.tight,
-                    )
-                  ],
-                ),
-              ),
+            buildCard(
+              context: context,
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => firstYearUg()));
+              },
+              title: "1st Year UG   ",
+              icon: Icons.book,
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => Cse()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Icon(
-                      Icons.computer,
-                      size: 50.0,
-                    ),
-                    Flexible(
-                      child: Text(
-                        "Computer Science Engineering",
-                        style: new TextStyle(fontSize: 25.0),
-                        textAlign: TextAlign.center,
-                      ),
-                      fit: FlexFit.tight,
-                    )
-                  ],
-                ),
-              ),
+            buildCard(
+              context: context,
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Cse()));
+              },
+              title: "Computer Science Engineering",
+              icon: Icons.computer,
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => Ise()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Icon(
-                      Icons.cast,
-                      size: 50.0,
-                    ),
-                    Flexible(
-                      child: Text(
-                        "Information Science Engineering",
-                        style: new TextStyle(fontSize: 25.0),
-                        textAlign: TextAlign.center,
-                      ),
-                      fit: FlexFit.tight,
-                    )
-                  ],
-                ),
-              ),
+            buildCard(
+              context: context,
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Ise()));
+              },
+              title: "Information Science Engineering",
+              icon: Icons.cast,
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => EnC()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Icon(
-                      Icons.router,
-                      size: 50.0,
-                    ),
-                    Flexible(
-                      child: Text(
-                        "E & C Engineering",
-                        style: new TextStyle(fontSize: 25.0),
-                        textAlign: TextAlign.center,
-                      ),
-                      fit: FlexFit.tight,
-                    )
-                  ],
-                ),
-              ),
+            buildCard(
+              context: context,
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => EnC()));
+              },
+              title: "E & C Engineering",
+              icon: Icons.router,
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => EnE()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Icon(
-                      Icons.wb_incandescent,
-                      size: 50.0,
-                    ),
-                    Flexible(
-                      child: Text(
-                        "E & E Engineering",
-                        style: new TextStyle(fontSize: 25.0),
-                        textAlign: TextAlign.center,
-                      ),
-                      fit: FlexFit.tight,
-                    )
-                  ],
-                ),
-              ),
+            buildCard(
+              context: context,
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => EnE()));
+              },
+              title: "E & E Engineering",
+              icon: Icons.wb_incandescent,
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => Mech()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Icon(
-                      Icons.build,
-                      //color: Colors.amberAccent,
-                      size: 50.0,
-                    ),
-                    Flexible(
-                      child: Text(
-                        "Mechanical Engineering",
-                        style: new TextStyle(fontSize: 25.0),
-                        textAlign: TextAlign.center,
-                      ),
-                      fit: FlexFit.tight,
-                    )
-                  ],
-                ),
-              ),
+            buildCard(
+              context: context,
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Mech()));
+              },
+              title: "Mechanical Engineering",
+              icon: Icons.build,
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Chemical()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Icon(
-                      Icons.format_color_fill,
-                      size: 50.0,
-                    ),
-                    Flexible(
-                      child: Text(
-                        "Chemical Engineering",
-                        style: new TextStyle(fontSize: 25.0),
-                        textAlign: TextAlign.center,
-                      ),
-                      fit: FlexFit.tight,
-                    )
-                  ],
-                ),
-              ),
+            buildCard(
+              context: context,
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => Chemical()));
+              },
+              title: "Chemical Engineering",
+              icon: Icons.format_color_fill,
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Civil()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Icon(
-                      Icons.business,
-                      size: 50.0,
-                    ),
-                    Flexible(
-                      child: Text(
-                        "Civil Engineering",
-                        style: new TextStyle(fontSize: 25.0),
-                        textAlign: TextAlign.center,
-                      ),
-                      fit: FlexFit.tight,
-                    )
-                  ],
-                ),
-              ),
+            buildCard(
+              context: context,
+              onTap: () {
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Civil()));
+              },
+              title: "Civil Engineering",
+              icon: Icons.business,
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => DeptMaths()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Icon(
-                      Icons.filter_9_plus,
-                      size: 50.0,
-                    ),
-                    Flexible(
-                      child: Text(
-                        "Department of Maths & Humanities",
-                        style: new TextStyle(fontSize: 25.0),
-                        textAlign: TextAlign.center,
-                      ),
-                      fit: FlexFit.tight,
-                    )
-                  ],
-                ),
-              ),
+            buildCard(
+              context: context,
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DeptMaths()));
+              },
+              title: "Department of Maths & Humanities",
+              icon: Icons.filter_9_plus,
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => DeptChem()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Icon(
-                      Icons.blur_on,
-                      size: 50.0,
-                    ),
-                    Flexible(
-                      child: Text(
-                        "Department of Chemistry",
-                        style: new TextStyle(fontSize: 25.0),
-                        textAlign: TextAlign.center,
-                      ),
-                      fit: FlexFit.tight,
-                    )
-                  ],
-                ),
-              ),
+            buildCard(
+              context: context,
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DeptChem()));
+              },
+              title: "Department of Chemistry",
+              icon: Icons.blur_on,
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => DeptPhysics()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Icon(
-                      Icons.explore,
-                      size: 50.0,
-                    ),
-                    Flexible(
-                      child: Text(
-                        "Department of Physics",
-                        style: new TextStyle(fontSize: 25.0),
-                        textAlign: TextAlign.center,
-                      ),
-                      fit: FlexFit.tight,
-                    )
-                  ],
-                ),
-              ),
+            buildCard(
+              context: context,
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DeptPhysics()));
+              },
+              title: "Department of Physics",
+              icon: Icons.explore,
             ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Card buildCard(
+      {BuildContext context, Function onTap, String title, IconData icon}) {
+    return Card(
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(15.0),
+      ),
+      elevation: 10,
+      margin: EdgeInsets.all(8.0),
+      child: InkWell(
+        onTap: onTap,
+        splashColor: Colors.lightBlueAccent,
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: <Widget>[
+            Icon(
+              icon,
+              size: 50.0,
+            ),
+            Flexible(
+              child: Text(
+                title,
+                style: new TextStyle(fontSize: 25.0),
+                textAlign: TextAlign.center,
+              ),
+              fit: FlexFit.tight,
+            )
           ],
         ),
       ),
