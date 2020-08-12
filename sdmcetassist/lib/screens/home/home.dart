@@ -243,9 +243,11 @@ class Home extends StatelessWidget {
                         Icons.collections_bookmark,
                         size: 50.0,
                       ),
-                      Text("Admin",
-                          textAlign: TextAlign.center,
-                          style: new TextStyle(fontSize: 17.0))
+                      Text(
+                        "Admin",
+                        textAlign: TextAlign.center,
+                        style: new TextStyle(fontSize: 17.0),
+                      )
                     ],
                   ),
                 ),
