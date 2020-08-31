@@ -1,0 +1,30 @@
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:23
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:28
+-keep class com.example.sdmcetassist.MainActivity { <init>(); }
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:157
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:137
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(); }
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:151
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:132
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:147
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:109
+-keep class com.google.firebase.auth.internal.FederatedSignInActivity { <init>(); }
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:49
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:117
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:101
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:126
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:23
+-keep class io.flutter.app.FlutterApplication { <init>(); }
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:87
+-keep class io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService { <init>(); }
+# Referenced at C:\Users\91790\Code\GitHub\SDMCET-Assist-\sdmcetassist\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:93
+-keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }
