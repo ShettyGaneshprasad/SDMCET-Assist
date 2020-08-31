@@ -56,7 +56,7 @@ flutter:
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets\sdmlogo.jpg
+    - assets/sdmlogo.jpg
     - assets/adminstatue.jpg
     - assets/collegefrontgarden.jpg
     - assets/about-veerendra-heggade.png
