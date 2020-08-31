@@ -39,5 +39,5 @@ jobs:
         with:
           tag: ${{ env.APP_VERSION }}
           name: ${{ env.APP_VERSION }}
-          token: ${{ secrets.TOKEN_curiluxPatient }}
+          token: ${{ secrets.TOKEN_SDMCETAssist }}
           artifacts: "build/app/outputs/apk/release/*.apk,build/ios/iphoneos/app.ipa"
