@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\91790\\Code\\GitHub\\SDMCET-Assist-\\sdmcetassist\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values\\values.xml",
+            "outputFile": "C:\\Users\\91790\\Code\\GitHub\\SDMCET-Assist-\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\03de50801950aab64f0548832a05435c\\core-1.1.0\\res\\values\\values.xml",
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\91790\\Code\\GitHub\\SDMCET-Assist-\\sdmcetassist\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\91790\\Code\\GitHub\\SDMCET-Assist-\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\03de50801950aab64f0548832a05435c\\core-1.1.0\\res\\values\\values.xml",

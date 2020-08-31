@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\91790\\Code\\GitHub\\SDMCET-Assist-\\sdmcetassist\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\91790\\Code\\GitHub\\SDMCET-Assist-\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\d46ba21e1ca64d5d50456c6ff70f1fa9\\jetified-play-services-basement-17.0.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\91790\\Code\\GitHub\\SDMCET-Assist-\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,307,389,493,602,722,819",
+                        "endColumns": "143,107,81,103,108,119,96,73",
+                        "endOffsets": "194,302,384,488,597,717,814,888"
+                    },
+                    "to": {
+                        "startLines": "105,107,108,109,110,111,112,113",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "7769,7995,8103,8185,8289,8398,8518,8615",
+                        "endColumns": "143,107,81,103,108,119,96,73",
+                        "endOffsets": "7908,8098,8180,8284,8393,8513,8610,8684"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\782f6a44bbc0eb772df7da2e8640bc63\\jetified-play-services-basement-17.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,7",
                         "startColumns": "0,0",
@@ -59,7 +76,43 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\357f8ebda16682a7c10b75c8fc0cd4df\\jetified-firebase-messaging-20.0.1\\res\\values\\values.xml",
+                    "source": "C:\\Users\\91790\\Code\\GitHub\\SDMCET-Assist-\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "343"
+                    },
+                    "to": {
+                        "startLines": "115",
+                        "startColumns": "4",
+                        "startOffsets": "8760",
+                        "endLines": "119",
+                        "endColumns": "12",
+                        "endOffsets": "9042"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\91790\\Code\\GitHub\\SDMCET-Assist-\\android\\app\\src\\main\\res\\values\\color.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "39",
+                        "endOffsets": "92"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "38",
+                        "endOffsets": "139"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\91790\\.gradle\\caches\\transforms-2\\files-2.1\\6eccdc0e341c1105c05140fb9db669be\\jetified-firebase-messaging-20.0.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -73,59 +126,6 @@
                         "startOffsets": "7913",
                         "endColumns": "81",
                         "endOffsets": "7990"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\91790\\Code\\GitHub\\SDMCET-Assist-\\sdmcetassist\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,307,389,493,602,722,819",
-                        "endColumns": "143,107,81,103,108,119,96,73",
-                        "endOffsets": "194,302,384,488,597,717,814,888"
-                    },
-                    "to": {
-                        "startLines": "105,107,108,109,110,111,112,113",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "7769,7995,8103,8185,8289,8398,8518,8615",
-                        "endColumns": "143,107,81,103,108,119,96,73",
-                        "endOffsets": "7908,8098,8180,8284,8393,8513,8610,8684"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\91790\\Code\\GitHub\\SDMCET-Assist-\\sdmcetassist\\android\\app\\src\\main\\res\\values\\color.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "39",
-                        "endOffsets": "90"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "105",
-                        "endColumns": "38",
-                        "endOffsets": "139"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\91790\\Code\\GitHub\\SDMCET-Assist-\\sdmcetassist\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "337"
-                    },
-                    "to": {
-                        "startLines": "115",
-                        "startColumns": "4",
-                        "startOffsets": "8760",
-                        "endLines": "119",
-                        "endColumns": "12",
-                        "endOffsets": "9042"
                     }
                 }
             ]
