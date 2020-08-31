@@ -22,6 +22,7 @@ jobs:
         with:
           channel: "stable"
       - name: Install pub Dependencies
+        run: flutter clean
         run: flutter pub get
       - name: Build Android App
         run: flutter build apk --split-per-abi
