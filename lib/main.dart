@@ -53,9 +53,7 @@ class _MyAppState extends State<MyApp> {
       value: AuthService().user,
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Wrapper(
-
-        ),
+        home: Wrapper(),
       ),
     );
   }

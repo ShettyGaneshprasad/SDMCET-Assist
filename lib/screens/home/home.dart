@@ -193,326 +193,105 @@ class Home extends StatelessWidget {
         child: GridView.count(
           crossAxisCount: 3,
           children: <Widget>[
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => About()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Icon(
-                        Icons.account_balance,
-                        size: 50.0,
-                      ),
-                      Text("About",
-                          textAlign: TextAlign.center,
-                          style: new TextStyle(fontSize: 17.0))
-                    ],
-                  ),
-                ),
-              ),
+            HomeCard(
+              route: About(),
+              icon: Icons.account_balance,
+              text: "About",
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => Administration()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Icon(
-                        Icons.collections_bookmark,
-                        size: 50.0,
-                      ),
-                      Text(
-                        "Admin",
-                        textAlign: TextAlign.center,
-                        style: new TextStyle(fontSize: 17.0),
-                      )
-                    ],
-                  ),
-                ),
-              ),
+            HomeCard(
+              route: Administration(),
+              icon: Icons.collections_bookmark,
+              text: "Admin",
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Department()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Icon(
-                        Icons.school,
-                        size: 50.0,
-                      ),
-                      Text("Academics",
-                          textAlign: TextAlign.center,
-                          style: new TextStyle(fontSize: 17.0))
-                    ],
-                  ),
-                ),
-              ),
+            HomeCard(
+              route: Department(),
+              icon: Icons.school,
+              text: "Academics",
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Contacts()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Icon(
-                        Icons.contact_phone,
-                        size: 50.0,
-                      ),
-                      Text("Contacts",
-                          textAlign: TextAlign.center,
-                          style: new TextStyle(fontSize: 17.0))
-                    ],
-                  ),
-                ),
-              ),
+            HomeCard(
+              route: Contacts(),
+              icon: Icons.contact_phone,
+              text: "Contacts",
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Placement()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Icon(
-                        Icons.card_travel,
-                        size: 50.0,
-                      ),
-                      Text("Placement",
-                          textAlign: TextAlign.center,
-                          style: new TextStyle(fontSize: 17.0))
-                    ],
-                  ),
-                ),
-              ),
+            HomeCard(
+              route: Placement(),
+              icon: Icons.card_travel,
+              text: "Placement",
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => ExaminationSec()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Icon(
-                        Icons.content_paste,
-                        size: 50.0,
-                      ),
-                      Text("Exam Section",
-                          textAlign: TextAlign.center,
-                          style: new TextStyle(fontSize: 17.0))
-                    ],
-                  ),
-                ),
-              ),
+            HomeCard(
+              route: ExaminationSec(),
+              icon: Icons.content_paste,
+              text: "Exam Section",
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => MainScreenTransport()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Icon(
-                        Icons.departure_board,
-                        size: 50.0,
-                      ),
-                      Text(
-                        "Bus",
-                        style: new TextStyle(fontSize: 17.0),
-                        textAlign: TextAlign.center,
-                      )
-                    ],
-                  ),
-                ),
-              ),
+            HomeCard(
+              route: MainScreenTransport(),
+              icon: Icons.departure_board,
+              text: "Bus",
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Notice()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Icon(
-                        Icons.notification_important,
-                        size: 50.0,
-                      ),
-                      Text("Notice",
-                          textAlign: TextAlign.center,
-                          style: new TextStyle(fontSize: 17.0))
-                    ],
-                  ),
-                ),
-              ),
+            HomeCard(
+              route: Notice(),
+              icon: Icons.notification_important,
+              text: "Notice",
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => Navigation()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Icon(
-                        Icons.add_location,
-                        size: 50.0,
-                      ),
-                      Text("Navigation",
-                          textAlign: TextAlign.center,
-                          style: new TextStyle(
-                            fontSize: 17.0,
-                          ))
-                    ],
-                  ),
-                ),
-              ),
+            HomeCard(
+              route: Navigation(),
+              icon: Icons.add_location,
+              text: "Navigation",
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context, MaterialPageRoute(builder: (context) => Food()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Icon(
-                        Icons.restaurant,
-                        //color: Colors.amberAccent,
-                        size: 50.0,
-                      ),
-                      Text("Food", style: new TextStyle(fontSize: 17.0))
-                    ],
-                  ),
-                ),
-              ),
+            HomeCard(
+              route: Food(),
+              icon: Icons.add_location,
+              text: "Food",
             ),
-            Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              elevation: 10,
-              margin: EdgeInsets.all(8.0),
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => SdmImages()));
-                },
-                splashColor: Colors.lightBlueAccent,
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Icon(
-                        Icons.camera_enhance,
-                        size: 50.0,
-                      ),
-                      Text("SDMCET Images",
-                          textAlign: TextAlign.center,
-                          style: new TextStyle(fontSize: 17.0))
-                    ],
-                  ),
-                ),
-              ),
+            HomeCard(
+              route: SdmImages(),
+              icon: Icons.camera_enhance,
+              text: "SDMCET Images",
             ),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+class HomeCard extends StatelessWidget {
+  var route;
+  IconData icon;
+  String text;
+  HomeCard({
+    this.icon,
+    this.route,
+    this.text,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(15.0),
+      ),
+      elevation: 10,
+      margin: EdgeInsets.all(8.0),
+      child: InkWell(
+        onTap: () {
+          Navigator.push(
+              context, MaterialPageRoute(builder: (context) => route));
+        },
+        splashColor: Colors.lightBlueAccent,
+        child: Center(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: <Widget>[
+              Icon(
+                icon,
+                size: 50.0,
+              ),
+              Text(text,
+                  textAlign: TextAlign.center,
+                  style: new TextStyle(fontSize: 17.0))
+            ],
+          ),
         ),
       ),
     );
